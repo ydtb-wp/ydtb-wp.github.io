@@ -31,46 +31,21 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: echo inputs
-        run: |
-          echo "Vendor: $VENDOR"
-          echo "Slug: $SLUG"
-          echo "URL: $URL"
-          echo "Version: $VER"
-        env:
-          VENDOR: ${{ github.event.inputs.vendor }}
-          SLUG: ${{ github.event.inputs.slug }}
-          URL: ${{ github.event.inputs.url }}
-          VER: ${{ github.event.inputs.version }}
-
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          path: "repo"
 
       - name: Setup bun
         uses: oven-sh/setup-bun@v2
-      # - name: Get Info about the File Directory
-      #   run: |
-      #     cd repo && bun install
-      #     echo "----- Current Directory -----"
-      #     pwd
-      #     echo "----- List Files -----"
-      #     ls -la
-      #     echo " "
-      # - name: print pwd again
-      #   run: |
-      #     echo "----- Current Directory again -----"
-      #     pwd
-      #     echo " "
+
       - name: Run Bun To Confirm Plugin Version
         id: valid-update
-        run: bun run ./repo/src/index.ts --vendor $VENDOR --slug $SLUG --pg_version $VER
+        run: |
+          bun install
+          bun run ./src/check-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
         env:
           VENDOR: ${{ github.event.inputs.vendor }}
           SLUG: ${{ github.event.inputs.slug }}
-          VER: ${{ github.event.inputs.version }}
+          VERSION: ${{ github.event.inputs.version }}
 
   fetch-plugin:
     runs-on: ubuntu-latest
@@ -78,9 +53,19 @@ jobs:
     steps:
       - name: Fetch plugin
         run: |
-          echo "Fetching plugin $NAME from $HOME"
-          # curl -L $URL -o $NAME.zip
+          echo "Fetching plugin $VENDOR/$SLUG from $HOME"
+          mkdir -p Download && cd Download
+          curl -O $URL
         env:
-          NAME: ${{ needs.retrieve-inputs.outputs.NAME }}
-          HOME: ${{ needs.retrieve-inputs.outputs.HOME }}
-          # URL: ${{ needs.retrieve-inputs.outputs.url }}
+          VENDOR: ${{ github.event.inputs.vendor }}
+          SLUG: ${{ github.event.inputs.slug }}
+          VERSION: ${{ github.event.inputs.version }}
+          URL: ${{ github.event.inputs.url }}
+
+      - name: list files
+        run: |
+          echo "------ Listing files in Root ------"
+          ls -la
+
+          echo "------ Listing files in Download ------"
+          cd Download && ls -la

@@ -17,10 +17,10 @@ import { z } from "zod";
 import { parseArgs } from "zod-args";
 import { compareVersions } from "compare-versions";
 
-const { vendor, slug, pg_version } = parseArgs({
+const { vendor, slug, update_version } = parseArgs({
   vendor: z.string(),
   slug: z.string(),
-  pg_version: z.string(),
+  update_version: z.string(),
 });
 
 // check if the plugin exists in the database
@@ -32,7 +32,7 @@ if (!plugin) {
 }
 
 // check if the plugin version is greater than the one in the database
-if (compareVersions(pg_version, plugin.version) < 1) {
+if (compareVersions(update_version, plugin.version) < 1) {
   console.log("No Update Required");
   process.exit(1);
 }
