@@ -36,7 +36,7 @@ if (!plugin) {
 plugins[`${vendor}/${slug}`].version = update_version;
 plugins[`${vendor}/${slug}`].previous_tags.push(update_version);
 
-const json = JSON.stringify({ plugins: plugins });
+const json = JSON.stringify({ plugins: plugins }, null, 2);
 
 console.log("Process", process.cwd());
 console.log("Dirname", __dirname);

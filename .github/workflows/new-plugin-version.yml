@@ -202,7 +202,7 @@ jobs:
       - name: Setup bun
         uses: oven-sh/setup-bun@v2
 
-      - name: Run Bun To Confirm Plugin Version
+      - name: Update the plugin version in the database
         id: valid-update
         run: |
           cd baseRepo
@@ -213,10 +213,10 @@ jobs:
           SLUG: ${{ github.event.inputs.slug }}
           VERSION: ${{ github.event.inputs.version }}
 
-      - name: Push Database to the Repo
+      - name: Push updated Database to the Repo
         run: |
           cd baseRepo
-          git add -A
+          git add data/database.json
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
