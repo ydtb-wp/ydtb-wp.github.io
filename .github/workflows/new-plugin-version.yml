@@ -212,3 +212,13 @@ jobs:
           VENDOR: ${{ github.event.inputs.vendor }}
           SLUG: ${{ github.event.inputs.slug }}
           VERSION: ${{ github.event.inputs.version }}
+
+      - name: Push Database to the Repo
+        run: |
+          cd baseRepo
+          git add -A
+          git status
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Plugin ${{github.event.inputs.vendor}}/${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}} in Database"
+          git push
