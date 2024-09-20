@@ -186,7 +186,9 @@ jobs:
       - name: Push Plugin Files
         run: |
           cd plugin/${{ github.event.inputs.slug }}
-          git add *
+          git add -A
           git status
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
           git push
