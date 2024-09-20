@@ -44,12 +44,6 @@ jobs:
     runs-on: ubuntu-latest
     # needs: validate-plugin-should-update
     steps:
-      # - name: setup folders
-      #   run: |
-      #     mkdir -p plugin
-      #     mkdir -p git
-      #     mkdir -p repo
-
       - name: debug inputs
         run: |
           echo "vendor: $VENDOR"
@@ -74,14 +68,12 @@ jobs:
         id: check-remote
         run: |
           cd baseRepo && 
-          [ "$(git ls-remote https://github.com/$HOST/$SLUG.git 2> /dev/null)" ] && { echo "EXISTS=true" >> "$GITHUB_OUTPUT"; } || { echo "EXISTS=false" >> "$GITHUB_OUTPUT"; }
+          [ "$(git ls-remote https://github.com/$HOST/$SLUG.git 2> /dev/null)" ] && \
+          { echo "EXISTS=true" >> "$GITHUB_OUTPUT"; } || \
+          { echo "EXISTS=false" >> "$GITHUB_OUTPUT"; }
         env:
           HOST: ${{ github.repository_owner }}
           SLUG: ${{ github.event.inputs.slug }}
-
-      - name: debug exists
-        run: |
-          echo "exists: ${{steps.check-remote.outputs.EXISTS}}"
 
       - name: Create Repo if it doesn't exist
         if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
@@ -93,19 +85,23 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.ORG_ADMIN_TOKEN }}" \
           -H "X-GitHub-Api-Version: 2022-11-28" \
           https://api.github.com/orgs/${{ github.repository_owner }}/repos \
-          -d '{"name":"${{ github.event.inputs.slug }}","description":"This is your first repository","homepage":"https://github.com","private":true,"has_issues":false,"has_projects":false,"has_wiki":false}'
+          -d '{"name":"${{ github.event.inputs.slug }}","description":"This Repository Tracks the ${{ github.event.inputs.slug }} / ${{github.event.inputs.slug}} private wordpress plugin.","private":true,"has_issues":false,"has_projects":false,"has_wiki":false, "gitignore_template":"WordPress"}'
 
-      # - name: Setup bun
-      #   uses: oven-sh/setup-bun@v2
+      - name: Clone Plugin Repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ORG_ADMIN_TOKEN }} # `ORG_ADMIN_TOKEN` is a secret that contains your PAT
+          path: plugin
+          repository: ${{ github.repository_owner }}/${{ github.event.inputs.slug }}
 
-      # - name: Run Bun To Confirm Plugin Version
-      #   id: valid-update
-      #   run: |
-      #     cd repo
-      #     bun install
-      #     bun run ./src/check-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
-      #   env:
-      #     VENDOR: ${{ github.event.inputs.vendor }}
-      #     SLUG: ${{ github.event.inputs.slug }}
-      #     VERSION: ${{ github.event.inputs.version }}
-      #     URL: ${{ github.event.inputs.url }}
+      - name: Initialize Plugin Repo
+        if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
+        run: |
+          cd plugin
+          echo "{\n"name": "${{github.event.inputs.vendor}}/${{github.event.inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm .gitignore
+          echo " " > .gitignore
+          git add *
+          git commit -m "Initial Commit"
