@@ -123,8 +123,14 @@ jobs:
 
       - name: Remove Everything in Plugin Folder
         run: |
+          echo "---- Directory Structure ----"
+          ls -la
           rm -rf plugin
+          echo "---- Directory Structure ----"
+          ls -la
           mkdir plugin
+          echo "---- Directory Structure ----"
+          ls -la
 
       - name: Fetch Plugin Files
         run: |
@@ -134,13 +140,13 @@ jobs:
 
       - name: Check that the Version Matches provided
         run: |
-          cd plugin
+          cd plugin/${{ github.event.inputs.slug }}
           grep -rPo "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" ./
 
       - name: Add git back to the plugin folder
         run: |
-          cd plugin
-          mv ../GitInfo/git .git
+          cd plugin/${{ github.event.inputs.slug }}
+          mv ../../GitInfo/git .git
           git add *
           git commit -m "Update Plugin to $VERSION"
           git push
