@@ -28,7 +28,7 @@ const plugin = data.plugins[`${vendor}/${slug}` as keyof typeof data.plugins];
 
 if (!plugin) {
   console.log("Plugin Not Found in Database");
-  process.exit(1);
+  process.exit(0);
 }
 
 // check if the plugin version is greater than the one in the database
