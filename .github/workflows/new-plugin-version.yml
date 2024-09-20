@@ -107,5 +107,7 @@ jobs:
           echo "---- Directory Structure ----"
           ls -la
           echo " " > .gitignore
+          git status
           git add *
           git commit -m "Prepare Plugin Repo"
+          git push
