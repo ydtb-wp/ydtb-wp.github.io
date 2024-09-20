@@ -64,6 +64,7 @@ jobs:
           token: ${{ secrets.ORG_ADMIN_TOKEN }} # `ORG_ADMIN_TOKEN` is a secret that contains your PAT
           path: baseRepo
 
+      # we need the token that is available inside the baseRepo folder so we need to CD into the baseRepo folder, even though we don't need to do anything with that repo at the moment. If we dont do this then we wont be able to tell if the private repo exists or not.
       - name: Check if remote plugin repo exists
         id: check-remote
         run: |
@@ -75,6 +76,7 @@ jobs:
           HOST: ${{ github.repository_owner }}
           SLUG: ${{ github.event.inputs.slug }}
 
+      # Make a repo if it doesn't exist, We want to also add the gitignore template simply so that its not an empty repo. Being an empty repo seems to make it difficult to clone down in the next step.
       - name: Create Repo if it doesn't exist
         if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
         run: |
@@ -112,6 +114,7 @@ jobs:
           git commit -m "Prepare Plugin Repo"
           git push
 
+      # the way this works is that we will move the .git folder to a new folder, then delete everything in the plugin folder, then fetch the new plugin files, then move the .git folder back into the plugin folder. This is because we need to keep the git history of the plugin files.
       - name: Remove Git from Local Files
         run: |
           mkdir GitInfo
@@ -146,7 +149,7 @@ jobs:
           echo "---- Directory Structure of plugin ----"
           cd plugin/${{ github.event.inputs.slug }}
           ls -la
-
+      # # Now that we have the files locally lets make sure that the provided version matches the version in the plugin files
       # - name: Check that the Version Matches provided
       #   run: |
       #     cd plugin/${{ github.event.inputs.slug }}
@@ -162,6 +165,7 @@ jobs:
           cd plugin/${{ github.event.inputs.slug }}
           git status
 
+      # if a plugin author provides a composer json file use theirs, otherwise use the default we created when we initialized the repo.
       - name: Check if composer.json exists
         id: check-composer
         run: |
@@ -183,6 +187,7 @@ jobs:
           cd plugin/${{ github.event.inputs.slug }}
           git status
 
+      # Finally push the new plugin files to the repo
       - name: Push Plugin Files
         run: |
           cd plugin/${{ github.event.inputs.slug }}
@@ -192,3 +197,18 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
           git push
+
+      # use node to the version of the plugin in the database.json file.
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Run Bun To Confirm Plugin Version
+        id: valid-update
+        run: |
+          cd baseRepo
+          bun install
+          bun run ./src/update-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
+        env:
+          VENDOR: ${{ github.event.inputs.vendor }}
+          SLUG: ${{ github.event.inputs.slug }}
+          VERSION: ${{ github.event.inputs.version }}
