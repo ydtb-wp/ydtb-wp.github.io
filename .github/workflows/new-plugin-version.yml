@@ -54,9 +54,9 @@ jobs:
         id: check-remote
         run: |
           if ! git ls-remote --exit-code https://github.com/$HOST/$SLUG > /dev/null 2>&1; then 
-            echo "::set-output name=exists::false"
+            echo "exists='false'" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=exists::true"
+            echo "exists='true'" >> $GITHUB_OUTPUT
           fi
         env:
           HOST: ydtb-wp
@@ -64,11 +64,8 @@ jobs:
 
       - name: Create Repo if it doesn't exist
         if: steps.check-remote.outputs.exists == 'false'
-        uses: repo-ctrl/create-repo-action@main
-        id: create-repo
-        with:
-          repo-name: "${{ github.event.inputs.slug }}"
-          org-admin-token: "${{ secrets.ORG_ADMIN_TOKEN }}"
+        run: |
+          echo "Creating repo"
 
       # - name: Setup bun
       #   uses: oven-sh/setup-bun@v2
