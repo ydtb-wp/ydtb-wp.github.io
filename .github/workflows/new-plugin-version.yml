@@ -147,15 +147,46 @@ jobs:
           cd plugin/${{ github.event.inputs.slug }}
           ls -la
 
-      - name: Check that the Version Matches provided
-        run: |
-          cd plugin/${{ github.event.inputs.slug }}
-          grep -rPo "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" *
-
-      # - name: Add git back to the plugin folder
+      # - name: Check that the Version Matches provided
       #   run: |
       #     cd plugin/${{ github.event.inputs.slug }}
-      #     mv ../../GitInfo/git .git
-      #     git add *
-      #     git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
-      #     git push
+      #     grep -Po "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" *
+
+      - name: Add git back to the plugin folder
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          mv ../../GitInfo/git .git
+
+      - name: check git status
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          git status
+
+      - name: Check if composer.json exists
+        id: check-composer
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          [ -f composer.json ] && echo "Composer File Exists" && echo "EXISTS=true">>$GITHUB_OUTPUT || echo "Composer File Does Not Exist" && echo "EXISTS=false">>$GITHUB_OUTPUT
+
+      - name: Add Composer File if not exist
+        if: ${{steps.check-composer.outputs.EXISTS == 'false'}}
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          echo "--- Directory Structure ---"
+          ls -la
+          git checkout -- composer.json
+          echo "--- Directory Structure ---"
+          ls -la
+
+      - name: Git Status 2
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          git status
+
+      - name: Push Plugin Files
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          git add *
+          git status
+          git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
+          git push
