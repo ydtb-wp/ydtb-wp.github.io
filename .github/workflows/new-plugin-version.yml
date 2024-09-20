@@ -62,28 +62,21 @@ jobs:
           VERSION: ${{ github.event.inputs.version }}
           URL: ${{ github.event.inputs.url }}
 
-      # Twofold: First we need to get the token into the future steps and additionally we need to clone this repo into the github.io folder.
+      # Twofold: First we need to get the token into the future steps
+      # and additionally we need to clone this repo into the baseRepo folder.
       - name: Add Token To Future Git Steps
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.ORG_ADMIN_TOKEN }} # `ORG_ADMIN_TOKEN` is a secret that contains your PAT
           path: baseRepo
 
-      - name: display Directory
-        run: |
-          echo "----- Directory -----"
-          ls -la
-          cd baseRepo
-          echo "----- Directory -----"
-          ls -la
-
-      - name: Check if remote repo exists
+      - name: Check if remote plugin repo exists
         id: check-remote
         run: |
           cd baseRepo && 
           [ "$(git ls-remote https://github.com/$HOST/$SLUG.git 2> /dev/null)" ] && { echo "EXISTS=true" >> "$GITHUB_OUTPUT"; } || { echo "EXISTS=false" >> "$GITHUB_OUTPUT"; }
         env:
-          HOST: ydtb-wp
+          HOST: ${{ github.repository_owner }}
           SLUG: ${{ github.event.inputs.slug }}
 
       - name: debug exists
