@@ -99,9 +99,13 @@ jobs:
         run: |
           cd plugin
           echo "{\n"name": "${{github.event.inputs.vendor}}/${{github.event.inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
+          echo "---- Directory Structure ----"
+          ls -la
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           rm .gitignore
+          echo "---- Directory Structure ----"
+          ls -la
           echo " " > .gitignore
           git add *
-          git commit -m "Initial Commit"
+          git commit -m "Prepare Plugin Repo"
