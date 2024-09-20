@@ -1,19 +1,21 @@
 {
-    "plugins": {
-        "plugin1": {
-            "name": "Name of plugin 1",
-            "version": "1.0.0",
-            "previous_tags": []
-        },
-        "plugin2": {
-            "name": "Name of plugin 2",
-            "version": "2.0.0",
-            "previous_tags": []
-        },
-        "elementor/elementor": {
-            "name": "Name of plugin 3",
-            "version": "3.0.0",
-            "previous_tags": []
-        }
+  "plugins": {
+    "plugin1": {
+      "name": "Name of plugin 1",
+      "version": "1.0.0",
+      "previous_tags": []
+    },
+    "plugin2": {
+      "name": "Name of plugin 2",
+      "version": "2.0.0",
+      "previous_tags": []
+    },
+    "elementor/elementor": {
+      "name": "Name of plugin 3",
+      "version": "3.24.3",
+      "previous_tags": [
+        "3.24.3"
+      ]
     }
+  }
 }
