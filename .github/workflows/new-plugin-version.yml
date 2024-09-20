@@ -21,15 +21,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a set of jobs
-  retrieve-inputs:
-    # The type of runner that the job will run on
+  validate-plugin-should-update:
     runs-on: ubuntu-latest
-
-    outputs:
-      valid-update: ${{ steps.valid-update.outputs.valid-update }}
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,25 +40,47 @@ jobs:
           SLUG: ${{ github.event.inputs.slug }}
           VERSION: ${{ github.event.inputs.version }}
 
-  fetch-plugin:
+  handle-plugin-update:
     runs-on: ubuntu-latest
-    needs: retrieve-inputs
+    needs: validate-plugin-should-update
     steps:
-      - name: Fetch plugin
+      - name: setup folders
         run: |
-          echo "Fetching plugin $VENDOR/$SLUG from $HOME"
-          mkdir -p Download && cd Download
-          curl -O $URL
+          mkdir -p plugin
+          mkdir -p git
+          mkdir -p repo
+
+      - name: Check if remote repo exists
+        id: check-remote
+        run: |
+          if ! git ls-remote --exit-code https://github.com/$HOST/$SLUG > /dev/null 2>&1; then 
+            echo "::set-output name=exists::false"
+          else
+            echo "::set-output name=exists::true"
+          fi
         env:
-          VENDOR: ${{ github.event.inputs.vendor }}
+          HOST: ydtb-wp
           SLUG: ${{ github.event.inputs.slug }}
-          VERSION: ${{ github.event.inputs.version }}
-          URL: ${{ github.event.inputs.url }}
 
-      - name: list files
-        run: |
-          echo "------ Listing files in Root ------"
-          ls -la
+      - name: Create Repo if it doesn't exist
+        if: steps.check-remote.outputs.exists == 'false'
+        uses: repo-ctrl/create-repo-action@main
+        id: create-repo
+        with:
+          repo-name: "${{ github.event.inputs.slug }}"
+          org-admin-token: "${{ secrets.ORG_ADMIN_TOKEN }}"
 
-          echo "------ Listing files in Download ------"
-          cd Download && ls -la
+      # - name: Setup bun
+      #   uses: oven-sh/setup-bun@v2
+
+      # - name: Run Bun To Confirm Plugin Version
+      #   id: valid-update
+      #   run: |
+      #     cd repo
+      #     bun install
+      #     bun run ./src/check-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
+      #   env:
+      #     VENDOR: ${{ github.event.inputs.vendor }}
+      #     SLUG: ${{ github.event.inputs.slug }}
+      #     VERSION: ${{ github.event.inputs.version }}
+      #     URL: ${{ github.event.inputs.url }}
