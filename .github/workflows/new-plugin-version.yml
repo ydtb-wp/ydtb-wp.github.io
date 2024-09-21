@@ -42,7 +42,7 @@ jobs:
 
   handle-plugin-update:
     runs-on: ubuntu-latest
-    # needs: validate-plugin-should-update
+    needs: validate-plugin-should-update
     steps:
       - name: debug inputs
         run: |
@@ -157,7 +157,11 @@ jobs:
       - name: Check that the Plugin Version Matches provided Version
         run: |
           cd plugin/${{ github.event.inputs.slug }}
-          [[ $(grep -Po "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" *.php) == "${{ github.event.inputs.version }}" ]] && \
+          PLUGIN_VERSION=$(grep -Poh "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" *.php)
+          echo "Plugin Version: $PLUGIN_VERSION"
+          echo "Input Version: ${{ github.event.inputs.version }}"
+          echo "---"
+          [[ $PLUGIN_VERSION == "${{ github.event.inputs.version }}" ]] && \
           { echo "Versions Match"; } || \
           { echo "Version Match Failed" && exit 1; }
 
@@ -210,7 +214,9 @@ jobs:
         id: get-commit-hash
         run: |
           cd plugin/${{ github.event.inputs.slug }}
-          "REFERENCE=$(git rev-parse --short HEAD)">>$GITHUB_OUTPUT
+          REFERENCE=$(git rev-parse --short HEAD)
+          echo "Git Hash for plugin: $REFERENCE"
+          echo "REFERENCE=$REFERENCE" >> $GITHUB_OUTPUT
 
       # use node to the version of the plugin in the database.json file.
       - name: Setup bun
@@ -221,12 +227,7 @@ jobs:
         run: |
           cd baseRepo
           bun install
-          bun run ./src/update-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION --reference $REF
-        env:
-          VENDOR: ${{ github.event.inputs.vendor }}
-          SLUG: ${{ github.event.inputs.slug }}
-          VERSION: ${{ github.event.inputs.version }}
-          REF: ${{ steps.get-commit-hash.outputs.REFERENCE }}
+          bun run ./src/update-plugin-version.ts --vendor ${{ github.event.inputs.vendor }} --slug ${{ github.event.inputs.slug }} --update_version ${{ github.event.inputs.version }} --reference ${{ steps.get-commit-hash.outputs.REFERENCE }}
 
       - name: Push updated Database to the Repo
         run: |

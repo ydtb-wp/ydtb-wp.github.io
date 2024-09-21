@@ -44,9 +44,11 @@ jobs:
 
       - name: Run Bun To Generate Composer Files
         run: |
+          echo "--- Directory Listing ---"
+          ls -la
           cd source
           bun install
-          bun run ./src/generate-composer-files.ts --host ${{ github.repository_owner }} --out ../dist/packages.json
+          bun run ./src/generate-composer.ts --host ${{ github.repository_owner }} --out ../dist/packages.json
         env:
           HOST: ${{ github.repository_owner }}
 
