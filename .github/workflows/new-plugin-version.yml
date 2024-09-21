@@ -21,24 +21,24 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # validate-plugin-should-update:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v4
+  validate-plugin-should-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-  #     - name: Setup bun
-  #       uses: oven-sh/setup-bun@v2
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
 
-  #     - name: Run Bun To Confirm Plugin Version
-  #       id: valid-update
-  #       run: |
-  #         bun install
-  #         bun run ./src/check-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
-  #       env:
-  #         VENDOR: ${{ github.event.inputs.vendor }}
-  #         SLUG: ${{ github.event.inputs.slug }}
-  #         VERSION: ${{ github.event.inputs.version }}
+      - name: Run Bun To Confirm Plugin Version
+        id: valid-update
+        run: |
+          bun install
+          bun run ./src/check-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
+        env:
+          VENDOR: ${{ github.event.inputs.vendor }}
+          SLUG: ${{ github.event.inputs.slug }}
+          VERSION: ${{ github.event.inputs.version }}
 
   handle-plugin-update:
     runs-on: ubuntu-latest
@@ -161,72 +161,72 @@ jobs:
           { echo "Versions Match"; } || \
           { echo "Version Match Failed" && exit 1; }
 
-      # - name: Add git back to the plugin folder
-      #   run: |
-      #     cd plugin/${{ github.event.inputs.slug }}
-      #     mv ../../GitInfo/git .git
+      - name: Add git back to the plugin folder
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          mv ../../GitInfo/git .git
 
-      # - name: check git status
-      #   run: |
-      #     cd plugin/${{ github.event.inputs.slug }}
-      #     git status
+      - name: check git status
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          git status
 
-      # # if a plugin author provides a composer json file use theirs, otherwise use the default we created when we initialized the repo.
-      # - name: Check if composer.json exists
-      #   id: check-composer
-      #   run: |
-      #     cd plugin/${{ github.event.inputs.slug }}
-      #     [ -f composer.json ] && echo "Composer File Exists" && echo "EXISTS=true">>$GITHUB_OUTPUT || echo "Composer File Does Not Exist" && echo "EXISTS=false">>$GITHUB_OUTPUT
+      # if a plugin author provides a composer json file use theirs, otherwise use the default we created when we initialized the repo.
+      - name: Check if composer.json exists
+        id: check-composer
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          [ -f composer.json ] && echo "Composer File Exists" && echo "EXISTS=true">>$GITHUB_OUTPUT || echo "Composer File Does Not Exist" && echo "EXISTS=false">>$GITHUB_OUTPUT
 
-      # - name: Add Composer File if not exist
-      #   if: ${{steps.check-composer.outputs.EXISTS == 'false'}}
-      #   run: |
-      #     cd plugin/${{ github.event.inputs.slug }}
-      #     echo "--- Directory Structure ---"
-      #     ls -la
-      #     git checkout -- composer.json
-      #     echo "--- Directory Structure ---"
-      #     ls -la
+      - name: Add Composer File if not exist
+        if: ${{steps.check-composer.outputs.EXISTS == 'false'}}
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          echo "--- Directory Structure ---"
+          ls -la
+          git checkout -- composer.json
+          echo "--- Directory Structure ---"
+          ls -la
 
-      # - name: Git Status 2
-      #   run: |
-      #     cd plugin/${{ github.event.inputs.slug }}
-      #     git status
+      - name: Git Status 2
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          git status
 
-      # # Finally push the new plugin files to the repo
-      # - name: Push Plugin Files
-      #   run: |
-      #     cd plugin/${{ github.event.inputs.slug }}
-      #     git add -A
-      #     git status
-      #     git config user.name "github-actions[bot]"
-      #     git config user.email "github-actions[bot]@users.noreply.github.com"
-      #     git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
-      #     git push
-      #     git tag ${{ github.event.inputs.version }}
-      #     git push origin ${{ github.event.inputs.version }}
+      # Finally push the new plugin files to the repo
+      - name: Push Plugin Files
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          git add -A
+          git status
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
+          git push
+          git tag ${{ github.event.inputs.version }}
+          git push origin ${{ github.event.inputs.version }}
 
-      # # use node to the version of the plugin in the database.json file.
-      # - name: Setup bun
-      #   uses: oven-sh/setup-bun@v2
+      # use node to the version of the plugin in the database.json file.
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
 
-      # - name: Update the plugin version in the database
-      #   id: valid-update
-      #   run: |
-      #     cd baseRepo
-      #     bun install
-      #     bun run ./src/update-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
-      #   env:
-      #     VENDOR: ${{ github.event.inputs.vendor }}
-      #     SLUG: ${{ github.event.inputs.slug }}
-      #     VERSION: ${{ github.event.inputs.version }}
+      - name: Update the plugin version in the database
+        id: valid-update
+        run: |
+          cd baseRepo
+          bun install
+          bun run ./src/update-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
+        env:
+          VENDOR: ${{ github.event.inputs.vendor }}
+          SLUG: ${{ github.event.inputs.slug }}
+          VERSION: ${{ github.event.inputs.version }}
 
-      # - name: Push updated Database to the Repo
-      #   run: |
-      #     cd baseRepo
-      #     git add data/database.json
-      #     git status
-      #     git config user.name "github-actions[bot]"
-      #     git config user.email "github-actions[bot]@users.noreply.github.com"
-      #     git commit -m "Update Plugin ${{github.event.inputs.vendor}}/${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}} in Database"
-      #     git push
+      - name: Push updated Database to the Repo
+        run: |
+          cd baseRepo
+          git add data/database.json
+          git status
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Plugin ${{github.event.inputs.vendor}}/${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}} in Database"
+          git push
