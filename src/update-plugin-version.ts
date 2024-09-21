@@ -3,23 +3,15 @@ import data from "../data/database.json";
 import { z } from "zod";
 import { parseArgs } from "zod-args";
 import { writeFileSync } from "fs";
-
-type PluginType = {
-  name: string;
-  version: string;
-  previous_tags: string[];
-};
-
-type PluginListType = {
-  [key: string]: PluginType;
-};
+import type { PluginListType, PluginType } from "./data-types";
 
 const plugins: PluginListType = data.plugins;
 
-const { vendor, slug, update_version } = parseArgs({
+const { vendor, slug, update_version, reference } = parseArgs({
   vendor: z.string(),
   slug: z.string(),
   update_version: z.string(),
+  reference: z.string(),
 });
 
 // check if the plugin exists in the database
@@ -27,14 +19,17 @@ const plugin: PluginType = plugins[`${vendor}/${slug}` as keyof typeof plugins];
 
 if (!plugin) {
   plugins[`${vendor}/${slug}`] = {
-    name: `${slug}`,
+    slug: `${slug}`,
+    vendor: `${vendor}`,
     version: `${update_version}`,
-    previous_tags: [`${update_version}`],
+    tags: [`${update_version}`],
+    ref: `${reference}`,
   };
 }
 
 plugins[`${vendor}/${slug}`].version = update_version;
-plugins[`${vendor}/${slug}`].previous_tags.push(update_version);
+plugins[`${vendor}/${slug}`].tags.push(update_version);
+plugins[`${vendor}/${slug}`].ref = reference;
 
 const json = JSON.stringify({ plugins: plugins }, null, 2);
 

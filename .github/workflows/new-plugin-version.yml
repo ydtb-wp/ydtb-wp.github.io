@@ -206,6 +206,12 @@ jobs:
           git tag ${{ github.event.inputs.version }}
           git push origin ${{ github.event.inputs.version }}
 
+      - name: Get Commit Hash
+        id: get-commit-hash
+        run: |
+          cd plugin/${{ github.event.inputs.slug }}
+          "REFERENCE=$(git rev-parse --short HEAD)">>$GITHUB_OUTPUT
+
       # use node to the version of the plugin in the database.json file.
       - name: Setup bun
         uses: oven-sh/setup-bun@v2
@@ -215,11 +221,12 @@ jobs:
         run: |
           cd baseRepo
           bun install
-          bun run ./src/update-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
+          bun run ./src/update-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION --reference $REF
         env:
           VENDOR: ${{ github.event.inputs.vendor }}
           SLUG: ${{ github.event.inputs.slug }}
           VERSION: ${{ github.event.inputs.version }}
+          REF: ${{ steps.get-commit-hash.outputs.REFERENCE }}
 
       - name: Push updated Database to the Repo
         run: |

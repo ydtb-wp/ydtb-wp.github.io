@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Generate and Deploy
+name: Generate and Deploy Composer Files
 
 on:
   # Runs on pushes targeting the default branch
@@ -34,9 +34,22 @@ jobs:
         with:
           path: "source"
 
-      - name: Add Additional Dynamic Files
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Make dist directory
+        id: make-dist
         run: |
-          echo {"abc": "123"} > source/src/abc.json
+          mkdir -p dist && cd dist
+          "DIST_DIR=$(pwd)" >> $GITHUB_OUTPUT
+
+      - name: Run Bun To Generate Composer Files
+        run: |
+          cd source
+          bun install
+          bun run ./src/generate-composer-files.ts --host ${{ github.repository_owner }} --out ${{ steps.make-dist.outputs.DIST_DIR }}/packages.json
+        env:
+          HOST: ${{ github.repository_owner }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -44,8 +57,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: "./source/src"
+          # built files
+          path: "./dist"
 
       - name: Deploy to GitHub Pages
         id: deployment

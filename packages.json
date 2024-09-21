@@ -1,0 +1,51 @@
+{
+  "packages": {
+    "elementor/elementor": {
+      "dev-master": {
+        "name": "elementor/elementor",
+        "version": "dev-master",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/ydtb-wp/elementor/archive/refs/heads/main.zip"
+        },
+        "source": {
+          "type": "git",
+          "url": "git@github.com:ydtb-wp/elementor.git",
+          "reference": "8e84c30"
+        },
+        "type": "wordpress-plugin",
+        "description": "WordPress plugin elementor by elementor - Master Branch"
+      },
+      "3.24.0": {
+        "name": "elementor/elementor",
+        "version": "3.24.0",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/ydtb-wp/elementor/archive/refs/tags/3.24.0.zip"
+        },
+        "source": {
+          "type": "git",
+          "url": "git@github.com:ydtb-wp/elementor.git",
+          "reference": "3.24.0"
+        },
+        "type": "wordpress-plugin",
+        "description": "WordPress plugin elementor by elementor - 3.24.0"
+      },
+      "3.24.1": {
+        "name": "elementor/elementor",
+        "version": "3.24.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/ydtb-wp/elementor/archive/refs/tags/3.24.1.zip"
+        },
+        "source": {
+          "type": "git",
+          "url": "git@github.com:ydtb-wp/elementor.git",
+          "reference": "3.24.1"
+        },
+        "type": "wordpress-plugin",
+        "description": "WordPress plugin elementor by elementor - 3.24.1"
+      }
+    }
+  }
+}

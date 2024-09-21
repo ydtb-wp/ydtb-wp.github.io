@@ -1,9 +1,11 @@
 {
   "plugins": {
     "elementor/elementor": {
-      "name": "elementor",
+      "slug": "elementor",
+      "vendor": "elementor",
       "version": "3.24.1",
-      "previous_tags": [
+      "ref": "8e84c30",
+      "tags": [
         "3.24.0",
         "3.24.1"
       ]
