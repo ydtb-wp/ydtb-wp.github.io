@@ -197,6 +197,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
           git push
+          git tag ${{ github.event.inputs.version }}
+          git push origin ${{ github.event.inputs.version }}
 
       # use node to the version of the plugin in the database.json file.
       - name: Setup bun
