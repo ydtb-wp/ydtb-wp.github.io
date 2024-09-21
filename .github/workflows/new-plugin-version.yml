@@ -228,5 +228,5 @@ jobs:
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Plugin ${{github.event.inputs.vendor}}/${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}} in Database"
+          git commit -m "Update Plugin ${{github.event.inputs.vendor}}/${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}}"
           git push
