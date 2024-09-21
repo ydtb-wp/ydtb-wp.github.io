@@ -38,9 +38,9 @@ for (const [package_id, plugin] of Object.entries(plugins)) {
     },
   };
 
-  // listing all versions of the plugin
+  // listing all tags of the plugin
   for (const tag of plugin.tags) {
-    console.log(`\t\tProcessing version ${tag} of plugin ${plugin.slug}`);
+    console.log(`\t\tProcessing tag ${tag} of plugin ${plugin.slug}`);
 
     packages[package_id][tag] = {
       name: package_id,
