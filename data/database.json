@@ -3,11 +3,12 @@
     "elementor/elementor": {
       "slug": "elementor",
       "vendor": "elementor",
-      "version": "3.24.1",
-      "ref": "8e84c30",
+      "version": "3.24.2",
+      "ref": "1e594e6",
       "tags": [
         "3.24.0",
-        "3.24.1"
+        "3.24.1",
+        "3.24.2"
       ]
     },
     "yoast/wordpress-seo": {
