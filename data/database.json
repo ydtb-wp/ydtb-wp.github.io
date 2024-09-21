@@ -2,9 +2,10 @@
   "plugins": {
     "elementor/elementor": {
       "name": "elementor",
-      "version": "3.24.0",
+      "version": "3.24.1",
       "previous_tags": [
-        "3.24.0"
+        "3.24.0",
+        "3.24.1"
       ]
     }
   }
