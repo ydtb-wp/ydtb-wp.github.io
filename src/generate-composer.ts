@@ -47,7 +47,7 @@ for (const [package_id, plugin] of Object.entries(plugins)) {
       version: tag,
       dist: {
         type: "zip",
-        url: `https://codeload.github.com/${host}/${plugin.slug}/zip/refs/tags/${tag}`,
+        url: `https://github.com/${host}/${plugin.slug}/archive/refs/tags/${tag}.zip`,
       },
       source: {
         type: "git",
