@@ -36,6 +36,10 @@ jobs:
   validate-plugin-should-update:
     runs-on: ubuntu-latest
     steps:
+      - name: debug all inputs
+        run: |
+          echo "all inputs: ${{toJSON( github.event.inputs )}}"
+
       - name: debug inputs
         run: |
           echo "slug: ${{ github.event.inputs.slug }}"

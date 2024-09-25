@@ -29,6 +29,6 @@ jobs:
         value: ${{fromJSON(github.event.inputs.json)}}
     uses: ./.github/workflows/new-plugin-version.yml
     with:
-      slug: ${{ matrix.value.plugin_slug }}
-      url: ${{ matrix.value.plugin_update_url }}
-      version: ${{ matrix.value.plugin_update_version }}
+      slug: "${{ matrix.value.plugin_slug }}"
+      url: "${{ matrix.value.plugin_update_url }}"
+      version: "${{ matrix.value.plugin_update_version }}"
