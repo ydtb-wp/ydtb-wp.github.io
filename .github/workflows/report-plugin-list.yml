@@ -34,10 +34,10 @@ jobs:
     # needs: make-matrix
     strategy:
       matrix:
-        version: ${{fromJson(needs.report-plugin-list.inputs.json)}}
+        value: ${{fromJSON(github.event.inputs.json)}}
     uses: ./.github/workflows/new-plugin-version.yml
     with:
-      version: ${{ toJSON(matrix.version) }}
-      # slug: "${{ needs.make-matrix.outputs.slug }}"
-      # url: "${{ needs.make-matrix.outputs.url }}"
-      # version: "${{ needs.make-matrix.outputs.version }}"
+      # version: ${{ toJSON(matrix.version) }}
+      slug: "${{ matrix.value.plugin_slug }}"
+      url: "${{ matrix.value.plugin_update_url }}"
+      version: "${{ matrix.value.plugin_update_version }}"
