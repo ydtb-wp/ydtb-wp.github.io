@@ -15,12 +15,13 @@
     "wordpress-seo": {
       "slug": "wordpress-seo",
       "vendor": "wordpress-seo",
-      "version": "23.0",
+      "version": "23.2",
       "tags": [
         "23.0",
-        "23.0"
+        "23.0",
+        "23.2"
       ],
-      "ref": "127b561"
+      "ref": "2ea0e6d"
     }
   }
 }
