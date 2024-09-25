@@ -233,6 +233,11 @@ jobs:
       - name: Setup bun
         uses: oven-sh/setup-bun@v2
 
+      - name: Pull Any Changes to the Database
+        run: |
+          cd baseRepo
+          git pull
+
       - name: Update the plugin version in the database
         id: valid-update
         run: |
@@ -247,6 +252,5 @@ jobs:
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull
           git commit -m "Update Plugin $${{inputs.slug}} Version to ${{inputs.version}}"
           git push

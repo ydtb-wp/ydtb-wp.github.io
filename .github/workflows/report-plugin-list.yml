@@ -6,32 +6,7 @@ on:
         description: "List of plugins to update in JSON format"
         required: true
 jobs:
-  # make-matrix:
-  #   runs-on: ubuntu-latest
-  #   strategy:
-  #     max-parallel: 1
-  #     matrix:
-  #       value: ${{fromJSON(github.event.inputs.json)}}
-  #   outputs:
-  #     slug: ${{ steps.set-vars.outputs.slug }}
-  #     url: ${{ steps.set-vars.outputs.url }}
-  #     version: ${{ steps.set-vars.outputs.version }}
-  #   steps:
-  #     - name: Set Vars
-  #       id: set-vars
-  #       run: |
-  #         echo "Name: ${{ matrix.value.plugin_name }}"
-  #         echo "version=${{ matrix.value.plugin_version }}" >> $GITHUB_OUTPUT
-  #         echo "Version: ${{ matrix.value.plugin_version }}"
-  #         echo "Update Version: ${{ matrix.value.plugin_update_version }}"
-  #         echo "url=${{ matrix.value.plugin_update_url }}" >> $GITHUB_OUTPUT
-  #         echo "URL: ${{ matrix.value.plugin_update_url }}"
-  #         echo "slug=${{ matrix.value.plugin_slug }}" >> $GITHUB_OUTPUT
-  #         echo "Slug: ${{ matrix.value.plugin_slug }}"
-  #         echo "File: ${{ matrix.value.plugin_file }}"
-
   update-plugin:
-    # needs: make-matrix
     strategy:
       max-parallel: 1
       matrix:
