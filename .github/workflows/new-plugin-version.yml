@@ -6,9 +6,17 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      vendor:
-        description: "Name of the plugin to fetch"
+      slug:
+        description: "Slug of the plugin to fetch"
         required: true
+      url:
+        description: "URL of the plugin to fetch"
+        required: true
+      version:
+        description: "Version of the plugin being updated"
+        required: true
+  workflow_call:
+    inputs:
       slug:
         description: "Slug of the plugin to fetch"
         required: true
@@ -45,12 +53,10 @@ jobs:
     steps:
       - name: debug inputs
         run: |
-          echo "vendor: $VENDOR"
           echo "slug: $SLUG"
           echo "version: $VERSION"
           echo "url: $URL"
         env:
-          VENDOR: ${{ github.event.inputs.vendor }}
           SLUG: ${{ github.event.inputs.slug }}
           VERSION: ${{ github.event.inputs.version }}
           URL: ${{ github.event.inputs.url }}
@@ -86,7 +92,7 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.ORG_ADMIN_TOKEN }}" \
           -H "X-GitHub-Api-Version: 2022-11-28" \
           https://api.github.com/orgs/${{ github.repository_owner }}/repos \
-          -d '{"name":"${{ github.event.inputs.slug }}","description":"This Repository Tracks the ${{ github.event.inputs.vendor }} / ${{github.event.inputs.slug}} private wordpress plugin.","private":true,"has_issues":false,"has_projects":false,"has_wiki":false, "gitignore_template":"WordPress"}'
+          -d '{"name":"${{ github.event.inputs.slug }}","description":"This Repository Tracks the ${{github.event.inputs.slug}} private wordpress plugin.","private":true,"has_issues":false,"has_projects":false,"has_wiki":false, "gitignore_template":"WordPress"}'
 
       - name: Clone Plugin Repo
         uses: actions/checkout@v4
@@ -99,7 +105,7 @@ jobs:
         if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
         run: |
           cd plugin
-          echo "{\n"name": "${{github.event.inputs.vendor}}/${{github.event.inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
+          echo "{\n"name": "${{github.event.inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
           echo "---- Directory Structure ----"
           ls -la
           git config user.name "github-actions[bot]"
@@ -226,7 +232,7 @@ jobs:
         run: |
           cd baseRepo
           bun install
-          bun run ./src/update-plugin-version.ts --vendor ${{ github.event.inputs.vendor }} --slug ${{ github.event.inputs.slug }} --update_version ${{ github.event.inputs.version }} --reference ${{ steps.get-commit-hash.outputs.REFERENCE }}
+          bun run ./src/update-plugin-version.ts --slug ${{ github.event.inputs.slug }} --update_version ${{ github.event.inputs.version }} --reference ${{ steps.get-commit-hash.outputs.REFERENCE }}
 
       - name: Push updated Database to the Repo
         run: |
@@ -235,5 +241,5 @@ jobs:
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Plugin ${{github.event.inputs.vendor}}/${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}}"
+          git commit -m "Update Plugin $${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}}"
           git push

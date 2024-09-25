@@ -4,7 +4,6 @@
  * we do this by reading the database.json and see if the current incoming plugin version is later than the one listed in the database.json
  *
  * this requires the following arguments
- * --vendor: the vendor of the plugin
  * --slug: the slug of the plugin
  * --version: the version of the plugin
  *
