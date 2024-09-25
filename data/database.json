@@ -15,7 +15,7 @@
     },
     "wordpress-seo": {
       "slug": "wordpress-seo",
-      "vendor": "wordpress-seo",
+      "vendor": "yoast",
       "version": "23.5",
       "tags": [
         "23.0",
