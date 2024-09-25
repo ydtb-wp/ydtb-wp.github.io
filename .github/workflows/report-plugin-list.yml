@@ -12,23 +12,32 @@ jobs:
   #     max-parallel: 1
   #     matrix:
   #       value: ${{fromJSON(github.event.inputs.json)}}
-
+  #   outputs:
+  #     slug: ${{ steps.set-vars.outputs.slug }}
+  #     url: ${{ steps.set-vars.outputs.url }}
+  #     version: ${{ steps.set-vars.outputs.version }}
   #   steps:
-  #     - run: |
+  #     - name: Set Vars
+  #       id: set-vars
+  #       run: |
   #         echo "Name: ${{ matrix.value.plugin_name }}"
+  #         echo "version=${{ matrix.value.plugin_version }}" >> $GITHUB_OUTPUT
   #         echo "Version: ${{ matrix.value.plugin_version }}"
   #         echo "Update Version: ${{ matrix.value.plugin_update_version }}"
+  #         echo "url=${{ matrix.value.plugin_update_url }}" >> $GITHUB_OUTPUT
   #         echo "URL: ${{ matrix.value.plugin_update_url }}"
+  #         echo "slug=${{ matrix.value.plugin_slug }}" >> $GITHUB_OUTPUT
   #         echo "Slug: ${{ matrix.value.plugin_slug }}"
   #         echo "File: ${{ matrix.value.plugin_file }}"
 
   update-plugin:
+    # needs: make-matrix
     strategy:
-      max-parallel: 1
       matrix:
-        value: ${{fromJSON(github.event.inputs.json)}}
+        version: ${{fromJson(needs.report-plugin-list.inputs.json)}}
     uses: ./.github/workflows/new-plugin-version.yml
     with:
-      slug: "${{ matrix.value.plugin_slug }}"
-      url: "${{ matrix.value.plugin_update_url }}"
-      version: "${{ matrix.value.plugin_update_version }}"
+      version: ${{ toJSON(matrix.version) }}
+      # slug: "${{ needs.make-matrix.outputs.slug }}"
+      # url: "${{ needs.make-matrix.outputs.url }}"
+      # version: "${{ needs.make-matrix.outputs.version }}"
