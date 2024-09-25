@@ -1,0 +1,15 @@
+name: Test CURL Request
+on:
+  workflow_dispatch:
+    inputs:
+      json:
+        description: "List of plugins to update in JSON format"
+        required: false
+        type: string
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: debug inputs
+        run: |
+          echo "json: ${{ inputs }}"
