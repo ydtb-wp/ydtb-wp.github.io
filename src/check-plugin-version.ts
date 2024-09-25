@@ -17,14 +17,13 @@ import { z } from "zod";
 import { parseArgs } from "zod-args";
 import { compareVersions } from "compare-versions";
 
-const { vendor, slug, update_version } = parseArgs({
-  vendor: z.string(),
+const { slug, update_version } = parseArgs({
   slug: z.string(),
   update_version: z.string(),
 });
 
 // check if the plugin exists in the database
-const plugin = data.plugins[`${vendor}/${slug}` as keyof typeof data.plugins];
+const plugin = data.plugins[`${slug}` as keyof typeof data.plugins];
 
 if (!plugin) {
   console.log("Plugin Not Found in Database");

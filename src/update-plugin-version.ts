@@ -8,7 +8,6 @@ import type { PluginListType, PluginType } from "./data-types";
 const plugins: PluginListType = data.plugins;
 
 const { slug, update_version, reference } = parseArgs({
-  vendor: z.string(),
   slug: z.string(),
   update_version: z.string(),
   reference: z.string(),

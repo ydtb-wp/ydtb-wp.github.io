@@ -1,6 +1,10 @@
-name: Test Github Actions Dynamic Matrix
+name: Report Plugin Update List
 on:
   workflow_dispatch:
+    inputs:
+      json:
+        description: "List of plugins to update in JSON format"
+        required: true
 
 jobs:
   setup:
@@ -8,9 +12,13 @@ jobs:
     outputs:
       matrix: ${{ steps.matrix.outputs.value }}
     steps:
+      - name: debug inputs
+        run: |
+          echo "json: ${{ github.event.inputs.json }}"
+
       - id: matrix
         run: |
-          echo "value=[\"a\", \"b\", \"c\"]" >> $GITHUB_OUTPUT
+          echo "value=${{github.event.inputs.json}}" >> $GITHUB_OUTPUT
       - run: |
           echo "${{ steps.matrix.outputs.value }}"
   build:

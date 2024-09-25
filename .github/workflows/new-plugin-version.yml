@@ -34,9 +34,8 @@ jobs:
         id: valid-update
         run: |
           bun install
-          bun run ./src/check-plugin-version.ts --vendor $VENDOR --slug $SLUG --update_version $VERSION
+          bun run ./src/check-plugin-version.ts --slug $SLUG --update_version $VERSION
         env:
-          VENDOR: ${{ github.event.inputs.vendor }}
           SLUG: ${{ github.event.inputs.slug }}
           VERSION: ${{ github.event.inputs.version }}
 

@@ -52,7 +52,7 @@ jobs:
 
       - name: copy plugin json to dist
         run: |
-          cp data/database.json dist/database.json
+          cp source/data/database.json dist/database.json
       # perhaps we can also generate a explainer home page here so that people coming to the home page understand what is going on. For now we could even just generate a simple static HTML page that redirects the user to the public github repo.
       - name: Setup Pages
         uses: actions/configure-pages@v5
