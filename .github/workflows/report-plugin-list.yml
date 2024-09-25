@@ -36,6 +36,7 @@ jobs:
       max-parallel: 1
       matrix:
         value: ${{fromJSON(github.event.inputs.json)}}
+      fail-fast: false
     uses: ./.github/workflows/new-plugin-version.yml
     with:
       # version: ${{ toJSON(matrix.version) }}
