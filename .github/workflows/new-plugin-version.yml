@@ -111,7 +111,7 @@ jobs:
         if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
         run: |
           cd plugin
-          echo "{\n"name": "${{inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
+          echo -e "{\n"name": "${{inputs.slug}}/${{inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
           echo "---- Directory Structure ----"
           ls -la
           git config user.name "github-actions[bot]"
