@@ -5,28 +5,21 @@ on:
       json:
         description: "List of plugins to update in JSON format"
         required: true
-
+# "json": "[\"a\", \"b\", \"c\"]"
 jobs:
-  setup:
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.matrix.outputs.value }}
-    steps:
-      - name: debug inputs
-        run: |
-          echo "json: ${{ github.event.inputs.json }}"
-
-      - id: matrix
-        run: |
-          echo "value=${{github.event.inputs.json}}" >> $GITHUB_OUTPUT
-      - run: |
-          echo "${{ steps.matrix.outputs.value }}"
-  build:
-    needs: [setup]
+  runUpdate:
+    # needs: [setup]
     runs-on: ubuntu-latest
     strategy:
+      max-parallel: 1
       matrix:
-        value: ${{fromJSON(needs.setup.outputs.matrix)}}
+        value: ${{fromJSON(github.event.inputs.json)}}
+
     steps:
       - run: |
-          echo "${{ matrix.value }}"
+          echo "Name: ${{ matrix.value.plugin_name }}"
+          echo "Version: ${{ matrix.value.plugin_version }}"
+          echo "Update Version: ${{ matrix.value.plugin_update_version }}"
+          echo "URL: ${{ matrix.value.plugin_update_url }}"
+          echo "Slug: ${{ matrix.value.plugin_slug }}"
+          echo "File: ${{ matrix.value.plugin_file }}"
