@@ -7,7 +7,7 @@ import type { PluginListType, PluginType } from "./data-types";
 
 const plugins: PluginListType = data.plugins;
 
-const { vendor, slug, update_version, reference } = parseArgs({
+const { slug, update_version, reference } = parseArgs({
   vendor: z.string(),
   slug: z.string(),
   update_version: z.string(),
@@ -15,21 +15,21 @@ const { vendor, slug, update_version, reference } = parseArgs({
 });
 
 // check if the plugin exists in the database
-const plugin: PluginType = plugins[`${vendor}/${slug}` as keyof typeof plugins];
+const plugin: PluginType = plugins[`${slug}` as keyof typeof plugins];
 
 if (!plugin) {
-  plugins[`${vendor}/${slug}`] = {
+  plugins[`${slug}`] = {
     slug: `${slug}`,
-    vendor: `${vendor}`,
+    vendor: `${slug}`,
     version: `${update_version}`,
     tags: [`${update_version}`],
     ref: `${reference}`,
   };
 }
 
-plugins[`${vendor}/${slug}`].version = update_version;
-plugins[`${vendor}/${slug}`].tags.push(update_version);
-plugins[`${vendor}/${slug}`].ref = reference;
+plugins[`${slug}`].version = update_version;
+plugins[`${slug}`].tags.push(update_version);
+plugins[`${slug}`].ref = reference;
 
 const json = JSON.stringify({ plugins: plugins }, null, 2);
 
