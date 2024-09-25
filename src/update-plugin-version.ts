@@ -27,7 +27,9 @@ if (!plugin) {
 }
 
 plugins[`${slug}`].version = update_version;
-plugins[`${slug}`].tags.push(update_version);
+if (!plugins[`${slug}`].tags.includes(update_version)) {
+  plugins[`${slug}`].tags.push(update_version);
+}
 plugins[`${slug}`].ref = reference;
 
 const json = JSON.stringify({ plugins: plugins }, null, 2);

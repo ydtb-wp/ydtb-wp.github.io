@@ -14,7 +14,6 @@ jobs:
       fail-fast: false
     uses: ./.github/workflows/new-plugin-version.yml
     with:
-      # version: ${{ toJSON(matrix.version) }}
       slug: "${{ matrix.value.plugin_slug }}"
       url: "${{ matrix.value.plugin_update_url }}"
       version: "${{ matrix.value.plugin_update_version }}"
