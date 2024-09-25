@@ -4,34 +4,44 @@ name: New Plugin Version
 # Controls when the workflow will run
 on:
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-    inputs:
-      slug:
-        description: "Slug of the plugin to fetch"
-        required: true
-      url:
-        description: "URL of the plugin to fetch"
-        required: true
-      version:
-        description: "Version of the plugin being updated"
-        required: true
+  # workflow_dispatch:
+  #   inputs:
+  #     slug:
+  #       description: "Slug of the plugin to fetch"
+  #       required: true
+  #     url:
+  #       description: "URL of the plugin to fetch"
+  #       required: true
+  #     version:
+  #       description: "Version of the plugin being updated"
+  #       required: true
+
   workflow_call:
     inputs:
       slug:
         description: "Slug of the plugin to fetch"
         required: true
+        type: string
       url:
         description: "URL of the plugin to fetch"
         required: true
+        type: string
       version:
         description: "Version of the plugin being updated"
         required: true
+        type: string
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   validate-plugin-should-update:
     runs-on: ubuntu-latest
     steps:
+      - name: debug inputs
+        run: |
+          echo "slug: ${{ github.event.inputs.slug }}"
+          echo "version: ${{ github.event.inputs.version }}"
+          echo "url: ${{ github.event.inputs.url }}"
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -42,10 +52,7 @@ jobs:
         id: valid-update
         run: |
           bun install
-          bun run ./src/check-plugin-version.ts --slug $SLUG --update_version $VERSION
-        env:
-          SLUG: ${{ github.event.inputs.slug }}
-          VERSION: ${{ github.event.inputs.version }}
+          bun run ./src/check-plugin-version.ts --slug ${{ github.event.inputs.slug }} --update_version ${{ github.event.inputs.version }}
 
   handle-plugin-update:
     runs-on: ubuntu-latest
@@ -53,13 +60,9 @@ jobs:
     steps:
       - name: debug inputs
         run: |
-          echo "slug: $SLUG"
-          echo "version: $VERSION"
-          echo "url: $URL"
-        env:
-          SLUG: ${{ github.event.inputs.slug }}
-          VERSION: ${{ github.event.inputs.version }}
-          URL: ${{ github.event.inputs.url }}
+          echo "slug: ${{ github.event.inputs.slug }}"
+          echo "version: ${{ github.event.inputs.version }}"
+          echo "url: ${{ github.event.inputs.url }}"
 
       # Twofold: First we need to get the token into the future steps
       # and additionally we need to clone this repo into the baseRepo folder.

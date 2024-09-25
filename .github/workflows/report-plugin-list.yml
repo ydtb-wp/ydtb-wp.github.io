@@ -6,27 +6,27 @@ on:
         description: "List of plugins to update in JSON format"
         required: true
 jobs:
-  make-matrix:
-    runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 1
-      matrix:
-        value: ${{fromJSON(github.event.inputs.json)}}
+  # make-matrix:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     max-parallel: 1
+  #     matrix:
+  #       value: ${{fromJSON(github.event.inputs.json)}}
 
-    steps:
-      - run: |
-          echo "Name: ${{ matrix.value.plugin_name }}"
-          echo "Version: ${{ matrix.value.plugin_version }}"
-          echo "Update Version: ${{ matrix.value.plugin_update_version }}"
-          echo "URL: ${{ matrix.value.plugin_update_url }}"
-          echo "Slug: ${{ matrix.value.plugin_slug }}"
-          echo "File: ${{ matrix.value.plugin_file }}"
+  #   steps:
+  #     - run: |
+  #         echo "Name: ${{ matrix.value.plugin_name }}"
+  #         echo "Version: ${{ matrix.value.plugin_version }}"
+  #         echo "Update Version: ${{ matrix.value.plugin_update_version }}"
+  #         echo "URL: ${{ matrix.value.plugin_update_url }}"
+  #         echo "Slug: ${{ matrix.value.plugin_slug }}"
+  #         echo "File: ${{ matrix.value.plugin_file }}"
 
   update-plugin:
     strategy:
       max-parallel: 1
       matrix:
-        target: ${{fromJSON(github.event.inputs.json)}}
+        value: ${{fromJSON(github.event.inputs.json)}}
     uses: ./.github/workflows/new-plugin-version.yml
     with:
       slug: ${{ matrix.value.plugin_slug }}
