@@ -33,6 +33,7 @@ jobs:
   update-plugin:
     # needs: make-matrix
     strategy:
+      max-parallel: 1
       matrix:
         value: ${{fromJSON(github.event.inputs.json)}}
     uses: ./.github/workflows/new-plugin-version.yml
@@ -41,3 +42,4 @@ jobs:
       slug: "${{ matrix.value.plugin_slug }}"
       url: "${{ matrix.value.plugin_update_url }}"
       version: "${{ matrix.value.plugin_update_version }}"
+    secrets: inherit

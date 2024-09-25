@@ -52,7 +52,7 @@ jobs:
         id: valid-update
         run: |
           bun install
-          bun run ./src/check-plugin-version.ts --slug ${{ github.event.inputs.slug }} --update_version ${{ github.event.inputs.version }}
+          bun run ./src/check-plugin-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }}
 
   handle-plugin-update:
     runs-on: ubuntu-latest
@@ -60,9 +60,9 @@ jobs:
     steps:
       - name: debug inputs
         run: |
-          echo "slug: ${{ github.event.inputs.slug }}"
-          echo "version: ${{ github.event.inputs.version }}"
-          echo "url: ${{ github.event.inputs.url }}"
+          echo "slug: ${{ inputs.slug }}"
+          echo "version: ${{ inputs.version }}"
+          echo "url: ${{ inputs.url }}"
 
       # Twofold: First we need to get the token into the future steps
       # and additionally we need to clone this repo into the baseRepo folder.
@@ -82,7 +82,7 @@ jobs:
           { echo "EXISTS=false" >> "$GITHUB_OUTPUT"; }
         env:
           HOST: ${{ github.repository_owner }}
-          SLUG: ${{ github.event.inputs.slug }}
+          SLUG: ${{ inputs.slug }}
 
       # Make a repo if it doesn't exist, We want to also add the gitignore template simply so that its not an empty repo. Being an empty repo seems to make it difficult to clone down in the next step.
       - name: Create Repo if it doesn't exist
@@ -95,20 +95,20 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.ORG_ADMIN_TOKEN }}" \
           -H "X-GitHub-Api-Version: 2022-11-28" \
           https://api.github.com/orgs/${{ github.repository_owner }}/repos \
-          -d '{"name":"${{ github.event.inputs.slug }}","description":"This Repository Tracks the ${{github.event.inputs.slug}} private wordpress plugin.","private":true,"has_issues":false,"has_projects":false,"has_wiki":false, "gitignore_template":"WordPress"}'
+          -d '{"name":"${{ inputs.slug }}","description":"This Repository Tracks the ${{inputs.slug}} private wordpress plugin.","private":true,"has_issues":false,"has_projects":false,"has_wiki":false, "gitignore_template":"WordPress"}'
 
       - name: Clone Plugin Repo
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.ORG_ADMIN_TOKEN }} # `ORG_ADMIN_TOKEN` is a secret that contains your PAT
           path: plugin
-          repository: ${{ github.repository_owner }}/${{ github.event.inputs.slug }}
+          repository: ${{ github.repository_owner }}/${{ inputs.slug }}
 
       - name: Initialize Plugin Repo
         if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
         run: |
           cd plugin
-          echo "{\n"name": "${{github.event.inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
+          echo "{\n"name": "${{inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
           echo "---- Directory Structure ----"
           ls -la
           git config user.name "github-actions[bot]"
@@ -148,7 +148,7 @@ jobs:
 
       - name: Fetch Plugin Files
         run: |
-          curl -L "${{ github.event.inputs.url }}" > plugin.zip
+          curl -L "${{ inputs.url }}" > plugin.zip
           unzip plugin.zip -d plugin
           rm plugin.zip
 
@@ -157,43 +157,43 @@ jobs:
       - name: Check that the plugin slug is correct
         run: |
           echo "---- Directory Structure of plugin ----"
-          cd plugin/${{ github.event.inputs.slug }} 
+          cd plugin/${{ inputs.slug }} 
           ls -la
 
       # Now that we have the files locally lets make sure that the provided version & Slug matches the version in the plugin files
 
       - name: Check that the Plugin Version Matches provided Version
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           PLUGIN_VERSION=$(grep -Poh "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" *.php)
           echo "Plugin Version: $PLUGIN_VERSION"
-          echo "Input Version: ${{ github.event.inputs.version }}"
+          echo "Input Version: ${{ inputs.version }}"
           echo "---"
-          [[ $PLUGIN_VERSION == "${{ github.event.inputs.version }}" ]] && \
+          [[ $PLUGIN_VERSION == "${{ inputs.version }}" ]] && \
           { echo "Versions Match"; } || \
           { echo "Version Match Failed" && exit 1; }
 
       - name: Add git back to the plugin folder
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           mv ../../GitInfo/git .git
 
       - name: check git status
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           git status
 
       # if a plugin author provides a composer json file use theirs, otherwise use the default we created when we initialized the repo.
       - name: Check if composer.json exists
         id: check-composer
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           [ -f composer.json ] && echo "Composer File Exists" && echo "EXISTS=true">>$GITHUB_OUTPUT || echo "Composer File Does Not Exist" && echo "EXISTS=false">>$GITHUB_OUTPUT
 
       - name: Add Composer File if not exist
         if: ${{steps.check-composer.outputs.EXISTS == 'false'}}
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           echo "--- Directory Structure ---"
           ls -la
           git checkout -- composer.json
@@ -202,26 +202,26 @@ jobs:
 
       - name: Git Status 2
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           git status
 
       # Finally push the new plugin files to the repo
       - name: Push Plugin Files
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           git add -A
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Plugin to ${{ github.event.inputs.version }}"
+          git commit -m "Update Plugin to ${{ inputs.version }}"
           git push
-          git tag ${{ github.event.inputs.version }}
-          git push origin ${{ github.event.inputs.version }}
+          git tag ${{ inputs.version }}
+          git push origin ${{ inputs.version }}
 
       - name: Get Commit Hash
         id: get-commit-hash
         run: |
-          cd plugin/${{ github.event.inputs.slug }}
+          cd plugin/${{ inputs.slug }}
           REFERENCE=$(git rev-parse --short HEAD)
           echo "Git Hash for plugin: $REFERENCE"
           echo "REFERENCE=$REFERENCE" >> $GITHUB_OUTPUT
@@ -235,7 +235,7 @@ jobs:
         run: |
           cd baseRepo
           bun install
-          bun run ./src/update-plugin-version.ts --slug ${{ github.event.inputs.slug }} --update_version ${{ github.event.inputs.version }} --reference ${{ steps.get-commit-hash.outputs.REFERENCE }}
+          bun run ./src/update-plugin-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }} --reference ${{ steps.get-commit-hash.outputs.REFERENCE }}
 
       - name: Push updated Database to the Repo
         run: |
@@ -244,5 +244,7 @@ jobs:
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Plugin $${{github.event.inputs.slug}} Version to ${{github.event.inputs.version}}"
+          git pull
+          git rebase
+          git commit -m "Update Plugin $${{inputs.slug}} Version to ${{inputs.version}}"
           git push
