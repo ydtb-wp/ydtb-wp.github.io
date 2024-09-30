@@ -44,6 +44,15 @@
         "6.3.6"
       ],
       "ref": "77d8b3c"
+    },
+    "astra-addon": {
+      "slug": "astra-addon",
+      "vendor": "astra-addon",
+      "version": "4.8.1",
+      "tags": [
+        "4.8.1"
+      ],
+      "ref": "ec8dad2"
     }
   }
 }
