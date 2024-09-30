@@ -71,6 +71,15 @@
         "1.5.11"
       ],
       "ref": "346043f"
+    },
+    "ele-custom-skin": {
+      "slug": "ele-custom-skin",
+      "vendor": "dudaster",
+      "version": "3.1.9",
+      "tags": [
+        "3.1.9"
+      ],
+      "ref": "2f66df0"
     }
   }
 }
