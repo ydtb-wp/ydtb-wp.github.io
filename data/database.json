@@ -11,7 +11,7 @@
     },
     "wordpress-seo": {
       "slug": "wordpress-seo",
-      "vendor": "wordpress-seo",
+      "vendor": "yoast",
       "version": "23.5",
       "tags": [
         "23.5"
@@ -20,7 +20,7 @@
     },
     "ultimate-elementor": {
       "slug": "ultimate-elementor",
-      "vendor": "ultimate-elementor",
+      "vendor": "brainstormforce",
       "version": "1.36.38",
       "tags": [
         "1.36.38"
@@ -29,7 +29,7 @@
     },
     "advanced-custom-fields-pro": {
       "slug": "advanced-custom-fields-pro",
-      "vendor": "advanced-custom-fields-pro",
+      "vendor": "acf",
       "version": "6.3.6",
       "tags": [
         "6.3.6"
@@ -38,7 +38,7 @@
     },
     "astra-addon": {
       "slug": "astra-addon",
-      "vendor": "astra-addon",
+      "vendor": "brainstormforce",
       "version": "4.8.1",
       "tags": [
         "4.8.1"
@@ -47,7 +47,7 @@
     },
     "astra-pro-sites": {
       "slug": "astra-pro-sites",
-      "vendor": "astra-pro-sites",
+      "vendor": "brainstormforce",
       "version": "4.4.3",
       "tags": [
         "4.4.3"
@@ -56,7 +56,7 @@
     },
     "convertpro": {
       "slug": "convertpro",
-      "vendor": "convertpro",
+      "vendor": "brainstormforce",
       "version": "1.7.7",
       "tags": [
         "1.7.7"
@@ -65,7 +65,7 @@
     },
     "convertpro-addon": {
       "slug": "convertpro-addon",
-      "vendor": "convertpro-addon",
+      "vendor": "brainstormforce",
       "version": "1.5.11",
       "tags": [
         "1.5.11"
