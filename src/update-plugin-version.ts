@@ -20,7 +20,7 @@ const plugin: PluginType = plugins[`${slug}` as keyof typeof plugins];
 if (!plugin) {
   plugins[`${slug}`] = {
     slug: `${slug}`,
-    vendor: `${vendor || "ydtb"}`,
+    vendor: `${vendor || slug}`,
     version: `${update_version}`,
     tags: [`${update_version}`],
     ref: `${reference}`,

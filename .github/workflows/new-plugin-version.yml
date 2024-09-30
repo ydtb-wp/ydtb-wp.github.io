@@ -250,7 +250,7 @@ jobs:
         run: |
           cd baseRepo
           bun install
-          bun run ./src/update-plugin-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }} --reference ${{ steps.get-commit-hash.outputs.REFERENCE }}
+          bun run ./src/update-plugin-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }} --reference ${{ steps.get-commit-hash.outputs.REFERENCE }} --vendor ${{ inputs.vendor }}
 
       - name: Push updated Database to the Repo
         run: |
