@@ -53,6 +53,15 @@
         "4.8.1"
       ],
       "ref": "ec8dad2"
+    },
+    "astra-pro-sites": {
+      "slug": "astra-pro-sites",
+      "vendor": "astra-pro-sites",
+      "version": "4.4.3",
+      "tags": [
+        "4.4.3"
+      ],
+      "ref": "775b50a"
     }
   }
 }
