@@ -107,6 +107,15 @@
         "6.7.9"
       ],
       "ref": "279cc24"
+    },
+    "restrict-content-pro": {
+      "slug": "restrict-content-pro",
+      "vendor": "solidwp",
+      "version": "3.5.42",
+      "tags": [
+        "3.5.42"
+      ],
+      "ref": "c13087c"
     }
   }
 }
