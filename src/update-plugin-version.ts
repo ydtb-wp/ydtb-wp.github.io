@@ -7,10 +7,11 @@ import type { PluginListType, PluginType } from "./data-types";
 
 const plugins: PluginListType = data.plugins;
 
-const { slug, update_version, reference } = parseArgs({
+const { slug, update_version, reference, vendor } = parseArgs({
   slug: z.string(),
   update_version: z.string(),
   reference: z.string(),
+  vendor: z.string().optional(),
 });
 
 // check if the plugin exists in the database
@@ -19,7 +20,7 @@ const plugin: PluginType = plugins[`${slug}` as keyof typeof plugins];
 if (!plugin) {
   plugins[`${slug}`] = {
     slug: `${slug}`,
-    vendor: `${slug}`,
+    vendor: `${vendor || "ydtb"}`,
     version: `${update_version}`,
     tags: [`${update_version}`],
     ref: `${reference}`,
