@@ -1,5 +1,14 @@
 {
   "plugins": {
+    "plugin-tools":{
+      "slug": "plugin-tools",
+      "vendor": "ydtbwp",
+      "version: "0.0.1",
+      "tags": [
+        "0.0.1"
+      ],
+      "ref": "a0449cc"
+    },
     "elementor": {
       "slug": "elementor",
       "vendor": "elementor",
