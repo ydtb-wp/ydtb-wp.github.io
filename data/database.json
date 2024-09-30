@@ -62,6 +62,15 @@
         "4.4.3"
       ],
       "ref": "775b50a"
+    },
+    "convertpro": {
+      "slug": "convertpro",
+      "vendor": "convertpro",
+      "version": "1.7.7",
+      "tags": [
+        "1.7.7"
+      ],
+      "ref": "1e7196d"
     }
   }
 }
