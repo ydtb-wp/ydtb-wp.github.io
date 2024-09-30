@@ -80,6 +80,15 @@
         "3.1.9"
       ],
       "ref": "2f66df0"
+    },
+    "buddyboss-platform": {
+      "slug": "buddyboss-platform",
+      "vendor": "buddyboss",
+      "version": "2.7.00",
+      "tags": [
+        "2.7.00"
+      ],
+      "ref": "b10f478"
     }
   }
 }
