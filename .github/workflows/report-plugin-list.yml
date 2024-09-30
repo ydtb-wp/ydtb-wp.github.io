@@ -17,4 +17,5 @@ jobs:
       slug: "${{ matrix.value.plugin_slug }}"
       url: "${{ matrix.value.plugin_update_url }}"
       version: "${{ matrix.value.plugin_update_version }}"
+      vendor: "${{ matrix.value.plugin_vendor }}"
     secrets: inherit

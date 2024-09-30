@@ -18,6 +18,10 @@ on:
         description: "Version of the plugin being updated"
         required: true
         type: string
+      vendor:
+        description: "Vendor of the plugin being updated"
+        required: false
+        type: string
 
   workflow_call:
     inputs:
@@ -32,6 +36,10 @@ on:
       version:
         description: "Version of the plugin being updated"
         required: true
+        type: string
+      vendor:
+        description: "Vendor of the plugin being updated"
+        required: false
         type: string
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -63,6 +71,7 @@ jobs:
     steps:
       - name: debug inputs
         run: |
+          echo "Vendor: ${{ inputs.vendor }}"
           echo "slug: ${{ inputs.slug }}"
           echo "version: ${{ inputs.version }}"
           echo "url: ${{ inputs.url }}"
@@ -80,12 +89,9 @@ jobs:
         id: check-remote
         run: |
           cd baseRepo && 
-          [ "$(git ls-remote https://github.com/$HOST/$SLUG.git 2> /dev/null)" ] && \
+          [ "$(git ls-remote https://github.com/${{ github.repository_owner }}/${{ inputs.slug }}.git 2> /dev/null)" ] && \
           { echo "EXISTS=true" >> "$GITHUB_OUTPUT"; } || \
           { echo "EXISTS=false" >> "$GITHUB_OUTPUT"; }
-        env:
-          HOST: ${{ github.repository_owner }}
-          SLUG: ${{ inputs.slug }}
 
       # Make a repo if it doesn't exist, We want to also add the gitignore template simply so that its not an empty repo. Being an empty repo seems to make it difficult to clone down in the next step.
       - name: Create Repo if it doesn't exist
@@ -111,7 +117,8 @@ jobs:
         if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
         run: |
           cd plugin
-          echo -e "{\n"name": "${{inputs.slug}}/${{inputs.slug}}",\n"description": "Private Repo tracking the paid plugin.",\n"type": "wordpress-plugin"\n}" >> composer.json
+          vendor=${{ inputs.vendor }}
+          echo -e "{\n\"name\": \"${{inputs.vendor == '' && inputs.slug || inputs.vendor}}/${{inputs.slug}}\",\n\"description\": \"Private Repo tracking the paid plugin ${{inputs.slug}}\"\n\"type\": \"wordpress-plugin\"\n}" >> composer.json
           echo "---- Directory Structure ----"
           ls -la
           git config user.name "github-actions[bot]"
