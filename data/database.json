@@ -8,6 +8,15 @@
         "3.24.4"
       ],
       "ref": "16be2eb"
+    },
+    "wordpress-seo": {
+      "slug": "wordpress-seo",
+      "vendor": "wordpress-seo",
+      "version": "23.5",
+      "tags": [
+        "23.5"
+      ],
+      "ref": "a0b43a8"
     }
   }
 }
