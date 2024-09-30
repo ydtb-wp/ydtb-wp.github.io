@@ -71,6 +71,15 @@
         "1.7.7"
       ],
       "ref": "1e7196d"
+    },
+    "convertpro-addon": {
+      "slug": "convertpro-addon",
+      "vendor": "convertpro-addon",
+      "version": "1.5.11",
+      "tags": [
+        "1.5.11"
+      ],
+      "ref": "346043f"
     }
   }
 }
