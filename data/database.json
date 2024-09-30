@@ -17,6 +17,15 @@
         "23.5"
       ],
       "ref": "a0b43a8"
+    },
+    "ultimate-elementor": {
+      "slug": "ultimate-elementor",
+      "vendor": "ultimate-elementor",
+      "version": "1.36.38",
+      "tags": [
+        "1.36.38"
+      ],
+      "ref": "57a7f96"
     }
   }
 }
