@@ -11,6 +11,15 @@
         "23.5"
       ],
       "ref": "911dce2"
+    },
+    "elementor": {
+      "slug": "elementor",
+      "vendor": "elementor",
+      "version": "3.24.4",
+      "tags": [
+        "3.24.4"
+      ],
+      "ref": "89f6644"
     }
   }
 }
