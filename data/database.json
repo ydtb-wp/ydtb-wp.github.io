@@ -1,13 +1,5 @@
 {
   "plugins": {
-    "elementor": {
-      "slug": "elementor",
-      "vendor": "elementor",
-      "version": "3.24.4",
-      "tags": [
-        "3.24.4"
-      ],
-      "ref": "33787c6"
-    }
+
   }
 }
