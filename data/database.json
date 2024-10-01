@@ -48,11 +48,12 @@
     "astra-addon": {
       "slug": "astra-addon",
       "vendor": "brainstormforce",
-      "version": "4.8.1",
+      "version": "4.8.2",
       "tags": [
-        "4.8.1"
+        "4.8.1",
+        "4.8.2"
       ],
-      "ref": "ec8dad2"
+      "ref": "57ac093"
     },
     "astra-pro-sites": {
       "slug": "astra-pro-sites",
