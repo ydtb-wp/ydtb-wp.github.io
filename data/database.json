@@ -12,11 +12,12 @@
     "elementor": {
       "slug": "elementor",
       "vendor": "elementor",
-      "version": "3.24.4",
+      "version": "3.24.5",
       "tags": [
-        "3.24.4"
+        "3.24.4",
+        "3.24.5"
       ],
-      "ref": "16be2eb"
+      "ref": "485b96d"
     },
     "wordpress-seo": {
       "slug": "wordpress-seo",
