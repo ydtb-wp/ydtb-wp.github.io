@@ -117,6 +117,15 @@
         "3.5.42"
       ],
       "ref": "c13087c"
+    },
+    "buddyboss-platform-pro": {
+      "slug": "buddyboss-platform-pro",
+      "vendor": "buddyboss",
+      "version": "2.6.10",
+      "tags": [
+        "2.6.10"
+      ],
+      "ref": "0e5873d"
     }
   }
 }
