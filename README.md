@@ -111,11 +111,17 @@ Then update the remote origin and push to your org repo just created.
 After the plugin is activated you can run through the setup. 
 Everything is setup using the WP CLI
 
-```wp pt setToken <token>``` Example: `wp pt setToken github_pat_abc123abc123abc123...abc123`
+```wp pt setToken <token>``` 
+Example: 
+`wp pt setToken github_pat_abc123abc123abc123...abc123`
 
-```wp pt setPluginUpdateURL <update url>``` Example: `wp pt setPluginUpdateURL https://api.github.com/repos/ydtb-wp/ydtb-wp.github.io/actions/workflows/report-plugin-list.yml/dispatches`
+```wp pt setPluginUpdateURL <update url>``` 
+Example: 
+`wp pt setPluginUpdateURL https://api.github.com/repos/ydtb-wp/ydtb-wp.github.io/actions/workflows/report-plugin-list.yml/dispatches`
 
-```wp pt setPluginFetchURL <fetch url>``` Example: ` wp pt setPluginFetchURL https://ydtb-wp.github.io/database.json`
+```wp pt setPluginFetchURL <fetch url>``` 
+Example: 
+` wp pt setPluginFetchURL https://ydtb-wp.github.io/database.json`
 
 then you can use `wp pt choose` to enter the wizard and select the plugins you want watched/pushed to the remote. 
 
