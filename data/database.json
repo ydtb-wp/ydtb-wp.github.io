@@ -139,6 +139,15 @@
         "1.2.2"
       ],
       "ref": "0233a43"
+    },
+    "revslider": {
+      "slug": "revslider",
+      "vendor": "themepunch",
+      "version": "6.7.20",
+      "tags": [
+        "6.7.20"
+      ],
+      "ref": "82daccc"
     }
   }
 }
