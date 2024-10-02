@@ -3,11 +3,12 @@
     "plugin-tools": {
       "slug": "plugin-tools",
       "vendor": "ydtbwp",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "tags": [
-        "0.0.1"
+        "0.0.1",
+        "0.0.2"
       ],
-      "ref": "a0449cc"
+      "ref": "28b8704"
     },
     "elementor": {
       "slug": "elementor",
