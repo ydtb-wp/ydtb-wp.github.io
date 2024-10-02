@@ -124,11 +124,12 @@
     "buddyboss-platform-pro": {
       "slug": "buddyboss-platform-pro",
       "vendor": "buddyboss",
-      "version": "2.6.10",
+      "version": "2.6.20",
       "tags": [
-        "2.6.10"
+        "2.6.10",
+        "2.6.20"
       ],
-      "ref": "0e5873d"
+      "ref": "89925a6"
     }
   }
 }
