@@ -78,11 +78,12 @@
     "convertpro-addon": {
       "slug": "convertpro-addon",
       "vendor": "brainstormforce",
-      "version": "1.5.11",
+      "version": "1.5.12",
       "tags": [
-        "1.5.11"
+        "1.5.11",
+        "1.5.12"
       ],
-      "ref": "346043f"
+      "ref": "90894ba"
     },
     "ele-custom-skin": {
       "slug": "ele-custom-skin",
