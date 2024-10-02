@@ -97,11 +97,12 @@
     "buddyboss-platform": {
       "slug": "buddyboss-platform",
       "vendor": "buddyboss",
-      "version": "2.7.00",
+      "version": "2.7.10",
       "tags": [
-        "2.7.00"
+        "2.7.00",
+        "2.7.10"
       ],
-      "ref": "b10f478"
+      "ref": "2a80fd6"
     },
     "media-cleaner-pro": {
       "slug": "media-cleaner-pro",
