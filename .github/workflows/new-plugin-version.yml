@@ -47,11 +47,17 @@ jobs:
   validate-plugin-should-update:
     runs-on: ubuntu-latest
     steps:
-      - name: debug inputs
+      - name: Mask URL
         run: |
-          echo "slug: ${{ inputs.slug }}"
-          echo "version: ${{ inputs.version }}"
-          echo "url: ${{ inputs.url }}"
+          UPDATE_URL=${{ inputs.url }}
+          echo "::add-mask::$UPDATE_URL"
+          echo UPDATE_URL=$UPDATE_URL >> $GITHUB_ENV
+
+      # - name: debug inputs
+      #   run: |
+      #     echo "slug: ${{ inputs.slug }}"
+      #     echo "version: ${{ inputs.version }}"
+      #     echo "url: ${{ inputs.url }}"
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -74,7 +80,7 @@ jobs:
           echo "Vendor: ${{ inputs.vendor }}"
           echo "slug: ${{ inputs.slug }}"
           echo "version: ${{ inputs.version }}"
-          echo "url: ${{ inputs.url }}"
+          echo "url: ${{ env.UPDATE_URL }}"
 
       # Twofold: First we need to get the token into the future steps
       # and additionally we need to clone this repo into the baseRepo folder.
@@ -158,7 +164,7 @@ jobs:
 
       - name: Fetch Plugin Files
         run: |
-          curl -L "${{ inputs.url }}" > plugin.zip
+          curl -L "${{ env.UPDATE_URL }}" > plugin.zip
           unzip plugin.zip -d plugin
           rm plugin.zip
 
