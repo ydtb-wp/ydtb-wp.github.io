@@ -16,13 +16,15 @@ const plugins: PluginListType = data.plugins;
 
 const packages: Packages = {};
 
+console.log(plugins);
+
 for (const [package_id, plugin] of Object.entries(plugins)) {
   console.log("--- ---");
   console.log(`\tProcessing plugin ${plugin.slug} from package ${package_id}`);
   console.log(`\t\tProcessing version dev-master of plugin ${plugin.slug}`);
-  packages[package_id] = {
+  packages[`${plugin.vendor}/${plugin.slug}`] = {
     "dev-master": {
-      name: package_id,
+      name: `${plugin.vendor}/${plugin.slug}`,
       version: "dev-master",
       dist: {
         type: "zip",
@@ -42,8 +44,8 @@ for (const [package_id, plugin] of Object.entries(plugins)) {
   for (const tag of plugin.tags) {
     console.log(`\t\tProcessing tag ${tag} of plugin ${plugin.slug}`);
 
-    packages[package_id][tag] = {
-      name: package_id,
+    packages[`${plugin.vendor}/${plugin.slug}`][tag] = {
+      name: `${plugin.vendor}/${plugin.slug}`,
       version: tag,
       dist: {
         type: "zip",
