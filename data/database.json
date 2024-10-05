@@ -205,6 +205,15 @@
         "5.2.4"
       ],
       "ref": "a5259a9"
+    },
+    "fluent-connect": {
+      "slug": "fluent-connect",
+      "vendor": "fluent",
+      "version": "0.3",
+      "tags": [
+        "0.3"
+      ],
+      "ref": "1bcd979"
     }
   }
 }
