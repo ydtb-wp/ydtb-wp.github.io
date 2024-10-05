@@ -169,6 +169,15 @@
         "3.24.3"
       ],
       "ref": "d88e2af"
+    },
+    "fluent-crm": {
+      "slug": "fluent-crm",
+      "vendor": "fluent",
+      "version": "2.9.24",
+      "tags": [
+        "2.9.24"
+      ],
+      "ref": "38c1a8e"
     }
   }
 }
