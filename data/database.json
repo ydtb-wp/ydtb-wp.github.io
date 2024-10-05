@@ -151,6 +151,15 @@
         "6.7.20"
       ],
       "ref": "82daccc"
+    },
+    "ele-custom-skin-pro": {
+      "slug": "ele-custom-skin-pro",
+      "vendor": "dudaster",
+      "version": "3.2.4",
+      "tags": [
+        "3.2.4"
+      ],
+      "ref": "78becf1"
     }
   }
 }
