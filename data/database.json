@@ -214,6 +214,15 @@
         "0.3"
       ],
       "ref": "1bcd979"
+    },
+    "fluent-support": {
+      "slug": "fluent-support",
+      "vendor": "fluent",
+      "version": "1.8.4",
+      "tags": [
+        "1.8.4"
+      ],
+      "ref": "d0775cf"
     }
   }
 }
