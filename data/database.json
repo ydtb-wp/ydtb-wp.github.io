@@ -160,6 +160,15 @@
         "3.2.4"
       ],
       "ref": "78becf1"
+    },
+    "elementor-pro": {
+      "slug": "elementor-pro",
+      "vendor": "elementor",
+      "version": "3.24.3",
+      "tags": [
+        "3.24.3"
+      ],
+      "ref": "d88e2af"
     }
   }
 }
