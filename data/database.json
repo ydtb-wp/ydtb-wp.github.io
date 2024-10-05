@@ -187,6 +187,15 @@
         "2.9.24"
       ],
       "ref": "1b88a97"
+    },
+    "fluent-smtp": {
+      "slug": "fluent-smtp",
+      "vendor": "fluent",
+      "version": "2.2.80",
+      "tags": [
+        "2.2.80"
+      ],
+      "ref": "03e14de"
     }
   }
 }
