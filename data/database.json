@@ -196,6 +196,15 @@
         "2.2.80"
       ],
       "ref": "03e14de"
+    },
+    "fluentform": {
+      "slug": "fluentform",
+      "vendor": "fluent",
+      "version": "5.2.4",
+      "tags": [
+        "5.2.4"
+      ],
+      "ref": "a5259a9"
     }
   }
 }
