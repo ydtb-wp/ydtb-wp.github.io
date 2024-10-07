@@ -223,6 +223,15 @@
         "1.8.4"
       ],
       "ref": "d0775cf"
+    },
+    "image-optimization": {
+      "slug": "image-optimization",
+      "vendor": "elementor",
+      "version": "1.5.3",
+      "tags": [
+        "1.5.3"
+      ],
+      "ref": "f03ca83"
     }
   }
 }
