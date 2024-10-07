@@ -228,11 +228,12 @@
     "image-optimization": {
       "slug": "image-optimization",
       "vendor": "elementor",
-      "version": "1.5.3",
+      "version": "1.5.4",
       "tags": [
-        "1.5.3"
+        "1.5.3",
+        "1.5.4"
       ],
-      "ref": "f03ca83"
+      "ref": "d285959"
     }
   }
 }
