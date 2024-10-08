@@ -42,12 +42,13 @@
     "advanced-custom-fields-pro": {
       "slug": "advanced-custom-fields-pro",
       "vendor": "acf",
-      "version": "6.3.7",
+      "version": "6.3.8",
       "tags": [
         "6.3.6",
-        "6.3.7"
+        "6.3.7",
+        "6.3.8"
       ],
-      "ref": "256cabf"
+      "ref": "bc24ede"
     },
     "astra-addon": {
       "slug": "astra-addon",
