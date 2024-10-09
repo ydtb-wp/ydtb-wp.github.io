@@ -14,12 +14,13 @@
     "elementor": {
       "slug": "elementor",
       "vendor": "elementor",
-      "version": "3.24.5",
+      "version": "3.24.6",
       "tags": [
         "3.24.4",
-        "3.24.5"
+        "3.24.5",
+        "3.24.6"
       ],
-      "ref": "485b96d"
+      "ref": "1cb65fe"
     },
     "wordpress-seo": {
       "slug": "wordpress-seo",
