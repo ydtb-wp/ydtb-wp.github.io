@@ -192,11 +192,12 @@
     "fluentcampaign-pro": {
       "slug": "fluentcampaign-pro",
       "vendor": "fluent",
-      "version": "2.9.24",
+      "version": "2.9.25",
       "tags": [
-        "2.9.24"
+        "2.9.24",
+        "2.9.25"
       ],
-      "ref": "1b88a97"
+      "ref": "cba92be"
     },
     "fluent-smtp": {
       "slug": "fluent-smtp",
