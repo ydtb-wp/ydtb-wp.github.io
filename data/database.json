@@ -182,11 +182,12 @@
     "fluent-crm": {
       "slug": "fluent-crm",
       "vendor": "fluent",
-      "version": "2.9.24",
+      "version": "2.9.25",
       "tags": [
-        "2.9.24"
+        "2.9.24",
+        "2.9.25"
       ],
-      "ref": "38c1a8e"
+      "ref": "dbed244"
     },
     "fluentcampaign-pro": {
       "slug": "fluentcampaign-pro",
