@@ -80,11 +80,12 @@
     "convertpro": {
       "slug": "convertpro",
       "vendor": "brainstormforce",
-      "version": "1.7.7",
+      "version": "1.7.8",
       "tags": [
-        "1.7.7"
+        "1.7.7",
+        "1.7.8"
       ],
-      "ref": "1e7196d"
+      "ref": "7d927c1"
     },
     "convertpro-addon": {
       "slug": "convertpro-addon",
