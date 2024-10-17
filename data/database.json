@@ -26,11 +26,12 @@
     "wordpress-seo": {
       "slug": "wordpress-seo",
       "vendor": "yoast",
-      "version": "23.5",
+      "version": "23.6",
       "tags": [
-        "23.5"
+        "23.5",
+        "23.6"
       ],
-      "ref": "a0b43a8"
+      "ref": "f3a7154"
     },
     "ultimate-elementor": {
       "slug": "ultimate-elementor",
