@@ -120,11 +120,12 @@
     "media-cleaner-pro": {
       "slug": "media-cleaner-pro",
       "vendor": "meowapps",
-      "version": "6.7.9",
+      "version": "6.8.0",
       "tags": [
-        "6.7.9"
+        "6.7.9",
+        "6.8.0"
       ],
-      "ref": "279cc24"
+      "ref": "31a69d9"
     },
     "restrict-content-pro": {
       "slug": "restrict-content-pro",
