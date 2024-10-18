@@ -1,5 +1,5 @@
 # This is a basic workflow to help you get started with Actions
-name: New Plugin Version
+name: New Package Version
 
 # Controls when the workflow will run
 on:
@@ -7,46 +7,46 @@ on:
   workflow_dispatch:
     inputs:
       slug:
-        description: "Slug of the plugin to fetch"
+        description: "Slug of the package to fetch"
         required: true
         type: string
       url:
-        description: "URL of the plugin to fetch"
+        description: "URL of the package to fetch"
         required: true
         type: string
       version:
-        description: "Version of the plugin being updated"
+        description: "Version of the package being updated"
         required: true
         type: string
       vendor:
-        description: "Vendor of the plugin being updated"
+        description: "Vendor of the package being updated"
         required: false
         type: string
       type:
-        description: "Whether the plugin is a theme or a plugin"
+        description: "Whether the package is a theme or a plugin"
         required: true
         type: string
 
   workflow_call:
     inputs:
       slug:
-        description: "Slug of the plugin to fetch"
+        description: "Slug of the package to fetch"
         required: true
         type: string
       url:
-        description: "URL of the plugin to fetch"
+        description: "URL of the package to fetch"
         required: true
         type: string
       version:
-        description: "Version of the plugin being updated"
+        description: "Version of the package being updated"
         required: true
         type: string
       vendor:
-        description: "Vendor of the plugin being updated"
+        description: "Vendor of the package being updated"
         required: false
         type: string
       type:
-        description: "Whether the plugin is a theme or a plugin"
+        description: "Whether the package is a theme or a plugin"
         required: true
         type: string
 
@@ -67,13 +67,13 @@ jobs:
       - name: Setup bun
         uses: oven-sh/setup-bun@v2
 
-      - name: Run Bun To Confirm Plugin Version
+      - name: Run Bun To Confirm Package Version
         id: valid-update
         run: |
           bun install
-          bun run ./src/check-plugin-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }} --type ${{ inputs.type }} --vendor ${{ inputs.vendor }}
+          bun run ./src/check-package-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }} --type ${{ inputs.type }} --vendor ${{ inputs.vendor }}
 
-  handle-plugin-update:
+  handle-package-update:
     runs-on: ubuntu-latest
     needs: validate-should-update
     steps:
@@ -94,7 +94,7 @@ jobs:
           path: baseRepo
 
       # we need the token that is available inside the baseRepo folder so we need to CD into the baseRepo folder, even though we don't need to do anything with that repo at the moment. If we dont do this then we wont be able to tell if the private repo exists or not.
-      - name: Check if remote plugin repo exists
+      - name: Check if remote package repo exists
         id: check-remote
         run: |
           cd baseRepo && 
@@ -119,13 +119,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.ORG_ADMIN_TOKEN }} # `ORG_ADMIN_TOKEN` is a secret that contains your PAT
-          path: ${{ inputs.type }}
+          path: package
           repository: ${{ github.repository_owner }}/${{ inputs.slug }}
 
       - name: Initialize ${{inputs.type}} Repo
         if: ${{steps.check-remote.outputs.EXISTS == 'false'}}
         run: |
-          cd ${{inputs.type}}
+          cd package
           vendor=${{ inputs.vendor }}
           echo -e "{\n\"name\": \"${{inputs.vendor == '' && inputs.slug || inputs.vendor}}/${{inputs.slug}}\",\n\"description\": \"Private Repo tracking the paid ${{inputs.theme}} ${{inputs.slug}}\"\n\"type\": \"wordpress-${{inputs.type}}\"\n}" >> composer.json
           echo "---- Directory Structure ----"
@@ -141,11 +141,11 @@ jobs:
           git commit -m "Prepare ${{inputs.type}} Repo"
           git push
 
-      # the way this works is that we will move the .git folder to a new folder, then delete everything in the plugin folder, then fetch the new plugin files, then move the .git folder back into the plugin folder. This is because we need to keep the git history of the plugin files.
+      # the way this works is that we will move the .git folder to a new folder, then delete everything in the package folder, then fetch the new package files, then move the .git folder back into the package folder. This is because we need to keep the git history of the package files.
       - name: Remove Git from Local Files
         run: |
           mkdir GitInfo
-          cd ${{inputs.type}}
+          cd package
           git init --separate-git-dir=../GitInfo/git
           cp .git ../GitInfo/gitBackup
           echo "---- New Git Folder ----"
@@ -155,28 +155,28 @@ jobs:
         run: |
           echo "---- Directory Structure ----"
           ls -la
-          rm -rf ${{inputs.type}}
+          rm -rf package
           echo "---- Directory Structure ----"
           ls -la
-          mkdir ${{inputs.type}}
+          mkdir package
           echo "---- Directory Structure ----"
           ls -la
-          cd ${{inputs.type}}
-          echo "---- Directory Structure ${{inputs.type}} ----"
+          cd package
+          echo "---- Directory Structure Package ----"
           ls -la
 
       - name: Fetch ${{inputs.type}} Files
         run: |
-          curl -L "${{ inputs.url }}" > ${{inputs.type}}.zip
-          unzip ${{inputs.type}}.zip -d ${{inputs.type}}
-          rm ${{inputs.type}}.zip
+          curl -L "${{ inputs.url }}" > package.zip
+          unzip package.zip -d package
+          rm package.zip
 
       # Check the directory structure of the plugin to make sure that the slug provided was correct.
 
       - name: Check that the ${{inputs.type}} slug is correct
         run: |
           echo "---- Directory Structure of ${{inputs.type}} ----"
-          cd ${{inputs.type}}/${{ inputs.slug }} 
+          cd package/${{ inputs.slug }} 
           ls -la
 
       # Now that we have the files locally lets make sure that the provided version & Slug matches the version in the plugin files
@@ -205,27 +205,27 @@ jobs:
           { echo "Version Match Failed" && exit 1; }
         if: ${{inputs.type == 'theme'}}
 
-      - name: Add git back to the ${{inputs.type}} folder
+      - name: Add git back to the package folder
         run: |
-          cd ${{inputs.type}}/${{ inputs.slug }}
+          cd package/${{ inputs.slug }}
           mv ../../GitInfo/git .git
 
       - name: check git status
         run: |
-          cd ${{inputs.type}}/${{ inputs.slug }}
+          cd package/${{ inputs.slug }}
           git status
 
       # if a plugin author provides a composer json file use theirs, otherwise use the default we created when we initialized the repo.
       - name: Check if composer.json exists
         id: check-composer
         run: |
-          cd ${{inputs.type}}/${{ inputs.slug }}
+          cd package/${{ inputs.slug }}
           [ -f composer.json ] && echo "Composer File Exists" && echo "EXISTS=true">>$GITHUB_OUTPUT || echo "Composer File Does Not Exist" && echo "EXISTS=false">>$GITHUB_OUTPUT
 
       - name: Add Composer File if not exist
         if: ${{steps.check-composer.outputs.EXISTS == 'false'}}
         run: |
-          cd ${{inputs.type}}/${{ inputs.slug }}
+          cd package/${{ inputs.slug }}
           echo "--- Directory Structure ---"
           ls -la
           git checkout -- composer.json
@@ -234,13 +234,13 @@ jobs:
 
       - name: Git Status 2
         run: |
-          cd ${{inputs.type}}/${{ inputs.slug }}
+          cd package/${{ inputs.slug }}
           git status
 
       # Finally push the new plugin files to the repo
       - name: Push ${{inputs.type}} Files
         run: |
-          cd ${{inputs.type}}/${{ inputs.slug }}
+          cd package/${{ inputs.slug }}
           git add -A
           git status
           git config user.name "github-actions[bot]"
@@ -253,7 +253,7 @@ jobs:
       - name: Get Commit Hash
         id: get-commit-hash
         run: |
-          cd ${{inputs.type}}/${{ inputs.slug }}
+          cd package/${{ inputs.slug }}
           REFERENCE=$(git rev-parse --short HEAD)
           echo "Git Hash for ${{inputs.type}}: $REFERENCE"
           echo "REFERENCE=$REFERENCE" >> $GITHUB_OUTPUT
@@ -281,5 +281,5 @@ jobs:
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Plugin ${{inputs.slug}} Version to ${{inputs.version}}"
+          git commit -m "Update ${{inputs.type}} ${{inputs.slug}} Version to ${{inputs.version}}"
           git push
