@@ -251,5 +251,15 @@
       "ref": "d285959"
     }
   },
-  "themes": {}
+  "themes": {
+    "astra": {
+      "slug": "astra",
+      "vendor": "brainstormforce",
+      "version": "4.8.3",
+      "tags": [
+        "4.8.3"
+      ],
+      "ref": "b27ed41"
+    }
+  }
 }
