@@ -37,7 +37,7 @@ function checkForUpdate(
     console.log(
       `${type.charAt(0).toUpperCase() + type.slice(1)} Not Found in Database`
     );
-    return 1;
+    return 0;
   }
 
   if (compareVersions(update_version, item.version) > 0) {
