@@ -15,25 +15,39 @@ import data from "../data/database.json";
 import { z } from "zod";
 import { parseArgs } from "zod-args";
 import { compareVersions } from "compare-versions";
+import type { DatabaseJson } from "./database-data-types";
 
-const { slug, update_version } = parseArgs({
+const { slug, update_version, type } = parseArgs({
   slug: z.string(),
   update_version: z.string(),
+  type: z.enum(["theme", "plugin"]),
+  vendor: z.string(),
 });
 
-// check if the plugin exists in the database
-const plugin = data.plugins[`${slug}` as keyof typeof data.plugins];
+function checkForUpdate(
+  type: "plugin" | "theme",
+  slug: string,
+  update_version: string,
+  data: DatabaseJson
+): number {
+  const packageData = type === "plugin" ? data.plugins : data.themes;
+  const item = packageData[slug as keyof typeof packageData];
 
-if (!plugin) {
-  console.log("Plugin Not Found in Database");
-  process.exit(0);
-}
+  if (!item) {
+    console.log(
+      `${type.charAt(0).toUpperCase() + type.slice(1)} Not Found in Database`
+    );
+    return 1;
+  }
 
-// check if the plugin version is greater than the one in the database
-if (compareVersions(update_version, plugin.version) < 1) {
+  if (compareVersions(update_version, item.version) > 0) {
+    console.log("Update Required");
+    return 0;
+  }
+
   console.log("No Update Required");
-  process.exit(1);
+  return 1;
 }
 
-console.log("Update Required");
-process.exit(0);
+const result = checkForUpdate(type, slug, update_version, data);
+process.exit(result);

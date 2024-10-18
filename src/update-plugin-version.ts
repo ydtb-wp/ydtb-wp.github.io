@@ -3,37 +3,58 @@ import data from "../data/database.json";
 import { z } from "zod";
 import { parseArgs } from "zod-args";
 import { writeFileSync } from "fs";
-import type { PluginListType, PluginType } from "./data-types";
+import type {
+  ComposerListType,
+  DatabaseJson,
+  PackageDataType,
+} from "./database-data-types";
 
-const plugins: PluginListType = data.plugins;
+// const plugins: ComposerListType = data.plugins;
+// const themes: ComposerListType = data.themes;
 
-const { slug, update_version, reference, vendor } = parseArgs({
+const { plugins, themes } = data as DatabaseJson;
+
+const { slug, update_version, reference, vendor, type } = parseArgs({
   slug: z.string(),
   update_version: z.string(),
   reference: z.string(),
   vendor: z.string().optional(),
+  type: z.enum(["theme", "plugin"]),
 });
 
-// check if the plugin exists in the database
-const plugin: PluginType = plugins[`${slug}` as keyof typeof plugins];
+const updatePackage = (
+  collection: ComposerListType,
+  slug: string,
+  update_version: string,
+  reference: string,
+  vendor?: string
+) => {
+  const pkg: PackageDataType = collection[slug as keyof typeof collection];
 
-if (!plugin) {
-  plugins[`${slug}`] = {
-    slug: `${slug}`,
-    vendor: `${vendor || slug}`,
-    version: `${update_version}`,
-    tags: [`${update_version}`],
-    ref: `${reference}`,
-  };
+  if (!pkg) {
+    collection[slug] = {
+      slug: slug,
+      vendor: vendor || slug,
+      version: update_version,
+      tags: [update_version],
+      ref: reference,
+    };
+  } else {
+    pkg.version = update_version;
+    if (!pkg.tags.includes(update_version)) {
+      pkg.tags.push(update_version);
+    }
+    pkg.ref = reference;
+  }
+};
+
+if (type === "plugin") {
+  updatePackage(plugins, slug, update_version, reference, vendor);
+} else if (type === "theme") {
+  updatePackage(themes, slug, update_version, reference, vendor);
 }
 
-plugins[`${slug}`].version = update_version;
-if (!plugins[`${slug}`].tags.includes(update_version)) {
-  plugins[`${slug}`].tags.push(update_version);
-}
-plugins[`${slug}`].ref = reference;
-
-const json = JSON.stringify({ plugins: plugins }, null, 2);
+const json = JSON.stringify({ plugins: plugins, themes: themes }, null, 2);
 
 console.log("Process", process.cwd());
 console.log("Dirname", __dirname);

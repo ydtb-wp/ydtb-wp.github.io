@@ -1,15 +1,3 @@
-export type PluginType = {
-  slug: string;
-  vendor: string;
-  ref: string;
-  version: string;
-  tags: string[];
-};
-
-export type PluginListType = {
-  [key: string]: PluginType;
-};
-
 export type PackageJson = {
   packages: Packages;
 };

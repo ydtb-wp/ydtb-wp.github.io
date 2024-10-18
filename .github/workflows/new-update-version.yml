@@ -22,6 +22,10 @@ on:
         description: "Vendor of the plugin being updated"
         required: false
         type: string
+      type:
+        description: "Whether the plugin is a theme or a plugin"
+        required: true
+        type: string
 
   workflow_call:
     inputs:
@@ -41,17 +45,16 @@ on:
         description: "Vendor of the plugin being updated"
         required: false
         type: string
+      type:
+        description: "Whether the plugin is a theme or a plugin"
+        required: true
+        type: string
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  validate-plugin-should-update:
+  validate-should-update:
     runs-on: ubuntu-latest
     steps:
-      - name: Hide the inputs values to keep them private in the logs when running this workflow
-        uses: levibostian/action-hide-sensitive-inputs@v1
-        with:
-          exclude_inputs: slug,version,vendor
-
       # - name: debug inputs
       #   run: |
       #     echo "slug: ${{ inputs.slug }}"
@@ -68,7 +71,7 @@ jobs:
         id: valid-update
         run: |
           bun install
-          bun run ./src/check-plugin-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }}
+          bun run ./src/check-plugin-version.ts --slug ${{ inputs.slug }} --update_version ${{ inputs.version }} --type ${{ inputs.type }} --vendor ${{ inputs.vendor }}
 
   handle-plugin-update:
     runs-on: ubuntu-latest
