@@ -191,7 +191,7 @@ jobs:
           [[ $PLUGIN_VERSION == "${{ inputs.version }}" ]] && \
           { echo "Versions Match"; } || \
           { echo "Version Match Failed" && exit 1; }
-        when: inputs.type == 'plugin'
+        if: ${{inputs.type == 'plugin'}}
 
       - name: Check that the Theme Version Matches provided Version
         run: |
@@ -203,7 +203,7 @@ jobs:
           [[ $THEME_VERSION == "${{ inputs.version }}" ]] && \
           { echo "Versions Match"; } || \
           { echo "Version Match Failed" && exit 1; }
-        when: inputs.type == 'theme'
+        if: ${{inputs.type == 'theme'}}
 
       - name: Add git back to the ${{inputs.type}} folder
         run: |
