@@ -181,29 +181,23 @@ jobs:
 
       # Now that we have the files locally lets make sure that the provided version & Slug matches the version in the plugin files
 
-      - name: Check that the Plugin Version Matches provided Version
+      - name: Check that the Version Matches provided Version
         run: |
-          cd plugin/${{ inputs.slug }}
-          PLUGIN_VERSION=$(grep -Poh "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" *.php)
-          echo "Plugin Version: $PLUGIN_VERSION"
+          cd package/${{ inputs.slug }}
+          if [[ "${{ inputs.type }}" == "plugin" ]]; then
+            VERSION=$(grep -Poh "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" *.php)
+          elif [[ "${{ inputs.type }}" == "theme" ]]; then
+            VERSION=$(grep -Poh "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" style.css)
+          else
+            echo "Unknown type: ${{ inputs.type }}"
+            exit 1
+          fi
+          echo "${{ inputs.type }} Version: $VERSION"
           echo "Input Version: ${{ inputs.version }}"
           echo "---"
-          [[ $PLUGIN_VERSION == "${{ inputs.version }}" ]] && \
+          [[ $VERSION == "${{ inputs.version }}" ]] && \
           { echo "Versions Match"; } || \
           { echo "Version Match Failed" && exit 1; }
-        if: ${{inputs.type == 'plugin'}}
-
-      - name: Check that the Theme Version Matches provided Version
-        run: |
-          cd theme/${{ inputs.slug }}
-          THEME_VERSION=$(grep -Poh "(^|\s|^\*)+(Version\s*:\s*)\K([0-9]|\.)*(?=\s|$)" style.css)
-          echo "Theme Version: $THEME_VERSION"
-          echo "Input Version: ${{ inputs.version }}"
-          echo "---"
-          [[ $THEME_VERSION == "${{ inputs.version }}" ]] && \
-          { echo "Versions Match"; } || \
-          { echo "Version Match Failed" && exit 1; }
-        if: ${{inputs.type == 'theme'}}
 
       - name: Add git back to the package folder
         run: |
