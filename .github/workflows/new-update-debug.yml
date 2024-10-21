@@ -1,0 +1,64 @@
+# This is a basic workflow to help you get started with Actions
+name: New Package Version
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Slug of the package to fetch"
+        required: true
+        type: string
+      url:
+        description: "URL of the package to fetch"
+        required: true
+        type: string
+      version:
+        description: "Version of the package being updated"
+        required: true
+        type: string
+      vendor:
+        description: "Vendor of the package being updated"
+        required: false
+        type: string
+      type:
+        description: "Whether the package is a theme or a plugin"
+        required: true
+        type: string
+
+  workflow_call:
+    inputs:
+      slug:
+        description: "Slug of the package to fetch"
+        required: true
+        type: string
+      url:
+        description: "URL of the package to fetch"
+        required: true
+        type: string
+      version:
+        description: "Version of the package being updated"
+        required: true
+        type: string
+      vendor:
+        description: "Vendor of the package being updated"
+        required: false
+        type: string
+      type:
+        description: "Whether the package is a theme or a plugin"
+        required: true
+        type: string
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  validate-should-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: debug inputs
+        run: |
+          echo "slug: ${{ inputs.slug }}"
+          echo "version: ${{ inputs.version }}"
+          echo "url: ${{ inputs.url }}"
+          echo "type: ${{ inputs.type }}"
+          echo "vendor: ${{ inputs.vendor }}"

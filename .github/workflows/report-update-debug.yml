@@ -1,4 +1,4 @@
-name: Report Plugin Update List
+name: DEBUG Plugin Update List
 on:
   workflow_dispatch:
     inputs:
@@ -10,9 +10,9 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        value: ${{fromJSON(github.event.inputs.json)}}
+        value: ${{fromJSON(inputs.json)}}
       fail-fast: false
-    uses: ./.github/workflows/new-update-version.yml
+    uses: ./.github/workflows/new-update-debug.yml
     with:
       slug: "${{ matrix.value.plugin_slug || matrix.value.theme_slug }}"
       url: "${{ matrix.value.plugin_update_url || matrix.value.theme_update_url }}"
