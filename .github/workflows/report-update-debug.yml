@@ -14,9 +14,9 @@ jobs:
       fail-fast: false
     uses: ./.github/workflows/new-update-debug.yml
     with:
-      slug: "${{ matrix.value.plugin_slug || matrix.value.theme_slug }}"
-      url: "${{ matrix.value.plugin_update_url || matrix.value.theme_update_url }}"
-      version: "${{ matrix.value.plugin_update_version || matrix.value.theme_update_version }}"
-      vendor: "${{ matrix.value.plugin_vendor || matrix.value.theme_vendor }}"
-      type: "${{ matrix.value.plugin_slug && 'plugin' || matrix.value.theme_slug && 'theme' }}"
+      slug: "${{ matrix.value.slug }}"
+      url: "${{ matrix.value.update_url }}"
+      version: "${{ matrix.value.update_version  }}"
+      vendor: "${{ matrix.value.vendor  }}"
+      type: "${{ matrix.value.type }}"
     secrets: inherit
