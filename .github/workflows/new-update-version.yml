@@ -239,7 +239,6 @@ jobs:
           cd package/${{ inputs.slug }}
           git add -A
           git status
-          git config --global credential.helper '!f() { sleep 1; echo "username=git token=${{ secrets.ORG_ADMIN_TOKEN }}"; }; f'
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Update ${{inputs.type}} to ${{ inputs.version }}"
