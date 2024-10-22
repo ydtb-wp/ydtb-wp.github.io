@@ -9,9 +9,10 @@
         "0.0.2",
         "0.0.3",
         "0.0.4",
-        "0.0.5"
+        "0.0.5",
+        "0.0.6"
       ],
-      "ref": "c8f24cab55c7419f62087ee72af82afd83c24e25"
+      "ref": "4af9ffbea325eb8fa65f1ce786e5d12c35fb6c8c"
     },
     "elementor": {
       "slug": "elementor",
