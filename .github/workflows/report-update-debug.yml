@@ -1,4 +1,4 @@
-name: DEBUG Plugin Update List
+name: "[DEBUG]" Plugin Update List"
 on:
   workflow_dispatch:
     inputs:
