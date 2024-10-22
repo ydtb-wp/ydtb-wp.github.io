@@ -245,8 +245,6 @@ jobs:
           git push
           git tag ${{ inputs.version }}
           git push origin ${{ inputs.version }}
-        with:
-          token: ${{ secrets.ORG_ADMIN_TOKEN }}
 
       - name: Get Commit Hash
         id: get-commit-hash
