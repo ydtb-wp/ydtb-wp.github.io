@@ -8,7 +8,7 @@
         "0.0.1",
         "0.0.2",
         "0.0.3",
-        "0.0.4", 
+        "0.0.4",
         "0.0.5"
       ],
       "ref": "c8f24cab55c7419f62087ee72af82afd83c24e25"
@@ -28,12 +28,13 @@
     "wordpress-seo": {
       "slug": "wordpress-seo",
       "vendor": "yoast",
-      "version": "23.6",
+      "version": "23.7",
       "tags": [
         "23.5",
-        "23.6"
+        "23.6",
+        "23.7"
       ],
-      "ref": "f3a7154"
+      "ref": "7fe1686"
     },
     "ultimate-elementor": {
       "slug": "ultimate-elementor",
