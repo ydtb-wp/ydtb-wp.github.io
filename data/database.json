@@ -272,6 +272,15 @@
         "3.1.0"
       ],
       "ref": "b46613f"
+    },
+    "buddyboss-theme": {
+      "slug": "buddyboss-theme",
+      "vendor": "buddyboss",
+      "version": "2.7.10",
+      "tags": [
+        "2.7.10"
+      ],
+      "ref": "c22392c"
     }
   }
 }
