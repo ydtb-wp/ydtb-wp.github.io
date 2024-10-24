@@ -129,7 +129,7 @@ jobs:
         run: |
           cd package
           vendor=${{ inputs.vendor }}
-          echo -e "{\n\"name\": \"${{inputs.vendor == '' && inputs.slug || inputs.vendor}}/${{inputs.slug}}\",\n\"description\": \"Private Repo tracking the paid ${{inputs.theme}} ${{inputs.slug}}\"\n\"type\": \"wordpress-${{inputs.type}}\"\n}" >> composer.json
+          echo -e "{\n\"name\": \"${{inputs.vendor == '' && inputs.slug || inputs.vendor}}/${{inputs.slug}}\",\n\"description\": \"Private Repo tracking the paid ${{inputs.theme}} ${{inputs.slug}}\",\n\"type\": \"wordpress-${{inputs.type}}\"\n}" >> composer.json
           echo "---- Directory Structure ----"
           ls -la
           git config user.name "github-actions[bot]"
