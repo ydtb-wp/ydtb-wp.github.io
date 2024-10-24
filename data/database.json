@@ -517,6 +517,15 @@
         "2.7.10"
       ],
       "ref": "c22392c"
+    },
+    "hello-theme-child": {
+      "slug": "hello-theme-child",
+      "vendor": "elementor",
+      "version": "2.0.0",
+      "tags": [
+        "2.0.0"
+      ],
+      "ref": "1842fc3"
     }
   }
 }
