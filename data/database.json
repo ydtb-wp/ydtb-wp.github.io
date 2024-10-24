@@ -344,6 +344,15 @@
         "1.0.2"
       ],
       "ref": "aa8d1ef"
+    },
+    "learndash-integrity": {
+      "slug": "learndash-integrity",
+      "vendor": "learndash",
+      "version": "1.2.1",
+      "tags": [
+        "1.2.1"
+      ],
+      "ref": "676ac11"
     }
   },
   "themes": {
