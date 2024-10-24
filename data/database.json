@@ -272,6 +272,15 @@
         "4.17.0"
       ],
       "ref": "430c501"
+    },
+    "learndash-groups-plus": {
+      "slug": "learndash-groups-plus",
+      "vendor": "learndash",
+      "version": "2.1.1",
+      "tags": [
+        "2.1.1"
+      ],
+      "ref": "81d0981"
     }
   },
   "themes": {
