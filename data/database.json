@@ -371,6 +371,15 @@
         "1.1.1.2"
       ],
       "ref": "0fd207c"
+    },
+    "learndash-bbpress": {
+      "slug": "learndash-bbpress",
+      "vendor": "learndash",
+      "version": "2.2.4",
+      "tags": [
+        "2.2.4"
+      ],
+      "ref": "c870f9d"
     }
   },
   "themes": {
