@@ -255,15 +255,6 @@
       ],
       "ref": "d285959"
     },
-    "sfwd-lms": {
-      "slug": "sfwd-lms",
-      "vendor": "learndash",
-      "version": "4.17.0",
-      "tags": [
-        "4.17.0"
-      ],
-      "ref": "fe72f51"
-    },
     "learndash-hub": {
       "slug": "learndash-hub",
       "vendor": "learndash",
