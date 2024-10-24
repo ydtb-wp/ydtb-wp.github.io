@@ -308,6 +308,15 @@
         "3.0.1"
       ],
       "ref": "80be315"
+    },
+    "learndash-course-reviews": {
+      "slug": "learndash-course-reviews",
+      "vendor": "learndash",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "4f00049"
     }
   },
   "themes": {
