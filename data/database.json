@@ -479,6 +479,15 @@
         "1.0.0"
       ],
       "ref": "969cb86"
+    },
+    "learndash-zapier": {
+      "slug": "learndash-zapier",
+      "vendor": "learndash",
+      "version": "2.3.0.1",
+      "tags": [
+        "2.3.0.1"
+      ],
+      "ref": "a3fe8f6"
     }
   },
   "themes": {
