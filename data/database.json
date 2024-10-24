@@ -540,6 +540,15 @@
         "2.0.1"
       ],
       "ref": "1842fc3"
+    },
+    "buddyboss-theme-child": {
+      "slug": "buddyboss-theme-child",
+      "vendor": "buddyboss",
+      "version": "1.0.1",
+      "tags": [
+        "1.0.1"
+      ],
+      "ref": "c24fbba"
     }
   }
 }
