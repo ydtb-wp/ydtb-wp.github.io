@@ -389,6 +389,15 @@
         "1.1.2"
       ],
       "ref": "bebba10"
+    },
+    "learndash-edd": {
+      "slug": "learndash-edd",
+      "vendor": "learndash",
+      "version": "1.4.0",
+      "tags": [
+        "1.4.0"
+      ],
+      "ref": "3d94da7"
     }
   },
   "themes": {
