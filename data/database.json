@@ -362,6 +362,15 @@
         "1.1.0"
       ],
       "ref": "32044ee"
+    },
+    "learndash-2checkout": {
+      "slug": "learndash-2checkout",
+      "vendor": "learndash",
+      "version": "1.1.1.2",
+      "tags": [
+        "1.1.1.2"
+      ],
+      "ref": "0fd207c"
     }
   },
   "themes": {
