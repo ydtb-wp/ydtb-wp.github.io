@@ -326,6 +326,15 @@
         "1.1.0"
       ],
       "ref": "e2c83b0"
+    },
+    "learndash-achievements": {
+      "slug": "learndash-achievements",
+      "vendor": "learndash",
+      "version": "2.0.1",
+      "tags": [
+        "2.0.1"
+      ],
+      "ref": "03278c6"
     }
   },
   "themes": {
