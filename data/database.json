@@ -443,6 +443,15 @@
         "1.6.4"
       ],
       "ref": "f9d0168"
+    },
+    "learndash-paidmemberships": {
+      "slug": "learndash-paidmemberships",
+      "vendor": "learndash",
+      "version": "1.3.5",
+      "tags": [
+        "1.3.5"
+      ],
+      "ref": "96eefab"
     }
   },
   "themes": {
