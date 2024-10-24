@@ -335,6 +335,15 @@
         "2.0.1"
       ],
       "ref": "03278c6"
+    },
+    "ld-tec": {
+      "slug": "ld-tec",
+      "vendor": "learndash",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "aa8d1ef"
     }
   },
   "themes": {
