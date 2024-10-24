@@ -11,9 +11,10 @@
         "0.0.4",
         "0.0.5",
         "0.0.6",
-        "0.0.7"
+        "0.0.7",
+        "0.0.8"
       ],
-      "ref": "4af9ffbea325eb8fa65f1ce786e5d12c35fb6c8c"
+      "ref": "12d8268acb142f0e3e304de36f4c2b92fcc423f3"
     },
     "elementor": {
       "slug": "elementor",
