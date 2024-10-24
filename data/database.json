@@ -434,6 +434,15 @@
         "2.2.2"
       ],
       "ref": "b27d6d0"
+    },
+    "learndash-notifications": {
+      "slug": "learndash-notifications",
+      "vendor": "learndash",
+      "version": "1.6.4",
+      "tags": [
+        "1.6.4"
+      ],
+      "ref": "f9d0168"
     }
   },
   "themes": {
