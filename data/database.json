@@ -398,6 +398,15 @@
         "1.4.0"
       ],
       "ref": "3d94da7"
+    },
+    "learndash-elementor": {
+      "slug": "learndash-elementor",
+      "vendor": "learndash",
+      "version": "1.0.9.1",
+      "tags": [
+        "1.0.9.1"
+      ],
+      "ref": "65784a8"
     }
   },
   "themes": {
