@@ -254,6 +254,15 @@
         "1.5.4"
       ],
       "ref": "d285959"
+    },
+    "sfwd-lms": {
+      "slug": "sfwd-lms",
+      "vendor": "learndash",
+      "version": "4.17.0",
+      "tags": [
+        "4.17.0"
+      ],
+      "ref": "fe72f51"
     }
   },
   "themes": {
