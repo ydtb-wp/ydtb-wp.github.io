@@ -493,6 +493,15 @@
         "2.7.23"
       ],
       "ref": "2fa5435"
+    },
+    "astra-portfolio": {
+      "slug": "astra-portfolio",
+      "vendor": "brainstormforce",
+      "version": "1.11.9",
+      "tags": [
+        "1.11.9"
+      ],
+      "ref": "f17f51f"
     }
   },
   "themes": {
