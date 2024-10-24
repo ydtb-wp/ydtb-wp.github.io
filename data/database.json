@@ -299,6 +299,15 @@
         "4.3.2"
       ],
       "ref": "af5fcbd"
+    },
+    "learndash-propanel": {
+      "slug": "learndash-propanel",
+      "vendor": "learndash",
+      "version": "3.0.1",
+      "tags": [
+        "3.0.1"
+      ],
+      "ref": "80be315"
     }
   },
   "themes": {
