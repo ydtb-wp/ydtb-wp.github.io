@@ -470,6 +470,15 @@
         "2.0.0.1"
       ],
       "ref": "25bb746"
+    },
+    "ld-multilingual": {
+      "slug": "ld-multilingual",
+      "vendor": "learndash",
+      "version": "1.0.0",
+      "tags": [
+        "1.0.0"
+      ],
+      "ref": "969cb86"
     }
   },
   "themes": {
