@@ -290,6 +290,15 @@
         "1.1.0"
       ],
       "ref": "18602f6"
+    },
+    "learndash-gradebook": {
+      "slug": "learndash-gradebook",
+      "vendor": "learndash",
+      "version": "4.3.2",
+      "tags": [
+        "4.3.2"
+      ],
+      "ref": "af5fcbd"
     }
   },
   "themes": {
