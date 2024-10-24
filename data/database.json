@@ -461,6 +461,15 @@
         "1.1.1"
       ],
       "ref": "ee8ad92"
+    },
+    "learndash-woocommerce": {
+      "slug": "learndash-woocommerce",
+      "vendor": "learndash",
+      "version": "2.0.0.1",
+      "tags": [
+        "2.0.0.1"
+      ],
+      "ref": "25bb746"
     }
   },
   "themes": {
