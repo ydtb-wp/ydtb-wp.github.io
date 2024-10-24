@@ -407,6 +407,15 @@
         "1.0.9.1"
       ],
       "ref": "65784a8"
+    },
+    "learndash-event-espresso": {
+      "slug": "learndash-event-espresso",
+      "vendor": "learndash",
+      "version": "1.1.0",
+      "tags": [
+        "1.1.0"
+      ],
+      "ref": "01b4e5b"
     }
   },
   "themes": {
