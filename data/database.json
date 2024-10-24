@@ -484,6 +484,15 @@
         "2.3.0.1"
       ],
       "ref": "a3fe8f6"
+    },
+    "wp-schema-pro": {
+      "slug": "wp-schema-pro",
+      "vendor": "brainstormforce",
+      "version": "2.7.23",
+      "tags": [
+        "2.7.23"
+      ],
+      "ref": "2fa5435"
     }
   },
   "themes": {
