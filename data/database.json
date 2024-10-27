@@ -835,6 +835,15 @@
         "1.0.6"
       ],
       "ref": "2112751"
+    },
+    "view-limit": {
+      "slug": "view-limit",
+      "vendor": "rcp",
+      "version": "1.0.1",
+      "tags": [
+        "1.0.1"
+      ],
+      "ref": "d382ae5"
     }
   },
   "themes": {
