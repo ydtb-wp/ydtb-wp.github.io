@@ -664,6 +664,15 @@
         "1.0.6"
       ],
       "ref": "94f33a7"
+    },
+    "rcp-strong-passwords": {
+      "slug": "rcp-strong-passwords",
+      "vendor": "rcp",
+      "version": "1.1.4",
+      "tags": [
+        "1.1.4"
+      ],
+      "ref": "28a9d06"
     }
   },
   "themes": {
