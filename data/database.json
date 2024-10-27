@@ -763,6 +763,15 @@
         "1.0.2"
       ],
       "ref": "6173565"
+    },
+    "rcp-restriction-timeouts": {
+      "slug": "rcp-restriction-timeouts",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "a91281f"
     }
   },
   "themes": {
