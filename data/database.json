@@ -673,6 +673,15 @@
         "1.1.4"
       ],
       "ref": "28a9d06"
+    },
+    "rcp-group-accounts": {
+      "slug": "rcp-group-accounts",
+      "vendor": "rcp",
+      "version": "2.2.3",
+      "tags": [
+        "2.2.3"
+      ],
+      "ref": "951511d"
     }
   },
   "themes": {
