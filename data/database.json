@@ -637,6 +637,15 @@
         "1.0.7"
       ],
       "ref": "c41151e"
+    },
+    "restrict-content-pro-easy-digital-downloads-vendor-submission-limits": {
+      "slug": "restrict-content-pro-easy-digital-downloads-vendor-submission-limits",
+      "vendor": "rcp",
+      "version": "1.0.3",
+      "tags": [
+        "1.0.3"
+      ],
+      "ref": "6d00c83"
     }
   },
   "themes": {
