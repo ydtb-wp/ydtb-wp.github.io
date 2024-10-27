@@ -736,6 +736,15 @@
         "1.5.3"
       ],
       "ref": "5d5874b"
+    },
+    "restrict-content-pro-wysija": {
+      "slug": "restrict-content-pro-wysija",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "f72b556"
     }
   },
   "themes": {
