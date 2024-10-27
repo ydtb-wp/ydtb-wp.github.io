@@ -628,6 +628,15 @@
         "1.0.5"
       ],
       "ref": "bd56276"
+    },
+    "rcp-drip-content": {
+      "slug": "rcp-drip-content",
+      "vendor": "rcp",
+      "version": "1.0.7",
+      "tags": [
+        "1.0.7"
+      ],
+      "ref": "c41151e"
     }
   },
   "themes": {
