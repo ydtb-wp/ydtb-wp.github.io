@@ -754,6 +754,15 @@
         "1.0.5"
       ],
       "ref": "fcd7471"
+    },
+    "rcp-per-level-emails": {
+      "slug": "rcp-per-level-emails",
+      "vendor": "rcp",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "6173565"
     }
   },
   "themes": {
