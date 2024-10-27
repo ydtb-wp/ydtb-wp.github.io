@@ -772,6 +772,15 @@
         "1.0.6"
       ],
       "ref": "a91281f"
+    },
+    "rcp-restrict-past-content": {
+      "slug": "rcp-restrict-past-content",
+      "vendor": "rcp",
+      "version": "1.0.3",
+      "tags": [
+        "1.0.3"
+      ],
+      "ref": "c9bd8ef"
     }
   },
   "themes": {
