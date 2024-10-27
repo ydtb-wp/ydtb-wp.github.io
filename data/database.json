@@ -745,6 +745,15 @@
         "1.0.5"
       ],
       "ref": "f72b556"
+    },
+    "rcp-math-verification": {
+      "slug": "rcp-math-verification",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "fcd7471"
     }
   },
   "themes": {
