@@ -691,6 +691,15 @@
         "1.1.4"
       ],
       "ref": "5369d10"
+    },
+    "rcp-help-scout": {
+      "slug": "rcp-help-scout",
+      "vendor": "rcp",
+      "version": "1.0.4",
+      "tags": [
+        "1.0.4"
+      ],
+      "ref": "406ef7c"
     }
   },
   "themes": {
