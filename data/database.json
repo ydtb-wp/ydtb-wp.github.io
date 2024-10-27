@@ -808,6 +808,15 @@
         "1.1.2"
       ],
       "ref": "89a8460"
+    },
+    "rcp-ultimate-member": {
+      "slug": "rcp-ultimate-member",
+      "vendor": "rcp",
+      "version": "1.2.3",
+      "tags": [
+        "1.2.3"
+      ],
+      "ref": "68f1e98"
     }
   },
   "themes": {
