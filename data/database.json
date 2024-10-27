@@ -718,6 +718,15 @@
         "1.0.4"
       ],
       "ref": "0a354d7"
+    },
+    "mail-chimp-add-on-for-restrict-content-pro": {
+      "slug": "mail-chimp-add-on-for-restrict-content-pro",
+      "vendor": "rcp",
+      "version": "1.3.3",
+      "tags": [
+        "1.3.3"
+      ],
+      "ref": "1144505"
     }
   },
   "themes": {
