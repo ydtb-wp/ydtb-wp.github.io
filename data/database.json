@@ -700,6 +700,15 @@
         "1.0.4"
       ],
       "ref": "406ef7c"
+    },
+    "rcp-ip-restriction": {
+      "slug": "rcp-ip-restriction",
+      "vendor": "rcp",
+      "version": "1.2.8",
+      "tags": [
+        "1.2.8"
+      ],
+      "ref": "dc02322"
     }
   },
   "themes": {
