@@ -709,6 +709,15 @@
         "1.2.8"
       ],
       "ref": "dc02322"
+    },
+    "rcp-limited-quantity-available": {
+      "slug": "rcp-limited-quantity-available",
+      "vendor": "rcp",
+      "version": "1.0.4",
+      "tags": [
+        "1.0.4"
+      ],
+      "ref": "0a354d7"
     }
   },
   "themes": {
