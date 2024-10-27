@@ -574,6 +574,15 @@
         "1.0.9"
       ],
       "ref": "73ef8f0"
+    },
+    "restrict-content-pro-buddypress": {
+      "slug": "restrict-content-pro-buddypress",
+      "vendor": "rcp",
+      "version": "2.1.8",
+      "tags": [
+        "2.1.8"
+      ],
+      "ref": "a1989e4"
     }
   },
   "themes": {
