@@ -538,6 +538,15 @@
         "1.0.5"
       ],
       "ref": "208794f"
+    },
+    "rcp-avatax": {
+      "slug": "rcp-avatax",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "0c0468a"
     }
   },
   "themes": {
