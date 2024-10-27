@@ -610,6 +610,15 @@
         "1.1.12"
       ],
       "ref": "d0b2b41"
+    },
+    "rcp-custom-redirects": {
+      "slug": "rcp-custom-redirects",
+      "vendor": "rcp",
+      "version": "1.0.8",
+      "tags": [
+        "1.0.8"
+      ],
+      "ref": "48a9d6b"
     }
   },
   "themes": {
