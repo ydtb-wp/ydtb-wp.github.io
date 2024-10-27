@@ -520,6 +520,15 @@
         "2.1.8"
       ],
       "ref": "c94982f"
+    },
+    "rcp-activecampaign": {
+      "slug": "rcp-activecampaign",
+      "vendor": "rcp",
+      "version": "1.1.1",
+      "tags": [
+        "1.1.1"
+      ],
+      "ref": "a76dbf0"
     }
   },
   "themes": {
