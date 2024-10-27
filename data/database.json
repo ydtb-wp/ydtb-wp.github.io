@@ -556,6 +556,15 @@
         "1.1.5"
       ],
       "ref": "2f8ddc6"
+    },
+    "restrict-content-pro-bbpress": {
+      "slug": "restrict-content-pro-bbpress",
+      "vendor": "rcp",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "8cad600"
     }
   },
   "themes": {
