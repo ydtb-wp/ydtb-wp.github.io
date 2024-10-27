@@ -790,6 +790,15 @@
         "1.0.2"
       ],
       "ref": "00ccdab"
+    },
+    "rcp-site-creation": {
+      "slug": "rcp-site-creation",
+      "vendor": "rcp",
+      "version": "1.3.3",
+      "tags": [
+        "1.3.3"
+      ],
+      "ref": "69d0b96"
     }
   },
   "themes": {
