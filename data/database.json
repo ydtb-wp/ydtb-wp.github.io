@@ -619,6 +619,15 @@
         "1.0.8"
       ],
       "ref": "48a9d6b"
+    },
+    "rcp-custom-renew": {
+      "slug": "rcp-custom-renew",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "bd56276"
     }
   },
   "themes": {
