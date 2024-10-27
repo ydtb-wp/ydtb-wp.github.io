@@ -502,6 +502,15 @@
         "1.11.9"
       ],
       "ref": "f17f51f"
+    },
+    "restrict-content-pro-download-monitor": {
+      "slug": "restrict-content-pro-download-monitor",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "08fb896"
     }
   },
   "themes": {
