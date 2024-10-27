@@ -655,6 +655,15 @@
         "1.0.1"
       ],
       "ref": "826033d"
+    },
+    "rcp-edd-member-downloads": {
+      "slug": "rcp-edd-member-downloads",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "94f33a7"
     }
   },
   "themes": {
