@@ -682,6 +682,15 @@
         "2.2.3"
       ],
       "ref": "951511d"
+    },
+    "rcp-hardset-expiration-dates": {
+      "slug": "rcp-hardset-expiration-dates",
+      "vendor": "rcp",
+      "version": "1.1.4",
+      "tags": [
+        "1.1.4"
+      ],
+      "ref": "5369d10"
     }
   },
   "themes": {
