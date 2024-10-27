@@ -646,6 +646,15 @@
         "1.0.3"
       ],
       "ref": "6d00c83"
+    },
+    "rcp-edd-wallet": {
+      "slug": "rcp-edd-wallet",
+      "vendor": "rcp",
+      "version": "1.0.1",
+      "tags": [
+        "1.0.1"
+      ],
+      "ref": "826033d"
     }
   },
   "themes": {
