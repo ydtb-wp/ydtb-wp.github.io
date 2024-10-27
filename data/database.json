@@ -826,6 +826,15 @@
         "1.0.3"
       ],
       "ref": "8b02cd0"
+    },
+    "rcp-woocommerce-member-discounts": {
+      "slug": "rcp-woocommerce-member-discounts",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "2112751"
     }
   },
   "themes": {
