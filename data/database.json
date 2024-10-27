@@ -781,6 +781,15 @@
         "1.0.3"
       ],
       "ref": "c9bd8ef"
+    },
+    "rcp-resume-manager": {
+      "slug": "rcp-resume-manager",
+      "vendor": "rcp",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "00ccdab"
     }
   },
   "themes": {
