@@ -565,6 +565,15 @@
         "1.0.2"
       ],
       "ref": "8cad600"
+    },
+    "rcp-braintree": {
+      "slug": "rcp-braintree",
+      "vendor": "rcp",
+      "version": "1.0.9",
+      "tags": [
+        "1.0.9"
+      ],
+      "ref": "73ef8f0"
     }
   },
   "themes": {
