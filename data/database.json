@@ -529,6 +529,15 @@
         "1.1.1"
       ],
       "ref": "a76dbf0"
+    },
+    "rcp-authorize-net": {
+      "slug": "rcp-authorize-net",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "208794f"
     }
   },
   "themes": {
