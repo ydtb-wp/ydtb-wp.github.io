@@ -511,6 +511,15 @@
         "1.0.5"
       ],
       "ref": "08fb896"
+    },
+    "restrict-content-pro-wp-job-manager": {
+      "slug": "restrict-content-pro-wp-job-manager",
+      "vendor": "rcp",
+      "version": "2.1.8",
+      "tags": [
+        "2.1.8"
+      ],
+      "ref": "c94982f"
     }
   },
   "themes": {
