@@ -132,7 +132,7 @@
     },
     "restrict-content-pro": {
       "slug": "restrict-content-pro",
-      "vendor": "solidwp",
+      "vendor": "rcp",
       "version": "3.5.42",
       "tags": [
         "3.5.42"
