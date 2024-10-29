@@ -847,6 +847,15 @@
         "1.0.1"
       ],
       "ref": "d382ae5"
+    },
+    "nextend-facebook-connect": {
+      "slug": "nextend-facebook-connect",
+      "vendor": "nextend",
+      "version": "3.1.15",
+      "tags": [
+        "3.1.15"
+      ],
+      "ref": "2ce73a4"
     }
   },
   "themes": {
