@@ -874,6 +874,15 @@
         "2.2.03"
       ],
       "ref": "6ab01d3"
+    },
+    "wp-armour-extended": {
+      "slug": "wp-armour-extended",
+      "vendor": "wparmour",
+      "version": "1.34",
+      "tags": [
+        "1.34"
+      ],
+      "ref": "d5b1a0e"
     }
   },
   "themes": {
