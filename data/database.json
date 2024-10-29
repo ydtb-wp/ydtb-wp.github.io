@@ -856,6 +856,15 @@
         "3.1.15"
       ],
       "ref": "2ce73a4"
+    },
+    "nextend-social-login-pro": {
+      "slug": "nextend-social-login-pro",
+      "vendor": "nextend",
+      "version": "3.1.15",
+      "tags": [
+        "3.1.15"
+      ],
+      "ref": "f0f3138"
     }
   },
   "themes": {
