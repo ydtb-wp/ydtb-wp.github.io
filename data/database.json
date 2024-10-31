@@ -41,13 +41,14 @@
     "ultimate-elementor": {
       "slug": "ultimate-elementor",
       "vendor": "brainstormforce",
-      "version": "1.36.40",
+      "version": "1.36.41",
       "tags": [
         "1.36.38",
         "1.36.39",
-        "1.36.40"
+        "1.36.40",
+        "1.36.41"
       ],
-      "ref": "03ccdac"
+      "ref": "f2ec795"
     },
     "advanced-custom-fields-pro": {
       "slug": "advanced-custom-fields-pro",
