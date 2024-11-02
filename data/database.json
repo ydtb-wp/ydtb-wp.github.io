@@ -148,12 +148,13 @@
     "buddyboss-platform-pro": {
       "slug": "buddyboss-platform-pro",
       "vendor": "buddyboss",
-      "version": "2.6.20",
+      "version": "2.6.21",
       "tags": [
         "2.6.10",
-        "2.6.20"
+        "2.6.20",
+        "2.6.21"
       ],
-      "ref": "89925a6"
+      "ref": "3f9e1ed"
     },
     "rcp-rest-api": {
       "slug": "rcp-rest-api",
