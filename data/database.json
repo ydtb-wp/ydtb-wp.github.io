@@ -14,7 +14,7 @@
     "elementor": {
       "slug": "elementor",
       "vendor": "elementor",
-      "version": "3.25.3",
+      "version": "3.25.4",
       "tags": [
         "3.24.4",
         "3.24.5",
@@ -23,9 +23,10 @@
         "3.25.0",
         "3.25.1",
         "3.25.2",
-        "3.25.3"
+        "3.25.3",
+        "3.25.4"
       ],
-      "ref": "e6e03af"
+      "ref": "daf7785"
     },
     "wordpress-seo": {
       "slug": "wordpress-seo",
