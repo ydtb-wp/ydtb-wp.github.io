@@ -187,14 +187,15 @@
     "elementor-pro": {
       "slug": "elementor-pro",
       "vendor": "elementor",
-      "version": "3.25.1",
+      "version": "3.25.2",
       "tags": [
         "3.24.3",
         "3.24.4",
         "3.25.0",
-        "3.25.1"
+        "3.25.1",
+        "3.25.2"
       ],
-      "ref": "d6bfc66"
+      "ref": "7825294"
     },
     "fluent-crm": {
       "slug": "fluent-crm",
