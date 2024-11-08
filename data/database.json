@@ -896,15 +896,6 @@
         "1.34"
       ],
       "ref": "d5b1a0e"
-    },
-    "ydtb-elements": {
-      "slug": "ydtb-elements",
-      "vendor": "ydtbwp",
-      "version": "0.0.1",
-      "tags": [
-        "0.0.1"
-      ],
-      "ref": "77e324f"
     }
   },
   "themes": {
