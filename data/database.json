@@ -911,11 +911,12 @@
     "hello-elementor": {
       "slug": "hello-elementor",
       "vendor": "elementor",
-      "version": "3.1.0",
+      "version": "3.1.1",
       "tags": [
-        "3.1.0"
+        "3.1.0",
+        "3.1.1"
       ],
-      "ref": "b46613f"
+      "ref": "8c3f481"
     },
     "buddyboss-theme": {
       "slug": "buddyboss-theme",
