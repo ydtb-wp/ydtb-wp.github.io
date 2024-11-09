@@ -1,938 +1,947 @@
 {
-    "plugins": {
-        "elementor": {
-            "slug": "elementor",
-            "vendor": "elementor",
-            "version": "3.25.4",
-            "tags": [
-                "3.24.4",
-                "3.24.5",
-                "3.24.6",
-                "3.24.7",
-                "3.25.0",
-                "3.25.1",
-                "3.25.2",
-                "3.25.3",
-                "3.25.4"
-            ],
-            "ref": "daf7785"
-        },
-        "wordpress-seo": {
-            "slug": "wordpress-seo",
-            "vendor": "yoast",
-            "version": "23.8",
-            "tags": [
-                "23.5",
-                "23.6",
-                "23.7",
-                "23.8"
-            ],
-            "ref": "f4c423b"
-        },
-        "ultimate-elementor": {
-            "slug": "ultimate-elementor",
-            "vendor": "brainstormforce",
-            "version": "1.36.41",
-            "tags": [
-                "1.36.38",
-                "1.36.39",
-                "1.36.40",
-                "1.36.41"
-            ],
-            "ref": "f2ec795"
-        },
-        "advanced-custom-fields-pro": {
-            "slug": "advanced-custom-fields-pro",
-            "vendor": "acf",
-            "version": "6.3.10",
-            "tags": [
-                "6.3.6",
-                "6.3.7",
-                "6.3.8",
-                "6.3.9",
-                "6.3.10"
-            ],
-            "ref": "0e52bc4"
-        },
-        "astra-addon": {
-            "slug": "astra-addon",
-            "vendor": "brainstormforce",
-            "version": "4.8.3",
-            "tags": [
-                "4.8.1",
-                "4.8.2",
-                "4.8.3"
-            ],
-            "ref": "1105f72"
-        },
-        "astra-pro-sites": {
-            "slug": "astra-pro-sites",
-            "vendor": "brainstormforce",
-            "version": "4.4.7",
-            "tags": [
-                "4.4.3",
-                "4.4.4",
-                "4.4.5",
-                "4.4.6",
-                "4.4.7"
-            ],
-            "ref": "5be4209"
-        },
-        "convertpro": {
-            "slug": "convertpro",
-            "vendor": "brainstormforce",
-            "version": "1.7.8",
-            "tags": [
-                "1.7.7",
-                "1.7.8"
-            ],
-            "ref": "7d927c1"
-        },
-        "convertpro-addon": {
-            "slug": "convertpro-addon",
-            "vendor": "brainstormforce",
-            "version": "1.5.12",
-            "tags": [
-                "1.5.11",
-                "1.5.12"
-            ],
-            "ref": "90894ba"
-        },
-        "ele-custom-skin": {
-            "slug": "ele-custom-skin",
-            "vendor": "dudaster",
-            "version": "3.1.9",
-            "tags": [
-                "3.1.9"
-            ],
-            "ref": "2f66df0"
-        },
-        "buddyboss-platform": {
-            "slug": "buddyboss-platform",
-            "vendor": "buddyboss",
-            "version": "2.7.30",
-            "tags": [
-                "2.7.00",
-                "2.7.10",
-                "2.7.20",
-                "2.7.30"
-            ],
-            "ref": "b8de4e8"
-        },
-        "media-cleaner-pro": {
-            "slug": "media-cleaner-pro",
-            "vendor": "meowapps",
-            "version": "6.8.1",
-            "tags": [
-                "6.7.9",
-                "6.8.0",
-                "6.8.1"
-            ],
-            "ref": "652528b"
-        },
-        "restrict-content-pro": {
-            "slug": "restrict-content-pro",
-            "vendor": "rcp",
-            "version": "3.5.42",
-            "tags": [
-                "3.5.42"
-            ],
-            "ref": "c13087c"
-        },
-        "buddyboss-platform-pro": {
-            "slug": "buddyboss-platform-pro",
-            "vendor": "buddyboss",
-            "version": "2.6.21",
-            "tags": [
-                "2.6.10",
-                "2.6.20",
-                "2.6.21"
-            ],
-            "ref": "3f9e1ed"
-        },
-        "rcp-rest-api": {
-            "slug": "rcp-rest-api",
-            "vendor": "rcp",
-            "version": "1.2.2",
-            "tags": [
-                "1.2.2"
-            ],
-            "ref": "0233a43"
-        },
-        "revslider": {
-            "slug": "revslider",
-            "vendor": "themepunch",
-            "version": "6.7.20",
-            "tags": [
-                "6.7.20"
-            ],
-            "ref": "82daccc"
-        },
-        "ele-custom-skin-pro": {
-            "slug": "ele-custom-skin-pro",
-            "vendor": "dudaster",
-            "version": "3.2.4",
-            "tags": [
-                "3.2.4"
-            ],
-            "ref": "78becf1"
-        },
-        "elementor-pro": {
-            "slug": "elementor-pro",
-            "vendor": "elementor",
-            "version": "3.25.2",
-            "tags": [
-                "3.24.3",
-                "3.24.4",
-                "3.25.0",
-                "3.25.1",
-                "3.25.2"
-            ],
-            "ref": "7825294"
-        },
-        "fluent-crm": {
-            "slug": "fluent-crm",
-            "vendor": "fluent",
-            "version": "2.9.25",
-            "tags": [
-                "2.9.24",
-                "2.9.25"
-            ],
-            "ref": "dbed244"
-        },
-        "fluentcampaign-pro": {
-            "slug": "fluentcampaign-pro",
-            "vendor": "fluent",
-            "version": "2.9.25",
-            "tags": [
-                "2.9.24",
-                "2.9.25"
-            ],
-            "ref": "cba92be"
-        },
-        "fluent-smtp": {
-            "slug": "fluent-smtp",
-            "vendor": "fluent",
-            "version": "2.2.80",
-            "tags": [
-                "2.2.80"
-            ],
-            "ref": "03e14de"
-        },
-        "fluentform": {
-            "slug": "fluentform",
-            "vendor": "fluent",
-            "version": "5.2.4",
-            "tags": [
-                "5.2.4"
-            ],
-            "ref": "a5259a9"
-        },
-        "fluent-connect": {
-            "slug": "fluent-connect",
-            "vendor": "fluent",
-            "version": "0.3",
-            "tags": [
-                "0.3"
-            ],
-            "ref": "1bcd979"
-        },
-        "fluent-support": {
-            "slug": "fluent-support",
-            "vendor": "fluent",
-            "version": "1.8.4",
-            "tags": [
-                "1.8.4"
-            ],
-            "ref": "d0775cf"
-        },
-        "image-optimization": {
-            "slug": "image-optimization",
-            "vendor": "elementor",
-            "version": "1.5.4",
-            "tags": [
-                "1.5.3",
-                "1.5.4"
-            ],
-            "ref": "d285959"
-        },
-        "learndash-hub": {
-            "slug": "learndash-hub",
-            "vendor": "learndash",
-            "version": "1.3.2",
-            "tags": [
-                "1.3.2"
-            ],
-            "ref": "23c4130"
-        },
-        "sfwd-lms": {
-            "slug": "sfwd-lms",
-            "vendor": "learndash",
-            "version": "4.17.0",
-            "tags": [
-                "4.17.0"
-            ],
-            "ref": "430c501"
-        },
-        "learndash-groups-plus": {
-            "slug": "learndash-groups-plus",
-            "vendor": "learndash",
-            "version": "2.1.1",
-            "tags": [
-                "2.1.1"
-            ],
-            "ref": "81d0981"
-        },
-        "learndash-notes": {
-            "slug": "learndash-notes",
-            "vendor": "learndash",
-            "version": "1.1.0",
-            "tags": [
-                "1.1.0"
-            ],
-            "ref": "18602f6"
-        },
-        "learndash-gradebook": {
-            "slug": "learndash-gradebook",
-            "vendor": "learndash",
-            "version": "4.3.2",
-            "tags": [
-                "4.3.2"
-            ],
-            "ref": "af5fcbd"
-        },
-        "learndash-propanel": {
-            "slug": "learndash-propanel",
-            "vendor": "learndash",
-            "version": "3.0.1",
-            "tags": [
-                "3.0.1"
-            ],
-            "ref": "80be315"
-        },
-        "learndash-course-reviews": {
-            "slug": "learndash-course-reviews",
-            "vendor": "learndash",
-            "version": "1.0.2",
-            "tags": [
-                "1.0.2"
-            ],
-            "ref": "4f00049"
-        },
-        "learndash-migration": {
-            "slug": "learndash-migration",
-            "vendor": "learndash",
-            "version": "1.1.0",
-            "tags": [
-                "1.1.0"
-            ],
-            "ref": "e2c83b0"
-        },
-        "learndash-achievements": {
-            "slug": "learndash-achievements",
-            "vendor": "learndash",
-            "version": "2.0.1",
-            "tags": [
-                "2.0.1"
-            ],
-            "ref": "03278c6"
-        },
-        "ld-tec": {
-            "slug": "ld-tec",
-            "vendor": "learndash",
-            "version": "1.0.2",
-            "tags": [
-                "1.0.2"
-            ],
-            "ref": "aa8d1ef"
-        },
-        "learndash-integrity": {
-            "slug": "learndash-integrity",
-            "vendor": "learndash",
-            "version": "1.2.1",
-            "tags": [
-                "1.2.1"
-            ],
-            "ref": "676ac11"
-        },
-        "learndash-samcart": {
-            "slug": "learndash-samcart",
-            "vendor": "learndash",
-            "version": "1.1.0",
-            "tags": [
-                "1.1.0"
-            ],
-            "ref": "32044ee"
-        },
-        "learndash-2checkout": {
-            "slug": "learndash-2checkout",
-            "vendor": "learndash",
-            "version": "1.1.1.2",
-            "tags": [
-                "1.1.1.2"
-            ],
-            "ref": "0fd207c"
-        },
-        "learndash-bbpress": {
-            "slug": "learndash-bbpress",
-            "vendor": "learndash",
-            "version": "2.2.4",
-            "tags": [
-                "2.2.4"
-            ],
-            "ref": "c870f9d"
-        },
-        "learndash-certificate-builder": {
-            "slug": "learndash-certificate-builder",
-            "vendor": "learndash",
-            "version": "1.1.2",
-            "tags": [
-                "1.1.2"
-            ],
-            "ref": "bebba10"
-        },
-        "learndash-edd": {
-            "slug": "learndash-edd",
-            "vendor": "learndash",
-            "version": "1.4.0",
-            "tags": [
-                "1.4.0"
-            ],
-            "ref": "3d94da7"
-        },
-        "learndash-elementor": {
-            "slug": "learndash-elementor",
-            "vendor": "learndash",
-            "version": "1.0.9.1",
-            "tags": [
-                "1.0.9.1"
-            ],
-            "ref": "65784a8"
-        },
-        "learndash-event-espresso": {
-            "slug": "learndash-event-espresso",
-            "vendor": "learndash",
-            "version": "1.1.0",
-            "tags": [
-                "1.1.0"
-            ],
-            "ref": "01b4e5b"
-        },
-        "learndash-gravity-forms": {
-            "slug": "learndash-gravity-forms",
-            "vendor": "learndash",
-            "version": "2.1.3",
-            "tags": [
-                "2.1.3"
-            ],
-            "ref": "ada5904"
-        },
-        "learndash-memberpress": {
-            "slug": "learndash-memberpress",
-            "vendor": "learndash",
-            "version": "2.2.2",
-            "tags": [
-                "2.2.2"
-            ],
-            "ref": "b27d6d0"
-        },
-        "learndash-notifications": {
-            "slug": "learndash-notifications",
-            "vendor": "learndash",
-            "version": "1.6.4",
-            "tags": [
-                "1.6.4"
-            ],
-            "ref": "f9d0168"
-        },
-        "learndash-paidmemberships": {
-            "slug": "learndash-paidmemberships",
-            "vendor": "learndash",
-            "version": "1.3.5",
-            "tags": [
-                "1.3.5"
-            ],
-            "ref": "96eefab"
-        },
-        "learndash-restrict-content-pro": {
-            "slug": "learndash-restrict-content-pro",
-            "vendor": "learndash",
-            "version": "1.1.1",
-            "tags": [
-                "1.1.1"
-            ],
-            "ref": "ee8ad92"
-        },
-        "learndash-woocommerce": {
-            "slug": "learndash-woocommerce",
-            "vendor": "learndash",
-            "version": "2.0.0.1",
-            "tags": [
-                "2.0.0.1"
-            ],
-            "ref": "25bb746"
-        },
-        "ld-multilingual": {
-            "slug": "ld-multilingual",
-            "vendor": "learndash",
-            "version": "1.0.0",
-            "tags": [
-                "1.0.0"
-            ],
-            "ref": "969cb86"
-        },
-        "learndash-zapier": {
-            "slug": "learndash-zapier",
-            "vendor": "learndash",
-            "version": "2.3.0.1",
-            "tags": [
-                "2.3.0.1"
-            ],
-            "ref": "a3fe8f6"
-        },
-        "wp-schema-pro": {
-            "slug": "wp-schema-pro",
-            "vendor": "brainstormforce",
-            "version": "2.7.23",
-            "tags": [
-                "2.7.23"
-            ],
-            "ref": "2fa5435"
-        },
-        "astra-portfolio": {
-            "slug": "astra-portfolio",
-            "vendor": "brainstormforce",
-            "version": "1.11.9",
-            "tags": [
-                "1.11.9"
-            ],
-            "ref": "f17f51f"
-        },
-        "restrict-content-pro-download-monitor": {
-            "slug": "restrict-content-pro-download-monitor",
-            "vendor": "rcp",
-            "version": "1.0.5",
-            "tags": [
-                "1.0.5"
-            ],
-            "ref": "08fb896"
-        },
-        "restrict-content-pro-wp-job-manager": {
-            "slug": "restrict-content-pro-wp-job-manager",
-            "vendor": "rcp",
-            "version": "2.1.8",
-            "tags": [
-                "2.1.8"
-            ],
-            "ref": "c94982f"
-        },
-        "rcp-activecampaign": {
-            "slug": "rcp-activecampaign",
-            "vendor": "rcp",
-            "version": "1.1.1",
-            "tags": [
-                "1.1.1"
-            ],
-            "ref": "a76dbf0"
-        },
-        "rcp-authorize-net": {
-            "slug": "rcp-authorize-net",
-            "vendor": "rcp",
-            "version": "1.0.5",
-            "tags": [
-                "1.0.5"
-            ],
-            "ref": "208794f"
-        },
-        "rcp-avatax": {
-            "slug": "rcp-avatax",
-            "vendor": "rcp",
-            "version": "1.0.6",
-            "tags": [
-                "1.0.6"
-            ],
-            "ref": "0c0468a"
-        },
-        "rcp-aweber-pro": {
-            "slug": "rcp-aweber-pro",
-            "vendor": "rcp",
-            "version": "1.1.5",
-            "tags": [
-                "1.1.5"
-            ],
-            "ref": "2f8ddc6"
-        },
-        "restrict-content-pro-bbpress": {
-            "slug": "restrict-content-pro-bbpress",
-            "vendor": "rcp",
-            "version": "1.0.2",
-            "tags": [
-                "1.0.2"
-            ],
-            "ref": "8cad600"
-        },
-        "rcp-braintree": {
-            "slug": "rcp-braintree",
-            "vendor": "rcp",
-            "version": "1.0.9",
-            "tags": [
-                "1.0.9"
-            ],
-            "ref": "73ef8f0"
-        },
-        "restrict-content-pro-buddypress": {
-            "slug": "restrict-content-pro-buddypress",
-            "vendor": "rcp",
-            "version": "2.1.8",
-            "tags": [
-                "2.1.8"
-            ],
-            "ref": "a1989e4"
-        },
-        "restrict-content-pro-campaign-monitor": {
-            "slug": "restrict-content-pro-campaign-monitor",
-            "vendor": "rcp",
-            "version": "1.2.4",
-            "tags": [
-                "1.2.4"
-            ],
-            "ref": "3afc6e3"
-        },
-        "rcp-convertkit": {
-            "slug": "rcp-convertkit",
-            "vendor": "rcp",
-            "version": "1.1.3",
-            "tags": [
-                "1.1.3"
-            ],
-            "ref": "1209cd7"
-        },
-        "restrict-content-pro-csv-user-import": {
-            "slug": "restrict-content-pro-csv-user-import",
-            "vendor": "rcp",
-            "version": "1.1.12",
-            "tags": [
-                "1.1.12"
-            ],
-            "ref": "d0b2b41"
-        },
-        "rcp-custom-redirects": {
-            "slug": "rcp-custom-redirects",
-            "vendor": "rcp",
-            "version": "1.0.8",
-            "tags": [
-                "1.0.8"
-            ],
-            "ref": "48a9d6b"
-        },
-        "rcp-custom-renew": {
-            "slug": "rcp-custom-renew",
-            "vendor": "rcp",
-            "version": "1.0.5",
-            "tags": [
-                "1.0.5"
-            ],
-            "ref": "bd56276"
-        },
-        "rcp-drip-content": {
-            "slug": "rcp-drip-content",
-            "vendor": "rcp",
-            "version": "1.0.7",
-            "tags": [
-                "1.0.7"
-            ],
-            "ref": "c41151e"
-        },
-        "restrict-content-pro-easy-digital-downloads-vendor-submission-limits": {
-            "slug": "restrict-content-pro-easy-digital-downloads-vendor-submission-limits",
-            "vendor": "rcp",
-            "version": "1.0.3",
-            "tags": [
-                "1.0.3"
-            ],
-            "ref": "6d00c83"
-        },
-        "rcp-edd-wallet": {
-            "slug": "rcp-edd-wallet",
-            "vendor": "rcp",
-            "version": "1.0.1",
-            "tags": [
-                "1.0.1"
-            ],
-            "ref": "826033d"
-        },
-        "rcp-edd-member-downloads": {
-            "slug": "rcp-edd-member-downloads",
-            "vendor": "rcp",
-            "version": "1.0.6",
-            "tags": [
-                "1.0.6"
-            ],
-            "ref": "94f33a7"
-        },
-        "rcp-strong-passwords": {
-            "slug": "rcp-strong-passwords",
-            "vendor": "rcp",
-            "version": "1.1.4",
-            "tags": [
-                "1.1.4"
-            ],
-            "ref": "28a9d06"
-        },
-        "rcp-group-accounts": {
-            "slug": "rcp-group-accounts",
-            "vendor": "rcp",
-            "version": "2.2.3",
-            "tags": [
-                "2.2.3"
-            ],
-            "ref": "951511d"
-        },
-        "rcp-hardset-expiration-dates": {
-            "slug": "rcp-hardset-expiration-dates",
-            "vendor": "rcp",
-            "version": "1.1.4",
-            "tags": [
-                "1.1.4"
-            ],
-            "ref": "5369d10"
-        },
-        "rcp-help-scout": {
-            "slug": "rcp-help-scout",
-            "vendor": "rcp",
-            "version": "1.0.4",
-            "tags": [
-                "1.0.4"
-            ],
-            "ref": "406ef7c"
-        },
-        "rcp-ip-restriction": {
-            "slug": "rcp-ip-restriction",
-            "vendor": "rcp",
-            "version": "1.2.8",
-            "tags": [
-                "1.2.8"
-            ],
-            "ref": "dc02322"
-        },
-        "rcp-limited-quantity-available": {
-            "slug": "rcp-limited-quantity-available",
-            "vendor": "rcp",
-            "version": "1.0.4",
-            "tags": [
-                "1.0.4"
-            ],
-            "ref": "0a354d7"
-        },
-        "mail-chimp-add-on-for-restrict-content-pro": {
-            "slug": "mail-chimp-add-on-for-restrict-content-pro",
-            "vendor": "rcp",
-            "version": "1.3.3",
-            "tags": [
-                "1.3.3"
-            ],
-            "ref": "1144505"
-        },
-        "rcp-mailchimp-pro": {
-            "slug": "rcp-mailchimp-pro",
-            "vendor": "rcp",
-            "version": "1.5.3",
-            "tags": [
-                "1.5.3"
-            ],
-            "ref": "5d5874b"
-        },
-        "restrict-content-pro-wysija": {
-            "slug": "restrict-content-pro-wysija",
-            "vendor": "rcp",
-            "version": "1.0.5",
-            "tags": [
-                "1.0.5"
-            ],
-            "ref": "f72b556"
-        },
-        "rcp-math-verification": {
-            "slug": "rcp-math-verification",
-            "vendor": "rcp",
-            "version": "1.0.5",
-            "tags": [
-                "1.0.5"
-            ],
-            "ref": "fcd7471"
-        },
-        "rcp-per-level-emails": {
-            "slug": "rcp-per-level-emails",
-            "vendor": "rcp",
-            "version": "1.0.2",
-            "tags": [
-                "1.0.2"
-            ],
-            "ref": "6173565"
-        },
-        "rcp-restriction-timeouts": {
-            "slug": "rcp-restriction-timeouts",
-            "vendor": "rcp",
-            "version": "1.0.6",
-            "tags": [
-                "1.0.6"
-            ],
-            "ref": "a91281f"
-        },
-        "rcp-restrict-past-content": {
-            "slug": "rcp-restrict-past-content",
-            "vendor": "rcp",
-            "version": "1.0.3",
-            "tags": [
-                "1.0.3"
-            ],
-            "ref": "c9bd8ef"
-        },
-        "rcp-resume-manager": {
-            "slug": "rcp-resume-manager",
-            "vendor": "rcp",
-            "version": "1.0.2",
-            "tags": [
-                "1.0.2"
-            ],
-            "ref": "00ccdab"
-        },
-        "rcp-site-creation": {
-            "slug": "rcp-site-creation",
-            "vendor": "rcp",
-            "version": "1.3.3",
-            "tags": [
-                "1.3.3"
-            ],
-            "ref": "69d0b96"
-        },
-        "rcp-timelock": {
-            "slug": "rcp-timelock",
-            "vendor": "rcp",
-            "version": "1.1.2",
-            "tags": [
-                "1.1.2"
-            ],
-            "ref": "89a8460"
-        },
-        "rcp-ultimate-member": {
-            "slug": "rcp-ultimate-member",
-            "vendor": "rcp",
-            "version": "1.2.3",
-            "tags": [
-                "1.2.3"
-            ],
-            "ref": "68f1e98"
-        },
-        "rcp-view-limit": {
-            "slug": "rcp-view-limit",
-            "vendor": "rcp",
-            "version": "1.0.3",
-            "tags": [
-                "1.0.3"
-            ],
-            "ref": "8b02cd0"
-        },
-        "rcp-woocommerce-member-discounts": {
-            "slug": "rcp-woocommerce-member-discounts",
-            "vendor": "rcp",
-            "version": "1.0.6",
-            "tags": [
-                "1.0.6"
-            ],
-            "ref": "2112751"
-        },
-        "view-limit": {
-            "slug": "view-limit",
-            "vendor": "rcp",
-            "version": "1.0.1",
-            "tags": [
-                "1.0.1"
-            ],
-            "ref": "d382ae5"
-        },
-        "nextend-facebook-connect": {
-            "slug": "nextend-facebook-connect",
-            "vendor": "nextend",
-            "version": "3.1.15",
-            "tags": [
-                "3.1.15"
-            ],
-            "ref": "2ce73a4"
-        },
-        "nextend-social-login-pro": {
-            "slug": "nextend-social-login-pro",
-            "vendor": "nextend",
-            "version": "3.1.15",
-            "tags": [
-                "3.1.15"
-            ],
-            "ref": "f0f3138"
-        },
-        "honeypot": {
-            "slug": "honeypot",
-            "vendor": "wparmour",
-            "version": "2.2.03",
-            "tags": [
-                "2.2.03"
-            ],
-            "ref": "6ab01d3"
-        },
-        "wp-armour-extended": {
-            "slug": "wp-armour-extended",
-            "vendor": "wparmour",
-            "version": "1.34",
-            "tags": [
-                "1.34"
-            ],
-            "ref": "d5b1a0e"
-        }
+  "plugins": {
+    "elementor": {
+      "slug": "elementor",
+      "vendor": "elementor",
+      "version": "3.25.4",
+      "tags": [
+        "3.24.4",
+        "3.24.5",
+        "3.24.6",
+        "3.24.7",
+        "3.25.0",
+        "3.25.1",
+        "3.25.2",
+        "3.25.3",
+        "3.25.4"
+      ],
+      "ref": "daf7785"
     },
-    "themes": {
-        "astra": {
-            "slug": "astra",
-            "vendor": "brainstormforce",
-            "version": "4.8.3",
-            "tags": [
-                "4.8.3"
-            ],
-            "ref": "ae99142"
-        },
-        "hello-elementor": {
-            "slug": "hello-elementor",
-            "vendor": "elementor",
-            "version": "3.1.1",
-            "tags": [
-                "3.1.0",
-                "3.1.1"
-            ],
-            "ref": "8c3f481"
-        },
-        "buddyboss-theme": {
-            "slug": "buddyboss-theme",
-            "vendor": "buddyboss",
-            "version": "2.7.10",
-            "tags": [
-                "2.7.10"
-            ],
-            "ref": "c22392c"
-        },
-        "hello-theme-child": {
-            "slug": "hello-theme-child",
-            "vendor": "elementor",
-            "version": "2.0.1",
-            "tags": [
-                "2.0.1"
-            ],
-            "ref": "1842fc3"
-        },
-        "buddyboss-theme-child": {
-            "slug": "buddyboss-theme-child",
-            "vendor": "buddyboss",
-            "version": "1.0.1",
-            "tags": [
-                "1.0.1"
-            ],
-            "ref": "c24fbba"
-        }
+    "wordpress-seo": {
+      "slug": "wordpress-seo",
+      "vendor": "yoast",
+      "version": "23.8",
+      "tags": [
+        "23.5",
+        "23.6",
+        "23.7",
+        "23.8"
+      ],
+      "ref": "f4c423b"
+    },
+    "ultimate-elementor": {
+      "slug": "ultimate-elementor",
+      "vendor": "brainstormforce",
+      "version": "1.36.41",
+      "tags": [
+        "1.36.38",
+        "1.36.39",
+        "1.36.40",
+        "1.36.41"
+      ],
+      "ref": "f2ec795"
+    },
+    "advanced-custom-fields-pro": {
+      "slug": "advanced-custom-fields-pro",
+      "vendor": "acf",
+      "version": "6.3.10",
+      "tags": [
+        "6.3.6",
+        "6.3.7",
+        "6.3.8",
+        "6.3.9",
+        "6.3.10"
+      ],
+      "ref": "0e52bc4"
+    },
+    "astra-addon": {
+      "slug": "astra-addon",
+      "vendor": "brainstormforce",
+      "version": "4.8.3",
+      "tags": [
+        "4.8.1",
+        "4.8.2",
+        "4.8.3"
+      ],
+      "ref": "1105f72"
+    },
+    "astra-pro-sites": {
+      "slug": "astra-pro-sites",
+      "vendor": "brainstormforce",
+      "version": "4.4.7",
+      "tags": [
+        "4.4.3",
+        "4.4.4",
+        "4.4.5",
+        "4.4.6",
+        "4.4.7"
+      ],
+      "ref": "5be4209"
+    },
+    "convertpro": {
+      "slug": "convertpro",
+      "vendor": "brainstormforce",
+      "version": "1.7.8",
+      "tags": [
+        "1.7.7",
+        "1.7.8"
+      ],
+      "ref": "7d927c1"
+    },
+    "convertpro-addon": {
+      "slug": "convertpro-addon",
+      "vendor": "brainstormforce",
+      "version": "1.5.12",
+      "tags": [
+        "1.5.11",
+        "1.5.12"
+      ],
+      "ref": "90894ba"
+    },
+    "ele-custom-skin": {
+      "slug": "ele-custom-skin",
+      "vendor": "dudaster",
+      "version": "3.1.9",
+      "tags": [
+        "3.1.9"
+      ],
+      "ref": "2f66df0"
+    },
+    "buddyboss-platform": {
+      "slug": "buddyboss-platform",
+      "vendor": "buddyboss",
+      "version": "2.7.30",
+      "tags": [
+        "2.7.00",
+        "2.7.10",
+        "2.7.20",
+        "2.7.30"
+      ],
+      "ref": "b8de4e8"
+    },
+    "media-cleaner-pro": {
+      "slug": "media-cleaner-pro",
+      "vendor": "meowapps",
+      "version": "6.8.1",
+      "tags": [
+        "6.7.9",
+        "6.8.0",
+        "6.8.1"
+      ],
+      "ref": "652528b"
+    },
+    "restrict-content-pro": {
+      "slug": "restrict-content-pro",
+      "vendor": "rcp",
+      "version": "3.5.42",
+      "tags": [
+        "3.5.42"
+      ],
+      "ref": "c13087c"
+    },
+    "buddyboss-platform-pro": {
+      "slug": "buddyboss-platform-pro",
+      "vendor": "buddyboss",
+      "version": "2.6.21",
+      "tags": [
+        "2.6.10",
+        "2.6.20",
+        "2.6.21"
+      ],
+      "ref": "3f9e1ed"
+    },
+    "rcp-rest-api": {
+      "slug": "rcp-rest-api",
+      "vendor": "rcp",
+      "version": "1.2.2",
+      "tags": [
+        "1.2.2"
+      ],
+      "ref": "0233a43"
+    },
+    "revslider": {
+      "slug": "revslider",
+      "vendor": "themepunch",
+      "version": "6.7.20",
+      "tags": [
+        "6.7.20"
+      ],
+      "ref": "82daccc"
+    },
+    "ele-custom-skin-pro": {
+      "slug": "ele-custom-skin-pro",
+      "vendor": "dudaster",
+      "version": "3.2.4",
+      "tags": [
+        "3.2.4"
+      ],
+      "ref": "78becf1"
+    },
+    "elementor-pro": {
+      "slug": "elementor-pro",
+      "vendor": "elementor",
+      "version": "3.25.2",
+      "tags": [
+        "3.24.3",
+        "3.24.4",
+        "3.25.0",
+        "3.25.1",
+        "3.25.2"
+      ],
+      "ref": "7825294"
+    },
+    "fluent-crm": {
+      "slug": "fluent-crm",
+      "vendor": "fluent",
+      "version": "2.9.25",
+      "tags": [
+        "2.9.24",
+        "2.9.25"
+      ],
+      "ref": "dbed244"
+    },
+    "fluentcampaign-pro": {
+      "slug": "fluentcampaign-pro",
+      "vendor": "fluent",
+      "version": "2.9.25",
+      "tags": [
+        "2.9.24",
+        "2.9.25"
+      ],
+      "ref": "cba92be"
+    },
+    "fluent-smtp": {
+      "slug": "fluent-smtp",
+      "vendor": "fluent",
+      "version": "2.2.80",
+      "tags": [
+        "2.2.80"
+      ],
+      "ref": "03e14de"
+    },
+    "fluentform": {
+      "slug": "fluentform",
+      "vendor": "fluent",
+      "version": "5.2.4",
+      "tags": [
+        "5.2.4"
+      ],
+      "ref": "a5259a9"
+    },
+    "fluent-connect": {
+      "slug": "fluent-connect",
+      "vendor": "fluent",
+      "version": "0.3",
+      "tags": [
+        "0.3"
+      ],
+      "ref": "1bcd979"
+    },
+    "fluent-support": {
+      "slug": "fluent-support",
+      "vendor": "fluent",
+      "version": "1.8.4",
+      "tags": [
+        "1.8.4"
+      ],
+      "ref": "d0775cf"
+    },
+    "image-optimization": {
+      "slug": "image-optimization",
+      "vendor": "elementor",
+      "version": "1.5.4",
+      "tags": [
+        "1.5.3",
+        "1.5.4"
+      ],
+      "ref": "d285959"
+    },
+    "learndash-hub": {
+      "slug": "learndash-hub",
+      "vendor": "learndash",
+      "version": "1.3.2",
+      "tags": [
+        "1.3.2"
+      ],
+      "ref": "23c4130"
+    },
+    "sfwd-lms": {
+      "slug": "sfwd-lms",
+      "vendor": "learndash",
+      "version": "4.17.0",
+      "tags": [
+        "4.17.0"
+      ],
+      "ref": "430c501"
+    },
+    "learndash-groups-plus": {
+      "slug": "learndash-groups-plus",
+      "vendor": "learndash",
+      "version": "2.1.1",
+      "tags": [
+        "2.1.1"
+      ],
+      "ref": "81d0981"
+    },
+    "learndash-notes": {
+      "slug": "learndash-notes",
+      "vendor": "learndash",
+      "version": "1.1.0",
+      "tags": [
+        "1.1.0"
+      ],
+      "ref": "18602f6"
+    },
+    "learndash-gradebook": {
+      "slug": "learndash-gradebook",
+      "vendor": "learndash",
+      "version": "4.3.2",
+      "tags": [
+        "4.3.2"
+      ],
+      "ref": "af5fcbd"
+    },
+    "learndash-propanel": {
+      "slug": "learndash-propanel",
+      "vendor": "learndash",
+      "version": "3.0.1",
+      "tags": [
+        "3.0.1"
+      ],
+      "ref": "80be315"
+    },
+    "learndash-course-reviews": {
+      "slug": "learndash-course-reviews",
+      "vendor": "learndash",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "4f00049"
+    },
+    "learndash-migration": {
+      "slug": "learndash-migration",
+      "vendor": "learndash",
+      "version": "1.1.0",
+      "tags": [
+        "1.1.0"
+      ],
+      "ref": "e2c83b0"
+    },
+    "learndash-achievements": {
+      "slug": "learndash-achievements",
+      "vendor": "learndash",
+      "version": "2.0.1",
+      "tags": [
+        "2.0.1"
+      ],
+      "ref": "03278c6"
+    },
+    "ld-tec": {
+      "slug": "ld-tec",
+      "vendor": "learndash",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "aa8d1ef"
+    },
+    "learndash-integrity": {
+      "slug": "learndash-integrity",
+      "vendor": "learndash",
+      "version": "1.2.1",
+      "tags": [
+        "1.2.1"
+      ],
+      "ref": "676ac11"
+    },
+    "learndash-samcart": {
+      "slug": "learndash-samcart",
+      "vendor": "learndash",
+      "version": "1.1.0",
+      "tags": [
+        "1.1.0"
+      ],
+      "ref": "32044ee"
+    },
+    "learndash-2checkout": {
+      "slug": "learndash-2checkout",
+      "vendor": "learndash",
+      "version": "1.1.1.2",
+      "tags": [
+        "1.1.1.2"
+      ],
+      "ref": "0fd207c"
+    },
+    "learndash-bbpress": {
+      "slug": "learndash-bbpress",
+      "vendor": "learndash",
+      "version": "2.2.4",
+      "tags": [
+        "2.2.4"
+      ],
+      "ref": "c870f9d"
+    },
+    "learndash-certificate-builder": {
+      "slug": "learndash-certificate-builder",
+      "vendor": "learndash",
+      "version": "1.1.2",
+      "tags": [
+        "1.1.2"
+      ],
+      "ref": "bebba10"
+    },
+    "learndash-edd": {
+      "slug": "learndash-edd",
+      "vendor": "learndash",
+      "version": "1.4.0",
+      "tags": [
+        "1.4.0"
+      ],
+      "ref": "3d94da7"
+    },
+    "learndash-elementor": {
+      "slug": "learndash-elementor",
+      "vendor": "learndash",
+      "version": "1.0.9.1",
+      "tags": [
+        "1.0.9.1"
+      ],
+      "ref": "65784a8"
+    },
+    "learndash-event-espresso": {
+      "slug": "learndash-event-espresso",
+      "vendor": "learndash",
+      "version": "1.1.0",
+      "tags": [
+        "1.1.0"
+      ],
+      "ref": "01b4e5b"
+    },
+    "learndash-gravity-forms": {
+      "slug": "learndash-gravity-forms",
+      "vendor": "learndash",
+      "version": "2.1.3",
+      "tags": [
+        "2.1.3"
+      ],
+      "ref": "ada5904"
+    },
+    "learndash-memberpress": {
+      "slug": "learndash-memberpress",
+      "vendor": "learndash",
+      "version": "2.2.2",
+      "tags": [
+        "2.2.2"
+      ],
+      "ref": "b27d6d0"
+    },
+    "learndash-notifications": {
+      "slug": "learndash-notifications",
+      "vendor": "learndash",
+      "version": "1.6.4",
+      "tags": [
+        "1.6.4"
+      ],
+      "ref": "f9d0168"
+    },
+    "learndash-paidmemberships": {
+      "slug": "learndash-paidmemberships",
+      "vendor": "learndash",
+      "version": "1.3.5",
+      "tags": [
+        "1.3.5"
+      ],
+      "ref": "96eefab"
+    },
+    "learndash-restrict-content-pro": {
+      "slug": "learndash-restrict-content-pro",
+      "vendor": "learndash",
+      "version": "1.1.1",
+      "tags": [
+        "1.1.1"
+      ],
+      "ref": "ee8ad92"
+    },
+    "learndash-woocommerce": {
+      "slug": "learndash-woocommerce",
+      "vendor": "learndash",
+      "version": "2.0.0.1",
+      "tags": [
+        "2.0.0.1"
+      ],
+      "ref": "25bb746"
+    },
+    "ld-multilingual": {
+      "slug": "ld-multilingual",
+      "vendor": "learndash",
+      "version": "1.0.0",
+      "tags": [
+        "1.0.0"
+      ],
+      "ref": "969cb86"
+    },
+    "learndash-zapier": {
+      "slug": "learndash-zapier",
+      "vendor": "learndash",
+      "version": "2.3.0.1",
+      "tags": [
+        "2.3.0.1"
+      ],
+      "ref": "a3fe8f6"
+    },
+    "wp-schema-pro": {
+      "slug": "wp-schema-pro",
+      "vendor": "brainstormforce",
+      "version": "2.7.23",
+      "tags": [
+        "2.7.23"
+      ],
+      "ref": "2fa5435"
+    },
+    "astra-portfolio": {
+      "slug": "astra-portfolio",
+      "vendor": "brainstormforce",
+      "version": "1.11.9",
+      "tags": [
+        "1.11.9"
+      ],
+      "ref": "f17f51f"
+    },
+    "restrict-content-pro-download-monitor": {
+      "slug": "restrict-content-pro-download-monitor",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "08fb896"
+    },
+    "restrict-content-pro-wp-job-manager": {
+      "slug": "restrict-content-pro-wp-job-manager",
+      "vendor": "rcp",
+      "version": "2.1.8",
+      "tags": [
+        "2.1.8"
+      ],
+      "ref": "c94982f"
+    },
+    "rcp-activecampaign": {
+      "slug": "rcp-activecampaign",
+      "vendor": "rcp",
+      "version": "1.1.1",
+      "tags": [
+        "1.1.1"
+      ],
+      "ref": "a76dbf0"
+    },
+    "rcp-authorize-net": {
+      "slug": "rcp-authorize-net",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "208794f"
+    },
+    "rcp-avatax": {
+      "slug": "rcp-avatax",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "0c0468a"
+    },
+    "rcp-aweber-pro": {
+      "slug": "rcp-aweber-pro",
+      "vendor": "rcp",
+      "version": "1.1.5",
+      "tags": [
+        "1.1.5"
+      ],
+      "ref": "2f8ddc6"
+    },
+    "restrict-content-pro-bbpress": {
+      "slug": "restrict-content-pro-bbpress",
+      "vendor": "rcp",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "8cad600"
+    },
+    "rcp-braintree": {
+      "slug": "rcp-braintree",
+      "vendor": "rcp",
+      "version": "1.0.9",
+      "tags": [
+        "1.0.9"
+      ],
+      "ref": "73ef8f0"
+    },
+    "restrict-content-pro-buddypress": {
+      "slug": "restrict-content-pro-buddypress",
+      "vendor": "rcp",
+      "version": "2.1.8",
+      "tags": [
+        "2.1.8"
+      ],
+      "ref": "a1989e4"
+    },
+    "restrict-content-pro-campaign-monitor": {
+      "slug": "restrict-content-pro-campaign-monitor",
+      "vendor": "rcp",
+      "version": "1.2.4",
+      "tags": [
+        "1.2.4"
+      ],
+      "ref": "3afc6e3"
+    },
+    "rcp-convertkit": {
+      "slug": "rcp-convertkit",
+      "vendor": "rcp",
+      "version": "1.1.3",
+      "tags": [
+        "1.1.3"
+      ],
+      "ref": "1209cd7"
+    },
+    "restrict-content-pro-csv-user-import": {
+      "slug": "restrict-content-pro-csv-user-import",
+      "vendor": "rcp",
+      "version": "1.1.12",
+      "tags": [
+        "1.1.12"
+      ],
+      "ref": "d0b2b41"
+    },
+    "rcp-custom-redirects": {
+      "slug": "rcp-custom-redirects",
+      "vendor": "rcp",
+      "version": "1.0.8",
+      "tags": [
+        "1.0.8"
+      ],
+      "ref": "48a9d6b"
+    },
+    "rcp-custom-renew": {
+      "slug": "rcp-custom-renew",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "bd56276"
+    },
+    "rcp-drip-content": {
+      "slug": "rcp-drip-content",
+      "vendor": "rcp",
+      "version": "1.0.7",
+      "tags": [
+        "1.0.7"
+      ],
+      "ref": "c41151e"
+    },
+    "restrict-content-pro-easy-digital-downloads-vendor-submission-limits": {
+      "slug": "restrict-content-pro-easy-digital-downloads-vendor-submission-limits",
+      "vendor": "rcp",
+      "version": "1.0.3",
+      "tags": [
+        "1.0.3"
+      ],
+      "ref": "6d00c83"
+    },
+    "rcp-edd-wallet": {
+      "slug": "rcp-edd-wallet",
+      "vendor": "rcp",
+      "version": "1.0.1",
+      "tags": [
+        "1.0.1"
+      ],
+      "ref": "826033d"
+    },
+    "rcp-edd-member-downloads": {
+      "slug": "rcp-edd-member-downloads",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "94f33a7"
+    },
+    "rcp-strong-passwords": {
+      "slug": "rcp-strong-passwords",
+      "vendor": "rcp",
+      "version": "1.1.4",
+      "tags": [
+        "1.1.4"
+      ],
+      "ref": "28a9d06"
+    },
+    "rcp-group-accounts": {
+      "slug": "rcp-group-accounts",
+      "vendor": "rcp",
+      "version": "2.2.3",
+      "tags": [
+        "2.2.3"
+      ],
+      "ref": "951511d"
+    },
+    "rcp-hardset-expiration-dates": {
+      "slug": "rcp-hardset-expiration-dates",
+      "vendor": "rcp",
+      "version": "1.1.4",
+      "tags": [
+        "1.1.4"
+      ],
+      "ref": "5369d10"
+    },
+    "rcp-help-scout": {
+      "slug": "rcp-help-scout",
+      "vendor": "rcp",
+      "version": "1.0.4",
+      "tags": [
+        "1.0.4"
+      ],
+      "ref": "406ef7c"
+    },
+    "rcp-ip-restriction": {
+      "slug": "rcp-ip-restriction",
+      "vendor": "rcp",
+      "version": "1.2.8",
+      "tags": [
+        "1.2.8"
+      ],
+      "ref": "dc02322"
+    },
+    "rcp-limited-quantity-available": {
+      "slug": "rcp-limited-quantity-available",
+      "vendor": "rcp",
+      "version": "1.0.4",
+      "tags": [
+        "1.0.4"
+      ],
+      "ref": "0a354d7"
+    },
+    "mail-chimp-add-on-for-restrict-content-pro": {
+      "slug": "mail-chimp-add-on-for-restrict-content-pro",
+      "vendor": "rcp",
+      "version": "1.3.3",
+      "tags": [
+        "1.3.3"
+      ],
+      "ref": "1144505"
+    },
+    "rcp-mailchimp-pro": {
+      "slug": "rcp-mailchimp-pro",
+      "vendor": "rcp",
+      "version": "1.5.3",
+      "tags": [
+        "1.5.3"
+      ],
+      "ref": "5d5874b"
+    },
+    "restrict-content-pro-wysija": {
+      "slug": "restrict-content-pro-wysija",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "f72b556"
+    },
+    "rcp-math-verification": {
+      "slug": "rcp-math-verification",
+      "vendor": "rcp",
+      "version": "1.0.5",
+      "tags": [
+        "1.0.5"
+      ],
+      "ref": "fcd7471"
+    },
+    "rcp-per-level-emails": {
+      "slug": "rcp-per-level-emails",
+      "vendor": "rcp",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "6173565"
+    },
+    "rcp-restriction-timeouts": {
+      "slug": "rcp-restriction-timeouts",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "a91281f"
+    },
+    "rcp-restrict-past-content": {
+      "slug": "rcp-restrict-past-content",
+      "vendor": "rcp",
+      "version": "1.0.3",
+      "tags": [
+        "1.0.3"
+      ],
+      "ref": "c9bd8ef"
+    },
+    "rcp-resume-manager": {
+      "slug": "rcp-resume-manager",
+      "vendor": "rcp",
+      "version": "1.0.2",
+      "tags": [
+        "1.0.2"
+      ],
+      "ref": "00ccdab"
+    },
+    "rcp-site-creation": {
+      "slug": "rcp-site-creation",
+      "vendor": "rcp",
+      "version": "1.3.3",
+      "tags": [
+        "1.3.3"
+      ],
+      "ref": "69d0b96"
+    },
+    "rcp-timelock": {
+      "slug": "rcp-timelock",
+      "vendor": "rcp",
+      "version": "1.1.2",
+      "tags": [
+        "1.1.2"
+      ],
+      "ref": "89a8460"
+    },
+    "rcp-ultimate-member": {
+      "slug": "rcp-ultimate-member",
+      "vendor": "rcp",
+      "version": "1.2.3",
+      "tags": [
+        "1.2.3"
+      ],
+      "ref": "68f1e98"
+    },
+    "rcp-view-limit": {
+      "slug": "rcp-view-limit",
+      "vendor": "rcp",
+      "version": "1.0.3",
+      "tags": [
+        "1.0.3"
+      ],
+      "ref": "8b02cd0"
+    },
+    "rcp-woocommerce-member-discounts": {
+      "slug": "rcp-woocommerce-member-discounts",
+      "vendor": "rcp",
+      "version": "1.0.6",
+      "tags": [
+        "1.0.6"
+      ],
+      "ref": "2112751"
+    },
+    "view-limit": {
+      "slug": "view-limit",
+      "vendor": "rcp",
+      "version": "1.0.1",
+      "tags": [
+        "1.0.1"
+      ],
+      "ref": "d382ae5"
+    },
+    "nextend-facebook-connect": {
+      "slug": "nextend-facebook-connect",
+      "vendor": "nextend",
+      "version": "3.1.15",
+      "tags": [
+        "3.1.15"
+      ],
+      "ref": "2ce73a4"
+    },
+    "nextend-social-login-pro": {
+      "slug": "nextend-social-login-pro",
+      "vendor": "nextend",
+      "version": "3.1.15",
+      "tags": [
+        "3.1.15"
+      ],
+      "ref": "f0f3138"
+    },
+    "honeypot": {
+      "slug": "honeypot",
+      "vendor": "wparmour",
+      "version": "2.2.03",
+      "tags": [
+        "2.2.03"
+      ],
+      "ref": "6ab01d3"
+    },
+    "wp-armour-extended": {
+      "slug": "wp-armour-extended",
+      "vendor": "wparmour",
+      "version": "1.34",
+      "tags": [
+        "1.34"
+      ],
+      "ref": "d5b1a0e"
+    },
+    "plugin-tools": {
+      "slug": "plugin-tools",
+      "vendor": "ydtbwp",
+      "version": "0.0.15",
+      "tags": [
+        "0.0.15"
+      ],
+      "ref": "25b4288"
     }
+  },
+  "themes": {
+    "astra": {
+      "slug": "astra",
+      "vendor": "brainstormforce",
+      "version": "4.8.3",
+      "tags": [
+        "4.8.3"
+      ],
+      "ref": "ae99142"
+    },
+    "hello-elementor": {
+      "slug": "hello-elementor",
+      "vendor": "elementor",
+      "version": "3.1.1",
+      "tags": [
+        "3.1.0",
+        "3.1.1"
+      ],
+      "ref": "8c3f481"
+    },
+    "buddyboss-theme": {
+      "slug": "buddyboss-theme",
+      "vendor": "buddyboss",
+      "version": "2.7.10",
+      "tags": [
+        "2.7.10"
+      ],
+      "ref": "c22392c"
+    },
+    "hello-theme-child": {
+      "slug": "hello-theme-child",
+      "vendor": "elementor",
+      "version": "2.0.1",
+      "tags": [
+        "2.0.1"
+      ],
+      "ref": "1842fc3"
+    },
+    "buddyboss-theme-child": {
+      "slug": "buddyboss-theme-child",
+      "vendor": "buddyboss",
+      "version": "1.0.1",
+      "tags": [
+        "1.0.1"
+      ],
+      "ref": "c24fbba"
+    }
+  }
 }
