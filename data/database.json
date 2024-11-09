@@ -886,15 +886,6 @@
       ],
       "ref": "d5b1a0e"
     },
-    "plugin-tools": {
-      "slug": "plugin-tools",
-      "vendor": "ydtbwp",
-      "version": "0.0.15",
-      "tags": [
-        "0.0.15"
-      ],
-      "ref": "0299b58"
-    }
   },
   "themes": {
     "astra": {
