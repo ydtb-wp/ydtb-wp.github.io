@@ -889,11 +889,12 @@
     "plugin-tools": {
       "slug": "plugin-tools",
       "vendor": "ydtbwp",
-      "version": "0.0.15",
+      "version": "0.1.0",
       "tags": [
-        "0.0.15"
+        "0.0.15",
+        "0.1.0"
       ],
-      "ref": "25b4288"
+      "ref": "c527429"
     }
   },
   "themes": {
