@@ -902,11 +902,12 @@
     "astra": {
       "slug": "astra",
       "vendor": "brainstormforce",
-      "version": "4.8.3",
+      "version": "4.8.4",
       "tags": [
-        "4.8.3"
+        "4.8.3",
+        "4.8.4"
       ],
-      "ref": "ae99142"
+      "ref": "0fb10a3"
     },
     "hello-elementor": {
       "slug": "hello-elementor",
