@@ -872,11 +872,12 @@
     "honeypot": {
       "slug": "honeypot",
       "vendor": "wparmour",
-      "version": "2.2.03",
+      "version": "2.2.04",
       "tags": [
-        "2.2.03"
+        "2.2.03",
+        "2.2.04"
       ],
-      "ref": "6ab01d3"
+      "ref": "1aecab3"
     },
     "wp-armour-extended": {
       "slug": "wp-armour-extended",
