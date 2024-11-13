@@ -876,12 +876,13 @@
     "honeypot": {
       "slug": "honeypot",
       "vendor": "wparmour",
-      "version": "2.2.04",
+      "version": "2.2.05",
       "tags": [
         "2.2.03",
-        "2.2.04"
+        "2.2.04",
+        "2.2.05"
       ],
-      "ref": "1aecab3"
+      "ref": "c405302"
     },
     "wp-armour-extended": {
       "slug": "wp-armour-extended",
