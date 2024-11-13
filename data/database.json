@@ -45,15 +45,16 @@
     "advanced-custom-fields-pro": {
       "slug": "advanced-custom-fields-pro",
       "vendor": "acf",
-      "version": "6.3.10",
+      "version": "6.3.11",
       "tags": [
         "6.3.6",
         "6.3.7",
         "6.3.8",
         "6.3.9",
-        "6.3.10"
+        "6.3.10",
+        "6.3.11"
       ],
-      "ref": "0e52bc4"
+      "ref": "4eba953"
     },
     "astra-addon": {
       "slug": "astra-addon",
