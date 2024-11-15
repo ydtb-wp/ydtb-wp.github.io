@@ -60,15 +60,16 @@
     "astra-addon": {
       "slug": "astra-addon",
       "vendor": "brainstormforce",
-      "version": "4.8.5",
+      "version": "4.8.6",
       "tags": [
         "4.8.1",
         "4.8.2",
         "4.8.3",
         "4.8.4",
-        "4.8.5"
+        "4.8.5",
+        "4.8.6"
       ],
-      "ref": "304f197"
+      "ref": "847da14"
     },
     "astra-pro-sites": {
       "slug": "astra-pro-sites",
