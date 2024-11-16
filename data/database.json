@@ -904,6 +904,15 @@
         "0.1.0"
       ],
       "ref": "c527429"
+    },
+    "ydtb-elements": {
+      "slug": "ydtb-elements",
+      "vendor": "ydtbwp",
+      "version": "0.0.5",
+      "tags": [
+        "0.0.5"
+      ],
+      "ref": "73b067b"
     }
   },
   "themes": {
