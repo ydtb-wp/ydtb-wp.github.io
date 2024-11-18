@@ -181,6 +181,12 @@ jobs:
           cd package/${{ inputs.slug }} 
           ls -la
 
+      # If gitignore exists in the package folder, it can prevent the vendor and dist files from being pushed to the repo.
+      - name: Remove .gitignore if exits
+        run: |
+          cd package/${{ inputs.slug }} 
+          rm .gitignore -f
+
       # Now that we have the files locally lets make sure that the provided version & Slug matches the version in the plugin files
 
       - name: Check that the Version Matches provided Version
