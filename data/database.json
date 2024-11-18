@@ -908,11 +908,12 @@
     "ydtb-elements": {
       "slug": "ydtb-elements",
       "vendor": "ydtbwp",
-      "version": "0.0.5",
+      "version": "0.1.0",
       "tags": [
-        "0.0.5"
+        "0.0.5",
+        "0.1.0"
       ],
-      "ref": "73b067b"
+      "ref": "75eb11b"
     }
   },
   "themes": {
