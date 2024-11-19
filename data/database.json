@@ -24,14 +24,15 @@
     "wordpress-seo": {
       "slug": "wordpress-seo",
       "vendor": "yoast",
-      "version": "23.8",
+      "version": "23.9",
       "tags": [
         "23.5",
         "23.6",
         "23.7",
-        "23.8"
+        "23.8",
+        "23.9"
       ],
-      "ref": "f4c423b"
+      "ref": "27d9103"
     },
     "ultimate-elementor": {
       "slug": "ultimate-elementor",
