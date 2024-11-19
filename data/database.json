@@ -141,11 +141,12 @@
     "restrict-content-pro": {
       "slug": "restrict-content-pro",
       "vendor": "rcp",
-      "version": "3.5.42",
+      "version": "3.5.43",
       "tags": [
-        "3.5.42"
+        "3.5.42",
+        "3.5.43"
       ],
-      "ref": "c13087c"
+      "ref": "a4af341"
     },
     "buddyboss-platform-pro": {
       "slug": "buddyboss-platform-pro",
