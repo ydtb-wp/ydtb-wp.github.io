@@ -865,11 +865,12 @@
     "nextend-facebook-connect": {
       "slug": "nextend-facebook-connect",
       "vendor": "nextend",
-      "version": "3.1.15",
+      "version": "3.1.16",
       "tags": [
-        "3.1.15"
+        "3.1.15",
+        "3.1.16"
       ],
-      "ref": "2ce73a4"
+      "ref": "7e448fe"
     },
     "nextend-social-login-pro": {
       "slug": "nextend-social-login-pro",
