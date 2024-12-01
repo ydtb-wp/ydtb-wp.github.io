@@ -981,6 +981,15 @@
         "3.4.4"
       ],
       "ref": "b494e0e"
+    },
+    "jet-menu": {
+      "slug": "jet-menu",
+      "vendor": "crocoblock",
+      "version": "2.4.6",
+      "tags": [
+        "2.4.6"
+      ],
+      "ref": "0b7989b"
     }
   },
   "themes": {
