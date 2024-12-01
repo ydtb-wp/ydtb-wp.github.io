@@ -972,6 +972,15 @@
         "2.7.1.1"
       ],
       "ref": "d0d3f13"
+    },
+    "jetformbuilder": {
+      "slug": "jetformbuilder",
+      "vendor": "crocoblock",
+      "version": "3.4.4",
+      "tags": [
+        "3.4.4"
+      ],
+      "ref": "b494e0e"
     }
   },
   "themes": {
