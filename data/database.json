@@ -999,6 +999,15 @@
         "1.3.8"
       ],
       "ref": "b0b4b38"
+    },
+    "jet-tabs": {
+      "slug": "jet-tabs",
+      "vendor": "crocoblock",
+      "version": "2.2.6.1",
+      "tags": [
+        "2.2.6.1"
+      ],
+      "ref": "72d70e2"
     }
   },
   "themes": {
