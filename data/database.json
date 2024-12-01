@@ -1017,6 +1017,15 @@
         "2.2.2.1"
       ],
       "ref": "c35af67"
+    },
+    "jet-tricks": {
+      "slug": "jet-tricks",
+      "vendor": "crocoblock",
+      "version": "1.4.10",
+      "tags": [
+        "1.4.10"
+      ],
+      "ref": "0740af2"
     }
   },
   "themes": {
