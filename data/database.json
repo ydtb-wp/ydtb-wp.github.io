@@ -927,6 +927,15 @@
         "0.1.2"
       ],
       "ref": "45aebea"
+    },
+    "crocoblock-wizard": {
+      "slug": "crocoblock-wizard",
+      "vendor": "crocoblock",
+      "version": "1.2.12",
+      "tags": [
+        "1.2.12"
+      ],
+      "ref": "4efc7b1"
     }
   },
   "themes": {
