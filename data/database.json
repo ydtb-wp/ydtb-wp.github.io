@@ -1026,6 +1026,15 @@
         "1.4.10"
       ],
       "ref": "0740af2"
+    },
+    "woocommerce": {
+      "slug": "woocommerce",
+      "vendor": "woo",
+      "version": "9.4.2",
+      "tags": [
+        "9.4.2"
+      ],
+      "ref": "578e4d8"
     }
   },
   "themes": {
