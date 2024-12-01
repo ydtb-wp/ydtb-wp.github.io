@@ -990,6 +990,15 @@
         "2.4.6"
       ],
       "ref": "0b7989b"
+    },
+    "jet-style-manager": {
+      "slug": "jet-style-manager",
+      "vendor": "crocoblock",
+      "version": "1.3.8",
+      "tags": [
+        "1.3.8"
+      ],
+      "ref": "b0b4b38"
     }
   },
   "themes": {
