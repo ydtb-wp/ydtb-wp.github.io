@@ -518,11 +518,12 @@
     "astra-portfolio": {
       "slug": "astra-portfolio",
       "vendor": "brainstormforce",
-      "version": "1.11.9",
+      "version": "1.12.0",
       "tags": [
-        "1.11.9"
+        "1.11.9",
+        "1.12.0"
       ],
-      "ref": "f17f51f"
+      "ref": "70af0fb"
     },
     "restrict-content-pro-download-monitor": {
       "slug": "restrict-content-pro-download-monitor",
