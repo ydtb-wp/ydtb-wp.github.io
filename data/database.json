@@ -1008,6 +1008,15 @@
         "2.2.6.1"
       ],
       "ref": "72d70e2"
+    },
+    "jet-theme-core": {
+      "slug": "jet-theme-core",
+      "vendor": "crocoblock",
+      "version": "2.2.2.1",
+      "tags": [
+        "2.2.2.1"
+      ],
+      "ref": "c35af67"
     }
   },
   "themes": {
