@@ -933,14 +933,15 @@
     "astra": {
       "slug": "astra",
       "vendor": "brainstormforce",
-      "version": "4.8.6",
+      "version": "4.8.7",
       "tags": [
         "4.8.3",
         "4.8.4",
         "4.8.5",
-        "4.8.6"
+        "4.8.6",
+        "4.8.7"
       ],
-      "ref": "3c15c72"
+      "ref": "78582cc"
     },
     "hello-elementor": {
       "slug": "hello-elementor",
