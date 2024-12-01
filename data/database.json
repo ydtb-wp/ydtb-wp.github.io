@@ -954,6 +954,15 @@
         "2.4.1"
       ],
       "ref": "3e5d1aa"
+    },
+    "jet-data-importer": {
+      "slug": "jet-data-importer",
+      "vendor": "crocoblock",
+      "version": "1.2.2",
+      "tags": [
+        "1.2.2"
+      ],
+      "ref": "9afac73"
     }
   },
   "themes": {
