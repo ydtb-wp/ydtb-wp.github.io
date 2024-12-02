@@ -81,16 +81,17 @@
     "astra-pro-sites": {
       "slug": "astra-pro-sites",
       "vendor": "brainstormforce",
-      "version": "4.4.8",
+      "version": "4.4.9",
       "tags": [
         "4.4.3",
         "4.4.4",
         "4.4.5",
         "4.4.6",
         "4.4.7",
-        "4.4.8"
+        "4.4.8",
+        "4.4.9"
       ],
-      "ref": "d97dff4"
+      "ref": "c4c275b"
     },
     "convertpro": {
       "slug": "convertpro",
