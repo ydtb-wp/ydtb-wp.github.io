@@ -68,7 +68,7 @@
     "astra-addon": {
       "slug": "astra-addon",
       "vendor": "brainstormforce",
-      "version": "4.8.7",
+      "version": "4.8.8",
       "tags": [
         "4.8.1",
         "4.8.2",
@@ -76,9 +76,10 @@
         "4.8.4",
         "4.8.5",
         "4.8.6",
-        "4.8.7"
+        "4.8.7",
+        "4.8.8"
       ],
-      "ref": "9db3c1c"
+      "ref": "b0660ec"
     },
     "astra-pro-sites": {
       "slug": "astra-pro-sites",
