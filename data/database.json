@@ -1047,15 +1047,16 @@
     "astra": {
       "slug": "astra",
       "vendor": "brainstormforce",
-      "version": "4.8.7",
+      "version": "4.8.8",
       "tags": [
         "4.8.3",
         "4.8.4",
         "4.8.5",
         "4.8.6",
-        "4.8.7"
+        "4.8.7",
+        "4.8.8"
       ],
-      "ref": "78582cc"
+      "ref": "b20c346"
     },
     "hello-elementor": {
       "slug": "hello-elementor",
