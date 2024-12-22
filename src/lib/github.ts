@@ -476,9 +476,7 @@ export async function maybePushChanges() {
     );
     await exec("git add *");
     await exec('git commit -m "Update packages"');
-    await exec(
-      `git push https://oauth2:${env.PAT}@github.com/${env.ORG}/${env.REPO}.git`
-    );
+    await exec(`git push https://oauth2:${env.PAT}@github.com/${env.REPO}.git`);
     console.log(
       "\n *** /// All package changes pushed to the repository \\\\\\ ***"
     );

@@ -30,7 +30,8 @@ jobs:
         env:
           VAULT_PASS: ${{ secrets.VAULT_PASS }}
           PAT: ${{ secrets.PAT }}
-          ORG: ${{ secrets.ORG }}
+          ORG: ${{ github.repository_owner }}
+          REPO: ${{ github.repository }}
         run: |
           echo "--- Directory Listing ---"
           ls -la
