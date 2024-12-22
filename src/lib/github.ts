@@ -487,8 +487,8 @@ export async function maybePushChanges() {
   );
 
   if (parseInt(behindStatus) > 0) {
+    console.log("\n\n Local repository is behind remote, pushing changes");
     const { stdout: remoteInfo } = await exec("git remote -v");
-
     try {
       if (!remoteInfo.includes("oauth2")) {
         await exec(
