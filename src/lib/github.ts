@@ -490,11 +490,9 @@ export async function maybePushChanges() {
 
     try {
       if (!remoteInfo.includes("oauth2")) {
-        await exec("git remote remove origin");
         await exec(
-          `git remote add origin https://oauth2:${env.PAT}@github.com/${env.REPO}.git`
+          `git remote set-url origin https://oauth2:${env.PAT}@github.com/${env.REPO}.git`
         );
-        await exec("git branch --set-upstream-to=origin/master master");
       }
     } catch (error) {
       if (error instanceof Error) {
@@ -505,6 +503,7 @@ export async function maybePushChanges() {
     }
 
     await exec(`git push`);
+    await exec(`git remote set-url origin https://github.com/${env.REPO}.git`);
     console.log(
       "\n *** /// All package changes pushed to the repository \\\\\\ ***"
     );
