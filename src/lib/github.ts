@@ -494,6 +494,7 @@ export async function maybePushChanges() {
         await exec(
           `git remote add origin https://oauth2:${env.PAT}@github.com/${env.REPO}.git`
         );
+        await exec("git branch --set-upstream-to=origin/master master");
       }
     } catch (error) {
       if (error instanceof Error) {
