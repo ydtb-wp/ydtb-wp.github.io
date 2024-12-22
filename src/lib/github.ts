@@ -469,6 +469,10 @@ export async function storeCurrentPackage(
 
 export async function maybePushChanges() {
   const { stdout: status } = await exec("git status --porcelain");
+  const { stdout: behindStatus } = await exec(
+    "git rev-list --count HEAD..origin/main"
+  );
+
   if (status) {
     await exec('git config --global user.name "github-actions[bot]"');
     await exec(
@@ -476,12 +480,18 @@ export async function maybePushChanges() {
     );
     await exec("git add *");
     await exec('git commit -m "Update packages"');
+    console.log("\n\n -- Changes committed");
+  } else {
+    console.log("\n\n -- No changes to commit");
+  }
+
+  if (parseInt(behindStatus) > 0) {
     await exec(`git push https://oauth2:${env.PAT}@github.com/${env.REPO}.git`);
     console.log(
       "\n *** /// All package changes pushed to the repository \\\\\\ ***"
     );
   } else {
-    console.log("\n\n No changes to commit");
+    console.log("\n\n Local repository is up to date with remote");
   }
   console.log("||| Done |||");
 }
