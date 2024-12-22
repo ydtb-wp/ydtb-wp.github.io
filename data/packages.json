@@ -1,0 +1,1541 @@
+{
+  "elementor/elementor": {
+    "slug": "elementor",
+    "vendor": "elementor",
+    "ref": "1a53d89",
+    "version": "3.26.2",
+    "tags": [
+      "3.25.10",
+      "3.26.2"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/elementor",
+      "elementor/elementor"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/sfwd-lms": {
+    "slug": "sfwd-lms",
+    "vendor": "learndash",
+    "ref": "3d1e6ab",
+    "version": "4.20.0.1",
+    "tags": [
+      "4.17.0",
+      "4.20.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/sfwd-lms",
+    "aliases": [
+      "ld/sfwd-lms",
+      "learndash/sfwd-lms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-download-monitor": {
+    "slug": "restrict-content-pro-download-monitor",
+    "vendor": "rcp",
+    "ref": "08fb896",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-download-monitor"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-wp-job-manager": {
+    "slug": "restrict-content-pro-wp-job-manager",
+    "vendor": "rcp",
+    "ref": "c94982f",
+    "version": "2.1.8",
+    "tags": [
+      "2.1.8"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-wp-job-manager"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro": {
+    "slug": "restrict-content-pro",
+    "vendor": "rcp",
+    "ref": "56fc1a9",
+    "version": "3.5.44",
+    "tags": [
+      "3.5.43",
+      "3.5.44"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-activecampaign": {
+    "slug": "rcp-activecampaign",
+    "vendor": "rcp",
+    "ref": "a76dbf0",
+    "version": "1.1.1",
+    "tags": [
+      "1.1.1"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-activecampaign"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-authorize-net": {
+    "slug": "rcp-authorize-net",
+    "vendor": "rcp",
+    "ref": "208794f",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-authorize-net"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-avatax": {
+    "slug": "rcp-avatax",
+    "vendor": "rcp",
+    "ref": "0c0468a",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-avatax"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-aweber-pro": {
+    "slug": "rcp-aweber-pro",
+    "vendor": "rcp",
+    "ref": "2f8ddc6",
+    "version": "1.1.5",
+    "tags": [
+      "1.1.5"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-aweber-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-bbpress": {
+    "slug": "restrict-content-pro-bbpress",
+    "vendor": "rcp",
+    "ref": "8cad600",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-bbpress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-braintree": {
+    "slug": "rcp-braintree",
+    "vendor": "rcp",
+    "ref": "73ef8f0",
+    "version": "1.0.9",
+    "tags": [
+      "1.0.9"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-braintree"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-buddypress": {
+    "slug": "restrict-content-pro-buddypress",
+    "vendor": "rcp",
+    "ref": "a1989e4",
+    "version": "2.1.8",
+    "tags": [
+      "2.1.8"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-buddypress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-campaign-monitor": {
+    "slug": "restrict-content-pro-campaign-monitor",
+    "vendor": "rcp",
+    "ref": "3afc6e3",
+    "version": "1.2.4",
+    "tags": [
+      "1.2.4"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-campaign-monitor"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-convertkit": {
+    "slug": "rcp-convertkit",
+    "vendor": "rcp",
+    "ref": "1209cd7",
+    "version": "1.1.3",
+    "tags": [
+      "1.1.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-convertkit"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-csv-user-import": {
+    "slug": "restrict-content-pro-csv-user-import",
+    "vendor": "rcp",
+    "ref": "d0b2b41",
+    "version": "1.1.12",
+    "tags": [
+      "1.1.12"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-csv-user-import"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-custom-renew": {
+    "slug": "rcp-custom-renew",
+    "vendor": "rcp",
+    "ref": "bd56276",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-custom-renew"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-drip-content": {
+    "slug": "rcp-drip-content",
+    "vendor": "rcp",
+    "ref": "c41151e",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-drip-content"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-easy-digital-downloads-vendor-submission-limits": {
+    "slug": "restrict-content-pro-easy-digital-downloads-vendor-submission-limits",
+    "vendor": "rcp",
+    "ref": "da7c133",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-easy-digital-downloads-vendor-submission-limits"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-edd-wallet": {
+    "slug": "rcp-edd-wallet",
+    "vendor": "rcp",
+    "ref": "826033d",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-edd-wallet"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-edd-member-downloads": {
+    "slug": "rcp-edd-member-downloads",
+    "vendor": "rcp",
+    "ref": "94f33a7",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-edd-member-downloads"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-strong-passwords": {
+    "slug": "rcp-strong-passwords",
+    "vendor": "rcp",
+    "ref": "28a9d06",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-strong-passwords"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-group-accounts": {
+    "slug": "rcp-group-accounts",
+    "vendor": "rcp",
+    "ref": "951511d",
+    "version": "2.2.3",
+    "tags": [
+      "2.2.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-group-accounts"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-hardset-expiration-dates": {
+    "slug": "rcp-hardset-expiration-dates",
+    "vendor": "rcp",
+    "ref": "5369d10",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-hardset-expiration-dates"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-help-scout": {
+    "slug": "rcp-help-scout",
+    "vendor": "rcp",
+    "ref": "406ef7c",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-help-scout"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-ip-restriction": {
+    "slug": "rcp-ip-restriction",
+    "vendor": "rcp",
+    "ref": "dc02322",
+    "version": "1.2.8",
+    "tags": [
+      "1.2.8"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-ip-restriction"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-limited-quantity-available": {
+    "slug": "rcp-limited-quantity-available",
+    "vendor": "rcp",
+    "ref": "0a354d7",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-limited-quantity-available"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/mail-chimp-add-on-for-restrict-content-pro": {
+    "slug": "mail-chimp-add-on-for-restrict-content-pro",
+    "vendor": "rcp",
+    "ref": "1144505",
+    "version": "1.3.3",
+    "tags": [
+      "1.3.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/mail-chimp-add-on-for-restrict-content-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-mailchimp-pro": {
+    "slug": "rcp-mailchimp-pro",
+    "vendor": "rcp",
+    "ref": "5d5874b",
+    "version": "1.5.3",
+    "tags": [
+      "1.5.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-mailchimp-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/restrict-content-pro-wysija": {
+    "slug": "restrict-content-pro-wysija",
+    "vendor": "rcp",
+    "ref": "6937b75",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.5",
+      "1.0.6"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/restrict-content-pro-wysija"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-math-verification": {
+    "slug": "rcp-math-verification",
+    "vendor": "rcp",
+    "ref": "fcd7471",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-math-verification"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-per-level-emails": {
+    "slug": "rcp-per-level-emails",
+    "vendor": "rcp",
+    "ref": "6173565",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-per-level-emails"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-rest-api": {
+    "slug": "rcp-rest-api",
+    "vendor": "rcp",
+    "ref": "0233a43",
+    "version": "1.2.2",
+    "tags": [
+      "1.2.2"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-rest-api"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-restriction-timeouts": {
+    "slug": "rcp-restriction-timeouts",
+    "vendor": "rcp",
+    "ref": "a91281f",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-restriction-timeouts"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-restrict-past-content": {
+    "slug": "rcp-restrict-past-content",
+    "vendor": "rcp",
+    "ref": "c9bd8ef",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-restrict-past-content"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-resume-manager": {
+    "slug": "rcp-resume-manager",
+    "vendor": "rcp",
+    "ref": "00ccdab",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-resume-manager"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-site-creation": {
+    "slug": "rcp-site-creation",
+    "vendor": "rcp",
+    "ref": "69d0b96",
+    "version": "1.3.3",
+    "tags": [
+      "1.3.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-site-creation"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-timelock": {
+    "slug": "rcp-timelock",
+    "vendor": "rcp",
+    "ref": "89a8460",
+    "version": "1.1.2",
+    "tags": [
+      "1.1.2"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-timelock"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-ultimate-member": {
+    "slug": "rcp-ultimate-member",
+    "vendor": "rcp",
+    "ref": "68f1e98",
+    "version": "1.2.3",
+    "tags": [
+      "1.2.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-ultimate-member"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-view-limit": {
+    "slug": "rcp-view-limit",
+    "vendor": "rcp",
+    "ref": "8b02cd0",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-view-limit"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/rcp-woocommerce-member-discounts": {
+    "slug": "rcp-woocommerce-member-discounts",
+    "vendor": "rcp",
+    "ref": "2112751",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/rcp-woocommerce-member-discounts"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "rcp/view-limit": {
+    "slug": "view-limit",
+    "vendor": "rcp",
+    "ref": "d382ae5",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "",
+    "aliases": [
+      "rcp/view-limit"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-gradebook": {
+    "slug": "learndash-gradebook",
+    "vendor": "learndash",
+    "ref": "af5fcbd",
+    "version": "4.3.2",
+    "tags": [
+      "4.3.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-gradebook",
+      "learndash/learndash-gradebook"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-course-reviews": {
+    "slug": "learndash-course-reviews",
+    "vendor": "learndash",
+    "ref": "4f00049",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-course-reviews",
+      "learndash/learndash-course-reviews"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-hub": {
+    "slug": "learndash-hub",
+    "vendor": "learndash",
+    "ref": "23c4130",
+    "version": "1.3.2",
+    "tags": [
+      "1.3.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-hub",
+      "learndash/learndash-hub"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-2checkout": {
+    "slug": "learndash-2checkout",
+    "vendor": "learndash",
+    "ref": "0fd207c",
+    "version": "1.1.1.2",
+    "tags": [
+      "1.1.1.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-2checkout",
+      "learndash/learndash-2checkout"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-achievements": {
+    "slug": "learndash-achievements",
+    "vendor": "learndash",
+    "ref": "c14b818",
+    "version": "2.0.2",
+    "tags": [
+      "2.0.1",
+      "2.0.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-achievements",
+      "learndash/learndash-achievements"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-bbpress": {
+    "slug": "learndash-bbpress",
+    "vendor": "learndash",
+    "ref": "c870f9d",
+    "version": "2.2.4",
+    "tags": [
+      "2.2.4"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-bbpress",
+      "learndash/learndash-bbpress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-certificate-builder": {
+    "slug": "learndash-certificate-builder",
+    "vendor": "learndash",
+    "ref": "ece57fd",
+    "version": "1.1.3.1",
+    "tags": [
+      "1.1.2",
+      "1.1.3.1"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-certificate-builder",
+      "learndash/learndash-certificate-builder"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-edd": {
+    "slug": "learndash-edd",
+    "vendor": "learndash",
+    "ref": "3d94da7",
+    "version": "1.4.0",
+    "tags": [
+      "1.4.0"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-edd",
+      "learndash/learndash-edd"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-elementor": {
+    "slug": "learndash-elementor",
+    "vendor": "learndash",
+    "ref": "4c3e1ad",
+    "version": "1.0.9.2",
+    "tags": [
+      "1.0.9.1",
+      "1.0.9.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-elementor",
+      "learndash/learndash-elementor"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-event-espresso": {
+    "slug": "learndash-event-espresso",
+    "vendor": "learndash",
+    "ref": "01b4e5b",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-event-espresso",
+      "learndash/learndash-event-espresso"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-gravity-forms": {
+    "slug": "learndash-gravity-forms",
+    "vendor": "learndash",
+    "ref": "ada5904",
+    "version": "2.1.3",
+    "tags": [
+      "2.1.3"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-gravity-forms",
+      "learndash/learndash-gravity-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-groups-plus": {
+    "slug": "learndash-groups-plus",
+    "vendor": "learndash",
+    "ref": "81d0981",
+    "version": "2.1.1",
+    "tags": [
+      "2.1.1"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-groups-plus",
+      "learndash/learndash-groups-plus"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-integrity": {
+    "slug": "learndash-integrity",
+    "vendor": "learndash",
+    "ref": "676ac11",
+    "version": "1.2.1",
+    "tags": [
+      "1.2.1"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-integrity",
+      "learndash/learndash-integrity"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-memberpress": {
+    "slug": "learndash-memberpress",
+    "vendor": "learndash",
+    "ref": "b27d6d0",
+    "version": "2.2.2",
+    "tags": [
+      "2.2.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-memberpress",
+      "learndash/learndash-memberpress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-migration": {
+    "slug": "learndash-migration",
+    "vendor": "learndash",
+    "ref": "05f19ef",
+    "version": "1.1.1",
+    "tags": [
+      "1.1.0",
+      "1.1.1"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-migration",
+      "learndash/learndash-migration"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-notifications": {
+    "slug": "learndash-notifications",
+    "vendor": "learndash",
+    "ref": "f9d0168",
+    "version": "1.6.4",
+    "tags": [
+      "1.6.4"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-notifications",
+      "learndash/learndash-notifications"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-paidmemberships": {
+    "slug": "learndash-paidmemberships",
+    "vendor": "learndash",
+    "ref": "96eefab",
+    "version": "1.3.5",
+    "tags": [
+      "1.3.5"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-paidmemberships",
+      "learndash/learndash-paidmemberships"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-propanel": {
+    "slug": "learndash-propanel",
+    "vendor": "learndash",
+    "ref": "d2b985c",
+    "version": "3.0.2",
+    "tags": [
+      "3.0.1",
+      "3.0.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-propanel",
+      "learndash/learndash-propanel"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-restrict-content-pro": {
+    "slug": "learndash-restrict-content-pro",
+    "vendor": "learndash",
+    "ref": "ee8ad92",
+    "version": "1.1.1",
+    "tags": [
+      "1.1.1"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-restrict-content-pro",
+      "learndash/learndash-restrict-content-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-samcart": {
+    "slug": "learndash-samcart",
+    "vendor": "learndash",
+    "ref": "32044ee",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-samcart",
+      "learndash/learndash-samcart"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/ld-tec": {
+    "slug": "ld-tec",
+    "vendor": "learndash",
+    "ref": "aa8d1ef",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/ld-tec",
+      "learndash/ld-tec"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-woocommerce": {
+    "slug": "learndash-woocommerce",
+    "vendor": "learndash",
+    "ref": "d4f7ebd",
+    "version": "2.0.1",
+    "tags": [
+      "2.0.0.1",
+      "2.0.1"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-woocommerce",
+      "learndash/learndash-woocommerce"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-zapier": {
+    "slug": "learndash-zapier",
+    "vendor": "learndash",
+    "ref": "a3fe8f6",
+    "version": "2.3.0.1",
+    "tags": [
+      "2.3.0.1"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-zapier",
+      "learndash/learndash-zapier"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/ld-multilingual": {
+    "slug": "ld-multilingual",
+    "vendor": "learndash",
+    "ref": "969cb86",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/ld-multilingual",
+      "learndash/ld-multilingual"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "learndash/learndash-notes": {
+    "slug": "learndash-notes",
+    "vendor": "learndash",
+    "ref": "def623c",
+    "version": "1.1.2",
+    "tags": [
+      "1.1.0",
+      "1.1.2"
+    ],
+    "git": "",
+    "aliases": [
+      "ld/learndash-notes",
+      "learndash/learndash-notes"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/crocoblock-wizard": {
+    "slug": "crocoblock-wizard",
+    "vendor": "crocoblock",
+    "ref": "4efc7b1",
+    "version": "1.2.12",
+    "tags": [
+      "1.2.12"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/crocoblock-wizard",
+      "crocoblock/crocoblock-wizard"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-appointments-booking": {
+    "slug": "jet-appointments-booking",
+    "vendor": "crocoblock",
+    "ref": "10499c3",
+    "version": "2.1.3",
+    "tags": [
+      "2.1.3"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-appointments-booking",
+    "aliases": [
+      "cb/jet-appointments-booking",
+      "crocoblock/jet-appointments-booking"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-blocks": {
+    "slug": "jet-blocks",
+    "vendor": "crocoblock",
+    "ref": "99363a4",
+    "version": "1.3.16",
+    "tags": [
+      "1.3.16"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/jet-blocks",
+      "crocoblock/jet-blocks"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-blog": {
+    "slug": "jet-blog",
+    "vendor": "crocoblock",
+    "ref": "2ad88dd",
+    "version": "2.4.2",
+    "tags": [
+      "2.4.2"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/jet-blog",
+      "crocoblock/jet-blog"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-booking": {
+    "slug": "jet-booking",
+    "vendor": "crocoblock",
+    "ref": "597d87a",
+    "version": "3.6.2",
+    "tags": [
+      "3.6.2"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-booking",
+    "aliases": [
+      "cb/jet-booking",
+      "crocoblock/jet-booking"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-compare-wishlist": {
+    "slug": "jet-compare-wishlist",
+    "vendor": "crocoblock",
+    "ref": "dd37b44",
+    "version": "1.5.8.1",
+    "tags": [
+      "1.5.8.1"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-compare-wishlist",
+    "aliases": [
+      "cb/jet-compare-wishlist",
+      "crocoblock/jet-compare-wishlist"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-elements": {
+    "slug": "jet-elements",
+    "vendor": "crocoblock",
+    "ref": "256ce2f",
+    "version": "2.7.2.1",
+    "tags": [
+      "2.7.2.1"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/jet-elements",
+      "crocoblock/jet-elements"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-engine": {
+    "slug": "jet-engine",
+    "vendor": "crocoblock",
+    "ref": "7f5ce13",
+    "version": "3.6.1.2",
+    "tags": [
+      "3.6.1.2"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-engine",
+    "aliases": [
+      "cb/jet-engine",
+      "crocoblock/jet-engine"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-engine-dynamic-tables-module": {
+    "slug": "jet-engine-dynamic-tables-module",
+    "vendor": "crocoblock",
+    "ref": "a5b3a58",
+    "version": "1.0.11",
+    "tags": [
+      "1.0.8",
+      "1.0.11"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-engine-dynamic-tables-module",
+    "aliases": [
+      "cb/jet-engine-dynamic-tables-module",
+      "crocoblock/jet-engine-dynamic-tables-module"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-menu": {
+    "slug": "jet-menu",
+    "vendor": "crocoblock",
+    "ref": "63f9d27",
+    "version": "2.4.7",
+    "tags": [
+      "2.4.7"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/jet-menu",
+      "crocoblock/jet-menu"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-popup": {
+    "slug": "jet-popup",
+    "vendor": "crocoblock",
+    "ref": "c38bebc",
+    "version": "2.0.9",
+    "tags": [
+      "2.0.9"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-popup",
+    "aliases": [
+      "cb/jet-popup",
+      "crocoblock/jet-popup"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-woo-product-gallery": {
+    "slug": "jet-woo-product-gallery",
+    "vendor": "crocoblock",
+    "ref": "74f82e6",
+    "version": "2.1.20",
+    "tags": [
+      "2.1.20"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-woo-product-gallery",
+    "aliases": [
+      "cb/jet-woo-product-gallery",
+      "crocoblock/jet-woo-product-gallery"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-reviews": {
+    "slug": "jet-reviews",
+    "vendor": "crocoblock",
+    "ref": "357e54b",
+    "version": "2.3.6",
+    "tags": [
+      "2.3.6"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-reviews",
+    "aliases": [
+      "cb/jet-reviews",
+      "crocoblock/jet-reviews"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-search": {
+    "slug": "jet-search",
+    "vendor": "crocoblock",
+    "ref": "8779eed",
+    "version": "3.5.5.1",
+    "tags": [
+      "3.5.5.1"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-search",
+    "aliases": [
+      "cb/jet-search",
+      "crocoblock/jet-search"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-smart-filters": {
+    "slug": "jet-smart-filters",
+    "vendor": "crocoblock",
+    "ref": "c59853b",
+    "version": "3.6.0.1",
+    "tags": [
+      "3.6.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-smart-filters",
+    "aliases": [
+      "cb/jet-smart-filters",
+      "crocoblock/jet-smart-filters"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-tabs": {
+    "slug": "jet-tabs",
+    "vendor": "crocoblock",
+    "ref": "6163b2f",
+    "version": "2.2.6.2",
+    "tags": [
+      "2.2.6.2"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/jet-tabs",
+      "crocoblock/jet-tabs"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-theme-core": {
+    "slug": "jet-theme-core",
+    "vendor": "crocoblock",
+    "ref": "c35af67",
+    "version": "2.2.2.1",
+    "tags": [
+      "2.2.2.1"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/jet-theme-core",
+      "crocoblock/jet-theme-core"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-tricks": {
+    "slug": "jet-tricks",
+    "vendor": "crocoblock",
+    "ref": "0740af2",
+    "version": "1.4.10",
+    "tags": [
+      "1.4.10"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/jet-tricks",
+      "crocoblock/jet-tricks"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-woo-builder": {
+    "slug": "jet-woo-builder",
+    "vendor": "crocoblock",
+    "ref": "38ae4d7",
+    "version": "2.1.16",
+    "tags": [
+      "2.1.16"
+    ],
+    "git": "https://github.com/ydtb-wp/jet-woo-builder",
+    "aliases": [
+      "cb/jet-woo-builder",
+      "crocoblock/jet-woo-builder"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "woo/woocommerce": {
+    "slug": "woocommerce",
+    "vendor": "woo",
+    "ref": "1602adc",
+    "version": "9.5.1",
+    "tags": [
+      "9.5.1"
+    ],
+    "git": "",
+    "aliases": [
+      "cb/woocommerce",
+      "woo/woocommerce"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "acf/advanced-custom-fields-pro": {
+    "slug": "advanced-custom-fields-pro",
+    "vendor": "acf",
+    "ref": "55b501b",
+    "version": "6.3.11",
+    "tags": [
+      "6.3.11"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/advanced-custom-fields-pro",
+      "acf/advanced-custom-fields-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/astra-addon": {
+    "slug": "astra-addon",
+    "vendor": "brainstormforce",
+    "ref": "30ab731",
+    "version": "4.8.8",
+    "tags": [
+      "4.8.7",
+      "4.8.8"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/astra-addon",
+      "brainstormforce/astra-addon"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/convertpro": {
+    "slug": "convertpro",
+    "vendor": "brainstormforce",
+    "ref": "7d927c1",
+    "version": "1.7.8",
+    "tags": [
+      "1.7.8"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/convertpro",
+      "brainstormforce/convertpro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/convertpro-addon": {
+    "slug": "convertpro-addon",
+    "vendor": "brainstormforce",
+    "ref": "90894ba",
+    "version": "1.5.12",
+    "tags": [
+      "1.5.12"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/convertpro-addon",
+      "brainstormforce/convertpro-addon"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "dudaster/ele-custom-skin": {
+    "slug": "ele-custom-skin",
+    "vendor": "dudaster",
+    "ref": "2f66df0",
+    "version": "3.1.9",
+    "tags": [
+      "3.1.9"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/ele-custom-skin",
+      "dudaster/ele-custom-skin"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "dudaster/ele-custom-skin-pro": {
+    "slug": "ele-custom-skin-pro",
+    "vendor": "dudaster",
+    "ref": "62c1678",
+    "version": "3.2.5",
+    "tags": [
+      "3.2.4",
+      "3.2.5"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/ele-custom-skin-pro",
+      "dudaster/ele-custom-skin-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "elementor/elementor-pro": {
+    "slug": "elementor-pro",
+    "vendor": "elementor",
+    "ref": "7d98d6e",
+    "version": "3.26.1",
+    "tags": [
+      "3.25.4",
+      "3.26.1"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/elementor-pro",
+      "elementor/elementor-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "meowapps/media-cleaner-pro": {
+    "slug": "media-cleaner-pro",
+    "vendor": "meowapps",
+    "ref": "652528b",
+    "version": "6.8.1",
+    "tags": [
+      "6.8.1"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/media-cleaner-pro",
+      "meowapps/media-cleaner-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "nextend/nextend-facebook-connect": {
+    "slug": "nextend-facebook-connect",
+    "vendor": "nextend",
+    "ref": "7e448fe",
+    "version": "3.1.16",
+    "tags": [
+      "3.1.16"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/nextend-facebook-connect",
+      "nextend/nextend-facebook-connect"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "nextend/nextend-social-login-pro": {
+    "slug": "nextend-social-login-pro",
+    "vendor": "nextend",
+    "ref": "b063200",
+    "version": "3.1.16",
+    "tags": [
+      "3.1.16"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/nextend-social-login-pro",
+      "nextend/nextend-social-login-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/astra-pro-sites": {
+    "slug": "astra-pro-sites",
+    "vendor": "brainstormforce",
+    "ref": "5e4ed2e",
+    "version": "4.4.10",
+    "tags": [
+      "4.4.9",
+      "4.4.10"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/astra-pro-sites",
+      "brainstormforce/astra-pro-sites"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/wp-schema-pro": {
+    "slug": "wp-schema-pro",
+    "vendor": "brainstormforce",
+    "ref": "2fa5435",
+    "version": "2.7.23",
+    "tags": [
+      "2.7.23"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/wp-schema-pro",
+      "brainstormforce/wp-schema-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/ultimate-elementor": {
+    "slug": "ultimate-elementor",
+    "vendor": "brainstormforce",
+    "ref": "1acba91",
+    "version": "1.37.3",
+    "tags": [
+      "1.37.3"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/ultimate-elementor",
+      "brainstormforce/ultimate-elementor"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "wparmour/honeypot": {
+    "slug": "honeypot",
+    "vendor": "wparmour",
+    "ref": "c405302",
+    "version": "2.2.05",
+    "tags": [
+      "2.2.05"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/honeypot",
+      "wparmour/honeypot"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "wparmour/wp-armour-extended": {
+    "slug": "wp-armour-extended",
+    "vendor": "wparmour",
+    "ref": "d5b1a0e",
+    "version": "1.34",
+    "tags": [
+      "1.34"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/wp-armour-extended",
+      "wparmour/wp-armour-extended"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/astra-portfolio": {
+    "slug": "astra-portfolio",
+    "vendor": "brainstormforce",
+    "ref": "70af0fb",
+    "version": "1.12.0",
+    "tags": [
+      "1.12.0"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/astra-portfolio",
+      "brainstormforce/astra-portfolio"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "brainstormforce/astra": {
+    "slug": "astra",
+    "vendor": "brainstormforce",
+    "ref": "3ce26cc",
+    "version": "4.8.8",
+    "tags": [
+      "4.8.7",
+      "4.8.8"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/astra",
+      "brainstormforce/astra"
+    ],
+    "type": "wordpress-theme"
+  },
+  "elementor/hello-elementor": {
+    "slug": "hello-elementor",
+    "vendor": "elementor",
+    "ref": "92443ba",
+    "version": "3.2.1",
+    "tags": [
+      "3.1.1",
+      "3.2.1"
+    ],
+    "git": "",
+    "aliases": [
+      "bd/hello-elementor",
+      "elementor/hello-elementor"
+    ],
+    "type": "wordpress-theme"
+  }
+}

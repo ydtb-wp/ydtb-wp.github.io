@@ -1,0 +1,44 @@
+{
+  "composer_repos": [
+    {
+      "name": "RCP",
+      "vendor": "rcp",
+      "url": "https://rcp.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "NzAzMGFkOTI5NmUwOWMxMmNmMTcyOGU5NTQ2MTEzNjQ6MmQ4MDgzZThiMzRhOTQwMTExMDA4ZjcwMGUzMzU1ZTZlZGMxZWMwYjRjMzk2ZDkyMzg4YzcyMmM3YjJkMjVmMzZhMmY0ZGY5OTM3MTE2ZjNlMjBiZWNlZWJkZTA5NDQ2",
+        "password": "ZmYxNDQ4YjEzZGMzNTg3OGM1ODg3ZWRkYTUyNmY0ODk6NTQ5ZGQ3OTRjODFhMDJkOWU1ZTVkYzA2MzkwZTMzN2Y="
+      }
+    },
+    {
+      "name": "Learndash",
+      "vendor": "ld",
+      "url": "https://ld.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "NzI2ZGE2NWUzNjQzODViM2YyNGZlM2VlOGM3ZTNkOTE6NDU4NGQ1NjI3ZmQzNGVhMTFkMjMyY2ZlOTg0NTE4MzFkZTZmY2VkYjljODllNTM0NmI2ZmIxZjE1MzUxMDIyY2UwOTc5MGFjYmFmYzgzNGIxMjVjMjQ4MDJhMWVhNDM4",
+        "password": "ZGI4ZTJhZDMzODM5ZDRjNmNlNjc0NjRjZTIzYTA1YmM6MzVhYjgyMjdmZTZjOGQ1M2UwNGJiYTg5MjQzNjc0YzU="
+      }
+    },
+    {
+      "name": "Crocoblock",
+      "vendor": "cb",
+      "url": "https://crocoblock.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "OWMwZTQ5YmI4NGQ0ZGZiNmQ3ZjNhOTBhMDNmOGY3YjI6Y2E1MzM2ZjAyYTJiOWIyNTE4OTg5ZTAxNDFmYWM2MWRmOTJiYjNhZWQ0ZjAwOWFkOGQzNmRiYmI1YTgxOTI4ODM2YTliNzg4Njg2ZGRiNDYyNWJlNzVmOGIxNDhlNjhl",
+        "password": "YTE1MmU2ZjU1MmRhNmUyZjMyYWRjZDgzYmI0MDAzNjg6YWQxYWI4Y2ZlNjU3ZGUzNmUyMDk1OWI1YzZmMTc0ZjY="
+      }
+    },
+    {
+      "name": "Builders",
+      "vendor": "bd",
+      "url": "https://bd.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "MjQxNjkzYzk1NzI5N2I4YTUyNDI1YzdiNDZkNDI3ODc6MTMyNTlmZGRmY2YyNzFjZDJjNDcwN2M2NDVkOGExMzgxZTRkODg4Njk2M2EwMDU5ZGExZjBiZWEwMDhjODhhMjA2NzJiNDUzNmViYjkxMDNmMzkwNDQyYWU0NjBmM2Zk",
+        "password": "MWIxYjliN2QyMzM1MjlhNjBhNjNjMzU0NDFiZjI0NDI6Yjk1YmE3NmNmMmY4N2UwNGVmODdjMWE3YzI0OWVmMGI="
+      }
+    }
+  ]
+}
