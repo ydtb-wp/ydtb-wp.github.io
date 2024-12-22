@@ -469,9 +469,6 @@ export async function storeCurrentPackage(
 
 export async function maybePushChanges() {
   const { stdout: status } = await exec("git status --porcelain");
-  const { stdout: behindStatus } = await exec(
-    "git rev-list --count HEAD...@{upstream}"
-  );
 
   if (status) {
     await exec('git config --global user.name "github-actions[bot]"');
@@ -484,6 +481,10 @@ export async function maybePushChanges() {
   } else {
     console.log("\n\n -- No changes to commit");
   }
+
+  const { stdout: behindStatus } = await exec(
+    "git rev-list --count HEAD...@{upstream}"
+  );
 
   if (parseInt(behindStatus) > 0) {
     const { stdout: remoteInfo } = await exec("git remote -v");
