@@ -5,6 +5,7 @@ import type { Auth } from "~/types/ComposerRepoList";
 import type { Package } from "~/types/ComposerPackage";
 import type { PackageDataType } from "~/types/PackageData";
 import { pathAlias } from "./pathAlias";
+import { env } from "~/env";
 const fs = require("fs").promises;
 const exec = promisify(execCallback);
 
@@ -476,7 +477,7 @@ export async function maybePushChanges() {
     await exec("git add *");
     await exec('git commit -m "Update packages"');
     await exec(
-      `git push https://oauth2:${process.env.PAT}@github.com/${process.env.ORG}/${process.env.REPO}.git`
+      `git push https://oauth2:${env.PAT}@github.com/${env.ORG}/${env.REPO}.git`
     );
     console.log(
       "\n *** /// All package changes pushed to the repository \\\\\\ ***"
