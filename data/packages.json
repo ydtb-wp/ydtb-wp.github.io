@@ -1588,9 +1588,11 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "9250244",
+    "version": "24.1",
+    "tags": [
+      "24.1"
+    ],
     "git": "",
     "aliases": [
       "bd/wordpress-seo",
