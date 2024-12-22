@@ -1584,5 +1584,18 @@
       "fluent/fluentcampaign-pro"
     ],
     "type": "wordpress-plugin"
+  },
+  "yoast/wordpress-seo": {
+    "slug": "wordpress-seo",
+    "vendor": "yoast",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "bd/wordpress-seo",
+      "yoast/wordpress-seo"
+    ],
+    "type": "wordpress-plugin"
   }
 }
