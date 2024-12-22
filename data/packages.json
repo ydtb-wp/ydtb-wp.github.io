@@ -1616,5 +1616,44 @@
       "buddyboss/buddyboss-platform"
     ],
     "type": "wordpress-plugin"
+  },
+  "buddyboss/buddyboss-platform-pro": {
+    "slug": "buddyboss-platform-pro",
+    "vendor": "buddyboss",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ld/buddyboss-platform-pro",
+      "buddyboss/buddyboss-platform-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "buddyboss/buddyboss-theme-child": {
+    "slug": "buddyboss-theme-child",
+    "vendor": "buddyboss",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ld/buddyboss-theme-child",
+      "buddyboss/buddyboss-theme-child"
+    ],
+    "type": "wordpress-theme"
+  },
+  "buddyboss/buddyboss-theme": {
+    "slug": "buddyboss-theme",
+    "vendor": "buddyboss",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ld/buddyboss-theme",
+      "buddyboss/buddyboss-theme"
+    ],
+    "type": "wordpress-theme"
   }
 }
