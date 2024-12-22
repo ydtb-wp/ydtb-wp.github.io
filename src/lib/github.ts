@@ -465,3 +465,23 @@ export async function storeCurrentPackage(
 
   await exec(`rm -rf ${unzippedDir}`);
 }
+
+export async function maybePushChanges() {
+  const { stdout: status } = await exec("git status --porcelain");
+  if (status) {
+    await exec('git config --global user.name "github-actions[bot]"');
+    await exec(
+      'git config --global user.email "github-actions[bot]@users.noreply.github.com"'
+    );
+    await exec("git add *");
+    await exec('git commit -m "Update packages"');
+    await exec(
+      `git push https://oauth2:${process.env.PAT}@github.com/${process.env.ORG}/${process.env.REPO}.git`
+    );
+    console.log(
+      "\n *** /// All package changes pushed to the repository \\\\\\ ***"
+    );
+  } else {
+    console.log("No changes to commit");
+  }
+}

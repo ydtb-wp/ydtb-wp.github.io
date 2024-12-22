@@ -2,7 +2,7 @@
 
 import { listUpdates } from "~/actions/listUpdates";
 import { updatePackages } from "~/actions/updatePackage";
-import { cleanUpTempDir } from "~/lib/github";
+import { cleanUpTempDir, maybePushChanges } from "~/lib/github";
 
 const updates = await listUpdates();
 
@@ -12,3 +12,5 @@ for (const packageUpdate of updates) {
   await updatePackages(name, packageUpdate[Object.keys(packageUpdate)[0]]);
   await cleanUpTempDir();
 }
+
+await maybePushChanges();
