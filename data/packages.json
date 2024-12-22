@@ -1599,5 +1599,18 @@
       "yoast/wordpress-seo"
     ],
     "type": "wordpress-plugin"
+  },
+  "buddyboss/buddyboss-platform": {
+    "slug": "buddyboss-platform",
+    "vendor": "buddyboss",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ld/buddyboss-platform",
+      "buddyboss/buddyboss-platform"
+    ],
+    "type": "wordpress-plugin"
   }
 }
