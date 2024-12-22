@@ -106,33 +106,33 @@ export async function repoExists(slug: string, token?: string, owner?: string) {
  * Validates and retrieves the GitHub token and owner parameters.
  *
  * This function checks if the provided `token` and `owner` parameters are defined.
- * If not, it attempts to retrieve them from the environment variables `GITHUB_PAT` and `GITHUB_ORG`, respectively.
+ * If not, it attempts to retrieve them from the environment variables `PAT` and `ORG`, respectively.
  * If neither the parameters nor the environment variables are set, it throws an error.
  *
- * @param {string | undefined} token - The GitHub token. If undefined, the function will attempt to use the `GITHUB_PAT` environment variable.
- * @param {string | undefined} owner - The GitHub organization or owner. If undefined, the function will attempt to use the `GITHUB_ORG` environment variable.
+ * @param {string | undefined} token - The GitHub token. If undefined, the function will attempt to use the `PAT` environment variable.
+ * @param {string | undefined} owner - The GitHub organization or owner. If undefined, the function will attempt to use the `ORG` environment variable.
  * @returns {{ token: string, owner: string }} An object containing the validated `token` and `owner`.
- * @throws {Error} If neither the `token` parameter nor the `GITHUB_PAT` environment variable is set.
- * @throws {Error} If neither the `owner` parameter nor the `GITHUB_ORG` environment variable is set.
+ * @throws {Error} If neither the `token` parameter nor the `PAT` environment variable is set.
+ * @throws {Error} If neither the `owner` parameter nor the `ORG` environment variable is set.
  */
 function validatePassedParams(
   token: string | undefined,
   owner: string | undefined
 ) {
   if (!token) {
-    token = process.env.GITHUB_PAT;
+    token = process.env.PAT;
     if (!token) {
       throw new Error(
-        "GitHub token is not provided and GITHUB_PAT environment variable is not set."
+        "GitHub token is not provided and PAT environment variable is not set."
       );
     }
   }
 
   if (!owner) {
-    owner = process.env.GITHUB_ORG;
+    owner = process.env.ORG;
     if (!owner) {
       throw new Error(
-        "GitHub organization is not provided and GITHUB_ORG environment variable is not set."
+        "GitHub organization is not provided and ORG environment variable is not set."
       );
     }
   }

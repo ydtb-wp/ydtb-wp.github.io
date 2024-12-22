@@ -5,14 +5,14 @@ import 'dotenv/config';
 export const env = createEnv({
   server: {
     VAULT_PASS: z.string(),
-    GITHUB_PAT: z.string(),
-    GITHUB_ORG: z.string(),
+    PAT: z.string(),
+    ORG: z.string(),
   },
   client: {},
   runtimeEnv: {
     VAULT_PASS: process.env.VAULT_PASS,
-    GITHUB_PAT: process.env.PAT,
-    GITHUB_ORG: process.env.ORG,
+    PAT: process.env.PAT,
+    ORG: process.env.ORG,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,
