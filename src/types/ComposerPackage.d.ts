@@ -5,7 +5,7 @@ export type Package = {
   dist?: {
     type: string;
     url: string;
-    shasum: string;
+    shasum?: string;
   };
   source?: {
     type: string;
