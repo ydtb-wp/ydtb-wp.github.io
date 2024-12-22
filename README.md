@@ -5,6 +5,10 @@ What this does. I have multiple wordpress sites that use satispress to generate 
 # How it works
 This repo is designed to be used as the root repository for a github organization. It can be a free org, and this is designed to maintain the secrets required to run the repository. (I.E. the VaultPass {encrypting and decrypting satispress un/pw }, and the github PAT token used to push updates to the private repos). In this example, the org is called `ydtb-wp` and the repository is called `ydtb-wp.github.io`. This is so that the composer repository can be accessed at `https://ydtb-wp.github.io` and the composer packages.json can be accessed at `https://ydtb-wp.github.io/packages.json`. If you are setting this up for your org, you will need to replace `ydtb-wp` with your org name.
 
+![image](https://github.com/user-attachments/assets/a929274a-9a4a-41f0-8ed1-469f8f26a476)
+
+
+
 ## Updating composer
 
 We can now add the following to our composer.json file for the site we are working on:
