@@ -2,11 +2,12 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "1a53d89",
-    "version": "3.26.2",
+    "ref": "cd2bffc",
+    "version": "3.26.3",
     "tags": [
       "3.25.10",
-      "3.26.2"
+      "3.26.2",
+      "3.26.3"
     ],
     "git": "",
     "aliases": [
