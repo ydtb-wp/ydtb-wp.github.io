@@ -1537,5 +1537,20 @@
       "elementor/hello-elementor"
     ],
     "type": "wordpress-theme"
+  },
+  "elementor/hello-theme-child": {
+    "slug": "hello-theme-child",
+    "vendor": "elementor",
+    "ref": "d0376dd",
+    "version": "2.0.1",
+    "tags": [
+      "2.0.0",
+      "2.0.1"
+    ],
+    "git": "",
+    "aliases": [
+      "elementor/hello-theme-child"
+    ],
+    "type": "wordpress-theme"
   }
 }

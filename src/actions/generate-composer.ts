@@ -65,6 +65,4 @@ const processItems = (items: PackageListType) => {
 
 const result = processItems(packageList);
 
-console.log(result);
-
 writeFileSync(out, JSON.stringify(result, null, 2));
