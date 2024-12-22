@@ -11,8 +11,8 @@ export const env = createEnv({
   client: {},
   runtimeEnv: {
     VAULT_PASS: process.env.VAULT_PASS,
-    GITHUB_PAT: process.env.GITHUB_PAT,
-    GITHUB_ORG: process.env.GITHUB_ORG,
+    GITHUB_PAT: process.env.PAT,
+    GITHUB_ORG: process.env.ORG,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,
