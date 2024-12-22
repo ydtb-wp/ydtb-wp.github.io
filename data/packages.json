@@ -1620,9 +1620,12 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "f53804b",
+    "version": "2.6.40",
+    "tags": [
+      "2.6.31",
+      "2.6.40"
+    ],
     "git": "",
     "aliases": [
       "ld/buddyboss-platform-pro",
@@ -1633,9 +1636,11 @@
   "buddyboss/buddyboss-theme-child": {
     "slug": "buddyboss-theme-child",
     "vendor": "buddyboss",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "790e065",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
     "git": "",
     "aliases": [
       "ld/buddyboss-theme-child",
@@ -1646,9 +1651,13 @@
   "buddyboss/buddyboss-theme": {
     "slug": "buddyboss-theme",
     "vendor": "buddyboss",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "24e42ce",
+    "version": "2.7.50",
+    "tags": [
+      "2.7.30",
+      "2.7.40",
+      "2.7.50"
+    ],
     "git": "",
     "aliases": [
       "ld/buddyboss-theme",
