@@ -470,7 +470,7 @@ export async function storeCurrentPackage(
 export async function maybePushChanges() {
   const { stdout: status } = await exec("git status --porcelain");
   const { stdout: behindStatus } = await exec(
-    "git rev-list --count HEAD..origin/main"
+    "git rev-list --count HEAD..origin/master"
   );
 
   if (status) {
