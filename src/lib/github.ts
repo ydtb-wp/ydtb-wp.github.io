@@ -482,6 +482,7 @@ export async function maybePushChanges() {
       "\n *** /// All package changes pushed to the repository \\\\\\ ***"
     );
   } else {
-    console.log("No changes to commit");
+    console.log("\n\n No changes to commit");
   }
+  console.log("||| Done |||");
 }

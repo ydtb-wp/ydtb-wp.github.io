@@ -1553,5 +1553,31 @@
       "elementor/hello-theme-child"
     ],
     "type": "wordpress-theme"
+  },
+  "fluent/fluent-crm": {
+    "slug": "fluent-crm",
+    "vendor": "fluent",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "bd/fluent-crm",
+      "fluent/fluent-crm"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "fluent/fluentcampaign-pro": {
+    "slug": "fluentcampaign-pro",
+    "vendor": "fluent",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "bd/fluentcampaign-pro",
+      "fluent/fluentcampaign-pro"
+    ],
+    "type": "wordpress-plugin"
   }
 }
