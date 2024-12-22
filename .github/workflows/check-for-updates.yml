@@ -27,6 +27,10 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Run Check For Updates
+        env:
+          VAULT_PASS: ${{ secrets.VAULT_PASS }}
+          PAT: ${{ secrets.PAT }}
+          ORG: ${{ secrets.ORG }}
         run: |
           echo "--- Directory Listing ---"
           ls -la
