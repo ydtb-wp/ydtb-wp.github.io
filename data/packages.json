@@ -1664,5 +1664,18 @@
       "buddyboss/buddyboss-theme"
     ],
     "type": "wordpress-theme"
+  },
+  "ydtbwp/ydtb-elements": {
+    "slug": "ydtb-elements",
+    "vendor": "ydtbwp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "bd/ydtb-elements",
+      "ydtbwp/ydtb-elements"
+    ],
+    "type": "wordpress-plugin"
   }
 }
