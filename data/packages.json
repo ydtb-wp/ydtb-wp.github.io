@@ -1668,9 +1668,11 @@
   "ydtbwp/ydtb-elements": {
     "slug": "ydtb-elements",
     "vendor": "ydtbwp",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "519a178",
+    "version": "0.1.2",
+    "tags": [
+      "0.1.2"
+    ],
     "git": "",
     "aliases": [
       "bd/ydtb-elements",
