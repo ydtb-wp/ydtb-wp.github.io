@@ -1297,10 +1297,11 @@
   "brainstormforce/convertpro": {
     "slug": "convertpro",
     "vendor": "brainstormforce",
-    "ref": "7d927c1",
-    "version": "1.7.8",
+    "ref": "6065620",
+    "version": "1.7.9",
     "tags": [
-      "1.7.8"
+      "1.7.8",
+      "1.7.9"
     ],
     "git": "",
     "aliases": [
@@ -1312,10 +1313,11 @@
   "brainstormforce/convertpro-addon": {
     "slug": "convertpro-addon",
     "vendor": "brainstormforce",
-    "ref": "90894ba",
-    "version": "1.5.12",
+    "ref": "86371be",
+    "version": "1.5.13",
     "tags": [
-      "1.5.12"
+      "1.5.12",
+      "1.5.13"
     ],
     "git": "",
     "aliases": [
