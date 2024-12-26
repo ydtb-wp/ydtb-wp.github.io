@@ -1622,11 +1622,12 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "f53804b",
-    "version": "2.6.40",
+    "ref": "79831d2",
+    "version": "2.6.50",
     "tags": [
       "2.6.31",
-      "2.6.40"
+      "2.6.40",
+      "2.6.50"
     ],
     "git": "",
     "aliases": [
