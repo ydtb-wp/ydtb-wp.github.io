@@ -13,4 +13,10 @@ for (const packageUpdate of updates) {
   await cleanUpTempDir();
 }
 
-await maybePushChanges();
+const changesPushed = await maybePushChanges();
+
+if (changesPushed) {
+  process.exit(10); // Success there is an update that needs to be generated
+} else {
+  process.exit(0); // No updates were pushed, nothing to do
+}

@@ -467,7 +467,7 @@ export async function storeCurrentPackage(
   await exec(`rm -rf ${unzippedDir}`);
 }
 
-export async function maybePushChanges() {
+export async function maybePushChanges(): Promise<boolean> {
   const { stdout: status } = await exec("git status --porcelain");
 
   if (status) {
@@ -508,8 +508,9 @@ export async function maybePushChanges() {
     console.log(
       "\n *** /// All package changes pushed to the repository \\\\\\ ***"
     );
+    return true;
   } else {
     console.log("\n\n Local repository is up to date with remote");
+    return false;
   }
-  console.log("||| Done |||");
 }
