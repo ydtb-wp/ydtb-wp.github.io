@@ -27,6 +27,7 @@ type PackageResponse =
 
 /** Marshalling stream to object with narrowing */
 const marshalResponse = async (res: PackageResponse) => {
+  console.log("Response status: ", res.status);
   if (res.status === 200 || res.status === 201)
     return {
       code: "success",
@@ -39,21 +40,17 @@ const marshalResponse = async (res: PackageResponse) => {
   return Error("Unhandled response code");
 };
 
-/** Coerce Response to UserResponse */
-const responseHandler = async (response: Response) => {
-  const res = response as PackageResponse;
-  return await marshalResponse(res);
-};
-
 export const fetchSource = async (
   source: ComposerRepo
 ): Promise<ComposerPackageRequest | BadRequest | UnAuthorized> => {
   let response: Response;
   if (source.auth_type === "none") {
+    console.log("Fetching without auth from: ", source.url);
     response = await fetch(source.url, {
       method: "GET",
     });
   } else {
+    console.log("Fetching with auth from: ", source.url);
     response = await fetch(source.url, {
       method: "GET",
       headers: {
@@ -64,11 +61,12 @@ export const fetchSource = async (
     });
   }
 
-  const result = await responseHandler(response);
+  // const result = await responseHandler(response);
+  const result = await marshalResponse(response as PackageResponse);
+
   if (result instanceof Error) {
     throw result;
   }
-
   return result;
 };
 
