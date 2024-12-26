@@ -27,6 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       exit_code: ${{ steps.check-for-updates.outputs.exit_code }}
+      github_SHA: ${{ steps.get-sha.outputs.SHA }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,9 +48,13 @@ jobs:
           bun install
           bun run ./bin/updatePackages.ts || echo "exit_code=$?" >> $GITHUB_OUTPUT
 
+      - name: Get SHA
+        id: get-sha
+        run: echo "github_SHA=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
   deploy:
     needs: check-for-updates
-    if: needs.check-for-updates.outputs.exit_code == '0'
+    if: ${{ needs.check-for-updates.outputs.github_SHA != github.sha }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -59,6 +64,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: "source"
+          ref: ${{ needs.check-for-updates.outputs.github_SHA }}
 
       - name: Setup bun
         uses: oven-sh/setup-bun@v2
