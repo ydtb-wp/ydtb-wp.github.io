@@ -16,7 +16,7 @@ for (const packageUpdate of updates) {
 const changesPushed = await maybePushChanges();
 
 if (changesPushed) {
-  process.exit(10); // Success there is an update that needs to be generated
+  process.exit(0); // Success there is an update that needs to be generated
 } else {
-  process.exit(0); // No updates were pushed, nothing to do
+  process.exit(10); // No updates were pushed, nothing to do, end here.
 }
