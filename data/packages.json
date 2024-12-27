@@ -1071,10 +1071,11 @@
   "crocoblock/jet-engine": {
     "slug": "jet-engine",
     "vendor": "crocoblock",
-    "ref": "7f5ce13",
-    "version": "3.6.1.2",
+    "ref": "1e723ab",
+    "version": "3.6.2",
     "tags": [
-      "3.6.1.2"
+      "3.6.1.2",
+      "3.6.2"
     ],
     "git": "https://github.com/ydtb-wp/jet-engine",
     "aliases": [
