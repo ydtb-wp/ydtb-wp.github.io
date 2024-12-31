@@ -1104,10 +1104,11 @@
   "crocoblock/jet-menu": {
     "slug": "jet-menu",
     "vendor": "crocoblock",
-    "ref": "63f9d27",
-    "version": "2.4.7",
+    "ref": "ce3b31e",
+    "version": "2.4.7.1",
     "tags": [
-      "2.4.7"
+      "2.4.7",
+      "2.4.7.1"
     ],
     "git": "",
     "aliases": [
