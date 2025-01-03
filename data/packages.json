@@ -1242,10 +1242,11 @@
   "crocoblock/jet-woo-builder": {
     "slug": "jet-woo-builder",
     "vendor": "crocoblock",
-    "ref": "38ae4d7",
-    "version": "2.1.16",
+    "ref": "4733cef",
+    "version": "2.1.16.1",
     "tags": [
-      "2.1.16"
+      "2.1.16",
+      "2.1.16.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-builder",
     "aliases": [
