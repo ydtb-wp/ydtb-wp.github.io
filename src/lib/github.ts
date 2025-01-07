@@ -192,28 +192,38 @@ export async function cloneGithubRepo(
 
   try {
     await exec(`git clone ${url} ${dest}`);
-
-    const { stdout: userName } = await exec(
-      "git config --local --get user.name"
-    );
-    const { stdout: userEmail } = await exec(
-      "git config --local --get user.email"
-    );
-
-    if (!userName.trim()) {
-      await exec('git config user.name "github-actions[bot]"');
-    }
-    if (!userEmail.trim()) {
-      await exec(
-        'git config user.email "github-actions[bot]@users.noreply.github.com"'
-      );
-    }
   } catch (error) {
     if (error instanceof Error) {
       throw new Error(`Error cloning repository: ${error.message}`);
     } else {
       throw new Error(`Error cloning repository: ${error}`);
     }
+  }
+
+  try {
+    const { stdout: userName } = await exec(
+      "git config --local --get user.name"
+    );
+    if (!userName.trim()) {
+      await exec('git config user.name "github-actions[bot]"');
+    }
+  } catch {
+    await exec('git config user.name "github-actions[bot]"');
+  }
+
+  try {
+    const { stdout: userEmail } = await exec(
+      "git config --local --get user.email"
+    );
+    if (!userEmail.trim()) {
+      await exec(
+        'git config user.email "github-actions[bot]@users.noreply.github.com"'
+      );
+    }
+  } catch {
+    await exec(
+      'git config user.email "github-actions[bot]@users.noreply.github.com"'
+    );
   }
 }
 
