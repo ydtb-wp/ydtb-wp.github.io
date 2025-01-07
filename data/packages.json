@@ -2,12 +2,13 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "cd2bffc",
-    "version": "3.26.3",
+    "ref": "752f75d",
+    "version": "3.26.4",
     "tags": [
       "3.25.10",
       "3.26.2",
-      "3.26.3"
+      "3.26.3",
+      "3.26.4"
     ],
     "git": "",
     "aliases": [
@@ -1289,13 +1290,14 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "8e4b592",
-    "version": "4.8.10",
+    "ref": "aa93553",
+    "version": "4.8.11",
     "tags": [
       "4.8.7",
       "4.8.8",
       "4.8.9",
-      "4.8.10"
+      "4.8.10",
+      "4.8.11"
     ],
     "git": "",
     "aliases": [
@@ -1606,10 +1608,11 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "9250244",
-    "version": "24.1",
+    "ref": "f9bf2f9",
+    "version": "24.2",
     "tags": [
-      "24.1"
+      "24.1",
+      "24.2"
     ],
     "git": "",
     "aliases": [
