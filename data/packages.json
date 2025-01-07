@@ -1011,10 +1011,11 @@
   "crocoblock/jet-blog": {
     "slug": "jet-blog",
     "vendor": "crocoblock",
-    "ref": "2ad88dd",
-    "version": "2.4.2",
+    "ref": "bc78437",
+    "version": "2.4.2.1",
     "tags": [
-      "2.4.2"
+      "2.4.2",
+      "2.4.2.1"
     ],
     "git": "",
     "aliases": [
@@ -1288,12 +1289,13 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "8ee5d54",
-    "version": "4.8.9",
+    "ref": "8e4b592",
+    "version": "4.8.10",
     "tags": [
       "4.8.7",
       "4.8.8",
-      "4.8.9"
+      "4.8.9",
+      "4.8.10"
     ],
     "git": "",
     "aliases": [
@@ -1430,11 +1432,12 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "5e4ed2e",
-    "version": "4.4.10",
+    "ref": "1ad88e1",
+    "version": "4.4.11",
     "tags": [
       "4.4.9",
-      "4.4.10"
+      "4.4.10",
+      "4.4.11"
     ],
     "git": "",
     "aliases": [

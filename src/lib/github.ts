@@ -82,25 +82,6 @@ export async function repoExists(slug: string, token?: string, owner?: string) {
       throw error;
     }
   }
-
-  //            //https://api.github.com/repos/<user>/<repo>
-  // const url = `https://api.github.com/orgs/${owner}/repos/${slug}`;
-  // console.log(url);
-  // console.log(token);
-  // const headers = {
-  //   Accept: "application/vnd.github+json",
-  //   Authorization: `Bearer ${token}`,
-  //   "X-GitHub-Api-Version": "2022-11-28",
-  // };
-
-  // const response = await fetch(url, {
-  //   method: "GET",
-  //   headers: headers,
-  // });
-
-  // console.log(response);
-
-  // return response.ok;
 }
 
 /**
@@ -211,10 +192,22 @@ export async function cloneGithubRepo(
 
   try {
     await exec(`git clone ${url} ${dest}`);
-    await exec('git config user.name "github-actions[bot]"');
-    await exec(
-      'git config user.email "github-actions[bot]@users.noreply.github.com"'
+
+    const { stdout: userName } = await exec(
+      "git config --local --get user.name"
     );
+    const { stdout: userEmail } = await exec(
+      "git config --local --get user.email"
+    );
+
+    if (!userName.trim()) {
+      await exec('git config user.name "github-actions[bot]"');
+    }
+    if (!userEmail.trim()) {
+      await exec(
+        'git config user.email "github-actions[bot]@users.noreply.github.com"'
+      );
+    }
   } catch (error) {
     if (error instanceof Error) {
       throw new Error(`Error cloning repository: ${error.message}`);
@@ -348,7 +341,7 @@ export async function storeCurrentPackage(
   await exec("rm package.zip", { cwd: tempDir });
 
   const unzippedDir = `${tempDir}/package`;
-  const expectedDir = `${unzippedDir}/${packageData.slug}`;
+  let expectedDir = `${unzippedDir}/${packageData.slug}`;
 
   const dirExists = await fs
     .access(expectedDir)
@@ -356,9 +349,21 @@ export async function storeCurrentPackage(
     .catch(() => false);
 
   if (!dirExists) {
-    throw new Error(
-      `Expected directory ${expectedDir} does not exist after unzipping.`
-    );
+    const files = await fs.readdir(unzippedDir);
+    const directories = files.filter(async (file: string) => {
+      const stat = await fs.stat(`${unzippedDir}/${file}`);
+      return stat.isDirectory();
+    });
+
+    if (directories.length === 1) {
+      const actualDir = directories[0];
+      console.log(`Expected directory not found. Using ${actualDir} instead.`);
+      expectedDir = `${unzippedDir}/${actualDir}`;
+    } else {
+      throw new Error(
+        `Expected directory ${expectedDir} does not exist and could not identify a single directory in ${unzippedDir}.`
+      );
+    }
   }
 
   await exec(`cp ${tempDir}/GitInfo/gitBackup ${expectedDir}/.git`);
