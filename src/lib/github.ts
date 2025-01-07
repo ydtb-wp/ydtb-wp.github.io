@@ -357,12 +357,19 @@ export async function storeCurrentPackage(
 
     if (directories.length === 1) {
       const actualDir = directories[0];
-      console.log(`Expected directory not found. Using ${actualDir} instead.`);
+      console.log(
+        `  ** Expected directory not found.\n  ** Using ${actualDir} instead.`
+      );
       expectedDir = `${unzippedDir}/${actualDir}`;
     } else {
-      throw new Error(
-        `Expected directory ${expectedDir} does not exist and could not identify a single directory in ${unzippedDir}.`
+      console.log(
+        `  ** Expected directory ${expectedDir} does not exist and could not identify a single directory in ${unzippedDir}.`
       );
+      console.log(`  ** Directories found: ${directories.join(", ")}`);
+      console.log(
+        `  ** Review the package structure and update the expected directory in the package data.`
+      );
+      return;
     }
   }
 
