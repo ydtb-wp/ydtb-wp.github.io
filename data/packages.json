@@ -20,11 +20,12 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "3d1e6ab",
-    "version": "4.20.0.1",
+    "ref": "90bd86e",
+    "version": "4.20.0.2",
     "tags": [
       "4.17.0",
-      "4.20.0.1"
+      "4.20.0.1",
+      "4.20.0.2"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1372,12 +1373,13 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "64494a9",
-    "version": "3.26.2",
+    "ref": "8a2fb0a",
+    "version": "3.26.3",
     "tags": [
       "3.25.4",
       "3.26.1",
-      "3.26.2"
+      "3.26.2",
+      "3.26.3"
     ],
     "git": "",
     "aliases": [
@@ -1528,12 +1530,13 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "0f9740c",
-    "version": "4.8.9",
+    "ref": "6d20d0c",
+    "version": "4.8.10",
     "tags": [
       "4.8.7",
       "4.8.8",
-      "4.8.9"
+      "4.8.9",
+      "4.8.10"
     ],
     "git": "",
     "aliases": [
