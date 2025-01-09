@@ -1548,9 +1548,11 @@
   "elementor/hello-elementor": {
     "slug": "hello-elementor",
     "vendor": "elementor",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "92443ba",
+    "version": "3.2.1",
+    "tags": [
+      "3.2.1"
+    ],
     "git": "",
     "aliases": [
       "crocoblock/hello-elementor",
@@ -1561,9 +1563,11 @@
   "elementor/hello-theme-child": {
     "slug": "hello-theme-child",
     "vendor": "elementor",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "d0376dd",
+    "version": "2.0.0",
+    "tags": [
+      "2.0.0"
+    ],
     "git": "",
     "aliases": [
       "crocoblock/hello-theme-child",
@@ -1574,9 +1578,11 @@
   "fluent/fluent-crm": {
     "slug": "fluent-crm",
     "vendor": "fluent",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "c845c44",
+    "version": "2.9.31",
+    "tags": [
+      "2.9.31"
+    ],
     "git": "",
     "aliases": [
       "ydtb/fluent-crm",
@@ -1587,9 +1593,11 @@
   "fluent/fluentcampaign-pro": {
     "slug": "fluentcampaign-pro",
     "vendor": "fluent",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "d31c06e",
+    "version": "2.9.31",
+    "tags": [
+      "2.9.31"
+    ],
     "git": "",
     "aliases": [
       "ydtb/fluentcampaign-pro",
