@@ -1,43 +1,63 @@
 {
   "composer_repos": [
     {
-      "name": "RCP",
-      "vendor": "rcp",
-      "url": "https://rcp.ydtb-wp.link/satispress/packages.json",
+      "name": "BuddyBoss",
+      "vendor": "buddyboss",
+      "url": "https://buddyboss.ydtb-wp.link/satispress/packages.json",
       "auth_type": "basic",
       "auth": {
-        "username": "M2Y0NTg0MTc0ZjU0MjQ0NzYxZGViMmU3YTY3NmU0YTI6YzhjY2I5MTc1NmRlMDA0YTZlMzUyOTk5OGM1YTcyNDAzNGE1YTg0NTIyODBmNThkODZjNjI3MjU2ZTA4NDYyOTNmMzJmYzg1YjljMDZhYjU1MjUwOGJmYWJhZmQ4Y2Qx",
-        "password": "OTNjNzg5NGJlMmEwNTIzMjczNzc1MjU1MGQ2NzcyOTg6ZDhhMmFiY2I1NDIxMTdkZDA2MzAzODJjYjViYmY3MmM="
-      }
-    },
-    {
-      "name": "Learndash",
-      "vendor": "ld",
-      "url": "https://ld.ydtb-wp.link/satispress/packages.json",
-      "auth_type": "basic",
-      "auth": {
-        "username": "MzFjNmU0OThmZjJhYmZhZjVhNzMwOTdiNzk5Y2ZlYzA6YmRkN2E5NzZiMDM5NTg0MzlkYjg0Y2Y1NWM0OGJiMDk5ZTY0MmEzNzI0ZTQxMTU4MWIwY2M0NDMxZjBiZGZiN2U2OTljZGU0ZThkYzBhNjYyMWI2MGRiMDFmNzc2NWE5",
-        "password": "ZjMwODE5ODFlNWYzOGU3YmQwYzYxMmZiNDIyNWE5NTA6OTU3MjUyNzI4NGE5MTkzMGJlY2MxNDI3YzhlMTQwNDk="
+        "username": "YzUyMzI4ZGFiOGIwMDQ4ZTI5ZjY1ZjcwNDU5ZmI5ZDk6ZDA0MWVkYmFmN2Y4YWY1YzEzZGE5ZTBiMTliNDE1YmEyYjkwMzM5Zjc0NzhkMTc2YjE2YTUzNmQ4NmE0YjJjMGE0ODc5NjM5NDM1MmUxZjY0NmMwMmQ4YmM2YjMxMDI4",
+        "password": "ODkzYzk2ZDc0OWYzYTAyOTA4YjM4NGVlNmMyNjA0OGQ6NWY2YWYwZGIwYzlhZTJlNTM1MjdlNzQzYjMzODI1YzI="
       }
     },
     {
       "name": "Crocoblock",
-      "vendor": "cb",
+      "vendor": "crocoblock",
       "url": "https://crocoblock.ydtb-wp.link/satispress/packages.json",
       "auth_type": "basic",
       "auth": {
-        "username": "NjZkMzE1YTllOGE0MzJkZWM0NzU4ZmVhNDAyN2VmM2Y6YTM0N2FhOGFlNjFlY2UyYmE0NDk3Y2NlMjY3OWE1NmU1YjU3MTQ4MTUxNjg2NDcxMDdkNGQ3NTQzYjhhOGE4MzgwMjdhMDU2MjcxZjY4OGVjOTE0NWEwMzAzMmRjNGU0",
-        "password": "Zjk4NTgzM2E5MzljOTFiMDZmOTZmOTZiMzBhNTJmYzU6MjExZWU3YTNhODM3MDc2NWViMWY1YjliYzU4OTA3YTg="
+        "username": "MjU3YzFjNDc5OGQ5NmIyNWE1MjlhZWIzYzI5YTc2NTQ6MTNlYzU1NjAzNjkzZjViYmQ4YTdkNjkyZTNkOWMxYmYxY2U2ZmMzMmZiMGNjZmMwMjM0MGEzNjI4YTYyNWQyMDkxZjkxMmJmYmE0MWQzODk3MGI3NDI0NDIwZGIzMjFl",
+        "password": "YWU2MDkxYTczOGE3MTQ0ZTcxN2JmOWVhNGM4ZTJkNzA6ODVjMzdmOGFmMDk4YzYwMWNjY2E5N2M4ZjI5ZGQ0YWQ="
       }
     },
     {
-      "name": "Builders",
-      "vendor": "bd",
-      "url": "https://bd.ydtb-wp.link/satispress/packages.json",
+      "name": "Elementor",
+      "vendor": "elementor",
+      "url": "https://elementor.ydtb-wp.link/satispress/packages.json",
       "auth_type": "basic",
       "auth": {
-        "username": "ZjA2NGZhYTUyMjkxZjVmYTk2NWViNjk2NGEyMjA1M2M6N2IwMzAyYzA4NTZiMTMzNzMyNzM5MDdlNTRhYjg1Y2VkNmU4YTJkMTU5MDk5Y2ZkOGQ4ZjRlMDRhMDZhZWJiMmY4MTQ4ZmU3ZmYxYzZkZjk1ZTg5M2VhYjZlZDYyODA4",
-        "password": "ZjU1Y2U5M2E2M2RmZmIyODBjM2M1MGZiOWI4Zjk3YTU6Mjg3MzVhMTNiMjA3YzMzMmY2NDMxZTY3YWFkMTdlODU="
+        "username": "NjY0M2VlM2VkYzc2NjA1MmIwMGYzOWQwNjRkN2JjYWI6N2U2ODljN2VhNWIzNDVkYTViODc0ODljNWI0N2Q0M2ZiNmZiZDgxMTUzNGQ5NWMyOTM0ZjNhZWZjNTdmMWJlMGI5ZWRkNDU2YjY3NWI1NWNjZmJkZmE4ZWY3YjliMGQw",
+        "password": "Mzc1NmFiNGVmMThlMjIwOThmOGExNjEyYzMzMzUwZDE6MDE2ZWY2Njc2NmZiODE1ZDZjZGVlMmUyZmZlYmE4OTk="
+      }
+    },
+    {
+      "name": "Learndash",
+      "vendor": "learndash",
+      "url": "https://learndash.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "N2Q5Y2I1Y2U4NTk3Zjk1ZTg2ZmI1Y2I0NWQ4MDZmMjU6ZmM4YThiNmVhNmMyMGM4NWQ3YzI5MDViZjU5MmZhMGNkZGQ2YWQzMjNlOWY2MzFlOTJkYmUzNzY3NjIwYjBmN2Q0ZDkyZTNjMzU0OTNjYjU2MDdhNmQ5ZjRjYTlhNDIy",
+        "password": "Y2ZhOWU2ZDc4OTk0ZmIxOTM2OTMwNjVjZDQ2MjE2Zjg6Y2NkYzU5MTMwOWRhZDA4NDI3Njc5ODIyMzVkODUyMjE="
+      }
+    },
+    {
+      "name": "Restrict Content Pro",
+      "vendor": "rcp",
+      "url": "https://rcp.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "ODBjMGVlOGZlM2Q2ZDE1ZjA5ZmM3NzlkZDFiMjk1ZDU6ZTI4ZjZhN2FiMDM4ZTUzNmI0M2ZkOTEzNzI3ZWQ5Mzk0YWUwMDJmNjYyY2Y5NjZiOWQ0NmVhYTNmYThiZGQ0OTU4ZjY4ZjNkZDEwNTBjZDMwZDhiYzQyMDRiMjdhMDNm",
+        "password": "ZDhkYzIwNjdmMzg0ZjRiZWM5MmE2MjM3YTZlN2MzN2M6ZDg1MDljNjZhNmMzNDJkNGJiNTQ5YTliMjBlNDI2NjY="
+      }
+    },
+    {
+      "name": "Your Digital Toolbox",
+      "vendor": "ydtb",
+      "url": "https://toolbox.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "MmY2MzJjM2QyYWJhZjM4ZjUyZTk1YzdjZGI4NDcyNmQ6YTQ2YjJmODA5M2ZkMmY2MDhhMDVmNWUzYmI2ZTAwMmQzNzM5MzE5ZGYwMjliNjQ5N2M4Mjk3ODk4MzFmNzkwMjY5MzhjY2MwMDBlZDgwMTJjMTBjYjVkNTg3NDgwYWVj",
+        "password": "ZDFkYTkyNjViYTJjNjcyNTI2Mjk4ZGJlODAxMzMzYmU6ZTIxOGQzMDY1ZWZhMTRkMzIxNjM3NDFkZDBiYjEwZjM="
       }
     }
   ]
