@@ -1045,10 +1045,11 @@
   "crocoblock/jet-compare-wishlist": {
     "slug": "jet-compare-wishlist",
     "vendor": "crocoblock",
-    "ref": "dd37b44",
-    "version": "1.5.8.1",
+    "ref": "e4b9a23",
+    "version": "1.5.9",
     "tags": [
-      "1.5.8.1"
+      "1.5.8.1",
+      "1.5.9"
     ],
     "git": "https://github.com/ydtb-wp/jet-compare-wishlist",
     "aliases": [
