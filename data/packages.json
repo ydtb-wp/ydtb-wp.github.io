@@ -20,12 +20,13 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "90bd86e",
-    "version": "4.20.0.2",
+    "ref": "d3df52b",
+    "version": "4.20.0.3",
     "tags": [
       "4.17.0",
       "4.20.0.1",
-      "4.20.0.2"
+      "4.20.0.2",
+      "4.20.0.3"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
