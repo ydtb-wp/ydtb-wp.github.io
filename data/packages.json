@@ -2,13 +2,14 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "752f75d",
-    "version": "3.26.4",
+    "ref": "f6c0db9",
+    "version": "3.26.5",
     "tags": [
       "3.25.10",
       "3.26.2",
       "3.26.3",
-      "3.26.4"
+      "3.26.4",
+      "3.26.5"
     ],
     "git": "",
     "aliases": [
@@ -1030,11 +1031,12 @@
   "crocoblock/jet-booking": {
     "slug": "jet-booking",
     "vendor": "crocoblock",
-    "ref": "a7e88cb",
-    "version": "3.6.3",
+    "ref": "231d3bd",
+    "version": "3.6.4",
     "tags": [
       "3.6.2",
-      "3.6.3"
+      "3.6.3",
+      "3.6.4"
     ],
     "git": "https://github.com/ydtb-wp/jet-booking",
     "aliases": [
