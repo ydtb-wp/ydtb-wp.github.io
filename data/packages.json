@@ -1064,10 +1064,11 @@
   "crocoblock/jet-elements": {
     "slug": "jet-elements",
     "vendor": "crocoblock",
-    "ref": "256ce2f",
-    "version": "2.7.2.1",
+    "ref": "7ec8ce8",
+    "version": "2.7.3",
     "tags": [
-      "2.7.2.1"
+      "2.7.2.1",
+      "2.7.3"
     ],
     "git": "",
     "aliases": [
