@@ -1477,11 +1477,12 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "9e33792",
-    "version": "1.37.4",
+    "ref": "361c48c",
+    "version": "1.37.5",
     "tags": [
       "1.37.3",
-      "1.37.4"
+      "1.37.4",
+      "1.37.5"
     ],
     "git": "",
     "aliases": [
@@ -1524,10 +1525,11 @@
   "brainstormforce/astra-portfolio": {
     "slug": "astra-portfolio",
     "vendor": "brainstormforce",
-    "ref": "70af0fb",
-    "version": "1.12.0",
+    "ref": "44b4830",
+    "version": "1.12.1",
     "tags": [
-      "1.12.0"
+      "1.12.0",
+      "1.12.1"
     ],
     "git": "",
     "aliases": [
