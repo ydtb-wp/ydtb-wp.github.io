@@ -59,6 +59,16 @@
         "username": "MmY2MzJjM2QyYWJhZjM4ZjUyZTk1YzdjZGI4NDcyNmQ6YTQ2YjJmODA5M2ZkMmY2MDhhMDVmNWUzYmI2ZTAwMmQzNzM5MzE5ZGYwMjliNjQ5N2M4Mjk3ODk4MzFmNzkwMjY5MzhjY2MwMDBlZDgwMTJjMTBjYjVkNTg3NDgwYWVj",
         "password": "ZDFkYTkyNjViYTJjNjcyNTI2Mjk4ZGJlODAxMzMzYmU6ZTIxOGQzMDY1ZWZhMTRkMzIxNjM3NDFkZDBiYjEwZjM="
       }
+    },
+    {
+      "name": "Brainstorm Force",
+      "vendor": "brainstormforce",
+      "url": "https://brainstormforce.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "YTY5MzQ4NWYxZjg3ZTljM2VlYmViOTEzMDFmY2FiZjU6ZGIzM2RmZWViOTIxYmY1ZmI2ZDY3YTQ5MGJkOTU5OGE2OGZlNDE2NjMxNjgwNGExMjA1YjU5Yzc2NTU5MWM0MzhkZjA4NGFkZjYzMTRkYTA4MWMzM2MwYjFjNjFkODMz",
+        "password": "YTk3M2M5MzZmM2RkNWI2MjA1NzVhZTFkZjVmZTRiZDM6NDdmNWQ5MzQwMzM0NGIxYWZlOTgzNzhmOGRmNzAyOWY="
+      }
     }
   ]
 }
