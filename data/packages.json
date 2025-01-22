@@ -1636,13 +1636,14 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "049c3a2",
-    "version": "2.7.70",
+    "ref": "643ab87",
+    "version": "2.7.80",
     "tags": [
       "2.7.40",
       "2.7.50",
       "2.7.60",
-      "2.7.70"
+      "2.7.70",
+      "2.7.80"
     ],
     "git": "",
     "aliases": [
