@@ -1560,10 +1560,11 @@
   "elementor/hello-elementor": {
     "slug": "hello-elementor",
     "vendor": "elementor",
-    "ref": "92443ba",
-    "version": "3.2.1",
+    "ref": "da52aea",
+    "version": "3.3.0",
     "tags": [
-      "3.2.1"
+      "3.2.1",
+      "3.3.0"
     ],
     "git": "",
     "aliases": [
