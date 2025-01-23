@@ -1607,10 +1607,11 @@
   "fluent/fluentcampaign-pro": {
     "slug": "fluentcampaign-pro",
     "vendor": "fluent",
-    "ref": "d31c06e",
-    "version": "2.9.31",
+    "ref": "c13e17c",
+    "version": "2.9.40",
     "tags": [
-      "2.9.31"
+      "2.9.31",
+      "2.9.40"
     ],
     "git": "",
     "aliases": [
@@ -1722,10 +1723,12 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f070904",
+    "version": "5.1.2",
+    "tags": [
+      "5.1.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
       "autowp/automatorwp"
     ],
@@ -1734,10 +1737,12 @@
   "autowp/automatorwp-activecampaign": {
     "slug": "automatorwp-activecampaign",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "035609f",
+    "version": "1.0.8",
+    "tags": [
+      "1.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-activecampaign",
     "aliases": [
       "autowp/automatorwp-activecampaign"
     ],
@@ -1746,10 +1751,12 @@
   "autowp/automatorwp-activemember360": {
     "slug": "automatorwp-activemember360",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "8961f04",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-activemember360",
     "aliases": [
       "autowp/automatorwp-activemember360"
     ],
@@ -1758,10 +1765,12 @@
   "autowp/automatorwp-advanced-custom-fields": {
     "slug": "automatorwp-advanced-custom-fields",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "add843c",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-advanced-custom-fields",
     "aliases": [
       "autowp/automatorwp-advanced-custom-fields"
     ],
@@ -1770,10 +1779,12 @@
   "autowp/automatorwp-affiliatewp": {
     "slug": "automatorwp-affiliatewp",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "44a84cb",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-affiliatewp",
     "aliases": [
       "autowp/automatorwp-affiliatewp"
     ],
@@ -1782,10 +1793,12 @@
   "autowp/automatorwp-ameliabooking": {
     "slug": "automatorwp-ameliabooking",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ceef5ed",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-ameliabooking",
     "aliases": [
       "autowp/automatorwp-ameliabooking"
     ],
@@ -1794,10 +1807,12 @@
   "autowp/automatorwp-anspress": {
     "slug": "automatorwp-anspress",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "db7592a",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-anspress",
     "aliases": [
       "autowp/automatorwp-anspress"
     ],
@@ -1806,10 +1821,12 @@
   "autowp/automatorwp-arforms": {
     "slug": "automatorwp-arforms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "208f2d5",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-arforms",
     "aliases": [
       "autowp/automatorwp-arforms"
     ],
@@ -1818,10 +1835,12 @@
   "autowp/automatorwp-armember": {
     "slug": "automatorwp-armember",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "554a569",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-armember",
     "aliases": [
       "autowp/automatorwp-armember"
     ],
@@ -1830,10 +1849,12 @@
   "autowp/automatorwp-autonami": {
     "slug": "automatorwp-autonami",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "1236a0f",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-autonami",
     "aliases": [
       "autowp/automatorwp-autonami"
     ],
@@ -1842,10 +1863,12 @@
   "autowp/automatorwp-awesome-support": {
     "slug": "automatorwp-awesome-support",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "8c4872d",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-awesome-support",
     "aliases": [
       "autowp/automatorwp-awesome-support"
     ],
@@ -1854,10 +1877,12 @@
   "autowp/automatorwp-bbpress": {
     "slug": "automatorwp-bbpress",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a8607d9",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-bbpress",
     "aliases": [
       "autowp/automatorwp-bbpress"
     ],
@@ -1866,10 +1891,12 @@
   "autowp/automatorwp-blockli": {
     "slug": "automatorwp-blockli",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "54f4c21",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-blockli",
     "aliases": [
       "autowp/automatorwp-blockli"
     ],
@@ -1878,10 +1905,12 @@
   "autowp/automatorwp-block-users": {
     "slug": "automatorwp-block-users",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "fbe7ef3",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-block-users",
     "aliases": [
       "autowp/automatorwp-block-users"
     ],
@@ -1890,10 +1919,12 @@
   "autowp/automatorwp-buddyboss": {
     "slug": "automatorwp-buddyboss",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ec62b7a",
+    "version": "1.7.3",
+    "tags": [
+      "1.7.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-buddyboss",
     "aliases": [
       "autowp/automatorwp-buddyboss"
     ],
@@ -1902,10 +1933,12 @@
   "autowp/automatorwp-buddypress": {
     "slug": "automatorwp-buddypress",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "8931e17",
+    "version": "1.5.2",
+    "tags": [
+      "1.5.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-buddypress",
     "aliases": [
       "autowp/automatorwp-buddypress"
     ],
@@ -1914,10 +1947,12 @@
   "autowp/automatorwp-button": {
     "slug": "automatorwp-button",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "0e535b5",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-button",
     "aliases": [
       "autowp/automatorwp-button"
     ],
@@ -1926,10 +1961,12 @@
   "autowp/automatorwp-calculator": {
     "slug": "automatorwp-calculator",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "898de97",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-calculator",
     "aliases": [
       "autowp/automatorwp-calculator"
     ],
@@ -1938,10 +1975,12 @@
   "autowp/automatorwp-caldera-forms": {
     "slug": "automatorwp-caldera-forms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7ce7b63",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-caldera-forms",
     "aliases": [
       "autowp/automatorwp-caldera-forms"
     ],
@@ -1950,10 +1989,12 @@
   "autowp/automatorwp-clickup": {
     "slug": "automatorwp-clickup",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "82398b3",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-clickup",
     "aliases": [
       "autowp/automatorwp-clickup"
     ],
@@ -1962,10 +2003,12 @@
   "autowp/automatorwp-contact-form-7": {
     "slug": "automatorwp-contact-form-7",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "052ccb4",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-contact-form-7",
     "aliases": [
       "autowp/automatorwp-contact-form-7"
     ],
@@ -1974,10 +2017,12 @@
   "autowp/automatorwp-convertkit": {
     "slug": "automatorwp-convertkit",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "e7a38a6",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-convertkit",
     "aliases": [
       "autowp/automatorwp-convertkit"
     ],
@@ -1986,10 +2031,12 @@
   "autowp/automatorwp-digimember": {
     "slug": "automatorwp-digimember",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a95d66d",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-digimember",
     "aliases": [
       "autowp/automatorwp-digimember"
     ],
@@ -1998,10 +2045,12 @@
   "autowp/automatorwp-divi": {
     "slug": "automatorwp-divi",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "9a9b462",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-divi",
     "aliases": [
       "autowp/automatorwp-divi"
     ],
@@ -2010,10 +2059,12 @@
   "autowp/automatorwp-download-manager": {
     "slug": "automatorwp-download-manager",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "1b5422a",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-download-manager",
     "aliases": [
       "autowp/automatorwp-download-manager"
     ],
@@ -2022,10 +2073,12 @@
   "autowp/automatorwp-easy-affiliate": {
     "slug": "automatorwp-easy-affiliate",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a35adaa",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-easy-affiliate",
     "aliases": [
       "autowp/automatorwp-easy-affiliate"
     ],
@@ -2034,10 +2087,12 @@
   "autowp/automatorwp-easy-digital-downloads": {
     "slug": "automatorwp-easy-digital-downloads",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "1d924d0",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-easy-digital-downloads",
     "aliases": [
       "autowp/automatorwp-easy-digital-downloads"
     ],
@@ -2046,10 +2101,12 @@
   "autowp/automatorwp-elearncommerce": {
     "slug": "automatorwp-elearncommerce",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "2502cc8",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-elearncommerce",
     "aliases": [
       "autowp/automatorwp-elearncommerce"
     ],
@@ -2058,10 +2115,12 @@
   "autowp/automatorwp-elementor-forms": {
     "slug": "automatorwp-elementor-forms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a2b104a",
+    "version": "1.0.8",
+    "tags": [
+      "1.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-elementor-forms",
     "aliases": [
       "autowp/automatorwp-elementor-forms"
     ],
@@ -2070,10 +2129,12 @@
   "autowp/automatorwp-events-manager": {
     "slug": "automatorwp-events-manager",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "5c9b765",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-events-manager",
     "aliases": [
       "autowp/automatorwp-events-manager"
     ],
@@ -2082,10 +2143,12 @@
   "autowp/automatorwp-everest-forms": {
     "slug": "automatorwp-everest-forms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "b785c0b",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-everest-forms",
     "aliases": [
       "autowp/automatorwp-everest-forms"
     ],
@@ -2094,10 +2157,12 @@
   "autowp/automatorwp-facebook": {
     "slug": "automatorwp-facebook",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "73b0b53",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-facebook",
     "aliases": [
       "autowp/automatorwp-facebook"
     ],
@@ -2106,10 +2171,12 @@
   "autowp/automatorwp-fluentcrm": {
     "slug": "automatorwp-fluentcrm",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "d31555b",
+    "version": "1.1.2",
+    "tags": [
+      "1.1.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-fluentcrm",
     "aliases": [
       "autowp/automatorwp-fluentcrm"
     ],
@@ -2118,10 +2185,12 @@
   "autowp/automatorwp-fluent-support": {
     "slug": "automatorwp-fluent-support",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "deeef3a",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-fluent-support",
     "aliases": [
       "autowp/automatorwp-fluent-support"
     ],
@@ -2130,10 +2199,12 @@
   "autowp/automatorwp-formatter": {
     "slug": "automatorwp-formatter",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7f77291",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-formatter",
     "aliases": [
       "autowp/automatorwp-formatter"
     ],
@@ -2142,10 +2213,12 @@
   "autowp/automatorwp-formidable-forms": {
     "slug": "automatorwp-formidable-forms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f6024a9",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-formidable-forms",
     "aliases": [
       "autowp/automatorwp-formidable-forms"
     ],
@@ -2154,10 +2227,12 @@
   "autowp/automatorwp-forminator": {
     "slug": "automatorwp-forminator",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "6eea0c1",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-forminator",
     "aliases": [
       "autowp/automatorwp-forminator"
     ],
@@ -2166,10 +2241,12 @@
   "autowp/automatorwp-gamipress": {
     "slug": "automatorwp-gamipress",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a94412c",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-gamipress",
     "aliases": [
       "autowp/automatorwp-gamipress"
     ],
@@ -2178,10 +2255,12 @@
   "autowp/automatorwp-generator": {
     "slug": "automatorwp-generator",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ce211e4",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-generator",
     "aliases": [
       "autowp/automatorwp-generator"
     ],
@@ -2190,10 +2269,12 @@
   "autowp/automatorwp-geodirectory": {
     "slug": "automatorwp-geodirectory",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "aea77c8",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-geodirectory",
     "aliases": [
       "autowp/automatorwp-geodirectory"
     ],
@@ -2202,10 +2283,12 @@
   "autowp/automatorwp-give": {
     "slug": "automatorwp-give",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "11e14ed",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-give",
     "aliases": [
       "autowp/automatorwp-give"
     ],
@@ -2214,10 +2297,12 @@
   "autowp/automatorwp-google-calendar": {
     "slug": "automatorwp-google-calendar",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c0b7200",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-google-calendar",
     "aliases": [
       "autowp/automatorwp-google-calendar"
     ],
@@ -2226,10 +2311,12 @@
   "autowp/automatorwp-google-sheets": {
     "slug": "automatorwp-google-sheets",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "2d4074d",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-google-sheets",
     "aliases": [
       "autowp/automatorwp-google-sheets"
     ],
@@ -2238,10 +2325,12 @@
   "autowp/automatorwp-gravity-forms": {
     "slug": "automatorwp-gravity-forms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ae12469",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-gravity-forms",
     "aliases": [
       "autowp/automatorwp-gravity-forms"
     ],
@@ -2250,10 +2339,12 @@
   "autowp/automatorwp-gravity-kit": {
     "slug": "automatorwp-gravity-kit",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "43ad95b",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-gravity-kit",
     "aliases": [
       "autowp/automatorwp-gravity-kit"
     ],
@@ -2262,10 +2353,12 @@
   "autowp/automatorwp-groundhogg": {
     "slug": "automatorwp-groundhogg",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "e9834c6",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-groundhogg",
     "aliases": [
       "autowp/automatorwp-groundhogg"
     ],
@@ -2274,10 +2367,12 @@
   "autowp/automatorwp-h5p": {
     "slug": "automatorwp-h5p",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7d9fdd7",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-h5p",
     "aliases": [
       "autowp/automatorwp-h5p"
     ],
@@ -2286,10 +2381,12 @@
   "autowp/automatorwp-happyforms": {
     "slug": "automatorwp-happyforms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "2514094",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-happyforms",
     "aliases": [
       "autowp/automatorwp-happyforms"
     ],
@@ -2298,10 +2395,12 @@
   "autowp/automatorwp-hubspot": {
     "slug": "automatorwp-hubspot",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "59d13a7",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-hubspot",
     "aliases": [
       "autowp/automatorwp-hubspot"
     ],
@@ -2310,10 +2409,12 @@
   "autowp/automatorwp-imember360": {
     "slug": "automatorwp-imember360",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "70aeee9",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-imember360",
     "aliases": [
       "autowp/automatorwp-imember360"
     ],
@@ -2322,10 +2423,12 @@
   "autowp/automatorwp-invite-anyone": {
     "slug": "automatorwp-invite-anyone",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c17a139",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-invite-anyone",
     "aliases": [
       "autowp/automatorwp-invite-anyone"
     ],
@@ -2334,10 +2437,12 @@
   "autowp/automatorwp-jetengine": {
     "slug": "automatorwp-jetengine",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "9aec3f3",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-jetengine",
     "aliases": [
       "autowp/automatorwp-jetengine"
     ],
@@ -2346,10 +2451,12 @@
   "autowp/automatorwp-jetformbuilder": {
     "slug": "automatorwp-jetformbuilder",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c494025",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-jetformbuilder",
     "aliases": [
       "autowp/automatorwp-jetformbuilder"
     ],
@@ -2358,10 +2465,12 @@
   "autowp/automatorwp-jetpack-crm": {
     "slug": "automatorwp-jetpack-crm",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "e1f4011",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-jetpack-crm",
     "aliases": [
       "autowp/automatorwp-jetpack-crm"
     ],
@@ -2370,10 +2479,12 @@
   "autowp/automatorwp-kadence-blocks": {
     "slug": "automatorwp-kadence-blocks",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "3c61fd7",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-kadence-blocks",
     "aliases": [
       "autowp/automatorwp-kadence-blocks"
     ],
@@ -2382,10 +2493,12 @@
   "autowp/automatorwp-kali-forms": {
     "slug": "automatorwp-kali-forms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "57fcbb4",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-kali-forms",
     "aliases": [
       "autowp/automatorwp-kali-forms"
     ],
@@ -2394,10 +2507,12 @@
   "autowp/automatorwp-learndash": {
     "slug": "automatorwp-learndash",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c04f2ee",
+    "version": "1.2.5",
+    "tags": [
+      "1.2.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-learndash",
     "aliases": [
       "autowp/automatorwp-learndash"
     ],
@@ -2406,10 +2521,12 @@
   "autowp/automatorwp-learnpress": {
     "slug": "automatorwp-learnpress",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "0ef6b1b",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-learnpress",
     "aliases": [
       "autowp/automatorwp-learnpress"
     ],
@@ -2418,10 +2535,12 @@
   "autowp/automatorwp-lifterlms": {
     "slug": "automatorwp-lifterlms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "27cde7d",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-lifterlms",
     "aliases": [
       "autowp/automatorwp-lifterlms"
     ],
@@ -2430,10 +2549,12 @@
   "autowp/automatorwp-link": {
     "slug": "automatorwp-link",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "10bc77a",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-link",
     "aliases": [
       "autowp/automatorwp-link"
     ],
@@ -2442,10 +2563,12 @@
   "autowp/automatorwp-mailchimp": {
     "slug": "automatorwp-mailchimp",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "79b50b0",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-mailchimp",
     "aliases": [
       "autowp/automatorwp-mailchimp"
     ],
@@ -2454,10 +2577,12 @@
   "autowp/automatorwp-mailerlite": {
     "slug": "automatorwp-mailerlite",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f9010c5",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-mailerlite",
     "aliases": [
       "autowp/automatorwp-mailerlite"
     ],
@@ -2466,10 +2591,12 @@
   "autowp/automatorwp-mailpoet": {
     "slug": "automatorwp-mailpoet",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c54c465",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-mailpoet",
     "aliases": [
       "autowp/automatorwp-mailpoet"
     ],
@@ -2478,10 +2605,12 @@
   "autowp/automatorwp-masterstudy-lms": {
     "slug": "automatorwp-masterstudy-lms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "e203de6",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-masterstudy-lms",
     "aliases": [
       "autowp/automatorwp-masterstudy-lms"
     ],
@@ -2490,10 +2619,12 @@
   "autowp/automatorwp-memberpress": {
     "slug": "automatorwp-memberpress",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "b1e26a5",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-memberpress",
     "aliases": [
       "autowp/automatorwp-memberpress"
     ],
@@ -2502,10 +2633,12 @@
   "autowp/automatorwp-meta-box": {
     "slug": "automatorwp-meta-box",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "8d66341",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-meta-box",
     "aliases": [
       "autowp/automatorwp-meta-box"
     ],
@@ -2514,10 +2647,12 @@
   "autowp/automatorwp-modern-events-calendar": {
     "slug": "automatorwp-modern-events-calendar",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7907f1a",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-modern-events-calendar",
     "aliases": [
       "autowp/automatorwp-modern-events-calendar"
     ],
@@ -2526,10 +2661,12 @@
   "autowp/automatorwp-multimedia-content": {
     "slug": "automatorwp-multimedia-content",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "b67a1e4",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-multimedia-content",
     "aliases": [
       "autowp/automatorwp-multimedia-content"
     ],
@@ -2538,10 +2675,12 @@
   "autowp/automatorwp-ninja-forms": {
     "slug": "automatorwp-ninja-forms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a38f70f",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-ninja-forms",
     "aliases": [
       "autowp/automatorwp-ninja-forms"
     ],
@@ -2550,10 +2689,12 @@
   "autowp/automatorwp-openai": {
     "slug": "automatorwp-openai",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "6b4bfa9",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-openai",
     "aliases": [
       "autowp/automatorwp-openai"
     ],
@@ -2562,10 +2703,12 @@
   "autowp/automatorwp-paid-memberships-pro": {
     "slug": "automatorwp-paid-memberships-pro",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "46867b7",
+    "version": "1.0.9",
+    "tags": [
+      "1.0.9"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-paid-memberships-pro",
     "aliases": [
       "autowp/automatorwp-paid-memberships-pro"
     ],
@@ -2574,10 +2717,12 @@
   "autowp/automatorwp-peepso": {
     "slug": "automatorwp-peepso",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "fd1cfa6",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-peepso",
     "aliases": [
       "autowp/automatorwp-peepso"
     ],
@@ -2586,10 +2731,12 @@
   "autowp/automatorwp-presto-player": {
     "slug": "automatorwp-presto-player",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "1819705",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-presto-player",
     "aliases": [
       "autowp/automatorwp-presto-player"
     ],
@@ -2598,10 +2745,12 @@
   "autowp/automatorwp-pretty-link": {
     "slug": "automatorwp-pretty-link",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "82cf1cd",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-pretty-link",
     "aliases": [
       "autowp/automatorwp-pretty-link"
     ],
@@ -2610,10 +2759,12 @@
   "autowp/automatorwp-qr-code": {
     "slug": "automatorwp-qr-code",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "acf707f",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-qr-code",
     "aliases": [
       "autowp/automatorwp-qr-code"
     ],
@@ -2622,10 +2773,12 @@
   "autowp/automatorwp-qsm": {
     "slug": "automatorwp-qsm",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "85e6ac3",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-qsm",
     "aliases": [
       "autowp/automatorwp-qsm"
     ],
@@ -2634,10 +2787,12 @@
   "autowp/automatorwp-restrict-content-pro": {
     "slug": "automatorwp-restrict-content-pro",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ed030e4",
+    "version": "1.1.3",
+    "tags": [
+      "1.1.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-restrict-content-pro",
     "aliases": [
       "autowp/automatorwp-restrict-content-pro"
     ],
@@ -2646,10 +2801,12 @@
   "autowp/automatorwp-schedule-actions": {
     "slug": "automatorwp-schedule-actions",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "179d54d",
+    "version": "1.1.6",
+    "tags": [
+      "1.1.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-schedule-actions",
     "aliases": [
       "autowp/automatorwp-schedule-actions"
     ],
@@ -2658,10 +2815,12 @@
   "autowp/automatorwp-sensei-lms": {
     "slug": "automatorwp-sensei-lms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "88423d3",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-sensei-lms",
     "aliases": [
       "autowp/automatorwp-sensei-lms"
     ],
@@ -2670,10 +2829,12 @@
   "autowp/automatorwp-slicewp": {
     "slug": "automatorwp-slicewp",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "12e0728",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-slicewp",
     "aliases": [
       "autowp/automatorwp-slicewp"
     ],
@@ -2682,10 +2843,12 @@
   "autowp/automatorwp-studiocart": {
     "slug": "automatorwp-studiocart",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "1652b80",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-studiocart",
     "aliases": [
       "autowp/automatorwp-studiocart"
     ],
@@ -2694,10 +2857,12 @@
   "autowp/automatorwp-surecart": {
     "slug": "automatorwp-surecart",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ddfab8f",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-surecart",
     "aliases": [
       "autowp/automatorwp-surecart"
     ],
@@ -2706,10 +2871,12 @@
   "autowp/automatorwp-the-events-calendar": {
     "slug": "automatorwp-the-events-calendar",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "cf73375",
+    "version": "1.0.8",
+    "tags": [
+      "1.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-the-events-calendar",
     "aliases": [
       "autowp/automatorwp-the-events-calendar"
     ],
@@ -2718,10 +2885,12 @@
   "autowp/automatorwp-thrive-apprentice": {
     "slug": "automatorwp-thrive-apprentice",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "21f828c",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-thrive-apprentice",
     "aliases": [
       "autowp/automatorwp-thrive-apprentice"
     ],
@@ -2730,10 +2899,12 @@
   "autowp/automatorwp-thrive-quiz-builder": {
     "slug": "automatorwp-thrive-quiz-builder",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "499a09a",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-thrive-quiz-builder",
     "aliases": [
       "autowp/automatorwp-thrive-quiz-builder"
     ],
@@ -2742,10 +2913,12 @@
   "autowp/automatorwp-tutor": {
     "slug": "automatorwp-tutor",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "8cbdf47",
+    "version": "1.1.5",
+    "tags": [
+      "1.1.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-tutor",
     "aliases": [
       "autowp/automatorwp-tutor"
     ],
@@ -2754,10 +2927,12 @@
   "autowp/automatorwp-twilio": {
     "slug": "automatorwp-twilio",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "eb22b86",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-twilio",
     "aliases": [
       "autowp/automatorwp-twilio"
     ],
@@ -2766,10 +2941,12 @@
   "autowp/automatorwp-twitter": {
     "slug": "automatorwp-twitter",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "3d86325",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-twitter",
     "aliases": [
       "autowp/automatorwp-twitter"
     ],
@@ -2778,10 +2955,12 @@
   "autowp/automatorwp-ultimate-member": {
     "slug": "automatorwp-ultimate-member",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7a764d8",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-ultimate-member",
     "aliases": [
       "autowp/automatorwp-ultimate-member"
     ],
@@ -2790,10 +2969,12 @@
   "autowp/automatorwp-upsell-plugin": {
     "slug": "automatorwp-upsell-plugin",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "660ea98",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-upsell-plugin",
     "aliases": [
       "autowp/automatorwp-upsell-plugin"
     ],
@@ -2802,10 +2983,12 @@
   "autowp/automatorwp-vimeo": {
     "slug": "automatorwp-vimeo",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "89af2fb",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-vimeo",
     "aliases": [
       "autowp/automatorwp-vimeo"
     ],
@@ -2814,10 +2997,12 @@
   "autowp/automatorwp-webhooks": {
     "slug": "automatorwp-webhooks",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ef06e83",
+    "version": "1.3.6",
+    "tags": [
+      "1.3.6"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-webhooks",
     "aliases": [
       "autowp/automatorwp-webhooks"
     ],
@@ -2826,10 +3011,12 @@
   "autowp/automatorwp-weforms": {
     "slug": "automatorwp-weforms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "20706fc",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-weforms",
     "aliases": [
       "autowp/automatorwp-weforms"
     ],
@@ -2838,10 +3025,12 @@
   "autowp/automatorwp-wishlist-member": {
     "slug": "automatorwp-wishlist-member",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "57fa31d",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wishlist-member",
     "aliases": [
       "autowp/automatorwp-wishlist-member"
     ],
@@ -2850,10 +3039,12 @@
   "autowp/automatorwp-woocommerce": {
     "slug": "automatorwp-woocommerce",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f4a2c23",
+    "version": "1.5.1",
+    "tags": [
+      "1.5.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-woocommerce",
     "aliases": [
       "autowp/automatorwp-woocommerce"
     ],
@@ -2862,10 +3053,12 @@
   "autowp/automatorwp-woocommerce-shipstation": {
     "slug": "automatorwp-woocommerce-shipstation",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "77973f1",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-woocommerce-shipstation",
     "aliases": [
       "autowp/automatorwp-woocommerce-shipstation"
     ],
@@ -2874,10 +3067,12 @@
   "autowp/automatorwp-wpadverts": {
     "slug": "automatorwp-wpadverts",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "1172999",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wpadverts",
     "aliases": [
       "autowp/automatorwp-wpadverts"
     ],
@@ -2886,10 +3081,12 @@
   "autowp/automatorwp-wp-all-import": {
     "slug": "automatorwp-wp-all-import",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7b02e78",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-all-import",
     "aliases": [
       "autowp/automatorwp-wp-all-import"
     ],
@@ -2898,10 +3095,12 @@
   "autowp/automatorwp-wp-booking-calendar": {
     "slug": "automatorwp-wp-booking-calendar",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f3d35e7",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-booking-calendar",
     "aliases": [
       "autowp/automatorwp-wp-booking-calendar"
     ],
@@ -2910,10 +3109,12 @@
   "autowp/automatorwp-wp-courseware": {
     "slug": "automatorwp-wp-courseware",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c2caa54",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-courseware",
     "aliases": [
       "autowp/automatorwp-wp-courseware"
     ],
@@ -2922,10 +3123,12 @@
   "autowp/automatorwp-fluentform": {
     "slug": "automatorwp-fluentform",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "9b8c39c",
+    "version": "1.1.1",
+    "tags": [
+      "1.1.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-fluentform",
     "aliases": [
       "autowp/automatorwp-fluentform"
     ],
@@ -2934,10 +3137,12 @@
   "autowp/automatorwp-wpforms": {
     "slug": "automatorwp-wpforms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "5a2a829",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wpforms",
     "aliases": [
       "autowp/automatorwp-wpforms"
     ],
@@ -2946,10 +3151,12 @@
   "autowp/automatorwp-wpforo": {
     "slug": "automatorwp-wpforo",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "62db7ec",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wpforo",
     "aliases": [
       "autowp/automatorwp-wpforo"
     ],
@@ -2958,10 +3165,12 @@
   "autowp/automatorwp-wp-fusion": {
     "slug": "automatorwp-wp-fusion",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "5edfaf7",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-fusion",
     "aliases": [
       "autowp/automatorwp-wp-fusion"
     ],
@@ -2970,10 +3179,12 @@
   "autowp/automatorwp-wp-job-manager": {
     "slug": "automatorwp-wp-job-manager",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "abed29c",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-job-manager",
     "aliases": [
       "autowp/automatorwp-wp-job-manager"
     ],
@@ -2982,10 +3193,12 @@
   "autowp/automatorwp-wplms": {
     "slug": "automatorwp-wplms",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7ea92e1",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wplms",
     "aliases": [
       "autowp/automatorwp-wplms"
     ],
@@ -2994,10 +3207,12 @@
   "autowp/automatorwp-wp-postratings": {
     "slug": "automatorwp-wp-postratings",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7769c65",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-postratings",
     "aliases": [
       "autowp/automatorwp-wp-postratings"
     ],
@@ -3006,10 +3221,12 @@
   "autowp/automatorwp-wp-simple-pay": {
     "slug": "automatorwp-wp-simple-pay",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f11212e",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-simple-pay",
     "aliases": [
       "autowp/automatorwp-wp-simple-pay"
     ],
@@ -3018,10 +3235,12 @@
   "autowp/automatorwp-wp-ulike": {
     "slug": "automatorwp-wp-ulike",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7117c3a",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-ulike",
     "aliases": [
       "autowp/automatorwp-wp-ulike"
     ],
@@ -3030,10 +3249,12 @@
   "autowp/automatorwp-wp-user-manager": {
     "slug": "automatorwp-wp-user-manager",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a4407a8",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-wp-user-manager",
     "aliases": [
       "autowp/automatorwp-wp-user-manager"
     ],
@@ -3042,10 +3263,12 @@
   "autowp/automatorwp-ws-form": {
     "slug": "automatorwp-ws-form",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "9aa3132",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-ws-form",
     "aliases": [
       "autowp/automatorwp-ws-form"
     ],
@@ -3054,10 +3277,12 @@
   "autowp/automatorwp-youtube": {
     "slug": "automatorwp-youtube",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f466216",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-youtube",
     "aliases": [
       "autowp/automatorwp-youtube"
     ],
@@ -3066,10 +3291,12 @@
   "autowp/automatorwp-zoom": {
     "slug": "automatorwp-zoom",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "630ed5d",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-zoom",
     "aliases": [
       "autowp/automatorwp-zoom"
     ],
@@ -3078,10 +3305,12 @@
   "autowp/automatorwp-pro": {
     "slug": "automatorwp-pro",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "9af7d3a",
+    "version": "4.4.0",
+    "tags": [
+      "4.4.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-pro",
     "aliases": [
       "autowp/automatorwp-pro"
     ],
