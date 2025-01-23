@@ -1593,10 +1593,11 @@
   "fluent/fluent-crm": {
     "slug": "fluent-crm",
     "vendor": "fluent",
-    "ref": "c845c44",
-    "version": "2.9.31",
+    "ref": "0ffaf74",
+    "version": "2.9.40",
     "tags": [
-      "2.9.31"
+      "2.9.31",
+      "2.9.40"
     ],
     "git": "",
     "aliases": [
