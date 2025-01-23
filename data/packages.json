@@ -1718,5 +1718,1373 @@
       "ydtbwp/ydtb-elements"
     ],
     "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp": {
+    "slug": "automatorwp",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-activecampaign": {
+    "slug": "automatorwp-activecampaign",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-activecampaign"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-activemember360": {
+    "slug": "automatorwp-activemember360",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-activemember360"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-advanced-custom-fields": {
+    "slug": "automatorwp-advanced-custom-fields",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-advanced-custom-fields"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-affiliatewp": {
+    "slug": "automatorwp-affiliatewp",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-affiliatewp"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-ameliabooking": {
+    "slug": "automatorwp-ameliabooking",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-ameliabooking"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-anspress": {
+    "slug": "automatorwp-anspress",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-anspress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-arforms": {
+    "slug": "automatorwp-arforms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-arforms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-armember": {
+    "slug": "automatorwp-armember",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-armember"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-autonami": {
+    "slug": "automatorwp-autonami",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-autonami"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-awesome-support": {
+    "slug": "automatorwp-awesome-support",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-awesome-support"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-bbpress": {
+    "slug": "automatorwp-bbpress",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-bbpress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-blockli": {
+    "slug": "automatorwp-blockli",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-blockli"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-block-users": {
+    "slug": "automatorwp-block-users",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-block-users"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-buddyboss": {
+    "slug": "automatorwp-buddyboss",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-buddyboss"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-buddypress": {
+    "slug": "automatorwp-buddypress",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-buddypress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-button": {
+    "slug": "automatorwp-button",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-button"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-calculator": {
+    "slug": "automatorwp-calculator",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-calculator"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-caldera-forms": {
+    "slug": "automatorwp-caldera-forms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-caldera-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-clickup": {
+    "slug": "automatorwp-clickup",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-clickup"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-contact-form-7": {
+    "slug": "automatorwp-contact-form-7",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-contact-form-7"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-convertkit": {
+    "slug": "automatorwp-convertkit",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-convertkit"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-digimember": {
+    "slug": "automatorwp-digimember",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-digimember"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-divi": {
+    "slug": "automatorwp-divi",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-divi"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-download-manager": {
+    "slug": "automatorwp-download-manager",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-download-manager"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-easy-affiliate": {
+    "slug": "automatorwp-easy-affiliate",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-easy-affiliate"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-easy-digital-downloads": {
+    "slug": "automatorwp-easy-digital-downloads",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-easy-digital-downloads"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-elearncommerce": {
+    "slug": "automatorwp-elearncommerce",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-elearncommerce"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-elementor-forms": {
+    "slug": "automatorwp-elementor-forms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-elementor-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-events-manager": {
+    "slug": "automatorwp-events-manager",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-events-manager"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-everest-forms": {
+    "slug": "automatorwp-everest-forms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-everest-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-facebook": {
+    "slug": "automatorwp-facebook",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-facebook"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-fluentcrm": {
+    "slug": "automatorwp-fluentcrm",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-fluentcrm"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-fluent-support": {
+    "slug": "automatorwp-fluent-support",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-fluent-support"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-formatter": {
+    "slug": "automatorwp-formatter",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-formatter"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-formidable-forms": {
+    "slug": "automatorwp-formidable-forms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-formidable-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-forminator": {
+    "slug": "automatorwp-forminator",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-forminator"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-gamipress": {
+    "slug": "automatorwp-gamipress",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-gamipress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-generator": {
+    "slug": "automatorwp-generator",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-generator"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-geodirectory": {
+    "slug": "automatorwp-geodirectory",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-geodirectory"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-give": {
+    "slug": "automatorwp-give",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-give"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-google-calendar": {
+    "slug": "automatorwp-google-calendar",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-google-calendar"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-google-sheets": {
+    "slug": "automatorwp-google-sheets",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-google-sheets"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-gravity-forms": {
+    "slug": "automatorwp-gravity-forms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-gravity-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-gravity-kit": {
+    "slug": "automatorwp-gravity-kit",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-gravity-kit"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-groundhogg": {
+    "slug": "automatorwp-groundhogg",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-groundhogg"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-h5p": {
+    "slug": "automatorwp-h5p",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-h5p"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-happyforms": {
+    "slug": "automatorwp-happyforms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-happyforms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-hubspot": {
+    "slug": "automatorwp-hubspot",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-hubspot"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-imember360": {
+    "slug": "automatorwp-imember360",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-imember360"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-invite-anyone": {
+    "slug": "automatorwp-invite-anyone",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-invite-anyone"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-jetengine": {
+    "slug": "automatorwp-jetengine",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-jetengine"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-jetformbuilder": {
+    "slug": "automatorwp-jetformbuilder",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-jetformbuilder"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-jetpack-crm": {
+    "slug": "automatorwp-jetpack-crm",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-jetpack-crm"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-kadence-blocks": {
+    "slug": "automatorwp-kadence-blocks",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-kadence-blocks"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-kali-forms": {
+    "slug": "automatorwp-kali-forms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-kali-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-learndash": {
+    "slug": "automatorwp-learndash",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-learndash"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-learnpress": {
+    "slug": "automatorwp-learnpress",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-learnpress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-lifterlms": {
+    "slug": "automatorwp-lifterlms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-lifterlms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-link": {
+    "slug": "automatorwp-link",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-link"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-mailchimp": {
+    "slug": "automatorwp-mailchimp",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-mailchimp"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-mailerlite": {
+    "slug": "automatorwp-mailerlite",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-mailerlite"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-mailpoet": {
+    "slug": "automatorwp-mailpoet",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-mailpoet"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-masterstudy-lms": {
+    "slug": "automatorwp-masterstudy-lms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-masterstudy-lms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-memberpress": {
+    "slug": "automatorwp-memberpress",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-memberpress"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-meta-box": {
+    "slug": "automatorwp-meta-box",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-meta-box"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-modern-events-calendar": {
+    "slug": "automatorwp-modern-events-calendar",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-modern-events-calendar"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-multimedia-content": {
+    "slug": "automatorwp-multimedia-content",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-multimedia-content"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-ninja-forms": {
+    "slug": "automatorwp-ninja-forms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-ninja-forms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-openai": {
+    "slug": "automatorwp-openai",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-openai"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-paid-memberships-pro": {
+    "slug": "automatorwp-paid-memberships-pro",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-paid-memberships-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-peepso": {
+    "slug": "automatorwp-peepso",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-peepso"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-presto-player": {
+    "slug": "automatorwp-presto-player",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-presto-player"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-pretty-link": {
+    "slug": "automatorwp-pretty-link",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-pretty-link"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-qr-code": {
+    "slug": "automatorwp-qr-code",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-qr-code"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-qsm": {
+    "slug": "automatorwp-qsm",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-qsm"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-restrict-content-pro": {
+    "slug": "automatorwp-restrict-content-pro",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-restrict-content-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-schedule-actions": {
+    "slug": "automatorwp-schedule-actions",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-schedule-actions"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-sensei-lms": {
+    "slug": "automatorwp-sensei-lms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-sensei-lms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-slicewp": {
+    "slug": "automatorwp-slicewp",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-slicewp"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-studiocart": {
+    "slug": "automatorwp-studiocart",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-studiocart"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-surecart": {
+    "slug": "automatorwp-surecart",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-surecart"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-the-events-calendar": {
+    "slug": "automatorwp-the-events-calendar",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-the-events-calendar"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-thrive-apprentice": {
+    "slug": "automatorwp-thrive-apprentice",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-thrive-apprentice"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-thrive-quiz-builder": {
+    "slug": "automatorwp-thrive-quiz-builder",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-thrive-quiz-builder"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-tutor": {
+    "slug": "automatorwp-tutor",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-tutor"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-twilio": {
+    "slug": "automatorwp-twilio",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-twilio"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-twitter": {
+    "slug": "automatorwp-twitter",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-twitter"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-ultimate-member": {
+    "slug": "automatorwp-ultimate-member",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-ultimate-member"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-upsell-plugin": {
+    "slug": "automatorwp-upsell-plugin",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-upsell-plugin"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-vimeo": {
+    "slug": "automatorwp-vimeo",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-vimeo"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-webhooks": {
+    "slug": "automatorwp-webhooks",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-webhooks"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-weforms": {
+    "slug": "automatorwp-weforms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-weforms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wishlist-member": {
+    "slug": "automatorwp-wishlist-member",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wishlist-member"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-woocommerce": {
+    "slug": "automatorwp-woocommerce",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-woocommerce"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-woocommerce-shipstation": {
+    "slug": "automatorwp-woocommerce-shipstation",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-woocommerce-shipstation"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wpadverts": {
+    "slug": "automatorwp-wpadverts",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wpadverts"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-all-import": {
+    "slug": "automatorwp-wp-all-import",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-all-import"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-booking-calendar": {
+    "slug": "automatorwp-wp-booking-calendar",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-booking-calendar"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-courseware": {
+    "slug": "automatorwp-wp-courseware",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-courseware"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-fluentform": {
+    "slug": "automatorwp-fluentform",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-fluentform"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wpforms": {
+    "slug": "automatorwp-wpforms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wpforms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wpforo": {
+    "slug": "automatorwp-wpforo",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wpforo"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-fusion": {
+    "slug": "automatorwp-wp-fusion",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-fusion"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-job-manager": {
+    "slug": "automatorwp-wp-job-manager",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-job-manager"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wplms": {
+    "slug": "automatorwp-wplms",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wplms"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-postratings": {
+    "slug": "automatorwp-wp-postratings",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-postratings"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-simple-pay": {
+    "slug": "automatorwp-wp-simple-pay",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-simple-pay"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-ulike": {
+    "slug": "automatorwp-wp-ulike",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-ulike"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-wp-user-manager": {
+    "slug": "automatorwp-wp-user-manager",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-wp-user-manager"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-ws-form": {
+    "slug": "automatorwp-ws-form",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-ws-form"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-youtube": {
+    "slug": "automatorwp-youtube",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-youtube"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-zoom": {
+    "slug": "automatorwp-zoom",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-zoom"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-pro": {
+    "slug": "automatorwp-pro",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-pro"
+    ],
+    "type": "wordpress-plugin"
   }
 }
