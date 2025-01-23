@@ -9,8 +9,6 @@ const packagesFilePath = path.join(__dirname, "../data/packages.json");
 // Get the vendor prefix from the command line arguments
 const vendorPrefix = process.argv[2] || "ydtb/";
 
-console.log("Searching for packages with vendor prefix:", vendorPrefix);
-
 // Read the packages.json file
 fs.readFile(packagesFilePath, "utf8", (err, data) => {
   if (err) {

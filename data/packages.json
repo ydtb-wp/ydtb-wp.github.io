@@ -3345,5 +3345,44 @@
       "woo/woocommerce-gateway-stripe"
     ],
     "type": "wordpress-plugin"
+  },
+  "fluent/fluentform": {
+    "slug": "fluentform",
+    "vendor": "fluent",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/fluentform",
+      "fluent/fluentform"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "fluent/fluent-smtp": {
+    "slug": "fluent-smtp",
+    "vendor": "fluent",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/fluent-smtp",
+      "fluent/fluent-smtp"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "fluent/fluent-support": {
+    "slug": "fluent-support",
+    "vendor": "fluent",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/fluent-support",
+      "fluent/fluent-support"
+    ],
+    "type": "wordpress-plugin"
   }
 }
