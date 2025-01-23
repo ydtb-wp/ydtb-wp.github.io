@@ -3315,5 +3315,29 @@
       "autowp/automatorwp-pro"
     ],
     "type": "wordpress-plugin"
+  },
+  "woo/split-pay-plugin-pro": {
+    "slug": "split-pay-plugin-pro",
+    "vendor": "woo",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "woo/split-pay-plugin-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "woo/woocommerce-gateway-stripe": {
+    "slug": "woocommerce-gateway-stripe",
+    "vendor": "woo",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "woo/woocommerce-gateway-stripe"
+    ],
+    "type": "wordpress-plugin"
   }
 }
