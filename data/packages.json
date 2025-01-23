@@ -1271,10 +1271,11 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "1602adc",
-    "version": "9.5.1",
+    "ref": "d76dbb3",
+    "version": "9.6.0",
     "tags": [
-      "9.5.1"
+      "9.5.1",
+      "9.6.0"
     ],
     "git": "",
     "aliases": [
@@ -3319,10 +3320,12 @@
   "woo/split-pay-plugin-pro": {
     "slug": "split-pay-plugin-pro",
     "vendor": "woo",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "62cbeb1",
+    "version": "3.5.2",
+    "tags": [
+      "3.5.2"
+    ],
+    "git": "https://github.com/ydtb-wp/split-pay-plugin-pro",
     "aliases": [
       "woo/split-pay-plugin-pro"
     ],
@@ -3331,10 +3334,12 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "59ff449",
+    "version": "9.1.1",
+    "tags": [
+      "9.1.1"
+    ],
+    "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
       "woo/woocommerce-gateway-stripe"
     ],
