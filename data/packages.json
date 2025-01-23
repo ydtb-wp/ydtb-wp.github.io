@@ -3349,9 +3349,11 @@
   "fluent/fluentform": {
     "slug": "fluentform",
     "vendor": "fluent",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "3bc198f",
+    "version": "5.2.10",
+    "tags": [
+      "5.2.10"
+    ],
     "git": "",
     "aliases": [
       "ydtb/fluentform",
@@ -3362,9 +3364,11 @@
   "fluent/fluent-smtp": {
     "slug": "fluent-smtp",
     "vendor": "fluent",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "72ab989",
+    "version": "2.2.83",
+    "tags": [
+      "2.2.83"
+    ],
     "git": "",
     "aliases": [
       "ydtb/fluent-smtp",
@@ -3375,9 +3379,11 @@
   "fluent/fluent-support": {
     "slug": "fluent-support",
     "vendor": "fluent",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "ff4490a",
+    "version": "1.8.5",
+    "tags": [
+      "1.8.5"
+    ],
     "git": "",
     "aliases": [
       "ydtb/fluent-support",
