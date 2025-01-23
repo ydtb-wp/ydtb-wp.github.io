@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import * as fs from "fs";
 import * as path from "path";
 
