@@ -69,6 +69,26 @@
         "username": "YTY5MzQ4NWYxZjg3ZTljM2VlYmViOTEzMDFmY2FiZjU6ZGIzM2RmZWViOTIxYmY1ZmI2ZDY3YTQ5MGJkOTU5OGE2OGZlNDE2NjMxNjgwNGExMjA1YjU5Yzc2NTU5MWM0MzhkZjA4NGFkZjYzMTRkYTA4MWMzM2MwYjFjNjFkODMz",
         "password": "YTk3M2M5MzZmM2RkNWI2MjA1NzVhZTFkZjVmZTRiZDM6NDdmNWQ5MzQwMzM0NGIxYWZlOTgzNzhmOGRmNzAyOWY="
       }
+    },
+    {
+      "name": "Automator-WP",
+      "vendor": "autowp",
+      "url": "https://autowp.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "Zjk5NGFkZTY5NWYzMTBmYTM5YmUxYzY0Y2FkNzA4MWI6NzM1OTViNTVjMGJkMjkxOTY3NDhjOTljOGNmNzY3NTA0NDkyMDgyMDU3MzAyZDc5NDI3NjNlYzU4YTk4YmU5Y2FhZWFjYTRiNWI5MmE0ZjQwMTU0MGJjZWU3ZDg5NzEx",
+        "password": "NzExOWI5OTZlNjc1MTZmNWM3Yzk5NTM2MzVmZWQwNGY6YmY2NGIxMWVkMmIwNjEyMmY2N2ZiNjEwYWRjZWRkZTY="
+      }
+    },
+    {
+      "name": "Woo Commerce",
+      "vendor": "woo",
+      "url": "https://woo.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "OTg2MDE5ZDQ2MWIzMjI4YWVkMjkxZjVjZGQ3Mzc2Y2M6NmFmMjhmOTE2MzNmY2FlNjMwMTc4YWNmMDg2NTVhMzI5YzkzMDg0YWVkYTczNTc1ZDhjNWUxZmQxNThiZDNkMDJiYzAyODBmZDQ5M2U5MjBkNzdhZmQxODAzYTU5OGU2",
+        "password": "OGNkN2FmMzk2YTdkMDNjZWQyYTNjMzhkNDUwOWU1MDE6YjU2MzQyMTNlZDg5MGVlOTJkNjU4ZWIzMzlhNzZjODk="
+      }
     }
   ]
 }
