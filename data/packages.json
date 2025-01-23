@@ -2,15 +2,16 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "4814a8a",
-    "version": "3.27.0",
+    "ref": "e141213",
+    "version": "3.27.1",
     "tags": [
       "3.25.10",
       "3.26.2",
       "3.26.3",
       "3.26.4",
       "3.26.5",
-      "3.27.0"
+      "3.27.0",
+      "3.27.1"
     ],
     "git": "",
     "aliases": [
@@ -1209,10 +1210,11 @@
   "crocoblock/jet-tabs": {
     "slug": "jet-tabs",
     "vendor": "crocoblock",
-    "ref": "6163b2f",
-    "version": "2.2.6.2",
+    "ref": "ad7cbeb",
+    "version": "2.2.7",
     "tags": [
-      "2.2.6.2"
+      "2.2.6.2",
+      "2.2.7"
     ],
     "git": "",
     "aliases": [
