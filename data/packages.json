@@ -3399,5 +3399,17 @@
       "fluent/fluent-support"
     ],
     "type": "wordpress-plugin"
+  },
+  "learndash/learndash-course-grid": {
+    "slug": "learndash-course-grid",
+    "vendor": "learndash",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "learndash/learndash-course-grid"
+    ],
+    "type": "wordpress-plugin"
   }
 }
