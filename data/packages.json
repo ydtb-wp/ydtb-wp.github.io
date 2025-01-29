@@ -3403,9 +3403,11 @@
   "learndash/learndash-course-grid": {
     "slug": "learndash-course-grid",
     "vendor": "learndash",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "219d45e",
+    "version": "2.0.10",
+    "tags": [
+      "2.0.10"
+    ],
     "git": "",
     "aliases": [
       "learndash/learndash-course-grid"
