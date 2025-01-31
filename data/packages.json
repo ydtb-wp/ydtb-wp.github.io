@@ -1037,12 +1037,13 @@
   "crocoblock/jet-booking": {
     "slug": "jet-booking",
     "vendor": "crocoblock",
-    "ref": "231d3bd",
-    "version": "3.6.4",
+    "ref": "cd0b840",
+    "version": "3.6.5",
     "tags": [
       "3.6.2",
       "3.6.3",
-      "3.6.4"
+      "3.6.4",
+      "3.6.5"
     ],
     "git": "https://github.com/ydtb-wp/jet-booking",
     "aliases": [
@@ -1119,11 +1120,12 @@
   "crocoblock/jet-menu": {
     "slug": "jet-menu",
     "vendor": "crocoblock",
-    "ref": "ce3b31e",
-    "version": "2.4.7.1",
+    "ref": "f693326",
+    "version": "2.4.8",
     "tags": [
       "2.4.7",
-      "2.4.7.1"
+      "2.4.7.1",
+      "2.4.8"
     ],
     "git": "",
     "aliases": [
