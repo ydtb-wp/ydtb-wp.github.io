@@ -761,10 +761,11 @@
   "learndash/learndash-groups-plus": {
     "slug": "learndash-groups-plus",
     "vendor": "learndash",
-    "ref": "81d0981",
-    "version": "2.1.1",
+    "ref": "e9bec77",
+    "version": "2.1.2",
     "tags": [
-      "2.1.1"
+      "2.1.1",
+      "2.1.2"
     ],
     "git": "",
     "aliases": [
@@ -1249,11 +1250,12 @@
   "crocoblock/jet-tricks": {
     "slug": "jet-tricks",
     "vendor": "crocoblock",
-    "ref": "9bf24e3",
-    "version": "1.5.0",
+    "ref": "d3b7b2a",
+    "version": "1.5.1",
     "tags": [
       "1.4.10",
-      "1.5.0"
+      "1.5.0",
+      "1.5.1"
     ],
     "git": "",
     "aliases": [
@@ -1282,11 +1284,12 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "d76dbb3",
-    "version": "9.6.0",
+    "ref": "ed29ee8",
+    "version": "9.6.1",
     "tags": [
       "9.5.1",
-      "9.6.0"
+      "9.6.0",
+      "9.6.1"
     ],
     "git": "",
     "aliases": [
