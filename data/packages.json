@@ -1517,9 +1517,12 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "20a7b4d",
+    "version": "2.2.06",
+    "tags": [
+      "2.2.05",
+      "2.2.06"
+    ],
     "git": "",
     "aliases": [
       "ydtb/honeypot",
@@ -1530,9 +1533,11 @@
   "wparmour/wp-armour-extended": {
     "slug": "wp-armour-extended",
     "vendor": "wparmour",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "9682336",
+    "version": "1.35",
+    "tags": [
+      "1.35"
+    ],
     "git": "",
     "aliases": [
       "ydtb/wp-armour-extended",
