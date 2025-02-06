@@ -3427,5 +3427,57 @@
       "learndash/learndash-course-grid"
     ],
     "type": "wordpress-plugin"
+  },
+  "wpchill/download-monitor": {
+    "slug": "download-monitor",
+    "vendor": "wpchill",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/download-monitor",
+      "wpchill/download-monitor"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "wpchill/dlm-pro": {
+    "slug": "dlm-pro",
+    "vendor": "wpchill",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/dlm-pro",
+      "wpchill/dlm-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "wpchill/dlm-buttons": {
+    "slug": "dlm-buttons",
+    "vendor": "wpchill",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/dlm-buttons",
+      "wpchill/dlm-buttons"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "wpchill/dlm-captcha": {
+    "slug": "dlm-captcha",
+    "vendor": "wpchill",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/dlm-captcha",
+      "wpchill/dlm-captcha"
+    ],
+    "type": "wordpress-plugin"
   }
 }
