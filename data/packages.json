@@ -1661,15 +1661,16 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "e163ffd",
-    "version": "2.7.90",
+    "ref": "2c520c7",
+    "version": "2.7.91",
     "tags": [
       "2.7.40",
       "2.7.50",
       "2.7.60",
       "2.7.70",
       "2.7.80",
-      "2.7.90"
+      "2.7.90",
+      "2.7.91"
     ],
     "git": "",
     "aliases": [
@@ -1681,14 +1682,15 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "a564c4c",
-    "version": "2.6.70",
+    "ref": "35ba847",
+    "version": "2.6.71",
     "tags": [
       "2.6.31",
       "2.6.40",
       "2.6.50",
       "2.6.60",
-      "2.6.70"
+      "2.6.70",
+      "2.6.71"
     ],
     "git": "",
     "aliases": [
