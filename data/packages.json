@@ -1122,12 +1122,13 @@
   "crocoblock/jet-menu": {
     "slug": "jet-menu",
     "vendor": "crocoblock",
-    "ref": "f693326",
-    "version": "2.4.8",
+    "ref": "88e966d",
+    "version": "2.4.8.1",
     "tags": [
       "2.4.7",
       "2.4.7.1",
-      "2.4.8"
+      "2.4.8",
+      "2.4.8.1"
     ],
     "git": "",
     "aliases": [
@@ -1203,11 +1204,12 @@
   "crocoblock/jet-smart-filters": {
     "slug": "jet-smart-filters",
     "vendor": "crocoblock",
-    "ref": "132dc2c",
-    "version": "3.6.1",
+    "ref": "bc12fe4",
+    "version": "3.6.2",
     "tags": [
       "3.6.0.1",
-      "3.6.1"
+      "3.6.1",
+      "3.6.2"
     ],
     "git": "https://github.com/ydtb-wp/jet-smart-filters",
     "aliases": [
@@ -3431,10 +3433,12 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "cbb8d93",
+    "version": "5.0.21",
+    "tags": [
+      "5.0.21"
+    ],
+    "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
       "ydtb/download-monitor",
       "wpchill/download-monitor"
@@ -3444,10 +3448,12 @@
   "wpchill/dlm-pro": {
     "slug": "dlm-pro",
     "vendor": "wpchill",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "14de760",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/dlm-pro",
     "aliases": [
       "ydtb/dlm-pro",
       "wpchill/dlm-pro"
@@ -3457,10 +3463,12 @@
   "wpchill/dlm-buttons": {
     "slug": "dlm-buttons",
     "vendor": "wpchill",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "af2c944",
+    "version": "4.2.0",
+    "tags": [
+      "4.2.0"
+    ],
+    "git": "https://github.com/ydtb-wp/dlm-buttons",
     "aliases": [
       "ydtb/dlm-buttons",
       "wpchill/dlm-buttons"
@@ -3470,10 +3478,12 @@
   "wpchill/dlm-captcha": {
     "slug": "dlm-captcha",
     "vendor": "wpchill",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "717746f",
+    "version": "5.0.0",
+    "tags": [
+      "5.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/dlm-captcha",
     "aliases": [
       "ydtb/dlm-captcha",
       "wpchill/dlm-captcha"
