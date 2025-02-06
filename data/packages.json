@@ -1645,15 +1645,12 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "f9bf2f9",
-    "version": "24.2",
-    "tags": [
-      "24.1",
-      "24.2"
-    ],
+    "ref": "",
+    "version": "",
+    "tags": [],
     "git": "",
     "aliases": [
-      "bd/wordpress-seo",
+      "ydtb/wordpress-seo",
       "yoast/wordpress-seo"
     ],
     "type": "wordpress-plugin"
