@@ -383,6 +383,20 @@ export async function storeCurrentPackage(
     }
   }
 
+  // If the package developer has left a .git directory in the package, we need to remove it so that our .git does not get klobbered.
+
+  const gitDir = `${expectedDir}/.git`;
+  const gitDirExists = await fs
+    .access(gitDir)
+    .then(() => true)
+    .catch(() => false);
+
+  if (gitDirExists) {
+    await exec(`rm -rf ${gitDir}`);
+    console.log("   -- Removed existing .git directory from the package");
+  }
+
+  // put back the .git directory from the temp directory
   await exec(`cp ${tempDir}/GitInfo/gitBackup ${expectedDir}/.git`);
   console.log("   -- Copied .git directory to the package directory");
 
