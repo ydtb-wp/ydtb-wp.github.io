@@ -89,6 +89,16 @@
         "username": "OTg2MDE5ZDQ2MWIzMjI4YWVkMjkxZjVjZGQ3Mzc2Y2M6NmFmMjhmOTE2MzNmY2FlNjMwMTc4YWNmMDg2NTVhMzI5YzkzMDg0YWVkYTczNTc1ZDhjNWUxZmQxNThiZDNkMDJiYzAyODBmZDQ5M2U5MjBkNzdhZmQxODAzYTU5OGU2",
         "password": "OGNkN2FmMzk2YTdkMDNjZWQyYTNjMzhkNDUwOWU1MDE6YjU2MzQyMTNlZDg5MGVlOTJkNjU4ZWIzMzlhNzZjODk="
       }
+    },
+    {
+      "name": "WpDeveloper",
+      "vendor": "wpdeveloper",
+      "url": "https://wpdeveloper.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "MmM4YWQzZWJiMTlhYmQ2YTk5MjQwOTExMGNhNzQ0MGM6MDA0M2YwNDQ2NWIxZGQxMDU1ZTI2NGZhOTczYjRmOWExOWFmNmIzMjM3OTY3ZjQ1NDM1MTY1YzM3M2YzZTQ4NGY5NTQ4NmE1NmE3ODg3NDgyYTc3M2E5MGIwZGVkMmVi",
+        "password": "MGZlZGY1MTI0ZGM1NWMzNDBiNjgzNWY4Mzc0N2RkZDU6OGYxNWY2NTEwODAzMmMwNTRjNWM2ZTljZDMzMzlkNmE="
+      }
     }
   ]
 }
