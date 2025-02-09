@@ -3394,10 +3394,11 @@
   "fluent/fluent-smtp": {
     "slug": "fluent-smtp",
     "vendor": "fluent",
-    "ref": "72ab989",
-    "version": "2.2.83",
+    "ref": "8b7a646",
+    "version": "2.2.90",
     "tags": [
-      "2.2.83"
+      "2.2.83",
+      "2.2.90"
     ],
     "git": "",
     "aliases": [
