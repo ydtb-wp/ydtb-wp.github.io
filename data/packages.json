@@ -3504,10 +3504,11 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "54140f5",
-    "version": "3.8.10",
+    "ref": "2239391",
+    "version": "3.8.11",
     "tags": [
-      "3.8.10"
+      "3.8.10",
+      "3.8.11"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -3518,10 +3519,11 @@
   "wpdeveloper/betterdocs-pro": {
     "slug": "betterdocs-pro",
     "vendor": "wpdeveloper",
-    "ref": "8803de6",
-    "version": "3.5.2",
+    "ref": "e8cf395",
+    "version": "3.5.3",
     "tags": [
-      "3.5.2"
+      "3.5.2",
+      "3.5.3"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs-pro",
     "aliases": [
