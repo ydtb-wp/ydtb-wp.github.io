@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "76f39c7",
-    "version": "3.27.3",
+    "ref": "7f9409e",
+    "version": "3.27.4",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -13,7 +13,8 @@
       "3.27.0",
       "3.27.1",
       "3.27.2",
-      "3.27.3"
+      "3.27.3",
+      "3.27.4"
     ],
     "git": "",
     "aliases": [
@@ -1286,12 +1287,13 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "ed29ee8",
-    "version": "9.6.1",
+    "ref": "94c680e",
+    "version": "9.6.2",
     "tags": [
       "9.5.1",
       "9.6.0",
-      "9.6.1"
+      "9.6.1",
+      "9.6.2"
     ],
     "git": "",
     "aliases": [
@@ -3369,10 +3371,11 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "59ff449",
-    "version": "9.1.1",
+    "ref": "e8d47a8",
+    "version": "9.2.0",
     "tags": [
-      "9.1.1"
+      "9.1.1",
+      "9.2.0"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -3731,10 +3734,11 @@
   "wpdeveloper/templately": {
     "slug": "templately",
     "vendor": "wpdeveloper",
-    "ref": "bae8cd1",
-    "version": "3.2.1",
+    "ref": "93778bf",
+    "version": "3.2.2",
     "tags": [
-      "3.2.1"
+      "3.2.1",
+      "3.2.2"
     ],
     "git": "https://github.com/ydtb-wp/templately",
     "aliases": [
