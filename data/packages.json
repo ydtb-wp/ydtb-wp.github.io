@@ -1524,11 +1524,12 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "20a7b4d",
-    "version": "2.2.06",
+    "ref": "8f46373",
+    "version": "2.2.07",
     "tags": [
       "2.2.05",
-      "2.2.06"
+      "2.2.06",
+      "2.2.07"
     ],
     "git": "",
     "aliases": [
@@ -1540,10 +1541,11 @@
   "wparmour/wp-armour-extended": {
     "slug": "wp-armour-extended",
     "vendor": "wparmour",
-    "ref": "9682336",
-    "version": "1.35",
+    "ref": "6a4e0bb",
+    "version": "1.36",
     "tags": [
-      "1.35"
+      "1.35",
+      "1.36"
     ],
     "git": "",
     "aliases": [
@@ -3622,11 +3624,12 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "382c884",
-    "version": "6.1.2",
+    "ref": "5a6b63a",
+    "version": "6.1.4",
     "tags": [
       "6.1.1",
-      "6.1.2"
+      "6.1.2",
+      "6.1.4"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
