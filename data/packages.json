@@ -1789,10 +1789,11 @@
   "autowp/automatorwp-activecampaign": {
     "slug": "automatorwp-activecampaign",
     "vendor": "autowp",
-    "ref": "035609f",
-    "version": "1.0.8",
+    "ref": "98ac53c",
+    "version": "1.1.0",
     "tags": [
-      "1.0.8"
+      "1.0.8",
+      "1.1.0"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-activecampaign",
     "aliases": [
@@ -1971,10 +1972,11 @@
   "autowp/automatorwp-buddyboss": {
     "slug": "automatorwp-buddyboss",
     "vendor": "autowp",
-    "ref": "ec62b7a",
-    "version": "1.7.3",
+    "ref": "f7ac59e",
+    "version": "1.7.4",
     "tags": [
-      "1.7.3"
+      "1.7.3",
+      "1.7.4"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-buddyboss",
     "aliases": [
@@ -2237,10 +2239,11 @@
   "autowp/automatorwp-fluent-support": {
     "slug": "automatorwp-fluent-support",
     "vendor": "autowp",
-    "ref": "deeef3a",
-    "version": "1.0.1",
+    "ref": "b68eeb6",
+    "version": "1.0.2",
     "tags": [
-      "1.0.1"
+      "1.0.1",
+      "1.0.2"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-fluent-support",
     "aliases": [
@@ -2363,10 +2366,11 @@
   "autowp/automatorwp-google-sheets": {
     "slug": "automatorwp-google-sheets",
     "vendor": "autowp",
-    "ref": "2d4074d",
-    "version": "1.0.6",
+    "ref": "f115935",
+    "version": "1.0.7",
     "tags": [
-      "1.0.6"
+      "1.0.6",
+      "1.0.7"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-google-sheets",
     "aliases": [
@@ -2671,10 +2675,11 @@
   "autowp/automatorwp-memberpress": {
     "slug": "automatorwp-memberpress",
     "vendor": "autowp",
-    "ref": "b1e26a5",
-    "version": "1.1.0",
+    "ref": "2a21786",
+    "version": "1.1.1",
     "tags": [
-      "1.1.0"
+      "1.1.0",
+      "1.1.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-memberpress",
     "aliases": [
@@ -3049,10 +3054,11 @@
   "autowp/automatorwp-webhooks": {
     "slug": "automatorwp-webhooks",
     "vendor": "autowp",
-    "ref": "ef06e83",
-    "version": "1.3.6",
+    "ref": "71fe735",
+    "version": "1.3.7",
     "tags": [
-      "1.3.6"
+      "1.3.6",
+      "1.3.7"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-webhooks",
     "aliases": [
@@ -3105,10 +3111,11 @@
   "autowp/automatorwp-woocommerce-shipstation": {
     "slug": "automatorwp-woocommerce-shipstation",
     "vendor": "autowp",
-    "ref": "77973f1",
-    "version": "1.0.0",
+    "ref": "2492e82",
+    "version": "1.5.1",
     "tags": [
-      "1.0.0"
+      "1.0.0",
+      "1.5.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-woocommerce-shipstation",
     "aliases": [
@@ -3161,10 +3168,11 @@
   "autowp/automatorwp-wp-courseware": {
     "slug": "automatorwp-wp-courseware",
     "vendor": "autowp",
-    "ref": "c2caa54",
-    "version": "1.0.3",
+    "ref": "8b4bf4f",
+    "version": "1.0.4",
     "tags": [
-      "1.0.3"
+      "1.0.3",
+      "1.0.4"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-wp-courseware",
     "aliases": [
