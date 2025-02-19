@@ -3820,5 +3820,17 @@
       "autowp/automatorwp-trello"
     ],
     "type": "wordpress-plugin"
+  },
+  "ydtb/ydtb-elements": {
+    "slug": "ydtb-elements",
+    "vendor": "ydtb",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/ydtb-elements"
+    ],
+    "type": "wordpress-plugin"
   }
 }
