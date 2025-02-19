@@ -3778,5 +3778,41 @@
       "wpdeveloper/templately"
     ],
     "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-fluentcommunity": {
+    "slug": "automatorwp-fluentcommunity",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-fluentcommunity"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-paid-membership-subscriptions": {
+    "slug": "automatorwp-paid-membership-subscriptions",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-paid-membership-subscriptions"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "autowp/automatorwp-trello": {
+    "slug": "automatorwp-trello",
+    "vendor": "autowp",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "autowp/automatorwp-trello"
+    ],
+    "type": "wordpress-plugin"
   }
 }
