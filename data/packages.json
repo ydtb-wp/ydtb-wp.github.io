@@ -3782,10 +3782,12 @@
   "autowp/automatorwp-fluentcommunity": {
     "slug": "automatorwp-fluentcommunity",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "eefd90c",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-fluentcommunity",
     "aliases": [
       "autowp/automatorwp-fluentcommunity"
     ],
@@ -3794,10 +3796,12 @@
   "autowp/automatorwp-paid-membership-subscriptions": {
     "slug": "automatorwp-paid-membership-subscriptions",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "ec2ac02",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-paid-membership-subscriptions",
     "aliases": [
       "autowp/automatorwp-paid-membership-subscriptions"
     ],
@@ -3806,10 +3810,12 @@
   "autowp/automatorwp-trello": {
     "slug": "automatorwp-trello",
     "vendor": "autowp",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "be5c49a",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/automatorwp-trello",
     "aliases": [
       "autowp/automatorwp-trello"
     ],
