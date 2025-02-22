@@ -1483,13 +1483,14 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "ec4af37",
-    "version": "4.4.12",
+    "ref": "3214c71",
+    "version": "4.4.13",
     "tags": [
       "4.4.9",
       "4.4.10",
       "4.4.11",
-      "4.4.12"
+      "4.4.12",
+      "4.4.13"
     ],
     "git": "",
     "aliases": [
