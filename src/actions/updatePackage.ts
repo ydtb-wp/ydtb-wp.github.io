@@ -18,7 +18,6 @@ const packageList: PackageListType = data as PackageListType;
 
 export async function updatePackages(name: string, tags: ComposerPackage[]) {
   if (tags.length == 0) {
-    console.log("No updates available for", name);
     return;
   }
 
@@ -31,6 +30,7 @@ export async function updatePackages(name: string, tags: ComposerPackage[]) {
   const packageData = packageList[name];
   const slug = packageData.slug;
 
+  console.log(`\n---=== Running Update for ${name}  ===---`);
   console.log("Determined Slug: ", slug);
 
   const exists = await repoExists(slug);
