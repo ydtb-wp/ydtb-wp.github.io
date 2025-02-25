@@ -1080,11 +1080,12 @@
   "crocoblock/jet-elements": {
     "slug": "jet-elements",
     "vendor": "crocoblock",
-    "ref": "7ec8ce8",
-    "version": "2.7.3",
+    "ref": "30d7b55",
+    "version": "2.7.4",
     "tags": [
       "2.7.2.1",
-      "2.7.3"
+      "2.7.3",
+      "2.7.4"
     ],
     "git": "",
     "aliases": [
@@ -1280,12 +1281,13 @@
   "crocoblock/jet-woo-builder": {
     "slug": "jet-woo-builder",
     "vendor": "crocoblock",
-    "ref": "c22ff49",
-    "version": "2.1.17",
+    "ref": "875a8c9",
+    "version": "2.1.18",
     "tags": [
       "2.1.16",
       "2.1.16.1",
-      "2.1.17"
+      "2.1.17",
+      "2.1.18"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-builder",
     "aliases": [
@@ -1483,14 +1485,15 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "3214c71",
-    "version": "4.4.13",
+    "ref": "b09ed66",
+    "version": "4.4.14",
     "tags": [
       "4.4.9",
       "4.4.10",
       "4.4.11",
       "4.4.12",
-      "4.4.13"
+      "4.4.13",
+      "4.4.14"
     ],
     "git": "",
     "aliases": [
@@ -1650,11 +1653,12 @@
   "fluent/fluentcampaign-pro": {
     "slug": "fluentcampaign-pro",
     "vendor": "fluent",
-    "ref": "c13e17c",
-    "version": "2.9.40",
+    "ref": "aaaf06e",
+    "version": "2.9.45",
     "tags": [
       "2.9.31",
-      "2.9.40"
+      "2.9.40",
+      "2.9.45"
     ],
     "git": "",
     "aliases": [
@@ -3536,11 +3540,12 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "2239391",
-    "version": "3.8.11",
+    "ref": "c12344c",
+    "version": "3.8.12",
     "tags": [
       "3.8.10",
-      "3.8.11"
+      "3.8.11",
+      "3.8.12"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
