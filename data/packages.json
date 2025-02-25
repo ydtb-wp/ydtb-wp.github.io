@@ -28,8 +28,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "67d4338",
-    "version": "4.20.2.1",
+    "ref": "8fd218d",
+    "version": "4.20.3",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -37,7 +37,8 @@
       "4.20.0.3",
       "4.20.1",
       "4.20.1.1",
-      "4.20.2.1"
+      "4.20.2.1",
+      "4.20.3"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1299,13 +1300,14 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "94c680e",
-    "version": "9.6.2",
+    "ref": "e6137f5",
+    "version": "9.7.0",
     "tags": [
       "9.5.1",
       "9.6.0",
       "9.6.1",
-      "9.6.2"
+      "9.6.2",
+      "9.7.0"
     ],
     "git": "",
     "aliases": [
@@ -1370,11 +1372,12 @@
   "brainstormforce/convertpro-addon": {
     "slug": "convertpro-addon",
     "vendor": "brainstormforce",
-    "ref": "86371be",
-    "version": "1.5.13",
+    "ref": "34f8ff6",
+    "version": "1.5.14",
     "tags": [
       "1.5.12",
-      "1.5.13"
+      "1.5.13",
+      "1.5.14"
     ],
     "git": "",
     "aliases": [
@@ -1556,11 +1559,12 @@
   "wparmour/wp-armour-extended": {
     "slug": "wp-armour-extended",
     "vendor": "wparmour",
-    "ref": "6a4e0bb",
-    "version": "1.36",
+    "ref": "3353bec",
+    "version": "1.37",
     "tags": [
       "1.35",
-      "1.36"
+      "1.36",
+      "1.37"
     ],
     "git": "",
     "aliases": [
