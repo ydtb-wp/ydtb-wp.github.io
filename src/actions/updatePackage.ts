@@ -30,7 +30,7 @@ export async function updatePackages(name: string, tags: ComposerPackage[]) {
   const packageData = packageList[name];
   const slug = packageData.slug;
 
-  console.log(`\n---=== Running Update for ${name}  ===---`);
+  console.log(`\n\n---=== Running Update for ${name}  ===---`);
   console.log("Determined Slug: ", slug);
 
   const exists = await repoExists(slug);
