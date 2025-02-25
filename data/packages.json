@@ -1542,12 +1542,13 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "8f46373",
-    "version": "2.2.07",
+    "ref": "bebb622",
+    "version": "2.2.08",
     "tags": [
       "2.2.05",
       "2.2.06",
-      "2.2.07"
+      "2.2.07",
+      "2.2.08"
     ],
     "git": "",
     "aliases": [
@@ -1641,11 +1642,12 @@
   "fluent/fluent-crm": {
     "slug": "fluent-crm",
     "vendor": "fluent",
-    "ref": "0ffaf74",
-    "version": "2.9.40",
+    "ref": "64f0dc5",
+    "version": "2.9.45",
     "tags": [
       "2.9.31",
-      "2.9.40"
+      "2.9.40",
+      "2.9.45"
     ],
     "git": "",
     "aliases": [
