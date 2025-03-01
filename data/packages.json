@@ -1081,12 +1081,13 @@
   "crocoblock/jet-elements": {
     "slug": "jet-elements",
     "vendor": "crocoblock",
-    "ref": "30d7b55",
-    "version": "2.7.4",
+    "ref": "cc32aae",
+    "version": "2.7.4.1",
     "tags": [
       "2.7.2.1",
       "2.7.3",
-      "2.7.4"
+      "2.7.4",
+      "2.7.4.1"
     ],
     "git": "",
     "aliases": [
