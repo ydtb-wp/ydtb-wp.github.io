@@ -3714,10 +3714,11 @@
   "wpdeveloper/notificationx": {
     "slug": "notificationx",
     "vendor": "wpdeveloper",
-    "ref": "6e62de7",
-    "version": "3.0.1",
+    "ref": "a3bc55d",
+    "version": "3.0.2",
     "tags": [
-      "3.0.1"
+      "3.0.1",
+      "3.0.2"
     ],
     "git": "https://github.com/ydtb-wp/notificationx",
     "aliases": [
