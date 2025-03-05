@@ -28,8 +28,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "8fd218d",
-    "version": "4.20.3",
+    "ref": "05d3914",
+    "version": "4.20.4",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -38,7 +38,8 @@
       "4.20.1",
       "4.20.1.1",
       "4.20.2.1",
-      "4.20.3"
+      "4.20.3",
+      "4.20.4"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1302,14 +1303,15 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "e6137f5",
-    "version": "9.7.0",
+    "ref": "2cb7110",
+    "version": "9.7.1",
     "tags": [
       "9.5.1",
       "9.6.0",
       "9.6.1",
       "9.6.2",
-      "9.7.0"
+      "9.7.0",
+      "9.7.1"
     ],
     "git": "",
     "aliases": [
@@ -1564,12 +1566,13 @@
   "wparmour/wp-armour-extended": {
     "slug": "wp-armour-extended",
     "vendor": "wparmour",
-    "ref": "3353bec",
-    "version": "1.37",
+    "ref": "40f1ebb",
+    "version": "1.38",
     "tags": [
       "1.35",
       "1.36",
-      "1.37"
+      "1.37",
+      "1.38"
     ],
     "git": "",
     "aliases": [
@@ -1772,14 +1775,16 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "2141fc5",
-    "version": "5.1.6",
+    "ref": "17444d9",
+    "version": "5.1.7.1",
     "tags": [
       "5.1.2",
       "5.1.3",
       "5.1.4",
       "5.1.5",
-      "5.1.6"
+      "5.1.6",
+      "5.1.7",
+      "5.1.7.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -2578,10 +2583,11 @@
   "autowp/automatorwp-learnpress": {
     "slug": "automatorwp-learnpress",
     "vendor": "autowp",
-    "ref": "0ef6b1b",
-    "version": "1.1.4",
+    "ref": "a6c065e",
+    "version": "1.1.5",
     "tags": [
-      "1.1.4"
+      "1.1.4",
+      "1.1.5"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-learnpress",
     "aliases": [
@@ -3366,13 +3372,14 @@
   "autowp/automatorwp-pro": {
     "slug": "automatorwp-pro",
     "vendor": "autowp",
-    "ref": "fb40298",
-    "version": "4.4.3",
+    "ref": "aafdcb7",
+    "version": "4.4.4",
     "tags": [
       "4.4.0",
       "4.4.1",
       "4.4.2",
-      "4.4.3"
+      "4.4.3",
+      "4.4.4"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-pro",
     "aliases": [
@@ -3625,10 +3632,11 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "5b1429c",
-    "version": "4.1.10",
+    "ref": "92d971f",
+    "version": "4.2.0",
     "tags": [
-      "4.1.10"
+      "4.1.10",
+      "4.2.0"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
@@ -3639,10 +3647,11 @@
   "wpdeveloper/embedpress-pro": {
     "slug": "embedpress-pro",
     "vendor": "wpdeveloper",
-    "ref": "4eb0939",
-    "version": "3.6.11",
+    "ref": "28afe1f",
+    "version": "3.6.12",
     "tags": [
-      "3.6.11"
+      "3.6.11",
+      "3.6.12"
     ],
     "git": "https://github.com/ydtb-wp/embedpress-pro",
     "aliases": [
