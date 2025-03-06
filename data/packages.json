@@ -1515,10 +1515,11 @@
   "brainstormforce/wp-schema-pro": {
     "slug": "wp-schema-pro",
     "vendor": "brainstormforce",
-    "ref": "2fa5435",
-    "version": "2.7.23",
+    "ref": "8f99df2",
+    "version": "2.8.0",
     "tags": [
-      "2.7.23"
+      "2.7.23",
+      "2.8.0"
     ],
     "git": "",
     "aliases": [
@@ -1530,14 +1531,15 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "68c04ad",
-    "version": "1.38.1",
+    "ref": "240fcc3",
+    "version": "1.38.2",
     "tags": [
       "1.37.3",
       "1.37.4",
       "1.37.5",
       "1.38.0",
-      "1.38.1"
+      "1.38.1",
+      "1.38.2"
     ],
     "git": "",
     "aliases": [
@@ -1549,13 +1551,14 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "bebb622",
-    "version": "2.2.08",
+    "ref": "253e514",
+    "version": "2.2.09",
     "tags": [
       "2.2.05",
       "2.2.06",
       "2.2.07",
-      "2.2.08"
+      "2.2.08",
+      "2.2.09"
     ],
     "git": "",
     "aliases": [
@@ -1684,12 +1687,13 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "f6857d4",
-    "version": "24.5",
+    "ref": "81469d1",
+    "version": "24.6",
     "tags": [
       "24.2",
       "24.4",
-      "24.5"
+      "24.5",
+      "24.6"
     ],
     "git": "",
     "aliases": [
@@ -2375,11 +2379,12 @@
   "autowp/automatorwp-google-sheets": {
     "slug": "automatorwp-google-sheets",
     "vendor": "autowp",
-    "ref": "f115935",
-    "version": "1.0.7",
+    "ref": "fdc22b1",
+    "version": "1.0.8",
     "tags": [
       "1.0.6",
-      "1.0.7"
+      "1.0.7",
+      "1.0.8"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-google-sheets",
     "aliases": [
@@ -3375,14 +3380,15 @@
   "autowp/automatorwp-pro": {
     "slug": "automatorwp-pro",
     "vendor": "autowp",
-    "ref": "aafdcb7",
-    "version": "4.4.4",
+    "ref": "64f110c",
+    "version": "4.4.5",
     "tags": [
       "4.4.0",
       "4.4.1",
       "4.4.2",
       "4.4.3",
-      "4.4.4"
+      "4.4.4",
+      "4.4.5"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-pro",
     "aliases": [
@@ -3456,10 +3462,11 @@
   "fluent/fluent-support": {
     "slug": "fluent-support",
     "vendor": "fluent",
-    "ref": "ff4490a",
-    "version": "1.8.5",
+    "ref": "6b12e71",
+    "version": "1.8.6",
     "tags": [
-      "1.8.5"
+      "1.8.5",
+      "1.8.6"
     ],
     "git": "",
     "aliases": [
