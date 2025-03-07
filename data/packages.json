@@ -1338,8 +1338,8 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "030016b",
-    "version": "4.9.0",
+    "ref": "9610787",
+    "version": "4.9.1",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1349,7 +1349,8 @@
       "4.8.12",
       "4.8.13",
       "4.8.14",
-      "4.9.0"
+      "4.9.0",
+      "4.9.1"
     ],
     "git": "",
     "aliases": [
@@ -3853,10 +3854,11 @@
   "ydtb/ydtb-elements": {
     "slug": "ydtb-elements",
     "vendor": "ydtb",
-    "ref": "b157e99",
-    "version": "0.2.2",
+    "ref": "6c08b02",
+    "version": "0.2.3",
     "tags": [
-      "0.2.2"
+      "0.2.2",
+      "0.2.3"
     ],
     "git": "",
     "aliases": [
