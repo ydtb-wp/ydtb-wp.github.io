@@ -28,8 +28,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "05d3914",
-    "version": "4.20.4",
+    "ref": "4008211",
+    "version": "4.20.5",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -39,7 +39,8 @@
       "4.20.1.1",
       "4.20.2.1",
       "4.20.3",
-      "4.20.4"
+      "4.20.4",
+      "4.20.5"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1427,8 +1428,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "be00a31",
-    "version": "3.27.5",
+    "ref": "3e1c2c8",
+    "version": "3.27.6",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1439,7 +1440,8 @@
       "3.27.2",
       "3.27.3",
       "3.27.4",
-      "3.27.5"
+      "3.27.5",
+      "3.27.6"
     ],
     "git": "",
     "aliases": [
@@ -3871,10 +3873,12 @@
   "funnelkit/wp-marketing-automations": {
     "slug": "wp-marketing-automations",
     "vendor": "funnelkit",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c6a79d2",
+    "version": "3.5.1",
+    "tags": [
+      "3.5.1"
+    ],
+    "git": "https://github.com/ydtb-wp/wp-marketing-automations",
     "aliases": [
       "funnelkit/wp-marketing-automations"
     ],
@@ -3883,10 +3887,12 @@
   "funnelkit/wp-marketing-automations-connectors": {
     "slug": "wp-marketing-automations-connectors",
     "vendor": "funnelkit",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "365c473",
+    "version": "3.3.2",
+    "tags": [
+      "3.3.2"
+    ],
+    "git": "https://github.com/ydtb-wp/wp-marketing-automations-connectors",
     "aliases": [
       "funnelkit/wp-marketing-automations-connectors"
     ],
@@ -3895,10 +3901,12 @@
   "funnelkit/wp-marketing-automations-pro": {
     "slug": "wp-marketing-automations-pro",
     "vendor": "funnelkit",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "80eb3e8",
+    "version": "3.5.2",
+    "tags": [
+      "3.5.2"
+    ],
+    "git": "https://github.com/ydtb-wp/wp-marketing-automations-pro",
     "aliases": [
       "funnelkit/wp-marketing-automations-pro"
     ],
@@ -3907,10 +3915,12 @@
   "funnelkit/cart-for-woocommerce": {
     "slug": "cart-for-woocommerce",
     "vendor": "funnelkit",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "e274997",
+    "version": "1.7.1",
+    "tags": [
+      "1.7.1"
+    ],
+    "git": "https://github.com/ydtb-wp/cart-for-woocommerce",
     "aliases": [
       "funnelkit/cart-for-woocommerce"
     ],
@@ -3919,10 +3929,12 @@
   "funnelkit/funnel-builder": {
     "slug": "funnel-builder",
     "vendor": "funnelkit",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "d877b6d",
+    "version": "3.10.1",
+    "tags": [
+      "3.10.1"
+    ],
+    "git": "https://github.com/ydtb-wp/funnel-builder",
     "aliases": [
       "funnelkit/funnel-builder"
     ],
@@ -3931,10 +3943,12 @@
   "funnelkit/funnel-builder-pro": {
     "slug": "funnel-builder-pro",
     "vendor": "funnelkit",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7aba119",
+    "version": "3.10.1",
+    "tags": [
+      "3.10.1"
+    ],
+    "git": "https://github.com/ydtb-wp/funnel-builder-pro",
     "aliases": [
       "funnelkit/funnel-builder-pro"
     ],
@@ -3943,10 +3957,12 @@
   "funnelkit/funnelkit-stripe-woo-payment-gateway": {
     "slug": "funnelkit-stripe-woo-payment-gateway",
     "vendor": "funnelkit",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "06e24ac",
+    "version": "1.11.1",
+    "tags": [
+      "1.11.1"
+    ],
+    "git": "https://github.com/ydtb-wp/funnelkit-stripe-woo-payment-gateway",
     "aliases": [
       "funnelkit/funnelkit-stripe-woo-payment-gateway"
     ],
