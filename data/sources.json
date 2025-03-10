@@ -99,6 +99,16 @@
         "username": "YzE5OGMwYmMxZDFiZTI0NjExOWEzNTUzNTkxYzAyMjA6MDlkZDc1ODUzODA0YTAxNjJhMzYzOGVkYTg0ZDUzZDkyZmQ3ZjhhYWE1YWI3NDg2YWMwNzI2ZGQwNzc2NWMxOTRmZDg4MzA5ZmJmZTBmOTgwYTM3MTk5Y2YxNWJlNDFh",
         "password": "N2ZlNDIwNzEwZTZiMmZmOThlMmRkZTViY2FiODM4MTU6ZWM0Njk0MzVkZDdlMzdlZDdhMzYzYmQ3NmM0Zjc2NTk="
       }
+    },
+    {
+      "name": "FunnelKit",
+      "vendor": "funnelkit",
+      "url": "https://funnelkit.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "NzUxY2RlNjA0NWFlZjAwZjljMTM3YTczN2VjYzg0MDU6Y2M0MTZhOTUwMTlmYWViYWQzZjYxMDM0YWUzZjlmZTBmYzczZjliNDlhOTY4OTRjMTEyZjAwYTk2ZTMyYjk2NjgzZWYzMjFlZjI5Y2Y3M2QwOTQxNGMwZWViYzBhYzRm",
+        "password": "YWU0OTM2MDU0NWQxYTk0ZDg2ZDZlYzY1NWViOTE3ZTc6YzJiZmJlZTNhNTZlYWI3MGJhNjM4Yzc0Y2QwYWRhYjE="
+      }
     }
   ]
 }
