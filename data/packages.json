@@ -3867,5 +3867,89 @@
       "ydtb/ydtb-elements"
     ],
     "type": "wordpress-plugin"
+  },
+  "funnelkit/wp-marketing-automations": {
+    "slug": "wp-marketing-automations",
+    "vendor": "funnelkit",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "funnelkit/wp-marketing-automations"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "funnelkit/wp-marketing-automations-connectors": {
+    "slug": "wp-marketing-automations-connectors",
+    "vendor": "funnelkit",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "funnelkit/wp-marketing-automations-connectors"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "funnelkit/wp-marketing-automations-pro": {
+    "slug": "wp-marketing-automations-pro",
+    "vendor": "funnelkit",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "funnelkit/wp-marketing-automations-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "funnelkit/cart-for-woocommerce": {
+    "slug": "cart-for-woocommerce",
+    "vendor": "funnelkit",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "funnelkit/cart-for-woocommerce"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "funnelkit/funnel-builder": {
+    "slug": "funnel-builder",
+    "vendor": "funnelkit",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "funnelkit/funnel-builder"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "funnelkit/funnel-builder-pro": {
+    "slug": "funnel-builder-pro",
+    "vendor": "funnelkit",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "funnelkit/funnel-builder-pro"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "funnelkit/funnelkit-stripe-woo-payment-gateway": {
+    "slug": "funnelkit-stripe-woo-payment-gateway",
+    "vendor": "funnelkit",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "funnelkit/funnelkit-stripe-woo-payment-gateway"
+    ],
+    "type": "wordpress-plugin"
   }
 }
