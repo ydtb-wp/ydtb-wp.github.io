@@ -11,7 +11,7 @@ import { writeFileSync } from "fs";
 
 const packageList = data as PackageListType;
 
-export const chooseRepos = async (): Promise<void> => {
+export const chooseRepos = async (all: boolean = false): Promise<void> => {
   const repos = await fetchAllPackages();
 
   let notDone = true;
@@ -19,6 +19,29 @@ export const chooseRepos = async (): Promise<void> => {
     let packages = detectMissingPackages(repos);
     if (packages.length === 0) {
       console.log("All packages are already added.");
+      notDone = false;
+      continue;
+    }
+
+    if (all) {
+      for (const pkg of packages) {
+        const slug = pkg.split("/")[1];
+        const vendor = pkg.split("/")[0];
+        const details: PackageDataType = {
+          slug,
+          vendor,
+          ref: "",
+          version: "",
+          tags: [],
+          git: "",
+          aliases: [`${vendor}/${slug}`],
+          type: repos.packages[pkg][Object.keys(repos.packages[pkg])[0]].type as "wordpress-plugin" | "wordpress-theme",
+        };
+        packageList[`${vendor}/${slug}`] = details;
+      }
+      const aliasedPath = pathAlias("@", "packages.json");
+      writeFileSync(aliasedPath, JSON.stringify(packageList, null, 2));
+      console.log("All missing packages have been added.");
       notDone = false;
       continue;
     }
@@ -105,14 +128,14 @@ const askPackageDetails = async (
   const ref = "";
   const version = "";
   const tags: string[] = [];
-
-  const git = await input({
-    message: "Enter the git url (optional)",
-    validate: (input) =>
-      input === "" || /^(https?|git):\/\/[^\s/$.?#].[^\s]*$/.test(input)
-        ? true
-        : "Please enter a valid URL",
-  });
+  const git = "";
+  // const git = await input({
+  //   message: "Enter the git url (optional)",
+  //   validate: (input) =>
+  //     input === "" || /^(https?|git):\/\/[^\s/$.?#].[^\s]*$/.test(input)
+  //       ? true
+  //       : "Please enter a valid URL",
+  // });
   const aliases = [name];
 
   const key = Object.keys(pkg)[0];
