@@ -1435,8 +1435,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "3e1c2c8",
-    "version": "3.27.6",
+    "ref": "0f48754",
+    "version": "3.27.7",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1448,7 +1448,8 @@
       "3.27.3",
       "3.27.4",
       "3.27.5",
-      "3.27.6"
+      "3.27.6",
+      "3.27.7"
     ],
     "git": "",
     "aliases": [
@@ -1617,13 +1618,14 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "6d20d0c",
-    "version": "4.8.10",
+    "ref": "5ea15d7",
+    "version": "4.9.0",
     "tags": [
       "4.8.7",
       "4.8.8",
       "4.8.9",
-      "4.8.10"
+      "4.8.10",
+      "4.9.0"
     ],
     "git": "",
     "aliases": [
@@ -4863,6 +4865,21 @@
     "git": "https://github.com/ydtb-wp/gamipress-zapier",
     "aliases": [
       "gamipress/gamipress-zapier"
+    ],
+    "type": "wordpress-plugin"
+  },
+  "ydtb/s3-uploads-patch": {
+    "slug": "s3-uploads-patch",
+    "vendor": "ydtb",
+    "ref": "37cac11",
+    "version": "0.0.2",
+    "tags": [
+      "0.0.1",
+      "0.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/s3-uploads-patch",
+    "aliases": [
+      "ydtb/s3-uploads-patch"
     ],
     "type": "wordpress-plugin"
   }
