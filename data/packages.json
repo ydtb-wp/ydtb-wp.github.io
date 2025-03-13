@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "22e867d",
-    "version": "3.27.6",
+    "ref": "287c109",
+    "version": "3.27.7",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -16,7 +16,8 @@
       "3.27.3",
       "3.27.4",
       "3.27.5",
-      "3.27.6"
+      "3.27.6",
+      "3.27.7"
     ],
     "git": "",
     "aliases": [
@@ -1368,12 +1369,13 @@
   "brainstormforce/convertpro": {
     "slug": "convertpro",
     "vendor": "brainstormforce",
-    "ref": "a078f6f",
-    "version": "1.8.0",
+    "ref": "69eac97",
+    "version": "1.8.1",
     "tags": [
       "1.7.8",
       "1.7.9",
-      "1.8.0"
+      "1.8.0",
+      "1.8.1"
     ],
     "git": "",
     "aliases": [
@@ -1524,11 +1526,12 @@
   "brainstormforce/wp-schema-pro": {
     "slug": "wp-schema-pro",
     "vendor": "brainstormforce",
-    "ref": "8f99df2",
-    "version": "2.8.0",
+    "ref": "3e56c7c",
+    "version": "2.8.1",
     "tags": [
       "2.7.23",
-      "2.8.0"
+      "2.8.0",
+      "2.8.1"
     ],
     "git": "",
     "aliases": [
@@ -1540,15 +1543,16 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "240fcc3",
-    "version": "1.38.2",
+    "ref": "c170595",
+    "version": "1.38.3",
     "tags": [
       "1.37.3",
       "1.37.4",
       "1.37.5",
       "1.38.0",
       "1.38.1",
-      "1.38.2"
+      "1.38.2",
+      "1.38.3"
     ],
     "git": "",
     "aliases": [
@@ -3701,11 +3705,12 @@
   "wpdeveloper/essential-addons-elementor": {
     "slug": "essential-addons-elementor",
     "vendor": "wpdeveloper",
-    "ref": "35e0323",
-    "version": "6.1.0",
+    "ref": "85cde04",
+    "version": "6.1.1",
     "tags": [
       "6.0.13",
-      "6.1.0"
+      "6.1.0",
+      "6.1.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-elementor",
     "aliases": [
@@ -3938,10 +3943,11 @@
   "funnelkit/funnel-builder": {
     "slug": "funnel-builder",
     "vendor": "funnelkit",
-    "ref": "d877b6d",
-    "version": "3.10.1",
+    "ref": "a441dfb",
+    "version": "3.10.2",
     "tags": [
-      "3.10.1"
+      "3.10.1",
+      "3.10.2"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder",
     "aliases": [
@@ -3952,10 +3958,11 @@
   "funnelkit/funnel-builder-pro": {
     "slug": "funnel-builder-pro",
     "vendor": "funnelkit",
-    "ref": "7aba119",
-    "version": "3.10.1",
+    "ref": "fb95d48",
+    "version": "3.10.2",
     "tags": [
-      "3.10.1"
+      "3.10.1",
+      "3.10.2"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder-pro",
     "aliases": [
@@ -3980,10 +3987,12 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "aba3b26",
+    "version": "7.3.1",
+    "tags": [
+      "7.3.1"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
       "gamipress/gamipress"
     ],
@@ -3992,10 +4001,12 @@
   "gamipress/gamipress-admin-emails": {
     "slug": "gamipress-admin-emails",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "6aa8315",
+    "version": "1.0.6",
+    "tags": [
+      "1.0.6"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-admin-emails",
     "aliases": [
       "gamipress/gamipress-admin-emails"
     ],
@@ -4004,10 +4015,12 @@
   "gamipress/gamipress-anniversaries": {
     "slug": "gamipress-anniversaries",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "eea7796",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-anniversaries",
     "aliases": [
       "gamipress/gamipress-anniversaries"
     ],
@@ -4016,10 +4029,12 @@
   "gamipress/gamipress-badgr": {
     "slug": "gamipress-badgr",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "98d4f65",
+    "version": "1.1.5",
+    "tags": [
+      "1.1.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-badgr",
     "aliases": [
       "gamipress/gamipress-badgr"
     ],
@@ -4028,10 +4043,12 @@
   "gamipress/gamipress-birthdays": {
     "slug": "gamipress-birthdays",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "79636cd",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-birthdays",
     "aliases": [
       "gamipress/gamipress-birthdays"
     ],
@@ -4040,10 +4057,12 @@
   "gamipress/gamipress-block-users": {
     "slug": "gamipress-block-users",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "6bfe056",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-block-users",
     "aliases": [
       "gamipress/gamipress-block-users"
     ],
@@ -4052,10 +4071,12 @@
   "gamipress/gamipress-buddyboss-notifications": {
     "slug": "gamipress-buddyboss-notifications",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "4329dcc",
+    "version": "1.0.8",
+    "tags": [
+      "1.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-buddyboss-notifications",
     "aliases": [
       "gamipress/gamipress-buddyboss-notifications"
     ],
@@ -4064,10 +4085,12 @@
   "gamipress/gamipress-buddypress-group-leaderboard": {
     "slug": "gamipress-buddypress-group-leaderboard",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f3dddfe",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-buddypress-group-leaderboard",
     "aliases": [
       "gamipress/gamipress-buddypress-group-leaderboard"
     ],
@@ -4076,10 +4099,12 @@
   "gamipress/gamipress-buddypress-notifications": {
     "slug": "gamipress-buddypress-notifications",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "575839c",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-buddypress-notifications",
     "aliases": [
       "gamipress/gamipress-buddypress-notifications"
     ],
@@ -4088,10 +4113,12 @@
   "gamipress/gamipress-button": {
     "slug": "gamipress-button",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "3b4e3d7",
+    "version": "1.0.9",
+    "tags": [
+      "1.0.9"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-button",
     "aliases": [
       "gamipress/gamipress-button"
     ],
@@ -4100,10 +4127,12 @@
   "gamipress/gamipress-conditional-emails": {
     "slug": "gamipress-conditional-emails",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "28cb6f1",
+    "version": "1.1.1",
+    "tags": [
+      "1.1.1"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-conditional-emails",
     "aliases": [
       "gamipress/gamipress-conditional-emails"
     ],
@@ -4112,10 +4141,12 @@
   "gamipress/gamipress-conditional-emails-recipients": {
     "slug": "gamipress-conditional-emails-recipients",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "cd0ec82",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-conditional-emails-recipients",
     "aliases": [
       "gamipress/gamipress-conditional-emails-recipients"
     ],
@@ -4124,10 +4155,12 @@
   "gamipress/gamipress-conditional-notifications": {
     "slug": "gamipress-conditional-notifications",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7c6a10a",
+    "version": "1.1.3",
+    "tags": [
+      "1.1.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-conditional-notifications",
     "aliases": [
       "gamipress/gamipress-conditional-notifications"
     ],
@@ -4136,10 +4169,12 @@
   "gamipress/gamipress-congratulations-popups": {
     "slug": "gamipress-congratulations-popups",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "e5246df",
+    "version": "1.1.3",
+    "tags": [
+      "1.1.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-congratulations-popups",
     "aliases": [
       "gamipress/gamipress-congratulations-popups"
     ],
@@ -4148,10 +4183,12 @@
   "gamipress/gamipress-coupons": {
     "slug": "gamipress-coupons",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "88b6a51",
+    "version": "1.1.2",
+    "tags": [
+      "1.1.2"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-coupons",
     "aliases": [
       "gamipress/gamipress-coupons"
     ],
@@ -4160,10 +4197,12 @@
   "gamipress/gamipress-credly": {
     "slug": "gamipress-credly",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "013c67e",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-credly",
     "aliases": [
       "gamipress/gamipress-credly"
     ],
@@ -4172,10 +4211,12 @@
   "gamipress/gamipress-daily-login-rewards": {
     "slug": "gamipress-daily-login-rewards",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "e157813",
+    "version": "1.1.7",
+    "tags": [
+      "1.1.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-daily-login-rewards",
     "aliases": [
       "gamipress/gamipress-daily-login-rewards"
     ],
@@ -4184,10 +4225,12 @@
   "gamipress/gamipress-edd-discounts": {
     "slug": "gamipress-edd-discounts",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "aa92261",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-edd-discounts",
     "aliases": [
       "gamipress/gamipress-edd-discounts"
     ],
@@ -4196,10 +4239,12 @@
   "gamipress/gamipress-edd-partial-payments": {
     "slug": "gamipress-edd-partial-payments",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "d85de82",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-edd-partial-payments",
     "aliases": [
       "gamipress/gamipress-edd-partial-payments"
     ],
@@ -4208,10 +4253,12 @@
   "gamipress/gamipress-edd-points-gateway": {
     "slug": "gamipress-edd-points-gateway",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "3159f0e",
+    "version": "1.1.2",
+    "tags": [
+      "1.1.2"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-edd-points-gateway",
     "aliases": [
       "gamipress/gamipress-edd-points-gateway"
     ],
@@ -4220,10 +4267,12 @@
   "gamipress/gamipress-edd-points-per-purchase-total": {
     "slug": "gamipress-edd-points-per-purchase-total",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "8f9a3a6",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-edd-points-per-purchase-total",
     "aliases": [
       "gamipress/gamipress-edd-points-per-purchase-total"
     ],
@@ -4232,10 +4281,12 @@
   "gamipress/gamipress-email-digests": {
     "slug": "gamipress-email-digests",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c59b11f",
+    "version": "1.0.9",
+    "tags": [
+      "1.0.9"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-email-digests",
     "aliases": [
       "gamipress/gamipress-email-digests"
     ],
@@ -4244,10 +4295,12 @@
   "gamipress/gamipress-emails-by-type": {
     "slug": "gamipress-emails-by-type",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "b28ede3",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-emails-by-type",
     "aliases": [
       "gamipress/gamipress-emails-by-type"
     ],
@@ -4256,10 +4309,12 @@
   "gamipress/gamipress-expirations": {
     "slug": "gamipress-expirations",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a4be289",
+    "version": "1.0.8",
+    "tags": [
+      "1.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-expirations",
     "aliases": [
       "gamipress/gamipress-expirations"
     ],
@@ -4268,10 +4323,12 @@
   "gamipress/gamipress-frontend-awards": {
     "slug": "gamipress-frontend-awards",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "778b22d",
+    "version": "1.0.2",
+    "tags": [
+      "1.0.2"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-frontend-awards",
     "aliases": [
       "gamipress/gamipress-frontend-awards"
     ],
@@ -4280,10 +4337,12 @@
   "gamipress/gamipress-frontend-reports": {
     "slug": "gamipress-frontend-reports",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f6f2990",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-frontend-reports",
     "aliases": [
       "gamipress/gamipress-frontend-reports"
     ],
@@ -4292,10 +4351,12 @@
   "gamipress/gamipress-h5p-points-per-score": {
     "slug": "gamipress-h5p-points-per-score",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7a4d3b7",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-h5p-points-per-score",
     "aliases": [
       "gamipress/gamipress-h5p-points-per-score"
     ],
@@ -4304,10 +4365,12 @@
   "gamipress/gamipress-leaderboards": {
     "slug": "gamipress-leaderboards",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "5a9e36c",
+    "version": "1.4.9",
+    "tags": [
+      "1.4.9"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-leaderboards",
     "aliases": [
       "gamipress/gamipress-leaderboards"
     ],
@@ -4316,10 +4379,12 @@
   "gamipress/gamipress-leaderboards-include-exclude-users": {
     "slug": "gamipress-leaderboards-include-exclude-users",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c8f93e9",
+    "version": "1.0.9",
+    "tags": [
+      "1.0.9"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-leaderboards-include-exclude-users",
     "aliases": [
       "gamipress/gamipress-leaderboards-include-exclude-users"
     ],
@@ -4328,10 +4393,12 @@
   "gamipress/gamipress-learndash-group-leaderboard": {
     "slug": "gamipress-learndash-group-leaderboard",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "0f74c41",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-learndash-group-leaderboard",
     "aliases": [
       "gamipress/gamipress-learndash-group-leaderboard"
     ],
@@ -4340,10 +4407,12 @@
   "gamipress/gamipress-ld-points-per-quiz-score": {
     "slug": "gamipress-ld-points-per-quiz-score",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a1962c7",
+    "version": "1.0.4",
+    "tags": [
+      "1.0.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-ld-points-per-quiz-score",
     "aliases": [
       "gamipress/gamipress-ld-points-per-quiz-score"
     ],
@@ -4352,10 +4421,12 @@
   "gamipress/gamipress-lifterlms-group-leaderboard": {
     "slug": "gamipress-lifterlms-group-leaderboard",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "628d030",
+    "version": "1.0.8",
+    "tags": [
+      "1.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-lifterlms-group-leaderboard",
     "aliases": [
       "gamipress/gamipress-lifterlms-group-leaderboard"
     ],
@@ -4364,10 +4435,12 @@
   "gamipress/gamipress-link": {
     "slug": "gamipress-link",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f21c295",
+    "version": "1.1.5",
+    "tags": [
+      "1.1.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-link",
     "aliases": [
       "gamipress/gamipress-link"
     ],
@@ -4376,10 +4449,12 @@
   "gamipress/gamipress-mark-as-completed": {
     "slug": "gamipress-mark-as-completed",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c6cd527",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-mark-as-completed",
     "aliases": [
       "gamipress/gamipress-mark-as-completed"
     ],
@@ -4388,10 +4463,12 @@
   "gamipress/gamipress-multimedia-content": {
     "slug": "gamipress-multimedia-content",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "48c4e40",
+    "version": "1.0.3",
+    "tags": [
+      "1.0.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-multimedia-content",
     "aliases": [
       "gamipress/gamipress-multimedia-content"
     ],
@@ -4400,10 +4477,12 @@
   "gamipress/gamipress-nominations": {
     "slug": "gamipress-nominations",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a8371a0",
+    "version": "1.1.4",
+    "tags": [
+      "1.1.4"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-nominations",
     "aliases": [
       "gamipress/gamipress-nominations"
     ],
@@ -4412,10 +4491,12 @@
   "gamipress/gamipress-notifications": {
     "slug": "gamipress-notifications",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "fc4dc87",
+    "version": "1.5.3",
+    "tags": [
+      "1.5.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-notifications",
     "aliases": [
       "gamipress/gamipress-notifications"
     ],
@@ -4424,10 +4505,12 @@
   "gamipress/gamipress-notifications-by-type": {
     "slug": "gamipress-notifications-by-type",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "5a646a0",
+    "version": "1.0.8",
+    "tags": [
+      "1.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-notifications-by-type",
     "aliases": [
       "gamipress/gamipress-notifications-by-type"
     ],
@@ -4436,10 +4519,12 @@
   "gamipress/gamipress-peepso-group-leaderboard": {
     "slug": "gamipress-peepso-group-leaderboard",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "b9d4803",
+    "version": "1.1.3",
+    "tags": [
+      "1.1.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-peepso-group-leaderboard",
     "aliases": [
       "gamipress/gamipress-peepso-group-leaderboard"
     ],
@@ -4448,10 +4533,12 @@
   "gamipress/gamipress-points-cards": {
     "slug": "gamipress-points-cards",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "072c7ec",
+    "version": "1.0.5",
+    "tags": [
+      "1.0.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-points-cards",
     "aliases": [
       "gamipress/gamipress-points-cards"
     ],
@@ -4460,10 +4547,12 @@
   "gamipress/gamipress-points-exchanges": {
     "slug": "gamipress-points-exchanges",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "2125ce3",
+    "version": "1.1.3",
+    "tags": [
+      "1.1.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-points-exchanges",
     "aliases": [
       "gamipress/gamipress-points-exchanges"
     ],
@@ -4472,10 +4561,12 @@
   "gamipress/gamipress-points-limits": {
     "slug": "gamipress-points-limits",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "f06266b",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-points-limits",
     "aliases": [
       "gamipress/gamipress-points-limits"
     ],
@@ -4484,10 +4575,12 @@
   "gamipress/gamipress-points-multiplier": {
     "slug": "gamipress-points-multiplier",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a43e463",
+    "version": "1.0.1",
+    "tags": [
+      "1.0.1"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-points-multiplier",
     "aliases": [
       "gamipress/gamipress-points-multiplier"
     ],
@@ -4496,10 +4589,12 @@
   "gamipress/gamipress-points-payouts": {
     "slug": "gamipress-points-payouts",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "b7adc05",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-points-payouts",
     "aliases": [
       "gamipress/gamipress-points-payouts"
     ],
@@ -4508,10 +4603,12 @@
   "gamipress/gamipress-progress": {
     "slug": "gamipress-progress",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "9cc16b7",
+    "version": "1.4.3",
+    "tags": [
+      "1.4.3"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-progress",
     "aliases": [
       "gamipress/gamipress-progress"
     ],
@@ -4520,10 +4617,12 @@
   "gamipress/gamipress-progress-map": {
     "slug": "gamipress-progress-map",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "98ec70d",
+    "version": "1.1.5",
+    "tags": [
+      "1.1.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-progress-map",
     "aliases": [
       "gamipress/gamipress-progress-map"
     ],
@@ -4532,10 +4631,12 @@
   "gamipress/gamipress-purchases": {
     "slug": "gamipress-purchases",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "367f5b3",
+    "version": "1.2.7",
+    "tags": [
+      "1.2.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-purchases",
     "aliases": [
       "gamipress/gamipress-purchases"
     ],
@@ -4544,10 +4645,12 @@
   "gamipress/gamipress-referrals": {
     "slug": "gamipress-referrals",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "41cb0e2",
+    "version": "1.1.5",
+    "tags": [
+      "1.1.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-referrals",
     "aliases": [
       "gamipress/gamipress-referrals"
     ],
@@ -4556,10 +4659,12 @@
   "gamipress/gamipress-reports": {
     "slug": "gamipress-reports",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "fe7c6e7",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-reports",
     "aliases": [
       "gamipress/gamipress-reports"
     ],
@@ -4568,10 +4673,12 @@
   "gamipress/gamipress-requirements-descriptions": {
     "slug": "gamipress-requirements-descriptions",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "4bcac71",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-requirements-descriptions",
     "aliases": [
       "gamipress/gamipress-requirements-descriptions"
     ],
@@ -4580,10 +4687,12 @@
   "gamipress/gamipress-rest-api-extended": {
     "slug": "gamipress-rest-api-extended",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "7c057da",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-rest-api-extended",
     "aliases": [
       "gamipress/gamipress-rest-api-extended"
     ],
@@ -4592,10 +4701,12 @@
   "gamipress/gamipress-restrict-content": {
     "slug": "gamipress-restrict-content",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "be57fe6",
+    "version": "1.2.8",
+    "tags": [
+      "1.2.8"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-restrict-content",
     "aliases": [
       "gamipress/gamipress-restrict-content"
     ],
@@ -4604,10 +4715,12 @@
   "gamipress/gamipress-restrict-unlock": {
     "slug": "gamipress-restrict-unlock",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "2d3b8ed",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-restrict-unlock",
     "aliases": [
       "gamipress/gamipress-restrict-unlock"
     ],
@@ -4616,10 +4729,12 @@
   "gamipress/gamipress-social-share": {
     "slug": "gamipress-social-share",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "3257b45",
+    "version": "1.2.7",
+    "tags": [
+      "1.2.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-social-share",
     "aliases": [
       "gamipress/gamipress-social-share"
     ],
@@ -4628,10 +4743,12 @@
   "gamipress/gamipress-submissions": {
     "slug": "gamipress-submissions",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "8699c1d",
+    "version": "1.1.0",
+    "tags": [
+      "1.1.0"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-submissions",
     "aliases": [
       "gamipress/gamipress-submissions"
     ],
@@ -4640,10 +4757,12 @@
   "gamipress/gamipress-time-based-rewards": {
     "slug": "gamipress-time-based-rewards",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "61e116b",
+    "version": "1.1.2",
+    "tags": [
+      "1.1.2"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-time-based-rewards",
     "aliases": [
       "gamipress/gamipress-time-based-rewards"
     ],
@@ -4652,10 +4771,12 @@
   "gamipress/gamipress-transfers": {
     "slug": "gamipress-transfers",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "615dd6f",
+    "version": "1.3.5",
+    "tags": [
+      "1.3.5"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-transfers",
     "aliases": [
       "gamipress/gamipress-transfers"
     ],
@@ -4664,10 +4785,12 @@
   "gamipress/gamipress-transfers-notes": {
     "slug": "gamipress-transfers-notes",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "c4e4549",
+    "version": "1.0.0",
+    "tags": [
+      "1.0.0"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-transfers-notes",
     "aliases": [
       "gamipress/gamipress-transfers-notes"
     ],
@@ -4676,10 +4799,12 @@
   "gamipress/gamipress-wc-discounts": {
     "slug": "gamipress-wc-discounts",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "a9515d5",
+    "version": "1.1.7",
+    "tags": [
+      "1.1.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-wc-discounts",
     "aliases": [
       "gamipress/gamipress-wc-discounts"
     ],
@@ -4688,10 +4813,12 @@
   "gamipress/gamipress-wc-partial-payments": {
     "slug": "gamipress-wc-partial-payments",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "006cfb8",
+    "version": "1.2.1",
+    "tags": [
+      "1.2.1"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-wc-partial-payments",
     "aliases": [
       "gamipress/gamipress-wc-partial-payments"
     ],
@@ -4700,10 +4827,12 @@
   "gamipress/gamipress-wc-points-gateway": {
     "slug": "gamipress-wc-points-gateway",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "fc5a0bd",
+    "version": "1.2.1",
+    "tags": [
+      "1.2.1"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-wc-points-gateway",
     "aliases": [
       "gamipress/gamipress-wc-points-gateway"
     ],
@@ -4712,10 +4841,12 @@
   "gamipress/gamipress-wc-points-per-purchase-total": {
     "slug": "gamipress-wc-points-per-purchase-total",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "76838a4",
+    "version": "1.0.7",
+    "tags": [
+      "1.0.7"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-wc-points-per-purchase-total",
     "aliases": [
       "gamipress/gamipress-wc-points-per-purchase-total"
     ],
@@ -4724,10 +4855,12 @@
   "gamipress/gamipress-zapier": {
     "slug": "gamipress-zapier",
     "vendor": "gamipress",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "fd338c3",
+    "version": "1.0.9",
+    "tags": [
+      "1.0.9"
+    ],
+    "git": "https://github.com/ydtb-wp/gamipress-zapier",
     "aliases": [
       "gamipress/gamipress-zapier"
     ],
