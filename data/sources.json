@@ -109,6 +109,16 @@
         "username": "NzUxY2RlNjA0NWFlZjAwZjljMTM3YTczN2VjYzg0MDU6Y2M0MTZhOTUwMTlmYWViYWQzZjYxMDM0YWUzZjlmZTBmYzczZjliNDlhOTY4OTRjMTEyZjAwYTk2ZTMyYjk2NjgzZWYzMjFlZjI5Y2Y3M2QwOTQxNGMwZWViYzBhYzRm",
         "password": "YWU0OTM2MDU0NWQxYTk0ZDg2ZDZlYzY1NWViOTE3ZTc6YzJiZmJlZTNhNTZlYWI3MGJhNjM4Yzc0Y2QwYWRhYjE="
       }
+    },
+    {
+      "name": "Gamipress",
+      "vendor": "gamipress",
+      "url": "https://gamipress.ydtb-wp.link/satispress/packages.json",
+      "auth_type": "basic",
+      "auth": {
+        "username": "ZTNkMzMwNGUxY2FkNzc0YmE1ZmJmNjkxYTk3YzU5MzE6ZTMwZjI0ZWQ5NjNlYzEzOTczNTMwNzExNzQxMDM2ZTFmZGU2MWJmZDE4MTJlMzhlOTc2ZDI0MDdjNTJhYTdiZWRlNTMzMDA0MDEwNjcxNzI1MzdlYzdhNmM3OWI0NmRk",
+        "password": "MWU4NjVkMmJmNzE5MDEyOWEyMWIwODg4NjJlZjAzYTQ6OGI3NDg1NmU0NjU0OTExZTViYjVhZDYwN2RhOTczYzU="
+      }
     }
   ]
 }
