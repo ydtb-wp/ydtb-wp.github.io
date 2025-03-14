@@ -3432,11 +3432,12 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "e8d47a8",
-    "version": "9.2.0",
+    "ref": "4a54dae",
+    "version": "9.3.0",
     "tags": [
       "9.1.1",
-      "9.2.0"
+      "9.2.0",
+      "9.3.0"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -4871,11 +4872,12 @@
   "ydtb/s3-uploads-patch": {
     "slug": "s3-uploads-patch",
     "vendor": "ydtb",
-    "ref": "37cac11",
-    "version": "0.0.2",
+    "ref": "91c9c99",
+    "version": "0.0.6",
     "tags": [
       "0.0.1",
-      "0.0.2"
+      "0.0.2",
+      "0.0.6"
     ],
     "git": "https://github.com/ydtb-wp/s3-uploads-patch",
     "aliases": [
