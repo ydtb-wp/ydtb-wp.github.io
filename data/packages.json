@@ -4875,12 +4875,13 @@
   "ydtb/s3-uploads-patch": {
     "slug": "s3-uploads-patch",
     "vendor": "ydtb",
-    "ref": "91c9c99",
-    "version": "0.0.6",
+    "ref": "616c82f",
+    "version": "0.1.0",
     "tags": [
       "0.0.1",
       "0.0.2",
-      "0.0.6"
+      "0.0.6",
+      "0.1.0"
     ],
     "git": "https://github.com/ydtb-wp/s3-uploads-patch",
     "aliases": [
