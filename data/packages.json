@@ -4892,9 +4892,11 @@
   "ydtb/ydtb-patches": {
     "slug": "ydtb-patches",
     "vendor": "ydtb",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "8b031af",
+    "version": "0.0.4",
+    "tags": [
+      "0.0.4"
+    ],
     "git": "",
     "aliases": [
       "ydtb/ydtb-patches"
