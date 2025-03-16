@@ -4888,5 +4888,17 @@
       "ydtb/s3-uploads-patch"
     ],
     "type": "wordpress-plugin"
+  },
+  "ydtb/ydtb-patches": {
+    "slug": "ydtb-patches",
+    "vendor": "ydtb",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/ydtb-patches"
+    ],
+    "type": "wordpress-plugin"
   }
 }
