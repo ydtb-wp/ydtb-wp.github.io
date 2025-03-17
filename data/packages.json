@@ -4906,12 +4906,13 @@
   "ydtb/ydtb-patches": {
     "slug": "ydtb-patches",
     "vendor": "ydtb",
-    "ref": "4477bc0",
-    "version": "0.0.6",
+    "ref": "3e6a475",
+    "version": "0.0.7",
     "tags": [
       "0.0.4",
       "0.0.5",
-      "0.0.6"
+      "0.0.6",
+      "0.0.7"
     ],
     "git": "",
     "aliases": [
