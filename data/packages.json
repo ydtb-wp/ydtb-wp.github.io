@@ -3907,10 +3907,11 @@
   "funnelkit/wp-marketing-automations": {
     "slug": "wp-marketing-automations",
     "vendor": "funnelkit",
-    "ref": "c6a79d2",
-    "version": "3.5.1",
+    "ref": "2f4eb9c",
+    "version": "3.5.2",
     "tags": [
-      "3.5.1"
+      "3.5.1",
+      "3.5.2"
     ],
     "git": "https://github.com/ydtb-wp/wp-marketing-automations",
     "aliases": [
