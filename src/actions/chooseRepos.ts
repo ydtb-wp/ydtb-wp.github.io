@@ -14,6 +14,9 @@ const packageList = data as PackageListType;
 export const chooseRepos = async (all: boolean = false): Promise<void> => {
   const repos = await fetchAllPackages();
 
+
+
+
   let notDone = true;
   while (notDone) {
     let packages = detectMissingPackages(repos);

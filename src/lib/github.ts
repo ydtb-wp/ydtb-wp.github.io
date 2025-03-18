@@ -200,31 +200,30 @@ export async function cloneGithubRepo(
     }
   }
 
-  try {
-    const { stdout: userName } = await exec(
-      "git config --local --get user.name"
-    );
-    if (!userName.trim()) {
-      await exec('git config user.name "github-actions[bot]"');
-    }
-  } catch {
-    await exec('git config user.name "github-actions[bot]"');
-  }
+  await configureGitUser();
+}
 
-  try {
-    const { stdout: userEmail } = await exec(
-      "git config --local --get user.email"
-    );
-    if (!userEmail.trim()) {
-      await exec(
-        'git config user.email "github-actions[bot]@users.noreply.github.com"'
-      );
+/**
+ * Configures the Git user information for the current repository.
+ * Only sets the user name and email if they are not already configured.
+ */
+
+async function configureGitUser() {
+  const gitConfig = async (key: string, value: string) => {
+    try {
+      const { stdout } = await exec(`git config --local ${key}`);
+      if (!stdout.trim()) {
+        console.log(`Setting git ${key} to ${value}`);
+        await exec(`git config ${key} "${value}"`);
+      }
+    } catch {
+      console.log(`Error Capturing Current Value: Setting git ${key} to ${value}`);
+      await exec(`git config ${key} "${value}"`);
     }
-  } catch {
-    await exec(
-      'git config user.email "github-actions[bot]@users.noreply.github.com"'
-    );
-  }
+  };
+
+  await gitConfig("user.name", "github-actions[bot]");
+  await gitConfig("user.email", "github-actions[bot]@users.noreply.github.com");
 }
 
 /**
@@ -422,10 +421,9 @@ export async function storeCurrentPackage(
   await exec("rm -rf .gitignore .github");
 
   await exec("git add -A");
-  await exec('git config user.name "github-actions[bot]"');
-  await exec(
-    'git config user.email "github-actions[bot]@users.noreply.github.com"'
-  );
+
+  // Configure git user for commit
+  await configureGitUser();
 
   const { stdout: gitStatus } = await exec("git status");
   if (gitStatus.includes("nothing to commit, working tree clean")) {
@@ -548,5 +546,18 @@ export async function maybePushChanges(): Promise<boolean> {
   } else {
     console.log("\n\n Local repository is up to date with remote");
     return false;
+  }
+}
+
+export async function pullChanges(): Promise<void> {
+  try {
+    await exec("git pull");
+    console.log("\n\n -- Changes pulled from remote repository");
+  } catch (error) {
+    if (error instanceof Error) {
+      throw new Error(`Error pulling changes: ${error.message}`);
+    } else {
+      throw new Error(`Error pulling changes: ${error}`);
+    }
   }
 }

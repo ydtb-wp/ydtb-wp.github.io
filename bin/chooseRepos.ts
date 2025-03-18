@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 
 import { chooseRepos } from "~/actions/chooseRepos";
+import { pullChanges } from "~/lib/github";
 
 const args = process.argv.slice(2);
 const allFlag = args.includes('--all');
@@ -14,6 +15,8 @@ Options:
 `);
     process.exit(0);
 }
+
+pullChanges();
 
 if (allFlag) {
     chooseRepos(true);
