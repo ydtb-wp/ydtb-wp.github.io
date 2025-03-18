@@ -211,13 +211,13 @@ export async function cloneGithubRepo(
 async function configureGitUser() {
   const gitConfig = async (key: string, value: string) => {
     try {
-      const { stdout } = await exec(`git config --local ${key}`);
+      const { stdout } = await exec(`git config --local --get ${key}`);
       if (!stdout.trim()) {
-        console.log(`Setting git ${key} to ${value}`);
+        console.log(`   -- Setting git ${key} to ${value}`);
         await exec(`git config ${key} "${value}"`);
       }
     } catch {
-      console.log(`Error Capturing Current Value: Setting git ${key} to ${value}`);
+      console.log(`   -- Setting git ${key} to ${value}`);
       await exec(`git config ${key} "${value}"`);
     }
   };
