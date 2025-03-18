@@ -1037,12 +1037,13 @@
   "crocoblock/jet-blog": {
     "slug": "jet-blog",
     "vendor": "crocoblock",
-    "ref": "74cb483",
-    "version": "2.4.3",
+    "ref": "00df3d9",
+    "version": "2.4.3.1",
     "tags": [
       "2.4.2",
       "2.4.2.1",
-      "2.4.3"
+      "2.4.3",
+      "2.4.3.1"
     ],
     "git": "",
     "aliases": [
@@ -1072,11 +1073,12 @@
   "crocoblock/jet-compare-wishlist": {
     "slug": "jet-compare-wishlist",
     "vendor": "crocoblock",
-    "ref": "e4b9a23",
-    "version": "1.5.9",
+    "ref": "0cd3344",
+    "version": "1.5.10",
     "tags": [
       "1.5.8.1",
-      "1.5.9"
+      "1.5.9",
+      "1.5.10"
     ],
     "git": "https://github.com/ydtb-wp/jet-compare-wishlist",
     "aliases": [
@@ -1088,13 +1090,14 @@
   "crocoblock/jet-elements": {
     "slug": "jet-elements",
     "vendor": "crocoblock",
-    "ref": "cc32aae",
-    "version": "2.7.4.1",
+    "ref": "c48a1c6",
+    "version": "2.7.4.2",
     "tags": [
       "2.7.2.1",
       "2.7.3",
       "2.7.4",
-      "2.7.4.1"
+      "2.7.4.1",
+      "2.7.4.2"
     ],
     "git": "",
     "aliases": [
@@ -1141,14 +1144,15 @@
   "crocoblock/jet-menu": {
     "slug": "jet-menu",
     "vendor": "crocoblock",
-    "ref": "a26b508",
-    "version": "2.4.9",
+    "ref": "29f8491",
+    "version": "2.4.9.1",
     "tags": [
       "2.4.7",
       "2.4.7.1",
       "2.4.8",
       "2.4.8.1",
-      "2.4.9"
+      "2.4.9",
+      "2.4.9.1"
     ],
     "git": "",
     "aliases": [
@@ -1709,13 +1713,14 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "81469d1",
-    "version": "24.6",
+    "ref": "d83a671",
+    "version": "24.7",
     "tags": [
       "24.2",
       "24.4",
       "24.5",
-      "24.6"
+      "24.6",
+      "24.7"
     ],
     "git": "",
     "aliases": [
@@ -4008,10 +4013,11 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "aba3b26",
-    "version": "7.3.1",
+    "ref": "7df9a92",
+    "version": "7.3.2",
     "tags": [
-      "7.3.1"
+      "7.3.1",
+      "7.3.2"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
