@@ -4931,9 +4931,11 @@
   "fluent/fluent-community-pro": {
     "slug": "fluent-community-pro",
     "vendor": "fluent",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "d981c15",
+    "version": "1.2.15",
+    "tags": [
+      "1.2.15"
+    ],
     "git": "",
     "aliases": [
       "ydtb/fluent-community-pro",
