@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "4d69fbc",
-    "version": "3.28.0",
+    "ref": "215fa9f",
+    "version": "3.28.1",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -18,7 +18,8 @@
       "3.27.5",
       "3.27.6",
       "3.27.7",
-      "3.28.0"
+      "3.28.0",
+      "3.28.1"
     ],
     "git": "",
     "aliases": [
@@ -30,8 +31,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "4008211",
-    "version": "4.20.5",
+    "ref": "bc3f8bc",
+    "version": "4.21.0",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -42,7 +43,8 @@
       "4.20.2.1",
       "4.20.3",
       "4.20.4",
-      "4.20.5"
+      "4.20.5",
+      "4.21.0"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -662,11 +664,12 @@
   "learndash/learndash-achievements": {
     "slug": "learndash-achievements",
     "vendor": "learndash",
-    "ref": "c14b818",
-    "version": "2.0.2",
+    "ref": "cee7512",
+    "version": "2.0.3",
     "tags": [
       "2.0.1",
-      "2.0.2"
+      "2.0.2",
+      "2.0.3"
     ],
     "git": "",
     "aliases": [
@@ -971,11 +974,12 @@
   "learndash/learndash-notes": {
     "slug": "learndash-notes",
     "vendor": "learndash",
-    "ref": "def623c",
-    "version": "1.1.2",
+    "ref": "25b48cc",
+    "version": "1.1.3",
     "tags": [
       "1.1.0",
-      "1.1.2"
+      "1.1.2",
+      "1.1.3"
     ],
     "git": "",
     "aliases": [
@@ -1200,10 +1204,11 @@
   "crocoblock/jet-reviews": {
     "slug": "jet-reviews",
     "vendor": "crocoblock",
-    "ref": "357e54b",
-    "version": "2.3.6",
+    "ref": "4b0ee7b",
+    "version": "2.3.7",
     "tags": [
-      "2.3.6"
+      "2.3.6",
+      "2.3.7"
     ],
     "git": "https://github.com/ydtb-wp/jet-reviews",
     "aliases": [
@@ -1215,12 +1220,13 @@
   "crocoblock/jet-search": {
     "slug": "jet-search",
     "vendor": "crocoblock",
-    "ref": "8ff7d4b",
-    "version": "3.5.7",
+    "ref": "5ff792b",
+    "version": "3.5.7.1",
     "tags": [
       "3.5.5.1",
       "3.5.6",
-      "3.5.7"
+      "3.5.7",
+      "3.5.7.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-search",
     "aliases": [
@@ -1232,14 +1238,15 @@
   "crocoblock/jet-smart-filters": {
     "slug": "jet-smart-filters",
     "vendor": "crocoblock",
-    "ref": "220874d",
-    "version": "3.6.3.1",
+    "ref": "4378b07",
+    "version": "3.6.4",
     "tags": [
       "3.6.0.1",
       "3.6.1",
       "3.6.2",
       "3.6.3",
-      "3.6.3.1"
+      "3.6.3.1",
+      "3.6.4"
     ],
     "git": "https://github.com/ydtb-wp/jet-smart-filters",
     "aliases": [
@@ -1302,13 +1309,14 @@
   "crocoblock/jet-woo-builder": {
     "slug": "jet-woo-builder",
     "vendor": "crocoblock",
-    "ref": "875a8c9",
-    "version": "2.1.18",
+    "ref": "e51cea4",
+    "version": "2.1.18.1",
     "tags": [
       "2.1.16",
       "2.1.16.1",
       "2.1.17",
-      "2.1.18"
+      "2.1.18",
+      "2.1.18.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-builder",
     "aliases": [
@@ -1445,8 +1453,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "817a66c",
-    "version": "3.28.0",
+    "ref": "198a0cf",
+    "version": "3.28.1",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1460,7 +1468,8 @@
       "3.27.5",
       "3.27.6",
       "3.27.7",
-      "3.28.0"
+      "3.28.0",
+      "3.28.1"
     ],
     "git": "",
     "aliases": [
@@ -1517,8 +1526,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "1d840a4",
-    "version": "4.4.15",
+    "ref": "144846f",
+    "version": "4.4.18",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1526,7 +1535,10 @@
       "4.4.12",
       "4.4.13",
       "4.4.14",
-      "4.4.15"
+      "4.4.15",
+      "4.4.16",
+      "4.4.17",
+      "4.4.18"
     ],
     "git": "",
     "aliases": [
@@ -1555,8 +1567,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "c170595",
-    "version": "1.38.3",
+    "ref": "570c4d1",
+    "version": "1.38.4",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1564,7 +1576,8 @@
       "1.38.0",
       "1.38.1",
       "1.38.2",
-      "1.38.3"
+      "1.38.3",
+      "1.38.4"
     ],
     "git": "",
     "aliases": [
@@ -1613,11 +1626,12 @@
   "brainstormforce/astra-portfolio": {
     "slug": "astra-portfolio",
     "vendor": "brainstormforce",
-    "ref": "44b4830",
-    "version": "1.12.1",
+    "ref": "e76dda6",
+    "version": "1.13.0",
     "tags": [
       "1.12.0",
-      "1.12.1"
+      "1.12.1",
+      "1.13.0"
     ],
     "git": "",
     "aliases": [
@@ -1679,12 +1693,13 @@
   "fluent/fluent-crm": {
     "slug": "fluent-crm",
     "vendor": "fluent",
-    "ref": "64f0dc5",
-    "version": "2.9.45",
+    "ref": "4180694",
+    "version": "2.9.48",
     "tags": [
       "2.9.31",
       "2.9.40",
-      "2.9.45"
+      "2.9.45",
+      "2.9.48"
     ],
     "git": "",
     "aliases": [
@@ -1696,12 +1711,13 @@
   "fluent/fluentcampaign-pro": {
     "slug": "fluentcampaign-pro",
     "vendor": "fluent",
-    "ref": "aaaf06e",
-    "version": "2.9.45",
+    "ref": "6c08c0a",
+    "version": "2.9.48",
     "tags": [
       "2.9.31",
       "2.9.40",
-      "2.9.45"
+      "2.9.45",
+      "2.9.48"
     ],
     "git": "",
     "aliases": [
@@ -3464,12 +3480,14 @@
   "fluent/fluentform": {
     "slug": "fluentform",
     "vendor": "fluent",
-    "ref": "56c4e1f",
-    "version": "5.2.12",
+    "ref": "ab33d4a",
+    "version": "6.0.1",
     "tags": [
       "5.2.10",
       "5.2.11",
-      "5.2.12"
+      "5.2.12",
+      "6.0.0",
+      "6.0.1"
     ],
     "git": "",
     "aliases": [
@@ -3497,11 +3515,12 @@
   "fluent/fluent-support": {
     "slug": "fluent-support",
     "vendor": "fluent",
-    "ref": "6b12e71",
-    "version": "1.8.6",
+    "ref": "6d2943e",
+    "version": "1.8.7",
     "tags": [
       "1.8.5",
-      "1.8.6"
+      "1.8.6",
+      "1.8.7"
     ],
     "git": "",
     "aliases": [
@@ -3681,11 +3700,13 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "92d971f",
-    "version": "4.2.0",
+    "ref": "9b1ab0f",
+    "version": "4.2.2",
     "tags": [
       "4.1.10",
-      "4.2.0"
+      "4.2.0",
+      "4.2.1",
+      "4.2.2"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
@@ -3711,14 +3732,17 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "316ad07",
-    "version": "6.1.6",
+    "ref": "bb89da5",
+    "version": "6.1.9",
     "tags": [
       "6.1.1",
       "6.1.2",
       "6.1.4",
       "6.1.5",
-      "6.1.6"
+      "6.1.6",
+      "6.1.7",
+      "6.1.8",
+      "6.1.9"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -3729,12 +3753,14 @@
   "wpdeveloper/essential-addons-elementor": {
     "slug": "essential-addons-elementor",
     "vendor": "wpdeveloper",
-    "ref": "85cde04",
-    "version": "6.1.1",
+    "ref": "2034021",
+    "version": "6.2.1",
     "tags": [
       "6.0.13",
       "6.1.0",
-      "6.1.1"
+      "6.1.1",
+      "6.2.0",
+      "6.2.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-elementor",
     "aliases": [
@@ -3745,13 +3771,14 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "468187f",
-    "version": "5.3.2",
+    "ref": "6bde4d5",
+    "version": "5.3.3",
     "tags": [
       "5.2.3",
       "5.3.0",
       "5.3.1",
-      "5.3.2"
+      "5.3.2",
+      "5.3.3"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -3762,12 +3789,13 @@
   "wpdeveloper/essential-blocks-pro": {
     "slug": "essential-blocks-pro",
     "vendor": "wpdeveloper",
-    "ref": "37405fa",
-    "version": "2.0.1",
+    "ref": "4f90356",
+    "version": "2.0.2",
     "tags": [
       "1.9.9",
       "2.0.0",
-      "2.0.1"
+      "2.0.1",
+      "2.0.2"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks-pro",
     "aliases": [
@@ -3778,12 +3806,13 @@
   "wpdeveloper/notificationx": {
     "slug": "notificationx",
     "vendor": "wpdeveloper",
-    "ref": "fe9b2a5",
-    "version": "3.0.3",
+    "ref": "0c44eec",
+    "version": "3.0.4",
     "tags": [
       "3.0.1",
       "3.0.2",
-      "3.0.3"
+      "3.0.3",
+      "3.0.4"
     ],
     "git": "https://github.com/ydtb-wp/notificationx",
     "aliases": [
@@ -3809,11 +3838,12 @@
   "wpdeveloper/wp-scheduled-posts": {
     "slug": "wp-scheduled-posts",
     "vendor": "wpdeveloper",
-    "ref": "0430948",
-    "version": "5.2.3",
+    "ref": "b4418d2",
+    "version": "5.2.4",
     "tags": [
       "5.2.2",
-      "5.2.3"
+      "5.2.3",
+      "5.2.4"
     ],
     "git": "https://github.com/ydtb-wp/wp-scheduled-posts",
     "aliases": [
@@ -3913,11 +3943,12 @@
   "funnelkit/wp-marketing-automations": {
     "slug": "wp-marketing-automations",
     "vendor": "funnelkit",
-    "ref": "2f4eb9c",
-    "version": "3.5.2",
+    "ref": "9d0a7b4",
+    "version": "3.5.3",
     "tags": [
       "3.5.1",
-      "3.5.2"
+      "3.5.2",
+      "3.5.3"
     ],
     "git": "https://github.com/ydtb-wp/wp-marketing-automations",
     "aliases": [
