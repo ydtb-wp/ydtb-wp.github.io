@@ -1186,13 +1186,14 @@
   "crocoblock/jet-woo-product-gallery": {
     "slug": "jet-woo-product-gallery",
     "vendor": "crocoblock",
-    "ref": "5d71674",
-    "version": "2.1.22",
+    "ref": "2715974",
+    "version": "2.1.22.1",
     "tags": [
       "2.1.20",
       "2.1.21",
       "2.1.21.1",
-      "2.1.22"
+      "2.1.22",
+      "2.1.22.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-product-gallery",
     "aliases": [
@@ -1275,11 +1276,12 @@
   "crocoblock/jet-theme-core": {
     "slug": "jet-theme-core",
     "vendor": "crocoblock",
-    "ref": "90cc585",
-    "version": "2.2.3",
+    "ref": "1633be7",
+    "version": "2.3.0",
     "tags": [
       "2.2.2.1",
-      "2.2.3"
+      "2.2.3",
+      "2.3.0"
     ],
     "git": "",
     "aliases": [
@@ -4045,11 +4047,12 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "7df9a92",
-    "version": "7.3.2",
+    "ref": "65f1ce3",
+    "version": "7.3.3",
     "tags": [
       "7.3.1",
-      "7.3.2"
+      "7.3.2",
+      "7.3.3"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
