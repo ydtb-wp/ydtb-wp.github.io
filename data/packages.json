@@ -4949,14 +4949,15 @@
   "ydtb/ydtb-patches": {
     "slug": "ydtb-patches",
     "vendor": "ydtb",
-    "ref": "e1dbd51",
-    "version": "0.0.8",
+    "ref": "b0b29ed",
+    "version": "0.0.9",
     "tags": [
       "0.0.4",
       "0.0.5",
       "0.0.6",
       "0.0.7",
-      "0.0.8"
+      "0.0.8",
+      "0.0.9"
     ],
     "git": "",
     "aliases": [
