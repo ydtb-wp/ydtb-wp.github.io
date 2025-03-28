@@ -1750,8 +1750,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "9f3412f",
-    "version": "2.8.10",
+    "ref": "03245f0",
+    "version": "2.8.20",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -1761,7 +1761,8 @@
       "2.7.90",
       "2.7.91",
       "2.8.00",
-      "2.8.10"
+      "2.8.10",
+      "2.8.20"
     ],
     "git": "",
     "aliases": [
