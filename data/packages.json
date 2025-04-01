@@ -1026,11 +1026,12 @@
   "crocoblock/jet-blocks": {
     "slug": "jet-blocks",
     "vendor": "crocoblock",
-    "ref": "4000316",
-    "version": "1.3.16.1",
+    "ref": "f20767f",
+    "version": "1.3.17",
     "tags": [
       "1.3.16",
-      "1.3.16.1"
+      "1.3.16.1",
+      "1.3.17"
     ],
     "git": "",
     "aliases": [
@@ -2882,10 +2883,11 @@
   "autowp/automatorwp-qr-code": {
     "slug": "automatorwp-qr-code",
     "vendor": "autowp",
-    "ref": "acf707f",
-    "version": "1.0.3",
+    "ref": "3fa7446",
+    "version": "1.0.4",
     "tags": [
-      "1.0.3"
+      "1.0.3",
+      "1.0.4"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-qr-code",
     "aliases": [
@@ -2994,10 +2996,11 @@
   "autowp/automatorwp-the-events-calendar": {
     "slug": "automatorwp-the-events-calendar",
     "vendor": "autowp",
-    "ref": "cf73375",
-    "version": "1.0.8",
+    "ref": "e5df9c0",
+    "version": "1.0.9",
     "tags": [
-      "1.0.8"
+      "1.0.8",
+      "1.0.9"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-the-events-calendar",
     "aliases": [
@@ -3431,8 +3434,8 @@
   "autowp/automatorwp-pro": {
     "slug": "automatorwp-pro",
     "vendor": "autowp",
-    "ref": "96d24af",
-    "version": "4.4.9",
+    "ref": "e107f5c",
+    "version": "4.5.0",
     "tags": [
       "4.4.0",
       "4.4.1",
@@ -3442,7 +3445,8 @@
       "4.4.5",
       "4.4.7",
       "4.4.8",
-      "4.4.9"
+      "4.4.9",
+      "4.5.0"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-pro",
     "aliases": [
