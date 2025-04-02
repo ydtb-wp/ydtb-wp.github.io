@@ -33,8 +33,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "bc3f8bc",
-    "version": "4.21.0",
+    "ref": "a945970",
+    "version": "4.21.1",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -46,7 +46,8 @@
       "4.20.3",
       "4.20.4",
       "4.20.5",
-      "4.21.0"
+      "4.21.0",
+      "4.21.1"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1738,14 +1739,15 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "d83a671",
-    "version": "24.7",
+    "ref": "d1399fc",
+    "version": "24.8",
     "tags": [
       "24.2",
       "24.4",
       "24.5",
       "24.6",
-      "24.7"
+      "24.7",
+      "24.8"
     ],
     "git": "",
     "aliases": [
