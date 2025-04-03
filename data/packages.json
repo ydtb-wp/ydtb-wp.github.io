@@ -1371,8 +1371,8 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "9610787",
-    "version": "4.9.1",
+    "ref": "36fcf13",
+    "version": "4.9.2",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1383,7 +1383,8 @@
       "4.8.13",
       "4.8.14",
       "4.9.0",
-      "4.9.1"
+      "4.9.1",
+      "4.9.2"
     ],
     "git": "",
     "aliases": [
@@ -1653,14 +1654,15 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "5ea15d7",
-    "version": "4.9.0",
+    "ref": "d2239c3",
+    "version": "4.9.1",
     "tags": [
       "4.8.7",
       "4.8.8",
       "4.8.9",
       "4.8.10",
-      "4.9.0"
+      "4.9.0",
+      "4.9.1"
     ],
     "git": "",
     "aliases": [
@@ -1759,8 +1761,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "03245f0",
-    "version": "2.8.20",
+    "ref": "5863634",
+    "version": "2.8.30",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -1771,7 +1773,8 @@
       "2.7.91",
       "2.8.00",
       "2.8.10",
-      "2.8.20"
+      "2.8.20",
+      "2.8.30"
     ],
     "git": "",
     "aliases": [
