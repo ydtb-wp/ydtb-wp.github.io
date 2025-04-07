@@ -3697,11 +3697,12 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "b4ac8e8",
-    "version": "1.2.11",
+    "ref": "89cddbc",
+    "version": "1.2.12",
     "tags": [
       "1.2.10",
-      "1.2.11"
+      "1.2.11",
+      "1.2.12"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
