@@ -1658,15 +1658,16 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "d2239c3",
-    "version": "4.9.1",
+    "ref": "df8e5dd",
+    "version": "4.9.2",
     "tags": [
       "4.8.7",
       "4.8.8",
       "4.8.9",
       "4.8.10",
       "4.9.0",
-      "4.9.1"
+      "4.9.1",
+      "4.9.2"
     ],
     "git": "",
     "aliases": [
@@ -1745,15 +1746,16 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "d1399fc",
-    "version": "24.8",
+    "ref": "be2b33c",
+    "version": "24.8.1",
     "tags": [
       "24.2",
       "24.4",
       "24.5",
       "24.6",
       "24.7",
-      "24.8"
+      "24.8",
+      "24.8.1"
     ],
     "git": "",
     "aliases": [
@@ -3914,10 +3916,11 @@
   "autowp/automatorwp-fluentcommunity": {
     "slug": "automatorwp-fluentcommunity",
     "vendor": "autowp",
-    "ref": "eefd90c",
-    "version": "1.0.0",
+    "ref": "ea23cd6",
+    "version": "1.0.1",
     "tags": [
-      "1.0.0"
+      "1.0.0",
+      "1.0.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-fluentcommunity",
     "aliases": [
