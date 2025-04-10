@@ -255,6 +255,7 @@ export async function initializeNewRepo(
 
     const currentDir = process.cwd();
     process.chdir(dest);
+    await configureGitUser();
     await exec(`echo '${composerJson}' >> composer.json`);
     await exec("rm -f .gitignore");
     await exec('echo " " >> .gitignore');
