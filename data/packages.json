@@ -869,11 +869,12 @@
   "learndash/learndash-propanel": {
     "slug": "learndash-propanel",
     "vendor": "learndash",
-    "ref": "d2b985c",
-    "version": "3.0.2",
+    "ref": "b5116bd",
+    "version": "3.0.3",
     "tags": [
       "3.0.1",
-      "3.0.2"
+      "3.0.2",
+      "3.0.3"
     ],
     "git": "",
     "aliases": [
@@ -1100,15 +1101,16 @@
   "crocoblock/jet-elements": {
     "slug": "jet-elements",
     "vendor": "crocoblock",
-    "ref": "49bc177",
-    "version": "2.7.5",
+    "ref": "f53568a",
+    "version": "2.7.5.1",
     "tags": [
       "2.7.2.1",
       "2.7.3",
       "2.7.4",
       "2.7.4.1",
       "2.7.4.2",
-      "2.7.5"
+      "2.7.5",
+      "2.7.5.1"
     ],
     "git": "",
     "aliases": [
@@ -1341,15 +1343,16 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "2cb7110",
-    "version": "9.7.1",
+    "ref": "68978ca",
+    "version": "9.8.1",
     "tags": [
       "9.5.1",
       "9.6.0",
       "9.6.1",
       "9.6.2",
       "9.7.0",
-      "9.7.1"
+      "9.7.1",
+      "9.8.1"
     ],
     "git": "",
     "aliases": [
@@ -1583,8 +1586,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "0355550",
-    "version": "1.39.1",
+    "ref": "2378516",
+    "version": "1.39.2",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1595,7 +1598,8 @@
       "1.38.3",
       "1.38.4",
       "1.39.0",
-      "1.39.1"
+      "1.39.1",
+      "1.39.2"
     ],
     "git": "",
     "aliases": [
@@ -1832,12 +1836,13 @@
   "buddyboss/buddyboss-theme": {
     "slug": "buddyboss-theme",
     "vendor": "buddyboss",
-    "ref": "24e42ce",
-    "version": "2.7.50",
+    "ref": "9718dcd",
+    "version": "2.8.20",
     "tags": [
       "2.7.30",
       "2.7.40",
-      "2.7.50"
+      "2.7.50",
+      "2.8.20"
     ],
     "git": "",
     "aliases": [
@@ -1849,8 +1854,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "6f372cd",
-    "version": "5.2.1.1",
+    "ref": "667be36",
+    "version": "5.2.1.2",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -1864,7 +1869,8 @@
       "5.2.0",
       "5.2.0.1",
       "5.2.1",
-      "5.2.1.1"
+      "5.2.1.1",
+      "5.2.1.2"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -3513,14 +3519,15 @@
   "fluent/fluentform": {
     "slug": "fluentform",
     "vendor": "fluent",
-    "ref": "ab33d4a",
-    "version": "6.0.1",
+    "ref": "527138b",
+    "version": "6.0.2",
     "tags": [
       "5.2.10",
       "5.2.11",
       "5.2.12",
       "6.0.0",
-      "6.0.1"
+      "6.0.1",
+      "6.0.2"
     ],
     "git": "",
     "aliases": [
@@ -3734,13 +3741,14 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "9b1ab0f",
-    "version": "4.2.2",
+    "ref": "4340053",
+    "version": "4.2.3",
     "tags": [
       "4.1.10",
       "4.2.0",
       "4.2.1",
-      "4.2.2"
+      "4.2.2",
+      "4.2.3"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
@@ -4080,15 +4088,16 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "b4df413",
-    "version": "7.3.6.1",
+    "ref": "ed8017d",
+    "version": "7.3.6.2",
     "tags": [
       "7.3.1",
       "7.3.2",
       "7.3.3",
       "7.3.5.1",
       "7.3.6",
-      "7.3.6.1"
+      "7.3.6.1",
+      "7.3.6.2"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
@@ -5018,10 +5027,12 @@
   "ydtb/ydtb-group-tabs": {
     "slug": "ydtb-group-tabs",
     "vendor": "ydtb",
-    "ref": "",
-    "version": "",
-    "tags": [],
-    "git": "",
+    "ref": "869dbf1",
+    "version": "0.0.8",
+    "tags": [
+      "0.0.8"
+    ],
+    "git": "https://github.com/ydtb-wp/ydtb-group-tabs",
     "aliases": [
       "buddyboss/ydtb-group-tabs",
       "ydtb/ydtb-group-tabs"
