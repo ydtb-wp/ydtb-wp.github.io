@@ -5014,5 +5014,18 @@
       "fluent/fluent-community-pro"
     ],
     "type": "wordpress-plugin"
+  },
+  "ydtb/ydtb-group-tabs": {
+    "slug": "ydtb-group-tabs",
+    "vendor": "ydtb",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "buddyboss/ydtb-group-tabs",
+      "ydtb/ydtb-group-tabs"
+    ],
+    "type": "wordpress-plugin"
   }
 }
