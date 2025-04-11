@@ -1065,14 +1065,15 @@
   "crocoblock/jet-booking": {
     "slug": "jet-booking",
     "vendor": "crocoblock",
-    "ref": "8ab9d9b",
-    "version": "3.7.0",
+    "ref": "4b76497",
+    "version": "3.7.1",
     "tags": [
       "3.6.2",
       "3.6.3",
       "3.6.4",
       "3.6.5",
-      "3.7.0"
+      "3.7.0",
+      "3.7.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-booking",
     "aliases": [
@@ -1143,11 +1144,12 @@
   "crocoblock/jet-engine-dynamic-tables-module": {
     "slug": "jet-engine-dynamic-tables-module",
     "vendor": "crocoblock",
-    "ref": "a5b3a58",
-    "version": "1.0.11",
+    "ref": "1bbae77",
+    "version": "1.0.12",
     "tags": [
       "1.0.8",
-      "1.0.11"
+      "1.0.11",
+      "1.0.12"
     ],
     "git": "https://github.com/ydtb-wp/jet-engine-dynamic-tables-module",
     "aliases": [
@@ -1251,15 +1253,16 @@
   "crocoblock/jet-smart-filters": {
     "slug": "jet-smart-filters",
     "vendor": "crocoblock",
-    "ref": "4378b07",
-    "version": "3.6.4",
+    "ref": "574febc",
+    "version": "3.6.5",
     "tags": [
       "3.6.0.1",
       "3.6.1",
       "3.6.2",
       "3.6.3",
       "3.6.3.1",
-      "3.6.4"
+      "3.6.4",
+      "3.6.5"
     ],
     "git": "https://github.com/ydtb-wp/jet-smart-filters",
     "aliases": [
@@ -3502,13 +3505,14 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "4de4c53",
-    "version": "9.3.1",
+    "ref": "98c40f7",
+    "version": "9.3.2",
     "tags": [
       "9.1.1",
       "9.2.0",
       "9.3.0",
-      "9.3.1"
+      "9.3.1",
+      "9.3.2"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -3648,13 +3652,14 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "082ac17",
-    "version": "3.8.13",
+    "ref": "304cb16",
+    "version": "3.8.14",
     "tags": [
       "3.8.10",
       "3.8.11",
       "3.8.12",
-      "3.8.13"
+      "3.8.13",
+      "3.8.14"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -3774,8 +3779,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "bb89da5",
-    "version": "6.1.9",
+    "ref": "1481f4d",
+    "version": "6.1.10",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -3784,7 +3789,8 @@
       "6.1.6",
       "6.1.7",
       "6.1.8",
-      "6.1.9"
+      "6.1.9",
+      "6.1.10"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
