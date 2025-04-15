@@ -1668,8 +1668,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "df8e5dd",
-    "version": "4.9.2",
+    "ref": "164975e",
+    "version": "4.10.0",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1677,7 +1677,8 @@
       "4.8.10",
       "4.9.0",
       "4.9.1",
-      "4.9.2"
+      "4.9.2",
+      "4.10.0"
     ],
     "git": "",
     "aliases": [
@@ -3820,14 +3821,15 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "6bde4d5",
-    "version": "5.3.3",
+    "ref": "64716d0",
+    "version": "5.3.4",
     "tags": [
       "5.2.3",
       "5.3.0",
       "5.3.1",
       "5.3.2",
-      "5.3.3"
+      "5.3.3",
+      "5.3.4"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
