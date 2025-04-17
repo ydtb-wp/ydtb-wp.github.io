@@ -33,8 +33,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "d2862ee",
-    "version": "4.21.2",
+    "ref": "08db041",
+    "version": "4.21.2.1",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -48,7 +48,8 @@
       "4.20.5",
       "4.21.0",
       "4.21.1",
-      "4.21.2"
+      "4.21.2",
+      "4.21.2.1"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1066,15 +1067,16 @@
   "crocoblock/jet-booking": {
     "slug": "jet-booking",
     "vendor": "crocoblock",
-    "ref": "4b76497",
-    "version": "3.7.1",
+    "ref": "fed50f3",
+    "version": "3.7.1.1",
     "tags": [
       "3.6.2",
       "3.6.3",
       "3.6.4",
       "3.6.5",
       "3.7.0",
-      "3.7.1"
+      "3.7.1",
+      "3.7.1.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-booking",
     "aliases": [
@@ -1124,8 +1126,8 @@
   "crocoblock/jet-engine": {
     "slug": "jet-engine",
     "vendor": "crocoblock",
-    "ref": "b90154f",
-    "version": "3.6.6.1",
+    "ref": "7379180",
+    "version": "3.6.7",
     "tags": [
       "3.6.1.2",
       "3.6.2",
@@ -1133,7 +1135,8 @@
       "3.6.4.1",
       "3.6.5",
       "3.6.6",
-      "3.6.6.1"
+      "3.6.6.1",
+      "3.6.7"
     ],
     "git": "https://github.com/ydtb-wp/jet-engine",
     "aliases": [
@@ -1478,8 +1481,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "91cf860",
-    "version": "3.28.2",
+    "ref": "f80ef4d",
+    "version": "3.28.3",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1495,7 +1498,8 @@
       "3.27.7",
       "3.28.0",
       "3.28.1",
-      "3.28.2"
+      "3.28.2",
+      "3.28.3"
     ],
     "git": "",
     "aliases": [
@@ -1594,8 +1598,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "2378516",
-    "version": "1.39.2",
+    "ref": "d40a534",
+    "version": "1.39.3",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1607,7 +1611,8 @@
       "1.38.4",
       "1.39.0",
       "1.39.1",
-      "1.39.2"
+      "1.39.2",
+      "1.39.3"
     ],
     "git": "",
     "aliases": [
@@ -1784,8 +1789,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "5863634",
-    "version": "2.8.30",
+    "ref": "affbd09",
+    "version": "2.8.40",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -1797,7 +1802,8 @@
       "2.8.00",
       "2.8.10",
       "2.8.20",
-      "2.8.30"
+      "2.8.30",
+      "2.8.40"
     ],
     "git": "",
     "aliases": [
@@ -1809,8 +1815,8 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "a78dc4c",
-    "version": "2.6.90",
+    "ref": "9eca534",
+    "version": "2.7.00",
     "tags": [
       "2.6.31",
       "2.6.40",
@@ -1819,7 +1825,8 @@
       "2.6.70",
       "2.6.71",
       "2.6.80",
-      "2.6.90"
+      "2.6.90",
+      "2.7.00"
     ],
     "git": "",
     "aliases": [
@@ -3513,14 +3520,15 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "98c40f7",
-    "version": "9.3.2",
+    "ref": "b99854f",
+    "version": "9.4.0",
     "tags": [
       "9.1.1",
       "9.2.0",
       "9.3.0",
       "9.3.1",
-      "9.3.2"
+      "9.3.2",
+      "9.4.0"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -3929,13 +3937,14 @@
   "wpdeveloper/templately": {
     "slug": "templately",
     "vendor": "wpdeveloper",
-    "ref": "113c2cf",
-    "version": "3.2.4",
+    "ref": "1feb597",
+    "version": "3.2.5",
     "tags": [
       "3.2.1",
       "3.2.2",
       "3.2.3",
-      "3.2.4"
+      "3.2.4",
+      "3.2.5"
     ],
     "git": "https://github.com/ydtb-wp/templately",
     "aliases": [
