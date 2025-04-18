@@ -1751,13 +1751,14 @@
   "fluent/fluentcampaign-pro": {
     "slug": "fluentcampaign-pro",
     "vendor": "fluent",
-    "ref": "6c08c0a",
-    "version": "2.9.48",
+    "ref": "479ba20",
+    "version": "2.9.50",
     "tags": [
       "2.9.31",
       "2.9.40",
       "2.9.45",
-      "2.9.48"
+      "2.9.48",
+      "2.9.50"
     ],
     "git": "",
     "aliases": [
