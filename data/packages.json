@@ -3509,11 +3509,12 @@
   "woo/split-pay-plugin-pro": {
     "slug": "split-pay-plugin-pro",
     "vendor": "woo",
-    "ref": "cea9db9",
-    "version": "3.5.3",
+    "ref": "2e6bea4",
+    "version": "3.5.4",
     "tags": [
       "3.5.2",
-      "3.5.3"
+      "3.5.3",
+      "3.5.4"
     ],
     "git": "https://github.com/ydtb-wp/split-pay-plugin-pro",
     "aliases": [
