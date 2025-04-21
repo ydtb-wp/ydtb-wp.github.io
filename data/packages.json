@@ -3485,8 +3485,8 @@
   "autowp/automatorwp-pro": {
     "slug": "automatorwp-pro",
     "vendor": "autowp",
-    "ref": "f41d7e2",
-    "version": "4.5.1",
+    "ref": "6012900",
+    "version": "4.5.2",
     "tags": [
       "4.4.0",
       "4.4.1",
@@ -3498,7 +3498,8 @@
       "4.4.8",
       "4.4.9",
       "4.5.0",
-      "4.5.1"
+      "4.5.1",
+      "4.5.2"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-pro",
     "aliases": [
