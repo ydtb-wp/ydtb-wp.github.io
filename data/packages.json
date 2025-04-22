@@ -1733,13 +1733,14 @@
   "fluent/fluent-crm": {
     "slug": "fluent-crm",
     "vendor": "fluent",
-    "ref": "4180694",
-    "version": "2.9.48",
+    "ref": "6094231",
+    "version": "2.9.50",
     "tags": [
       "2.9.31",
       "2.9.40",
       "2.9.45",
-      "2.9.48"
+      "2.9.48",
+      "2.9.50"
     ],
     "git": "",
     "aliases": [
@@ -3546,15 +3547,16 @@
   "fluent/fluentform": {
     "slug": "fluentform",
     "vendor": "fluent",
-    "ref": "527138b",
-    "version": "6.0.2",
+    "ref": "b1cd048",
+    "version": "6.0.3",
     "tags": [
       "5.2.10",
       "5.2.11",
       "5.2.12",
       "6.0.0",
       "6.0.1",
-      "6.0.2"
+      "6.0.2",
+      "6.0.3"
     ],
     "git": "",
     "aliases": [
