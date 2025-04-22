@@ -5066,10 +5066,11 @@
   "ydtb/ydtb-group-tabs": {
     "slug": "ydtb-group-tabs",
     "vendor": "ydtb",
-    "ref": "869dbf1",
-    "version": "0.0.8",
+    "ref": "fb67e0a",
+    "version": "0.1.0",
     "tags": [
-      "0.0.8"
+      "0.0.8",
+      "0.1.0"
     ],
     "git": "https://github.com/ydtb-wp/ydtb-group-tabs",
     "aliases": [
