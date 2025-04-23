@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "36ce02a",
-    "version": "3.28.3",
+    "ref": "82c7a39",
+    "version": "3.28.4",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -21,7 +21,8 @@
       "3.28.0",
       "3.28.1",
       "3.28.2",
-      "3.28.3"
+      "3.28.3",
+      "3.28.4"
     ],
     "git": "",
     "aliases": [
@@ -1354,8 +1355,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "68978ca",
-    "version": "9.8.1",
+    "ref": "a87b0eb",
+    "version": "9.8.2",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1363,7 +1364,8 @@
       "9.6.2",
       "9.7.0",
       "9.7.1",
-      "9.8.1"
+      "9.8.1",
+      "9.8.2"
     ],
     "git": "",
     "aliases": [
@@ -1416,13 +1418,14 @@
   "brainstormforce/convertpro": {
     "slug": "convertpro",
     "vendor": "brainstormforce",
-    "ref": "69eac97",
-    "version": "1.8.1",
+    "ref": "b8b1556",
+    "version": "1.8.2",
     "tags": [
       "1.7.8",
       "1.7.9",
       "1.8.0",
-      "1.8.1"
+      "1.8.1",
+      "1.8.2"
     ],
     "git": "",
     "aliases": [
@@ -1434,13 +1437,14 @@
   "brainstormforce/convertpro-addon": {
     "slug": "convertpro-addon",
     "vendor": "brainstormforce",
-    "ref": "39d3176",
-    "version": "1.5.15",
+    "ref": "ba3d2cc",
+    "version": "1.5.16",
     "tags": [
       "1.5.12",
       "1.5.13",
       "1.5.14",
-      "1.5.15"
+      "1.5.15",
+      "1.5.16"
     ],
     "git": "",
     "aliases": [
@@ -3584,12 +3588,13 @@
   "fluent/fluent-support": {
     "slug": "fluent-support",
     "vendor": "fluent",
-    "ref": "6d2943e",
-    "version": "1.8.7",
+    "ref": "d78f109",
+    "version": "1.8.8",
     "tags": [
       "1.8.5",
       "1.8.6",
-      "1.8.7"
+      "1.8.7",
+      "1.8.8"
     ],
     "git": "",
     "aliases": [
@@ -3615,11 +3620,12 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "ffa2205",
-    "version": "5.0.22",
+    "ref": "8fc3e60",
+    "version": "5.0.23",
     "tags": [
       "5.0.21",
-      "5.0.22"
+      "5.0.22",
+      "5.0.23"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
@@ -3677,14 +3683,15 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "304cb16",
-    "version": "3.8.14",
+    "ref": "c08ed89",
+    "version": "3.8.15",
     "tags": [
       "3.8.10",
       "3.8.11",
       "3.8.12",
       "3.8.13",
-      "3.8.14"
+      "3.8.14",
+      "3.8.15"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -3695,12 +3702,13 @@
   "wpdeveloper/betterdocs-pro": {
     "slug": "betterdocs-pro",
     "vendor": "wpdeveloper",
-    "ref": "2660ffe",
-    "version": "3.5.4",
+    "ref": "f130dc2",
+    "version": "3.5.5",
     "tags": [
       "3.5.2",
       "3.5.3",
-      "3.5.4"
+      "3.5.4",
+      "3.5.5"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs-pro",
     "aliases": [
@@ -3805,8 +3813,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "1481f4d",
-    "version": "6.1.10",
+    "ref": "1a5d88d",
+    "version": "6.1.11",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -3816,7 +3824,8 @@
       "6.1.7",
       "6.1.8",
       "6.1.9",
-      "6.1.10"
+      "6.1.10",
+      "6.1.11"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -3827,14 +3836,15 @@
   "wpdeveloper/essential-addons-elementor": {
     "slug": "essential-addons-elementor",
     "vendor": "wpdeveloper",
-    "ref": "2034021",
-    "version": "6.2.1",
+    "ref": "0da636e",
+    "version": "6.2.2",
     "tags": [
       "6.0.13",
       "6.1.0",
       "6.1.1",
       "6.2.0",
-      "6.2.1"
+      "6.2.1",
+      "6.2.2"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-elementor",
     "aliases": [
