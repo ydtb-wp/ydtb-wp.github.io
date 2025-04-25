@@ -1607,8 +1607,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "d40a534",
-    "version": "1.39.3",
+    "ref": "4c48fb0",
+    "version": "1.39.4",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1621,7 +1621,8 @@
       "1.39.0",
       "1.39.1",
       "1.39.2",
-      "1.39.3"
+      "1.39.3",
+      "1.39.4"
     ],
     "git": "",
     "aliases": [
@@ -1829,8 +1830,8 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "9eca534",
-    "version": "2.7.00",
+    "ref": "57d7c80",
+    "version": "2.7.01",
     "tags": [
       "2.6.31",
       "2.6.40",
@@ -1840,7 +1841,8 @@
       "2.6.71",
       "2.6.80",
       "2.6.90",
-      "2.7.00"
+      "2.7.00",
+      "2.7.01"
     ],
     "git": "",
     "aliases": [
@@ -3785,14 +3787,15 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "4340053",
-    "version": "4.2.3",
+    "ref": "1509555",
+    "version": "4.2.4",
     "tags": [
       "4.1.10",
       "4.2.0",
       "4.2.1",
       "4.2.2",
-      "4.2.3"
+      "4.2.3",
+      "4.2.4"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
@@ -3803,11 +3806,12 @@
   "wpdeveloper/embedpress-pro": {
     "slug": "embedpress-pro",
     "vendor": "wpdeveloper",
-    "ref": "28afe1f",
-    "version": "3.6.12",
+    "ref": "f7d8d80",
+    "version": "3.6.13",
     "tags": [
       "3.6.11",
-      "3.6.12"
+      "3.6.12",
+      "3.6.13"
     ],
     "git": "https://github.com/ydtb-wp/embedpress-pro",
     "aliases": [
