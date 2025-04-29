@@ -34,8 +34,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "08db041",
-    "version": "4.21.2.1",
+    "ref": "03cd227",
+    "version": "4.21.2.2",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -50,7 +50,8 @@
       "4.21.0",
       "4.21.1",
       "4.21.2",
-      "4.21.2.1"
+      "4.21.2.1",
+      "4.21.2.2"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1051,13 +1052,14 @@
   "crocoblock/jet-blog": {
     "slug": "jet-blog",
     "vendor": "crocoblock",
-    "ref": "00df3d9",
-    "version": "2.4.3.1",
+    "ref": "b7dd79d",
+    "version": "2.4.4",
     "tags": [
       "2.4.2",
       "2.4.2.1",
       "2.4.3",
-      "2.4.3.1"
+      "2.4.3.1",
+      "2.4.4"
     ],
     "git": "",
     "aliases": [
@@ -1069,8 +1071,8 @@
   "crocoblock/jet-booking": {
     "slug": "jet-booking",
     "vendor": "crocoblock",
-    "ref": "fed50f3",
-    "version": "3.7.1.1",
+    "ref": "2602089",
+    "version": "3.7.2",
     "tags": [
       "3.6.2",
       "3.6.3",
@@ -1078,7 +1080,8 @@
       "3.6.5",
       "3.7.0",
       "3.7.1",
-      "3.7.1.1"
+      "3.7.1.1",
+      "3.7.2"
     ],
     "git": "https://github.com/ydtb-wp/jet-booking",
     "aliases": [
@@ -1300,13 +1303,14 @@
   "crocoblock/jet-theme-core": {
     "slug": "jet-theme-core",
     "vendor": "crocoblock",
-    "ref": "f5b46e7",
-    "version": "2.3.0.1",
+    "ref": "ac3ebbd",
+    "version": "2.3.0.2",
     "tags": [
       "2.2.2.1",
       "2.2.3",
       "2.3.0",
-      "2.3.0.1"
+      "2.3.0.1",
+      "2.3.0.2"
     ],
     "git": "",
     "aliases": [
@@ -1318,13 +1322,14 @@
   "crocoblock/jet-tricks": {
     "slug": "jet-tricks",
     "vendor": "crocoblock",
-    "ref": "1dc0c65",
-    "version": "1.5.1.1",
+    "ref": "12da510",
+    "version": "1.5.2",
     "tags": [
       "1.4.10",
       "1.5.0",
       "1.5.1",
-      "1.5.1.1"
+      "1.5.1.1",
+      "1.5.2"
     ],
     "git": "",
     "aliases": [
@@ -3788,15 +3793,16 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "1509555",
-    "version": "4.2.4",
+    "ref": "9cf0143",
+    "version": "4.2.5",
     "tags": [
       "4.1.10",
       "4.2.0",
       "4.2.1",
       "4.2.2",
       "4.2.3",
-      "4.2.4"
+      "4.2.4",
+      "4.2.5"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
@@ -4030,12 +4036,13 @@
   "ydtb/ydtb-elements": {
     "slug": "ydtb-elements",
     "vendor": "ydtb",
-    "ref": "3cf0f6b",
-    "version": "0.2.4",
+    "ref": "15f24e0",
+    "version": "0.2.5",
     "tags": [
       "0.2.2",
       "0.2.3",
-      "0.2.4"
+      "0.2.4",
+      "0.2.5"
     ],
     "git": "",
     "aliases": [
@@ -5037,13 +5044,14 @@
   "ydtb/s3-uploads-patch": {
     "slug": "s3-uploads-patch",
     "vendor": "ydtb",
-    "ref": "616c82f",
-    "version": "0.1.0",
+    "ref": "4c0c09c",
+    "version": "0.1.1",
     "tags": [
       "0.0.1",
       "0.0.2",
       "0.0.6",
-      "0.1.0"
+      "0.1.0",
+      "0.1.1"
     ],
     "git": "https://github.com/ydtb-wp/s3-uploads-patch",
     "aliases": [
@@ -5054,15 +5062,16 @@
   "ydtb/ydtb-patches": {
     "slug": "ydtb-patches",
     "vendor": "ydtb",
-    "ref": "b0b29ed",
-    "version": "0.0.9",
+    "ref": "7299306",
+    "version": "0.0.10",
     "tags": [
       "0.0.4",
       "0.0.5",
       "0.0.6",
       "0.0.7",
       "0.0.8",
-      "0.0.9"
+      "0.0.9",
+      "0.0.10"
     ],
     "git": "",
     "aliases": [
@@ -5088,11 +5097,12 @@
   "ydtb/ydtb-group-tabs": {
     "slug": "ydtb-group-tabs",
     "vendor": "ydtb",
-    "ref": "fb67e0a",
-    "version": "0.1.0",
+    "ref": "e4e010f",
+    "version": "0.1.2",
     "tags": [
       "0.0.8",
-      "0.1.0"
+      "0.1.0",
+      "0.1.2"
     ],
     "git": "https://github.com/ydtb-wp/ydtb-group-tabs",
     "aliases": [
