@@ -4155,8 +4155,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "d487458",
-    "version": "7.3.6.3",
+    "ref": "ffabba8",
+    "version": "7.3.7",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4165,7 +4165,8 @@
       "7.3.6",
       "7.3.6.1",
       "7.3.6.2",
-      "7.3.6.3"
+      "7.3.6.3",
+      "7.3.7"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
