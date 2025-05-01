@@ -34,8 +34,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "03cd227",
-    "version": "4.21.2.2",
+    "ref": "065fae6",
+    "version": "4.21.3",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -51,7 +51,8 @@
       "4.21.1",
       "4.21.2",
       "4.21.2.1",
-      "4.21.2.2"
+      "4.21.2.2",
+      "4.21.3"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1361,8 +1362,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "a87b0eb",
-    "version": "9.8.2",
+    "ref": "9f6ce32",
+    "version": "9.8.3",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1371,7 +1372,8 @@
       "9.7.0",
       "9.7.1",
       "9.8.1",
-      "9.8.2"
+      "9.8.2",
+      "9.8.3"
     ],
     "git": "",
     "aliases": [
@@ -1809,8 +1811,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "3dd2d01",
-    "version": "2.8.41",
+    "ref": "0b45deb",
+    "version": "2.8.50",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -1824,7 +1826,8 @@
       "2.8.20",
       "2.8.30",
       "2.8.40",
-      "2.8.41"
+      "2.8.41",
+      "2.8.50"
     ],
     "git": "",
     "aliases": [
@@ -1836,8 +1839,8 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "57d7c80",
-    "version": "2.7.01",
+    "ref": "f737452",
+    "version": "2.7.10",
     "tags": [
       "2.6.31",
       "2.6.40",
@@ -1848,7 +1851,8 @@
       "2.6.80",
       "2.6.90",
       "2.7.00",
-      "2.7.01"
+      "2.7.01",
+      "2.7.10"
     ],
     "git": "",
     "aliases": [
@@ -4155,8 +4159,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "ffabba8",
-    "version": "7.3.7",
+    "ref": "756b436",
+    "version": "7.3.8",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4166,7 +4170,8 @@
       "7.3.6.1",
       "7.3.6.2",
       "7.3.6.3",
-      "7.3.7"
+      "7.3.7",
+      "7.3.8"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
