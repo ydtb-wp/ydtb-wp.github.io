@@ -1596,13 +1596,14 @@
   "brainstormforce/wp-schema-pro": {
     "slug": "wp-schema-pro",
     "vendor": "brainstormforce",
-    "ref": "466281f",
-    "version": "2.8.2",
+    "ref": "a39a299",
+    "version": "2.8.3",
     "tags": [
       "2.7.23",
       "2.8.0",
       "2.8.1",
-      "2.8.2"
+      "2.8.2",
+      "2.8.3"
     ],
     "git": "",
     "aliases": [
