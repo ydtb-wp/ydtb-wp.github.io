@@ -1707,8 +1707,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "5dd2bc7",
-    "version": "4.10.1",
+    "ref": "4c7cb3b",
+    "version": "4.11.0",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1718,7 +1718,8 @@
       "4.9.1",
       "4.9.2",
       "4.10.0",
-      "4.10.1"
+      "4.10.1",
+      "4.11.0"
     ],
     "git": "",
     "aliases": [
@@ -3545,12 +3546,13 @@
   "woo/split-pay-plugin-pro": {
     "slug": "split-pay-plugin-pro",
     "vendor": "woo",
-    "ref": "2e6bea4",
-    "version": "3.5.4",
+    "ref": "9da64cd",
+    "version": "3.5.5",
     "tags": [
       "3.5.2",
       "3.5.3",
-      "3.5.4"
+      "3.5.4",
+      "3.5.5"
     ],
     "git": "https://github.com/ydtb-wp/split-pay-plugin-pro",
     "aliases": [
