@@ -1251,14 +1251,15 @@
   "crocoblock/jet-search": {
     "slug": "jet-search",
     "vendor": "crocoblock",
-    "ref": "36ac5ec",
-    "version": "3.5.8",
+    "ref": "f18ea05",
+    "version": "3.5.9",
     "tags": [
       "3.5.5.1",
       "3.5.6",
       "3.5.7",
       "3.5.7.1",
-      "3.5.8"
+      "3.5.8",
+      "3.5.9"
     ],
     "git": "https://github.com/ydtb-wp/jet-search",
     "aliases": [
@@ -1369,8 +1370,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "080118f",
-    "version": "9.8.4",
+    "ref": "ecebc3c",
+    "version": "9.8.5",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1381,7 +1382,8 @@
       "9.8.1",
       "9.8.2",
       "9.8.3",
-      "9.8.4"
+      "9.8.4",
+      "9.8.5"
     ],
     "git": "",
     "aliases": [
