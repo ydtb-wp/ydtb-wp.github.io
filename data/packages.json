@@ -3586,8 +3586,8 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "1c7088a",
-    "version": "9.5.0",
+    "ref": "4fb7b44",
+    "version": "9.5.1",
     "tags": [
       "9.1.1",
       "9.2.0",
@@ -3596,7 +3596,8 @@
       "9.3.2",
       "9.4.0",
       "9.4.1",
-      "9.5.0"
+      "9.5.0",
+      "9.5.1"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -4089,13 +4090,14 @@
   "ydtb/ydtb-elements": {
     "slug": "ydtb-elements",
     "vendor": "ydtb",
-    "ref": "15f24e0",
-    "version": "0.2.5",
+    "ref": "21ec8ad",
+    "version": "0.3.0",
     "tags": [
       "0.2.2",
       "0.2.3",
       "0.2.4",
-      "0.2.5"
+      "0.2.5",
+      "0.3.0"
     ],
     "git": "",
     "aliases": [
