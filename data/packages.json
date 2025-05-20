@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "82c7a39",
-    "version": "3.28.4",
+    "ref": "b7b3309",
+    "version": "3.29.0",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -22,7 +22,8 @@
       "3.28.1",
       "3.28.2",
       "3.28.3",
-      "3.28.4"
+      "3.28.4",
+      "3.29.0"
     ],
     "git": "",
     "aliases": [
@@ -1512,8 +1513,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "9b7e119",
-    "version": "3.28.4",
+    "ref": "dd46409",
+    "version": "3.29.0",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1531,7 +1532,8 @@
       "3.28.1",
       "3.28.2",
       "3.28.3",
-      "3.28.4"
+      "3.28.4",
+      "3.29.0"
     ],
     "git": "",
     "aliases": [
@@ -1662,15 +1664,16 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "c2e5ae1",
-    "version": "2.2.10",
+    "ref": "c5e2086",
+    "version": "2.2.11",
     "tags": [
       "2.2.05",
       "2.2.06",
       "2.2.07",
       "2.2.08",
       "2.2.09",
-      "2.2.10"
+      "2.2.10",
+      "2.2.11"
     ],
     "git": "",
     "aliases": [
@@ -1718,8 +1721,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "4c7cb3b",
-    "version": "4.11.0",
+    "ref": "f115e42",
+    "version": "4.11.1",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1730,7 +1733,8 @@
       "4.9.2",
       "4.10.0",
       "4.10.1",
-      "4.11.0"
+      "4.11.0",
+      "4.11.1"
     ],
     "git": "",
     "aliases": [
@@ -1742,13 +1746,14 @@
   "elementor/hello-elementor": {
     "slug": "hello-elementor",
     "vendor": "elementor",
-    "ref": "e290c53",
-    "version": "3.4.1",
+    "ref": "faf8405",
+    "version": "3.4.2",
     "tags": [
       "3.2.1",
       "3.3.0",
       "3.4.0",
-      "3.4.1"
+      "3.4.1",
+      "3.4.2"
     ],
     "git": "",
     "aliases": [
@@ -3740,8 +3745,8 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "1342999",
-    "version": "3.9.0",
+    "ref": "faaeae3",
+    "version": "3.9.1",
     "tags": [
       "3.8.10",
       "3.8.11",
@@ -3749,7 +3754,8 @@
       "3.8.13",
       "3.8.14",
       "3.8.15",
-      "3.9.0"
+      "3.9.0",
+      "3.9.1"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -3760,14 +3766,15 @@
   "wpdeveloper/betterdocs-pro": {
     "slug": "betterdocs-pro",
     "vendor": "wpdeveloper",
-    "ref": "f4c88df",
-    "version": "3.5.6",
+    "ref": "c989a26",
+    "version": "3.5.7",
     "tags": [
       "3.5.2",
       "3.5.3",
       "3.5.4",
       "3.5.5",
-      "3.5.6"
+      "3.5.6",
+      "3.5.7"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs-pro",
     "aliases": [
@@ -3878,8 +3885,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "1bf16b4",
-    "version": "6.1.12",
+    "ref": "7de0b5b",
+    "version": "6.1.13",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -3891,7 +3898,8 @@
       "6.1.9",
       "6.1.10",
       "6.1.11",
-      "6.1.12"
+      "6.1.12",
+      "6.1.13"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -3921,8 +3929,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "414afca",
-    "version": "5.4.0",
+    "ref": "8467b3d",
+    "version": "5.4.1",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -3931,7 +3939,8 @@
       "5.3.3",
       "5.3.4",
       "5.3.5",
-      "5.4.0"
+      "5.4.0",
+      "5.4.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -3942,15 +3951,16 @@
   "wpdeveloper/essential-blocks-pro": {
     "slug": "essential-blocks-pro",
     "vendor": "wpdeveloper",
-    "ref": "1843beb",
-    "version": "2.0.4",
+    "ref": "a575363",
+    "version": "2.1.0",
     "tags": [
       "1.9.9",
       "2.0.0",
       "2.0.1",
       "2.0.2",
       "2.0.3",
-      "2.0.4"
+      "2.0.4",
+      "2.1.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks-pro",
     "aliases": [
