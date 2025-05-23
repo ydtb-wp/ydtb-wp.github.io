@@ -1637,8 +1637,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "2683c79",
-    "version": "1.39.5",
+    "ref": "88b3ace",
+    "version": "1.39.6",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1653,7 +1653,8 @@
       "1.39.2",
       "1.39.3",
       "1.39.4",
-      "1.39.5"
+      "1.39.5",
+      "1.39.6"
     ],
     "git": "",
     "aliases": [
@@ -1845,8 +1846,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "210188b",
-    "version": "2.8.60",
+    "ref": "9983f8f",
+    "version": "2.8.61",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -1863,7 +1864,8 @@
       "2.8.41",
       "2.8.50",
       "2.8.51",
-      "2.8.60"
+      "2.8.60",
+      "2.8.61"
     ],
     "git": "",
     "aliases": [
@@ -1875,8 +1877,8 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "178c596",
-    "version": "2.7.20",
+    "ref": "8f6ee1b",
+    "version": "2.7.21",
     "tags": [
       "2.6.31",
       "2.6.40",
@@ -1889,7 +1891,8 @@
       "2.7.00",
       "2.7.01",
       "2.7.10",
-      "2.7.20"
+      "2.7.20",
+      "2.7.21"
     ],
     "git": "",
     "aliases": [
@@ -3592,8 +3595,8 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "4fb7b44",
-    "version": "9.5.1",
+    "ref": "8795288",
+    "version": "9.5.2",
     "tags": [
       "9.1.1",
       "9.2.0",
@@ -3603,7 +3606,8 @@
       "9.4.0",
       "9.4.1",
       "9.5.0",
-      "9.5.1"
+      "9.5.1",
+      "9.5.2"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -4225,8 +4229,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "79ca74a",
-    "version": "7.4.4",
+    "ref": "461dece",
+    "version": "7.4.5",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4242,7 +4246,8 @@
       "7.4.0",
       "7.4.2",
       "7.4.3",
-      "7.4.4"
+      "7.4.4",
+      "7.4.5"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
