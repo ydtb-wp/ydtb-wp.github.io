@@ -1751,14 +1751,15 @@
   "elementor/hello-elementor": {
     "slug": "hello-elementor",
     "vendor": "elementor",
-    "ref": "faf8405",
-    "version": "3.4.2",
+    "ref": "097e913",
+    "version": "3.4.3",
     "tags": [
       "3.2.1",
       "3.3.0",
       "3.4.0",
       "3.4.1",
-      "3.4.2"
+      "3.4.2",
+      "3.4.3"
     ],
     "git": "",
     "aliases": [
@@ -3778,15 +3779,16 @@
   "wpdeveloper/betterdocs-pro": {
     "slug": "betterdocs-pro",
     "vendor": "wpdeveloper",
-    "ref": "c989a26",
-    "version": "3.5.7",
+    "ref": "e3949a2",
+    "version": "3.5.8",
     "tags": [
       "3.5.2",
       "3.5.3",
       "3.5.4",
       "3.5.5",
       "3.5.6",
-      "3.5.7"
+      "3.5.7",
+      "3.5.8"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs-pro",
     "aliases": [
@@ -4177,10 +4179,11 @@
   "funnelkit/cart-for-woocommerce": {
     "slug": "cart-for-woocommerce",
     "vendor": "funnelkit",
-    "ref": "e274997",
-    "version": "1.7.1",
+    "ref": "b87a46c",
+    "version": "1.8.0",
     "tags": [
-      "1.7.1"
+      "1.7.1",
+      "1.8.0"
     ],
     "git": "https://github.com/ydtb-wp/cart-for-woocommerce",
     "aliases": [
