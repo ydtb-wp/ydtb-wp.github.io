@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "b7b3309",
-    "version": "3.29.0",
+    "ref": "47f8261",
+    "version": "3.29.1",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -23,7 +23,8 @@
       "3.28.2",
       "3.28.3",
       "3.28.4",
-      "3.29.0"
+      "3.29.0",
+      "3.29.1"
     ],
     "git": "",
     "aliases": [
@@ -1519,8 +1520,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "dd46409",
-    "version": "3.29.0",
+    "ref": "1e5f9db",
+    "version": "3.29.1",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1539,7 +1540,8 @@
       "3.28.2",
       "3.28.3",
       "3.28.4",
-      "3.29.0"
+      "3.29.0",
+      "3.29.1"
     ],
     "git": "",
     "aliases": [
@@ -1644,8 +1646,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "88b3ace",
-    "version": "1.39.6",
+    "ref": "563970c",
+    "version": "1.39.7",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1661,7 +1663,8 @@
       "1.39.3",
       "1.39.4",
       "1.39.5",
-      "1.39.6"
+      "1.39.6",
+      "1.39.7"
     ],
     "git": "",
     "aliases": [
@@ -1948,8 +1951,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "43e6d7a",
-    "version": "5.2.4",
+    "ref": "ffa22af",
+    "version": "5.2.5",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -1968,7 +1971,8 @@
       "5.2.1.3",
       "5.2.2",
       "5.2.3",
-      "5.2.4"
+      "5.2.4",
+      "5.2.5"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -3669,13 +3673,14 @@
   "fluent/fluent-support": {
     "slug": "fluent-support",
     "vendor": "fluent",
-    "ref": "d78f109",
-    "version": "1.8.8",
+    "ref": "9e79b3a",
+    "version": "1.9.0",
     "tags": [
       "1.8.5",
       "1.8.6",
       "1.8.7",
-      "1.8.8"
+      "1.8.8",
+      "1.9.0"
     ],
     "git": "",
     "aliases": [
@@ -3835,14 +3840,15 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "4992208",
-    "version": "1.3.0",
+    "ref": "7b66a16",
+    "version": "1.3.1",
     "tags": [
       "1.2.10",
       "1.2.11",
       "1.2.12",
       "1.2.13",
-      "1.3.0"
+      "1.3.0",
+      "1.3.1"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
@@ -4248,8 +4254,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "461dece",
-    "version": "7.4.5",
+    "ref": "9b10472",
+    "version": "7.4.6",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4266,7 +4272,8 @@
       "7.4.2",
       "7.4.3",
       "7.4.4",
-      "7.4.5"
+      "7.4.5",
+      "7.4.6"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
