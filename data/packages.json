@@ -1598,8 +1598,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "988e566",
-    "version": "4.4.21",
+    "ref": "b89845b",
+    "version": "4.4.22",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1613,7 +1613,8 @@
       "4.4.18",
       "4.4.19",
       "4.4.20",
-      "4.4.21"
+      "4.4.21",
+      "4.4.22"
     ],
     "git": "",
     "aliases": [
@@ -3636,8 +3637,8 @@
   "fluent/fluentform": {
     "slug": "fluentform",
     "vendor": "fluent",
-    "ref": "b1cd048",
-    "version": "6.0.3",
+    "ref": "fc80faa",
+    "version": "6.0.4",
     "tags": [
       "5.2.10",
       "5.2.11",
@@ -3645,7 +3646,8 @@
       "6.0.0",
       "6.0.1",
       "6.0.2",
-      "6.0.3"
+      "6.0.3",
+      "6.0.4"
     ],
     "git": "",
     "aliases": [
