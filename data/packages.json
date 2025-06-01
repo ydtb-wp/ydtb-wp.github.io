@@ -3941,15 +3941,16 @@
   "wpdeveloper/essential-addons-elementor": {
     "slug": "essential-addons-elementor",
     "vendor": "wpdeveloper",
-    "ref": "0da636e",
-    "version": "6.2.2",
+    "ref": "ff600b2",
+    "version": "6.3.0",
     "tags": [
       "6.0.13",
       "6.1.0",
       "6.1.1",
       "6.2.0",
       "6.2.1",
-      "6.2.2"
+      "6.2.2",
+      "6.3.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-elementor",
     "aliases": [
@@ -4132,14 +4133,15 @@
   "ydtb/ydtb-elements": {
     "slug": "ydtb-elements",
     "vendor": "ydtb",
-    "ref": "21ec8ad",
-    "version": "0.3.0",
+    "ref": "8d54255",
+    "version": "0.4.0",
     "tags": [
       "0.2.2",
       "0.2.3",
       "0.2.4",
       "0.2.5",
-      "0.3.0"
+      "0.3.0",
+      "0.4.0"
     ],
     "git": "",
     "aliases": [
@@ -5207,12 +5209,13 @@
   "ydtb/ydtb-group-tabs": {
     "slug": "ydtb-group-tabs",
     "vendor": "ydtb",
-    "ref": "e4e010f",
-    "version": "0.1.2",
+    "ref": "3a5dddb",
+    "version": "0.2.0",
     "tags": [
       "0.0.8",
       "0.1.0",
-      "0.1.2"
+      "0.1.2",
+      "0.2.0"
     ],
     "git": "https://github.com/ydtb-wp/ydtb-group-tabs",
     "aliases": [
