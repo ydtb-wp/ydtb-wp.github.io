@@ -1183,8 +1183,8 @@
   "crocoblock/jet-menu": {
     "slug": "jet-menu",
     "vendor": "crocoblock",
-    "ref": "b00f254",
-    "version": "2.4.11",
+    "ref": "838fde1",
+    "version": "2.4.11.1",
     "tags": [
       "2.4.7",
       "2.4.7.1",
@@ -1193,7 +1193,8 @@
       "2.4.9",
       "2.4.9.1",
       "2.4.10",
-      "2.4.11"
+      "2.4.11",
+      "2.4.11.1"
     ],
     "git": "",
     "aliases": [
@@ -3946,8 +3947,8 @@
   "wpdeveloper/essential-addons-elementor": {
     "slug": "essential-addons-elementor",
     "vendor": "wpdeveloper",
-    "ref": "ff600b2",
-    "version": "6.3.0",
+    "ref": "6d313da",
+    "version": "6.3.1",
     "tags": [
       "6.0.13",
       "6.1.0",
@@ -3955,7 +3956,8 @@
       "6.2.0",
       "6.2.1",
       "6.2.2",
-      "6.3.0"
+      "6.3.0",
+      "6.3.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-elementor",
     "aliases": [
