@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "47f8261",
-    "version": "3.29.1",
+    "ref": "11bfded",
+    "version": "3.29.2",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -24,7 +24,8 @@
       "3.28.3",
       "3.28.4",
       "3.29.0",
-      "3.29.1"
+      "3.29.1",
+      "3.29.2"
     ],
     "git": "",
     "aliases": [
@@ -36,8 +37,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "7045acf",
-    "version": "4.21.5",
+    "ref": "ab6b3e8",
+    "version": "4.22.0",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -56,7 +57,8 @@
       "4.21.2.2",
       "4.21.3",
       "4.21.4",
-      "4.21.5"
+      "4.21.5",
+      "4.22.0"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1282,8 +1284,8 @@
   "crocoblock/jet-smart-filters": {
     "slug": "jet-smart-filters",
     "vendor": "crocoblock",
-    "ref": "06f443a",
-    "version": "3.6.6",
+    "ref": "c23c523",
+    "version": "3.6.7",
     "tags": [
       "3.6.0.1",
       "3.6.1",
@@ -1292,7 +1294,8 @@
       "3.6.3.1",
       "3.6.4",
       "3.6.5",
-      "3.6.6"
+      "3.6.6",
+      "3.6.7"
     ],
     "git": "https://github.com/ydtb-wp/jet-smart-filters",
     "aliases": [
@@ -1382,8 +1385,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "ecebc3c",
-    "version": "9.8.5",
+    "ref": "02fb2e6",
+    "version": "9.9.3",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1395,7 +1398,8 @@
       "9.8.2",
       "9.8.3",
       "9.8.4",
-      "9.8.5"
+      "9.8.5",
+      "9.9.3"
     ],
     "git": "",
     "aliases": [
@@ -1422,8 +1426,8 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "c89d239",
-    "version": "4.11.0",
+    "ref": "7bcba76",
+    "version": "4.11.1",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1438,7 +1442,8 @@
       "4.9.2",
       "4.10.0",
       "4.10.1",
-      "4.11.0"
+      "4.11.0",
+      "4.11.1"
     ],
     "git": "",
     "aliases": [
@@ -1450,8 +1455,8 @@
   "brainstormforce/convertpro": {
     "slug": "convertpro",
     "vendor": "brainstormforce",
-    "ref": "05aa973",
-    "version": "1.8.4",
+    "ref": "ea4c381",
+    "version": "1.8.5",
     "tags": [
       "1.7.8",
       "1.7.9",
@@ -1459,7 +1464,8 @@
       "1.8.1",
       "1.8.2",
       "1.8.3",
-      "1.8.4"
+      "1.8.4",
+      "1.8.5"
     ],
     "git": "",
     "aliases": [
@@ -1599,8 +1605,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "fd691f1",
-    "version": "4.4.23",
+    "ref": "8e4f4b1",
+    "version": "4.4.25",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1616,7 +1622,8 @@
       "4.4.20",
       "4.4.21",
       "4.4.22",
-      "4.4.23"
+      "4.4.23",
+      "4.4.25"
     ],
     "git": "",
     "aliases": [
@@ -1628,8 +1635,8 @@
   "brainstormforce/wp-schema-pro": {
     "slug": "wp-schema-pro",
     "vendor": "brainstormforce",
-    "ref": "4525728",
-    "version": "2.10.0",
+    "ref": "777ab6d",
+    "version": "2.10.1",
     "tags": [
       "2.7.23",
       "2.8.0",
@@ -1637,7 +1644,8 @@
       "2.8.2",
       "2.8.3",
       "2.9.0",
-      "2.10.0"
+      "2.10.0",
+      "2.10.1"
     ],
     "git": "",
     "aliases": [
@@ -1649,8 +1657,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "563970c",
-    "version": "1.39.7",
+    "ref": "63a1bc8",
+    "version": "1.39.8",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1667,7 +1675,8 @@
       "1.39.4",
       "1.39.5",
       "1.39.6",
-      "1.39.7"
+      "1.39.7",
+      "1.39.8"
     ],
     "git": "",
     "aliases": [
@@ -1679,8 +1688,8 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "c5e2086",
-    "version": "2.2.11",
+    "ref": "5b8ffe4",
+    "version": "2.2.12",
     "tags": [
       "2.2.05",
       "2.2.06",
@@ -1688,7 +1697,8 @@
       "2.2.08",
       "2.2.09",
       "2.2.10",
-      "2.2.11"
+      "2.2.11",
+      "2.2.12"
     ],
     "git": "",
     "aliases": [
@@ -1736,8 +1746,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "f115e42",
-    "version": "4.11.1",
+    "ref": "a2f0be1",
+    "version": "4.11.2",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1749,7 +1759,8 @@
       "4.10.0",
       "4.10.1",
       "4.11.0",
-      "4.11.1"
+      "4.11.1",
+      "4.11.2"
     ],
     "git": "",
     "aliases": [
@@ -1761,15 +1772,16 @@
   "elementor/hello-elementor": {
     "slug": "hello-elementor",
     "vendor": "elementor",
-    "ref": "097e913",
-    "version": "3.4.3",
+    "ref": "31395fe",
+    "version": "3.4.4",
     "tags": [
       "3.2.1",
       "3.3.0",
       "3.4.0",
       "3.4.1",
       "3.4.2",
-      "3.4.3"
+      "3.4.3",
+      "3.4.4"
     ],
     "git": "",
     "aliases": [
@@ -1836,8 +1848,8 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "2ea8f45",
-    "version": "25.2",
+    "ref": "092c5c5",
+    "version": "25.3",
     "tags": [
       "24.2",
       "24.4",
@@ -1849,7 +1861,8 @@
       "24.9",
       "25.0",
       "25.1",
-      "25.2"
+      "25.2",
+      "25.3"
     ],
     "git": "",
     "aliases": [
@@ -1954,8 +1967,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "ffa22af",
-    "version": "5.2.5",
+    "ref": "d15961c",
+    "version": "5.2.9",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -1975,7 +1988,8 @@
       "5.2.2",
       "5.2.3",
       "5.2.4",
-      "5.2.5"
+      "5.2.5",
+      "5.2.9"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -3710,13 +3724,14 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "61d6e7e",
-    "version": "5.0.24",
+    "ref": "e8330ed",
+    "version": "5.0.25",
     "tags": [
       "5.0.21",
       "5.0.22",
       "5.0.23",
-      "5.0.24"
+      "5.0.24",
+      "5.0.25"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
@@ -3774,8 +3789,8 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "f9d7c74",
-    "version": "3.9.2",
+    "ref": "49b8873",
+    "version": "3.9.3",
     "tags": [
       "3.8.10",
       "3.8.11",
@@ -3785,7 +3800,8 @@
       "3.8.15",
       "3.9.0",
       "3.9.1",
-      "3.9.2"
+      "3.9.2",
+      "3.9.3"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -3846,15 +3862,16 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "7b66a16",
-    "version": "1.3.1",
+    "ref": "a6c4843",
+    "version": "1.3.2",
     "tags": [
       "1.2.10",
       "1.2.11",
       "1.2.12",
       "1.2.13",
       "1.3.0",
-      "1.3.1"
+      "1.3.1",
+      "1.3.2"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
@@ -3919,8 +3936,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "7350153",
-    "version": "6.1.17",
+    "ref": "dc9487c",
+    "version": "6.1.18",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -3936,7 +3953,8 @@
       "6.1.13",
       "6.1.14",
       "6.1.15",
-      "6.1.17"
+      "6.1.17",
+      "6.1.18"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -4012,15 +4030,17 @@
   "wpdeveloper/notificationx": {
     "slug": "notificationx",
     "vendor": "wpdeveloper",
-    "ref": "7edb6ee",
-    "version": "3.0.6",
+    "ref": "c2cc177",
+    "version": "3.1.1",
     "tags": [
       "3.0.1",
       "3.0.2",
       "3.0.3",
       "3.0.4",
       "3.0.5",
-      "3.0.6"
+      "3.0.6",
+      "3.1.0",
+      "3.1.1"
     ],
     "git": "https://github.com/ydtb-wp/notificationx",
     "aliases": [
@@ -4031,12 +4051,13 @@
   "wpdeveloper/notificationx-pro": {
     "slug": "notificationx-pro",
     "vendor": "wpdeveloper",
-    "ref": "2b9082e",
-    "version": "3.0.3",
+    "ref": "522b9db",
+    "version": "3.0.4",
     "tags": [
       "3.0.1",
       "3.0.2",
-      "3.0.3"
+      "3.0.3",
+      "3.0.4"
     ],
     "git": "https://github.com/ydtb-wp/notificationx-pro",
     "aliases": [
@@ -4047,14 +4068,15 @@
   "wpdeveloper/wp-scheduled-posts": {
     "slug": "wp-scheduled-posts",
     "vendor": "wpdeveloper",
-    "ref": "a32fd43",
-    "version": "5.2.6",
+    "ref": "a03ef03",
+    "version": "5.2.7",
     "tags": [
       "5.2.2",
       "5.2.3",
       "5.2.4",
       "5.2.5",
-      "5.2.6"
+      "5.2.6",
+      "5.2.7"
     ],
     "git": "https://github.com/ydtb-wp/wp-scheduled-posts",
     "aliases": [
@@ -4161,13 +4183,14 @@
   "funnelkit/wp-marketing-automations": {
     "slug": "wp-marketing-automations",
     "vendor": "funnelkit",
-    "ref": "ea4fa8d",
-    "version": "3.6.0",
+    "ref": "19e9999",
+    "version": "3.6.2",
     "tags": [
       "3.5.1",
       "3.5.2",
       "3.5.3",
-      "3.6.0"
+      "3.6.0",
+      "3.6.2"
     ],
     "git": "https://github.com/ydtb-wp/wp-marketing-automations",
     "aliases": [
@@ -4192,11 +4215,12 @@
   "funnelkit/wp-marketing-automations-pro": {
     "slug": "wp-marketing-automations-pro",
     "vendor": "funnelkit",
-    "ref": "3e39cb5",
-    "version": "3.6.0",
+    "ref": "4b922da",
+    "version": "3.6.3",
     "tags": [
       "3.5.2",
-      "3.6.0"
+      "3.6.0",
+      "3.6.3"
     ],
     "git": "https://github.com/ydtb-wp/wp-marketing-automations-pro",
     "aliases": [
@@ -4207,11 +4231,12 @@
   "funnelkit/cart-for-woocommerce": {
     "slug": "cart-for-woocommerce",
     "vendor": "funnelkit",
-    "ref": "b87a46c",
-    "version": "1.8.0",
+    "ref": "147b24b",
+    "version": "1.8.1",
     "tags": [
       "1.7.1",
-      "1.8.0"
+      "1.8.0",
+      "1.8.1"
     ],
     "git": "https://github.com/ydtb-wp/cart-for-woocommerce",
     "aliases": [
@@ -4269,8 +4294,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "9b10472",
-    "version": "7.4.6",
+    "ref": "c1b1d2a",
+    "version": "7.4.9",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4288,7 +4313,8 @@
       "7.4.3",
       "7.4.4",
       "7.4.5",
-      "7.4.6"
+      "7.4.6",
+      "7.4.9"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
