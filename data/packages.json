@@ -5273,5 +5273,17 @@
       "ydtb/ydtb-group-tabs"
     ],
     "type": "wordpress-plugin"
+  },
+  "crocoblock/jet-engine-break-listing-by-months": {
+    "slug": "jet-engine-break-listing-by-months",
+    "vendor": "crocoblock",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "crocoblock/jet-engine-break-listing-by-months"
+    ],
+    "type": "wordpress-plugin"
   }
 }
