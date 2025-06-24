@@ -990,12 +990,13 @@
   "learndash/learndash-notes": {
     "slug": "learndash-notes",
     "vendor": "learndash",
-    "ref": "25b48cc",
-    "version": "1.1.3",
+    "ref": "2778b20",
+    "version": "2.0.0",
     "tags": [
       "1.1.0",
       "1.1.2",
-      "1.1.3"
+      "1.1.3",
+      "2.0.0"
     ],
     "git": "",
     "aliases": [
@@ -1209,8 +1210,8 @@
   "crocoblock/jet-popup": {
     "slug": "jet-popup",
     "vendor": "crocoblock",
-    "ref": "6b9f98e",
-    "version": "2.0.15",
+    "ref": "e40085c",
+    "version": "2.0.15.1",
     "tags": [
       "2.0.9",
       "2.0.10",
@@ -1219,7 +1220,8 @@
       "2.0.13",
       "2.0.14",
       "2.0.14.1",
-      "2.0.15"
+      "2.0.15",
+      "2.0.15.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-popup",
     "aliases": [
@@ -1250,11 +1252,12 @@
   "crocoblock/jet-reviews": {
     "slug": "jet-reviews",
     "vendor": "crocoblock",
-    "ref": "4b0ee7b",
-    "version": "2.3.7",
+    "ref": "d62c79e",
+    "version": "3.0.0",
     "tags": [
       "2.3.6",
-      "2.3.7"
+      "2.3.7",
+      "3.0.0"
     ],
     "git": "https://github.com/ydtb-wp/jet-reviews",
     "aliases": [
@@ -1369,8 +1372,8 @@
   "crocoblock/jet-woo-builder": {
     "slug": "jet-woo-builder",
     "vendor": "crocoblock",
-    "ref": "edae60b",
-    "version": "2.1.20",
+    "ref": "5daa922",
+    "version": "2.1.20.1",
     "tags": [
       "2.1.16",
       "2.1.16.1",
@@ -1378,7 +1381,8 @@
       "2.1.18",
       "2.1.18.1",
       "2.1.19",
-      "2.1.20"
+      "2.1.20",
+      "2.1.20.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-builder",
     "aliases": [
@@ -1390,8 +1394,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "3f4a5c6",
-    "version": "9.9.4",
+    "ref": "795a9bd",
+    "version": "9.9.5",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1405,7 +1409,8 @@
       "9.8.4",
       "9.8.5",
       "9.9.3",
-      "9.9.4"
+      "9.9.4",
+      "9.9.5"
     ],
     "git": "",
     "aliases": [
@@ -1719,13 +1724,14 @@
   "wparmour/wp-armour-extended": {
     "slug": "wp-armour-extended",
     "vendor": "wparmour",
-    "ref": "40f1ebb",
-    "version": "1.38",
+    "ref": "a85228d",
+    "version": "1.39",
     "tags": [
       "1.35",
       "1.36",
       "1.37",
-      "1.38"
+      "1.38",
+      "1.39"
     ],
     "git": "",
     "aliases": [
@@ -1886,8 +1892,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "4758f3b",
-    "version": "2.8.80",
+    "ref": "5165a74",
+    "version": "2.8.90",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -1907,7 +1913,8 @@
       "2.8.60",
       "2.8.61",
       "2.8.70",
-      "2.8.80"
+      "2.8.80",
+      "2.8.90"
     ],
     "git": "",
     "aliases": [
@@ -1919,8 +1926,8 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "5c6369e",
-    "version": "2.7.30",
+    "ref": "0f5890d",
+    "version": "2.7.40",
     "tags": [
       "2.6.31",
       "2.6.40",
@@ -1935,7 +1942,8 @@
       "2.7.10",
       "2.7.20",
       "2.7.21",
-      "2.7.30"
+      "2.7.30",
+      "2.7.40"
     ],
     "git": "",
     "aliases": [
@@ -1980,8 +1988,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "d15961c",
-    "version": "5.2.9",
+    "ref": "a219ae2",
+    "version": "5.3.0",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2002,7 +2010,8 @@
       "5.2.3",
       "5.2.4",
       "5.2.5",
-      "5.2.9"
+      "5.2.9",
+      "5.3.0"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -3743,14 +3752,15 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "e8330ed",
-    "version": "5.0.25",
+    "ref": "db4f562",
+    "version": "5.0.26",
     "tags": [
       "5.0.21",
       "5.0.22",
       "5.0.23",
       "5.0.24",
-      "5.0.25"
+      "5.0.25",
+      "5.0.26"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
@@ -3808,8 +3818,8 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "b3c6fa4",
-    "version": "4.0.0",
+    "ref": "57ab5ed",
+    "version": "4.0.1",
     "tags": [
       "3.8.10",
       "3.8.11",
@@ -3821,7 +3831,8 @@
       "3.9.1",
       "3.9.2",
       "3.9.3",
-      "4.0.0"
+      "4.0.0",
+      "4.0.1"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -3958,8 +3969,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "dc9487c",
-    "version": "6.1.18",
+    "ref": "d95c1df",
+    "version": "6.1.19",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -3976,7 +3987,8 @@
       "6.1.14",
       "6.1.15",
       "6.1.17",
-      "6.1.18"
+      "6.1.18",
+      "6.1.19"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -4008,8 +4020,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "3cf5702",
-    "version": "5.5.1",
+    "ref": "fb0953f",
+    "version": "5.5.2",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4022,7 +4034,8 @@
       "5.4.1",
       "5.4.2",
       "5.5.0",
-      "5.5.1"
+      "5.5.1",
+      "5.5.2"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
