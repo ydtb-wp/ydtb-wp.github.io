@@ -1043,13 +1043,14 @@
   "crocoblock/jet-blocks": {
     "slug": "jet-blocks",
     "vendor": "crocoblock",
-    "ref": "888409a",
-    "version": "1.3.18",
+    "ref": "06c5825",
+    "version": "1.3.19",
     "tags": [
       "1.3.16",
       "1.3.16.1",
       "1.3.17",
-      "1.3.18"
+      "1.3.18",
+      "1.3.19"
     ],
     "git": "",
     "aliases": [
@@ -1120,8 +1121,8 @@
   "crocoblock/jet-elements": {
     "slug": "jet-elements",
     "vendor": "crocoblock",
-    "ref": "7e282d0",
-    "version": "2.7.7",
+    "ref": "84ff9cd",
+    "version": "2.7.8",
     "tags": [
       "2.7.2.1",
       "2.7.3",
@@ -1131,7 +1132,8 @@
       "2.7.5",
       "2.7.5.1",
       "2.7.6",
-      "2.7.7"
+      "2.7.7",
+      "2.7.8"
     ],
     "git": "",
     "aliases": [
@@ -1143,8 +1145,8 @@
   "crocoblock/jet-engine": {
     "slug": "jet-engine",
     "vendor": "crocoblock",
-    "ref": "685dc85",
-    "version": "3.7.1",
+    "ref": "e8c5be0",
+    "version": "3.7.1.1",
     "tags": [
       "3.6.1.2",
       "3.6.2",
@@ -1157,7 +1159,8 @@
       "3.6.7.1",
       "3.6.8",
       "3.6.9",
-      "3.7.1"
+      "3.7.1",
+      "3.7.1.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-engine",
     "aliases": [
@@ -1187,8 +1190,8 @@
   "crocoblock/jet-menu": {
     "slug": "jet-menu",
     "vendor": "crocoblock",
-    "ref": "838fde1",
-    "version": "2.4.11.1",
+    "ref": "efd7844",
+    "version": "2.4.11.2",
     "tags": [
       "2.4.7",
       "2.4.7.1",
@@ -1198,7 +1201,8 @@
       "2.4.9.1",
       "2.4.10",
       "2.4.11",
-      "2.4.11.1"
+      "2.4.11.1",
+      "2.4.11.2"
     ],
     "git": "",
     "aliases": [
@@ -1290,8 +1294,8 @@
   "crocoblock/jet-smart-filters": {
     "slug": "jet-smart-filters",
     "vendor": "crocoblock",
-    "ref": "c23c523",
-    "version": "3.6.7",
+    "ref": "865e4da",
+    "version": "3.6.7.1",
     "tags": [
       "3.6.0.1",
       "3.6.1",
@@ -1301,7 +1305,8 @@
       "3.6.4",
       "3.6.5",
       "3.6.6",
-      "3.6.7"
+      "3.6.7",
+      "3.6.7.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-smart-filters",
     "aliases": [
@@ -1313,13 +1318,14 @@
   "crocoblock/jet-tabs": {
     "slug": "jet-tabs",
     "vendor": "crocoblock",
-    "ref": "5e1efff",
-    "version": "2.2.9",
+    "ref": "041f1e6",
+    "version": "2.2.9.1",
     "tags": [
       "2.2.6.2",
       "2.2.7",
       "2.2.8",
-      "2.2.9"
+      "2.2.9",
+      "2.2.9.1"
     ],
     "git": "",
     "aliases": [
@@ -1350,8 +1356,8 @@
   "crocoblock/jet-tricks": {
     "slug": "jet-tricks",
     "vendor": "crocoblock",
-    "ref": "aaafebd",
-    "version": "1.5.4.1",
+    "ref": "d36fbd2",
+    "version": "1.5.4.2",
     "tags": [
       "1.4.10",
       "1.5.0",
@@ -1360,7 +1366,8 @@
       "1.5.2",
       "1.5.3",
       "1.5.4",
-      "1.5.4.1"
+      "1.5.4.1",
+      "1.5.4.2"
     ],
     "git": "",
     "aliases": [
@@ -3658,8 +3665,8 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "8795288",
-    "version": "9.5.2",
+    "ref": "ddc3ec6",
+    "version": "9.5.3",
     "tags": [
       "9.1.1",
       "9.2.0",
@@ -3670,7 +3677,8 @@
       "9.4.1",
       "9.5.0",
       "9.5.1",
-      "9.5.2"
+      "9.5.2",
+      "9.5.3"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -3818,8 +3826,8 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "57ab5ed",
-    "version": "4.0.1",
+    "ref": "feccb3d",
+    "version": "4.1.0",
     "tags": [
       "3.8.10",
       "3.8.11",
@@ -3832,7 +3840,8 @@
       "3.9.2",
       "3.9.3",
       "4.0.0",
-      "4.0.1"
+      "4.0.1",
+      "4.1.0"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -3843,8 +3852,8 @@
   "wpdeveloper/betterdocs-pro": {
     "slug": "betterdocs-pro",
     "vendor": "wpdeveloper",
-    "ref": "7f92793",
-    "version": "3.6.1",
+    "ref": "fbd3dc3",
+    "version": "3.6.2",
     "tags": [
       "3.5.2",
       "3.5.3",
@@ -3854,7 +3863,8 @@
       "3.5.7",
       "3.5.8",
       "3.6.0",
-      "3.6.1"
+      "3.6.1",
+      "3.6.2"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs-pro",
     "aliases": [
