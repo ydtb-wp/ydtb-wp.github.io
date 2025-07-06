@@ -37,8 +37,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "ab6b3e8",
-    "version": "4.22.0",
+    "ref": "66f7484",
+    "version": "4.23.0",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -58,7 +58,8 @@
       "4.21.3",
       "4.21.4",
       "4.21.5",
-      "4.22.0"
+      "4.22.0",
+      "4.23.0"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1872,8 +1873,8 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "d2b4552",
-    "version": "25.3.1",
+    "ref": "d5e804e",
+    "version": "25.4",
     "tags": [
       "24.2",
       "24.4",
@@ -1887,7 +1888,8 @@
       "25.1",
       "25.2",
       "25.3",
-      "25.3.1"
+      "25.3.1",
+      "25.4"
     ],
     "git": "",
     "aliases": [
@@ -1995,8 +1997,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "a219ae2",
-    "version": "5.3.0",
+    "ref": "7bf8f2d",
+    "version": "5.3.2",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2018,7 +2020,8 @@
       "5.2.4",
       "5.2.5",
       "5.2.9",
-      "5.3.0"
+      "5.3.0",
+      "5.3.2"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -3904,8 +3907,8 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "a6c4843",
-    "version": "1.3.2",
+    "ref": "9483c05",
+    "version": "1.4.0",
     "tags": [
       "1.2.10",
       "1.2.11",
@@ -3913,7 +3916,8 @@
       "1.2.13",
       "1.3.0",
       "1.3.1",
-      "1.3.2"
+      "1.3.2",
+      "1.4.0"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
@@ -3924,13 +3928,14 @@
   "wpdeveloper/better-payment-pro": {
     "slug": "better-payment-pro",
     "vendor": "wpdeveloper",
-    "ref": "7c3a59d",
-    "version": "1.2.1",
+    "ref": "a1be681",
+    "version": "1.2.2",
     "tags": [
       "1.1.5",
       "1.1.6",
       "1.2.0",
-      "1.2.1"
+      "1.2.1",
+      "1.2.2"
     ],
     "git": "https://github.com/ydtb-wp/better-payment-pro",
     "aliases": [
@@ -3980,8 +3985,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "d95c1df",
-    "version": "6.1.19",
+    "ref": "1bf1dad",
+    "version": "6.2.0",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -3999,7 +4004,8 @@
       "6.1.15",
       "6.1.17",
       "6.1.18",
-      "6.1.19"
+      "6.1.19",
+      "6.2.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -4031,8 +4037,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "fb0953f",
-    "version": "5.5.2",
+    "ref": "e8a13d6",
+    "version": "5.5.3",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4046,7 +4052,8 @@
       "5.4.2",
       "5.5.0",
       "5.5.1",
-      "5.5.2"
+      "5.5.2",
+      "5.5.3"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -4057,8 +4064,8 @@
   "wpdeveloper/essential-blocks-pro": {
     "slug": "essential-blocks-pro",
     "vendor": "wpdeveloper",
-    "ref": "908241b",
-    "version": "2.1.1",
+    "ref": "663550b",
+    "version": "2.2.0",
     "tags": [
       "1.9.9",
       "2.0.0",
@@ -4067,7 +4074,8 @@
       "2.0.3",
       "2.0.4",
       "2.1.0",
-      "2.1.1"
+      "2.1.1",
+      "2.2.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks-pro",
     "aliases": [
@@ -4150,15 +4158,16 @@
   "wpdeveloper/templately": {
     "slug": "templately",
     "vendor": "wpdeveloper",
-    "ref": "b654298",
-    "version": "3.2.6",
+    "ref": "82e5472",
+    "version": "3.2.7",
     "tags": [
       "3.2.1",
       "3.2.2",
       "3.2.3",
       "3.2.4",
       "3.2.5",
-      "3.2.6"
+      "3.2.6",
+      "3.2.7"
     ],
     "git": "https://github.com/ydtb-wp/templately",
     "aliases": [
@@ -4280,12 +4289,13 @@
   "funnelkit/cart-for-woocommerce": {
     "slug": "cart-for-woocommerce",
     "vendor": "funnelkit",
-    "ref": "147b24b",
-    "version": "1.8.1",
+    "ref": "7b276b8",
+    "version": "1.9.0",
     "tags": [
       "1.7.1",
       "1.8.0",
-      "1.8.1"
+      "1.8.1",
+      "1.9.0"
     ],
     "git": "https://github.com/ydtb-wp/cart-for-woocommerce",
     "aliases": [
@@ -4296,11 +4306,12 @@
   "funnelkit/funnel-builder": {
     "slug": "funnel-builder",
     "vendor": "funnelkit",
-    "ref": "a441dfb",
-    "version": "3.10.2",
+    "ref": "2c47247",
+    "version": "3.11.1",
     "tags": [
       "3.10.1",
-      "3.10.2"
+      "3.10.2",
+      "3.11.1"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder",
     "aliases": [
@@ -4311,11 +4322,12 @@
   "funnelkit/funnel-builder-pro": {
     "slug": "funnel-builder-pro",
     "vendor": "funnelkit",
-    "ref": "fb95d48",
-    "version": "3.10.2",
+    "ref": "f80d66a",
+    "version": "3.11.2",
     "tags": [
       "3.10.1",
-      "3.10.2"
+      "3.10.2",
+      "3.11.2"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder-pro",
     "aliases": [
