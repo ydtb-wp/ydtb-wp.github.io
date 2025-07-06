@@ -3941,8 +3941,8 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "7b4a899",
-    "version": "4.2.7",
+    "ref": "97169c1",
+    "version": "4.2.8",
     "tags": [
       "4.1.10",
       "4.2.0",
@@ -3952,7 +3952,8 @@
       "4.2.4",
       "4.2.5",
       "4.2.6",
-      "4.2.7"
+      "4.2.7",
+      "4.2.8"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
