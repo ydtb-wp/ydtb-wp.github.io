@@ -1445,8 +1445,8 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "98b3605",
-    "version": "4.11.2",
+    "ref": "3321e30",
+    "version": "4.11.4",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1463,7 +1463,8 @@
       "4.10.1",
       "4.11.0",
       "4.11.1",
-      "4.11.2"
+      "4.11.2",
+      "4.11.4"
     ],
     "git": "",
     "aliases": [
@@ -1626,8 +1627,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "89d6339",
-    "version": "4.4.26",
+    "ref": "0dfbbd7",
+    "version": "4.4.28",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1645,7 +1646,8 @@
       "4.4.22",
       "4.4.23",
       "4.4.25",
-      "4.4.26"
+      "4.4.26",
+      "4.4.28"
     ],
     "git": "",
     "aliases": [
@@ -1770,8 +1772,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "4fed786",
-    "version": "4.11.3",
+    "ref": "32f4bf6",
+    "version": "4.11.5",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1785,7 +1787,8 @@
       "4.11.0",
       "4.11.1",
       "4.11.2",
-      "4.11.3"
+      "4.11.3",
+      "4.11.5"
     ],
     "git": "",
     "aliases": [
