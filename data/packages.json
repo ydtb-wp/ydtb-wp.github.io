@@ -5366,9 +5366,11 @@
   "kinsta/kinsta-mu-plugins": {
     "slug": "kinsta-mu-plugins",
     "vendor": "kinsta",
-    "ref": "",
-    "version": "",
-    "tags": [],
+    "ref": "6787c01",
+    "version": "3.2.0",
+    "tags": [
+      "3.2.0"
+    ],
     "git": "",
     "aliases": [
       "ydtb/kinsta-mu-plugins",
