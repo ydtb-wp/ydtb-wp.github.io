@@ -5362,5 +5362,18 @@
       "handyplugins/magic-login-pro"
     ],
     "type": "wordpress-plugin"
+  },
+  "kinsta/kinsta-mu-plugins": {
+    "slug": "kinsta-mu-plugins",
+    "vendor": "kinsta",
+    "ref": "",
+    "version": "",
+    "tags": [],
+    "git": "",
+    "aliases": [
+      "ydtb/kinsta-mu-plugins",
+      "kinsta/kinsta-mu-plugins"
+    ],
+    "type": "wordpress-plugin"
   }
 }
