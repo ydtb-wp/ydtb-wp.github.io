@@ -4295,13 +4295,14 @@
   "funnelkit/cart-for-woocommerce": {
     "slug": "cart-for-woocommerce",
     "vendor": "funnelkit",
-    "ref": "7b276b8",
-    "version": "1.9.0",
+    "ref": "bca53e4",
+    "version": "1.9.1",
     "tags": [
       "1.7.1",
       "1.8.0",
       "1.8.1",
-      "1.9.0"
+      "1.9.0",
+      "1.9.1"
     ],
     "git": "https://github.com/ydtb-wp/cart-for-woocommerce",
     "aliases": [
