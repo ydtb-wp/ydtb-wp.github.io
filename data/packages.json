@@ -1901,8 +1901,8 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "1405d9d",
-    "version": "25.4",
+    "ref": "fb77537",
+    "version": "25.5",
     "tags": [
       "24.2",
       "24.4",
@@ -1917,7 +1917,8 @@
       "25.2",
       "25.3",
       "25.3.1",
-      "25.4"
+      "25.4",
+      "25.5"
     ],
     "git": "",
     "aliases": [
@@ -3764,14 +3765,15 @@
   "fluent/fluent-support": {
     "slug": "fluent-support",
     "vendor": "fluent",
-    "ref": "9e79b3a",
-    "version": "1.9.0",
+    "ref": "888241f",
+    "version": "1.9.1",
     "tags": [
       "1.8.5",
       "1.8.6",
       "1.8.7",
       "1.8.8",
-      "1.9.0"
+      "1.9.0",
+      "1.9.1"
     ],
     "git": "",
     "aliases": [
