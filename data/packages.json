@@ -1707,8 +1707,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "63a1bc8",
-    "version": "1.39.8",
+    "ref": "07c92a6",
+    "version": "1.39.9",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1726,7 +1726,8 @@
       "1.39.5",
       "1.39.6",
       "1.39.7",
-      "1.39.8"
+      "1.39.8",
+      "1.39.9"
     ],
     "git": "",
     "aliases": [
@@ -1798,8 +1799,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "8ed1dd6",
-    "version": "4.11.6",
+    "ref": "60da630",
+    "version": "4.11.7",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1815,7 +1816,8 @@
       "4.11.2",
       "4.11.3",
       "4.11.5",
-      "4.11.6"
+      "4.11.6",
+      "4.11.7"
     ],
     "git": "",
     "aliases": [
