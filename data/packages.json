@@ -1739,8 +1739,8 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "5b8ffe4",
-    "version": "2.2.12",
+    "ref": "afe72d9",
+    "version": "2.2.13",
     "tags": [
       "2.2.05",
       "2.2.06",
@@ -1749,7 +1749,8 @@
       "2.2.09",
       "2.2.10",
       "2.2.11",
-      "2.2.12"
+      "2.2.12",
+      "2.2.13"
     ],
     "git": "",
     "aliases": [
