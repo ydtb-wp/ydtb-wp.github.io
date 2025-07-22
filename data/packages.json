@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "7a929c7",
-    "version": "3.30.2",
+    "ref": "3ca3cdd",
+    "version": "3.30.3",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -28,7 +28,8 @@
       "3.29.2",
       "3.30.0",
       "3.30.1",
-      "3.30.2"
+      "3.30.2",
+      "3.30.3"
     ],
     "git": "",
     "aliases": [
@@ -1072,15 +1073,16 @@
   "crocoblock/jet-blog": {
     "slug": "jet-blog",
     "vendor": "crocoblock",
-    "ref": "472869d",
-    "version": "2.4.5",
+    "ref": "131c62d",
+    "version": "2.4.5.1",
     "tags": [
       "2.4.2",
       "2.4.2.1",
       "2.4.3",
       "2.4.3.1",
       "2.4.4",
-      "2.4.5"
+      "2.4.5",
+      "2.4.5.1"
     ],
     "git": "",
     "aliases": [
@@ -1092,8 +1094,8 @@
   "crocoblock/jet-booking": {
     "slug": "jet-booking",
     "vendor": "crocoblock",
-    "ref": "a710adf",
-    "version": "3.8.0",
+    "ref": "a4c9590",
+    "version": "3.8.1",
     "tags": [
       "3.6.2",
       "3.6.3",
@@ -1104,7 +1106,8 @@
       "3.7.1.1",
       "3.7.2",
       "3.7.3",
-      "3.8.0"
+      "3.8.0",
+      "3.8.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-booking",
     "aliases": [
@@ -1116,12 +1119,13 @@
   "crocoblock/jet-compare-wishlist": {
     "slug": "jet-compare-wishlist",
     "vendor": "crocoblock",
-    "ref": "0cd3344",
-    "version": "1.5.10",
+    "ref": "ce4eb0d",
+    "version": "1.5.10.1",
     "tags": [
       "1.5.8.1",
       "1.5.9",
-      "1.5.10"
+      "1.5.10",
+      "1.5.10.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-compare-wishlist",
     "aliases": [
@@ -1253,15 +1257,16 @@
   "crocoblock/jet-woo-product-gallery": {
     "slug": "jet-woo-product-gallery",
     "vendor": "crocoblock",
-    "ref": "e476897",
-    "version": "2.2.0.1",
+    "ref": "a91453c",
+    "version": "2.2.0.2",
     "tags": [
       "2.1.20",
       "2.1.21",
       "2.1.21.1",
       "2.1.22",
       "2.1.22.1",
-      "2.2.0.1"
+      "2.2.0.1",
+      "2.2.0.2"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-product-gallery",
     "aliases": [
@@ -1572,8 +1577,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "063e135",
-    "version": "3.30.0",
+    "ref": "c3f1357",
+    "version": "3.30.1",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1595,7 +1600,8 @@
       "3.29.0",
       "3.29.1",
       "3.29.2",
-      "3.30.0"
+      "3.30.0",
+      "3.30.1"
     ],
     "git": "",
     "aliases": [
@@ -1937,8 +1943,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "dc21ab2",
-    "version": "2.9.10",
+    "ref": "3fca2b5",
+    "version": "2.9.11",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -1960,7 +1966,8 @@
       "2.8.70",
       "2.8.80",
       "2.8.90",
-      "2.9.10"
+      "2.9.10",
+      "2.9.11"
     ],
     "git": "",
     "aliases": [
@@ -3709,8 +3716,8 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "0e409bf",
-    "version": "9.6.0",
+    "ref": "aa393eb",
+    "version": "9.7.0",
     "tags": [
       "9.1.1",
       "9.2.0",
@@ -3723,7 +3730,8 @@
       "9.5.1",
       "9.5.2",
       "9.5.3",
-      "9.6.0"
+      "9.6.0",
+      "9.7.0"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -3806,8 +3814,8 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "70f9fc0",
-    "version": "5.0.27",
+    "ref": "9d835c3",
+    "version": "5.0.28",
     "tags": [
       "5.0.21",
       "5.0.22",
@@ -3815,7 +3823,8 @@
       "5.0.24",
       "5.0.25",
       "5.0.26",
-      "5.0.27"
+      "5.0.27",
+      "5.0.28"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
@@ -4062,8 +4071,8 @@
   "wpdeveloper/essential-addons-elementor": {
     "slug": "essential-addons-elementor",
     "vendor": "wpdeveloper",
-    "ref": "6d313da",
-    "version": "6.3.1",
+    "ref": "6bb5d8d",
+    "version": "6.4.1",
     "tags": [
       "6.0.13",
       "6.1.0",
@@ -4072,7 +4081,8 @@
       "6.2.1",
       "6.2.2",
       "6.3.0",
-      "6.3.1"
+      "6.3.1",
+      "6.4.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-elementor",
     "aliases": [
@@ -5407,10 +5417,11 @@
   "handyplugins/magic-login-pro": {
     "slug": "magic-login-pro",
     "vendor": "handyplugins",
-    "ref": "177f883",
-    "version": "2.5.1",
+    "ref": "91903e7",
+    "version": "2.6",
     "tags": [
-      "2.5.1"
+      "2.5.1",
+      "2.6"
     ],
     "git": "https://github.com/ydtb-wp/magic-login-pro",
     "aliases": [
