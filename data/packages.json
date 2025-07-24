@@ -1428,8 +1428,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "a734576",
-    "version": "10.0.3",
+    "ref": "f04b955",
+    "version": "10.0.4",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1446,7 +1446,8 @@
       "9.9.4",
       "9.9.5",
       "10.0.2",
-      "10.0.3"
+      "10.0.3",
+      "10.0.4"
     ],
     "git": "",
     "aliases": [
@@ -3814,8 +3815,8 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "9d835c3",
-    "version": "5.0.28",
+    "ref": "5c2f267",
+    "version": "5.0.29",
     "tags": [
       "5.0.21",
       "5.0.22",
@@ -3824,7 +3825,8 @@
       "5.0.25",
       "5.0.26",
       "5.0.27",
-      "5.0.28"
+      "5.0.28",
+      "5.0.29"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
@@ -4330,13 +4332,14 @@
   "funnelkit/wp-marketing-automations-pro": {
     "slug": "wp-marketing-automations-pro",
     "vendor": "funnelkit",
-    "ref": "d9aec94",
-    "version": "3.6.4",
+    "ref": "dee15d3",
+    "version": "3.6.5",
     "tags": [
       "3.5.2",
       "3.6.0",
       "3.6.3",
-      "3.6.4"
+      "3.6.4",
+      "3.6.5"
     ],
     "git": "https://github.com/ydtb-wp/wp-marketing-automations-pro",
     "aliases": [
