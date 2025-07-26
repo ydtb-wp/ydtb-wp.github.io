@@ -3818,8 +3818,8 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "5c2f267",
-    "version": "5.0.29",
+    "ref": "16b22ec",
+    "version": "5.0.30",
     "tags": [
       "5.0.21",
       "5.0.22",
@@ -3829,7 +3829,8 @@
       "5.0.26",
       "5.0.27",
       "5.0.28",
-      "5.0.29"
+      "5.0.29",
+      "5.0.30"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
