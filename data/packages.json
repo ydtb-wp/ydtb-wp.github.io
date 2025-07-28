@@ -4099,8 +4099,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "b897dc3",
-    "version": "5.5.3",
+    "ref": "d6d3fb8",
+    "version": "5.6.0",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4113,7 +4113,8 @@
       "5.4.1",
       "5.4.2",
       "5.5.2",
-      "5.5.3"
+      "5.5.3",
+      "5.6.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -4124,8 +4125,8 @@
   "wpdeveloper/essential-blocks-pro": {
     "slug": "essential-blocks-pro",
     "vendor": "wpdeveloper",
-    "ref": "663550b",
-    "version": "2.2.0",
+    "ref": "41bed3b",
+    "version": "2.2.1",
     "tags": [
       "1.9.9",
       "2.0.0",
@@ -4135,7 +4136,8 @@
       "2.0.4",
       "2.1.0",
       "2.1.1",
-      "2.2.0"
+      "2.2.0",
+      "2.2.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks-pro",
     "aliases": [
