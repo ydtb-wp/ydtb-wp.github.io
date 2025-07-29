@@ -3720,8 +3720,8 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "aa393eb",
-    "version": "9.7.0",
+    "ref": "f5810ff",
+    "version": "9.7.1",
     "tags": [
       "9.1.1",
       "9.2.0",
@@ -3735,7 +3735,8 @@
       "9.5.2",
       "9.5.3",
       "9.6.0",
-      "9.7.0"
+      "9.7.0",
+      "9.7.1"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -3818,8 +3819,8 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "16b22ec",
-    "version": "5.0.30",
+    "ref": "364ac39",
+    "version": "5.0.31",
     "tags": [
       "5.0.21",
       "5.0.22",
@@ -3830,7 +3831,8 @@
       "5.0.27",
       "5.0.28",
       "5.0.29",
-      "5.0.30"
+      "5.0.30",
+      "5.0.31"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
@@ -4045,8 +4047,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "b09d61c",
-    "version": "6.2.1",
+    "ref": "8968350",
+    "version": "6.2.2",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -4066,7 +4068,8 @@
       "6.1.18",
       "6.1.19",
       "6.2.0",
-      "6.2.1"
+      "6.2.1",
+      "6.2.2"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
