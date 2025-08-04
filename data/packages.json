@@ -3899,8 +3899,8 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "47c2f8a",
-    "version": "4.1.1",
+    "ref": "da607ef",
+    "version": "4.1.2",
     "tags": [
       "3.8.10",
       "3.8.11",
@@ -3913,7 +3913,8 @@
       "3.9.2",
       "3.9.3",
       "4.1.0",
-      "4.1.1"
+      "4.1.1",
+      "4.1.2"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
