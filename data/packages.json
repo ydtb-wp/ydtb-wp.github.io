@@ -1722,8 +1722,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "faeca01",
-    "version": "1.40.0",
+    "ref": "3bf8d32",
+    "version": "1.40.1",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1743,7 +1743,8 @@
       "1.39.7",
       "1.39.8",
       "1.39.9",
-      "1.40.0"
+      "1.40.0",
+      "1.40.1"
     ],
     "git": "",
     "aliases": [
