@@ -1888,15 +1888,16 @@
   "fluent/fluent-crm": {
     "slug": "fluent-crm",
     "vendor": "fluent",
-    "ref": "eda84dc",
-    "version": "2.9.60",
+    "ref": "971ff89",
+    "version": "2.9.65",
     "tags": [
       "2.9.31",
       "2.9.40",
       "2.9.45",
       "2.9.48",
       "2.9.50",
-      "2.9.60"
+      "2.9.60",
+      "2.9.65"
     ],
     "git": "",
     "aliases": [
@@ -1908,15 +1909,16 @@
   "fluent/fluentcampaign-pro": {
     "slug": "fluentcampaign-pro",
     "vendor": "fluent",
-    "ref": "45c1371",
-    "version": "2.9.60",
+    "ref": "04bbfe7",
+    "version": "2.9.65",
     "tags": [
       "2.9.31",
       "2.9.40",
       "2.9.45",
       "2.9.48",
       "2.9.50",
-      "2.9.60"
+      "2.9.60",
+      "2.9.65"
     ],
     "git": "",
     "aliases": [
@@ -4021,8 +4023,8 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "c87c43f",
-    "version": "4.2.9",
+    "ref": "49df03c",
+    "version": "4.3.0",
     "tags": [
       "4.1.10",
       "4.2.0",
@@ -4034,7 +4036,8 @@
       "4.2.6",
       "4.2.7",
       "4.2.8",
-      "4.2.9"
+      "4.2.9",
+      "4.3.0"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
@@ -4411,13 +4414,14 @@
   "funnelkit/funnel-builder-pro": {
     "slug": "funnel-builder-pro",
     "vendor": "funnelkit",
-    "ref": "659cab6",
-    "version": "3.12.0",
+    "ref": "a294783",
+    "version": "3.12.1",
     "tags": [
       "3.10.1",
       "3.10.2",
       "3.11.2",
-      "3.12.0"
+      "3.12.0",
+      "3.12.1"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder-pro",
     "aliases": [
