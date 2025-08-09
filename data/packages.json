@@ -1194,13 +1194,14 @@
   "crocoblock/jet-engine-dynamic-tables-module": {
     "slug": "jet-engine-dynamic-tables-module",
     "vendor": "crocoblock",
-    "ref": "e33659e",
-    "version": "1.0.13",
+    "ref": "e8e13b8",
+    "version": "1.0.14",
     "tags": [
       "1.0.8",
       "1.0.11",
       "1.0.12",
-      "1.0.13"
+      "1.0.13",
+      "1.0.14"
     ],
     "git": "https://github.com/ydtb-wp/jet-engine-dynamic-tables-module",
     "aliases": [
@@ -3833,8 +3834,8 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "979f268",
-    "version": "5.0.32",
+    "ref": "9df45eb",
+    "version": "5.0.33",
     "tags": [
       "5.0.21",
       "5.0.22",
@@ -3847,7 +3848,8 @@
       "5.0.29",
       "5.0.30",
       "5.0.31",
-      "5.0.32"
+      "5.0.32",
+      "5.0.33"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
