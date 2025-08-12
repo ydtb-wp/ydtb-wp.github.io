@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "2599b46",
-    "version": "3.31.1",
+    "ref": "c263e0b",
+    "version": "3.31.2",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -32,7 +32,8 @@
       "3.30.3",
       "3.30.4",
       "3.31.0",
-      "3.31.1"
+      "3.31.1",
+      "3.31.2"
     ],
     "git": "",
     "aliases": [
@@ -1479,8 +1480,8 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "3b050f4",
-    "version": "4.11.6",
+    "ref": "badeac8",
+    "version": "4.11.7",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1500,7 +1501,8 @@
       "4.11.2",
       "4.11.4",
       "4.11.5",
-      "4.11.6"
+      "4.11.6",
+      "4.11.7"
     ],
     "git": "",
     "aliases": [
@@ -1822,8 +1824,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "db26a7c",
-    "version": "4.11.8",
+    "ref": "b5ab64a",
+    "version": "4.11.9",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1841,7 +1843,8 @@
       "4.11.5",
       "4.11.6",
       "4.11.7",
-      "4.11.8"
+      "4.11.8",
+      "4.11.9"
     ],
     "git": "",
     "aliases": [
@@ -3985,8 +3988,8 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "2f4c2f3",
-    "version": "1.4.1",
+    "ref": "9019165",
+    "version": "1.4.2",
     "tags": [
       "1.2.10",
       "1.2.11",
@@ -3996,7 +3999,8 @@
       "1.3.1",
       "1.3.2",
       "1.4.0",
-      "1.4.1"
+      "1.4.1",
+      "1.4.2"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
