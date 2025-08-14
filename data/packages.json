@@ -1669,8 +1669,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "13341d4",
-    "version": "4.4.34",
+    "ref": "95e4962",
+    "version": "4.4.35",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1694,7 +1694,8 @@
       "4.4.30",
       "4.4.32",
       "4.4.33",
-      "4.4.34"
+      "4.4.34",
+      "4.4.35"
     ],
     "git": "",
     "aliases": [
@@ -4075,8 +4076,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "8968350",
-    "version": "6.2.2",
+    "ref": "26950f5",
+    "version": "6.2.3",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -4097,7 +4098,8 @@
       "6.1.19",
       "6.2.0",
       "6.2.1",
-      "6.2.2"
+      "6.2.2",
+      "6.2.3"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
