@@ -4076,8 +4076,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "26950f5",
-    "version": "6.2.3",
+    "ref": "04ee8a6",
+    "version": "6.2.4",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -4099,7 +4099,8 @@
       "6.2.0",
       "6.2.1",
       "6.2.2",
-      "6.2.3"
+      "6.2.3",
+      "6.2.4"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -4255,8 +4256,8 @@
   "wpdeveloper/templately": {
     "slug": "templately",
     "vendor": "wpdeveloper",
-    "ref": "be73434",
-    "version": "3.3.1",
+    "ref": "7fbe938",
+    "version": "3.3.2",
     "tags": [
       "3.2.1",
       "3.2.2",
@@ -4267,7 +4268,8 @@
       "3.2.7",
       "3.2.8",
       "3.3.0",
-      "3.3.1"
+      "3.3.1",
+      "3.3.2"
     ],
     "git": "https://github.com/ydtb-wp/templately",
     "aliases": [
