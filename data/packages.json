@@ -3743,8 +3743,8 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "3dd34b9",
-    "version": "9.8.0",
+    "ref": "fbdfc00",
+    "version": "9.8.1",
     "tags": [
       "9.1.1",
       "9.2.0",
@@ -3760,7 +3760,8 @@
       "9.6.0",
       "9.7.0",
       "9.7.1",
-      "9.8.0"
+      "9.8.0",
+      "9.8.1"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
