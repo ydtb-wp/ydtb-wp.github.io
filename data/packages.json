@@ -4225,8 +4225,8 @@
   "wpdeveloper/wp-scheduled-posts": {
     "slug": "wp-scheduled-posts",
     "vendor": "wpdeveloper",
-    "ref": "03c71f9",
-    "version": "5.2.8",
+    "ref": "91f7548",
+    "version": "5.2.9",
     "tags": [
       "5.2.2",
       "5.2.3",
@@ -4234,7 +4234,8 @@
       "5.2.5",
       "5.2.6",
       "5.2.7",
-      "5.2.8"
+      "5.2.8",
+      "5.2.9"
     ],
     "git": "https://github.com/ydtb-wp/wp-scheduled-posts",
     "aliases": [
