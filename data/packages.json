@@ -4106,8 +4106,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "04ee8a6",
-    "version": "6.2.4",
+    "ref": "bc14367",
+    "version": "6.3.0",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -4130,7 +4130,8 @@
       "6.2.1",
       "6.2.2",
       "6.2.3",
-      "6.2.4"
+      "6.2.4",
+      "6.3.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
