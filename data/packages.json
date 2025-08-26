@@ -1687,8 +1687,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "95e4962",
-    "version": "4.4.35",
+    "ref": "a794ee3",
+    "version": "4.4.36",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1713,7 +1713,8 @@
       "4.4.32",
       "4.4.33",
       "4.4.34",
-      "4.4.35"
+      "4.4.35",
+      "4.4.36"
     ],
     "git": "",
     "aliases": [
@@ -4255,8 +4256,8 @@
   "wpdeveloper/wp-scheduled-posts": {
     "slug": "wp-scheduled-posts",
     "vendor": "wpdeveloper",
-    "ref": "91f7548",
-    "version": "5.2.9",
+    "ref": "f27475c",
+    "version": "5.2.10",
     "tags": [
       "5.2.2",
       "5.2.3",
@@ -4265,7 +4266,8 @@
       "5.2.6",
       "5.2.7",
       "5.2.8",
-      "5.2.9"
+      "5.2.9",
+      "5.2.10"
     ],
     "git": "https://github.com/ydtb-wp/wp-scheduled-posts",
     "aliases": [
@@ -4499,8 +4501,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "861e65e",
-    "version": "7.5.0",
+    "ref": "c35ade7",
+    "version": "7.5.1",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4520,7 +4522,8 @@
       "7.4.5",
       "7.4.6",
       "7.4.9",
-      "7.5.0"
+      "7.5.0",
+      "7.5.1"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
