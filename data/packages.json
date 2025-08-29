@@ -3827,11 +3827,12 @@
   "fluent/fluent-smtp": {
     "slug": "fluent-smtp",
     "vendor": "fluent",
-    "ref": "8b7a646",
-    "version": "2.2.90",
+    "ref": "7869873",
+    "version": "2.2.92",
     "tags": [
       "2.2.83",
-      "2.2.90"
+      "2.2.90",
+      "2.2.92"
     ],
     "git": "",
     "aliases": [
