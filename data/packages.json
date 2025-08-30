@@ -2093,8 +2093,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "03db24f",
-    "version": "5.3.6",
+    "ref": "7871ef0",
+    "version": "5.3.7",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2121,7 +2121,8 @@
       "5.3.3",
       "5.3.4",
       "5.3.5",
-      "5.3.6"
+      "5.3.6",
+      "5.3.7"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -3803,8 +3804,8 @@
   "fluent/fluentform": {
     "slug": "fluentform",
     "vendor": "fluent",
-    "ref": "fdab6f1",
-    "version": "6.1.1",
+    "ref": "74ac3f6",
+    "version": "6.1.2",
     "tags": [
       "5.2.10",
       "5.2.11",
@@ -3815,7 +3816,8 @@
       "6.0.3",
       "6.0.4",
       "6.1.0",
-      "6.1.1"
+      "6.1.1",
+      "6.1.2"
     ],
     "git": "",
     "aliases": [
