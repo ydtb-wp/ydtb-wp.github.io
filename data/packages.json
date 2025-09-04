@@ -46,8 +46,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "81c7b87",
-    "version": "4.25.0",
+    "ref": "7c707c8",
+    "version": "4.25.1",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -73,7 +73,8 @@
       "4.23.2",
       "4.23.2.1",
       "4.24.0",
-      "4.25.0"
+      "4.25.0",
+      "4.25.1"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -2094,8 +2095,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "7871ef0",
-    "version": "5.3.7",
+    "ref": "ed6db1f",
+    "version": "5.3.8",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2123,7 +2124,8 @@
       "5.3.4",
       "5.3.5",
       "5.3.6",
-      "5.3.7"
+      "5.3.7",
+      "5.3.8"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -4039,8 +4041,8 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "9019165",
-    "version": "1.4.2",
+    "ref": "0f0ec38",
+    "version": "1.4.3",
     "tags": [
       "1.2.10",
       "1.2.11",
@@ -4051,7 +4053,8 @@
       "1.3.2",
       "1.4.0",
       "1.4.1",
-      "1.4.2"
+      "1.4.2",
+      "1.4.3"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
