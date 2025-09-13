@@ -1694,8 +1694,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "cf1c187",
-    "version": "4.4.37",
+    "ref": "019e914",
+    "version": "4.4.38",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1722,7 +1722,8 @@
       "4.4.34",
       "4.4.35",
       "4.4.36",
-      "4.4.37"
+      "4.4.37",
+      "4.4.38"
     ],
     "git": "",
     "aliases": [
@@ -1795,8 +1796,8 @@
   "wparmour/honeypot": {
     "slug": "honeypot",
     "vendor": "wparmour",
-    "ref": "bacadbf",
-    "version": "2.2.14",
+    "ref": "b19d103",
+    "version": "2.3.02",
     "tags": [
       "2.2.05",
       "2.2.06",
@@ -1807,7 +1808,8 @@
       "2.2.11",
       "2.2.12",
       "2.2.13",
-      "2.2.14"
+      "2.2.14",
+      "2.3.02"
     ],
     "git": "",
     "aliases": [
