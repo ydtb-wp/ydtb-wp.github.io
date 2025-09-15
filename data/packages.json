@@ -4202,8 +4202,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "cd38412",
-    "version": "5.6.3",
+    "ref": "96d39ad",
+    "version": "5.6.4",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4219,7 +4219,8 @@
       "5.5.3",
       "5.6.0",
       "5.6.2",
-      "5.6.3"
+      "5.6.3",
+      "5.6.4"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
