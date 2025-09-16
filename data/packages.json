@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "abaffab",
-    "version": "3.31.5",
+    "ref": "26a9da2",
+    "version": "3.32.0",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -36,7 +36,8 @@
       "3.31.2",
       "3.31.3",
       "3.31.4",
-      "3.31.5"
+      "3.31.5",
+      "3.32.0"
     ],
     "git": "",
     "aliases": [
@@ -48,8 +49,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "7c707c8",
-    "version": "4.25.1",
+    "ref": "e81f4b1",
+    "version": "4.25.2",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -76,7 +77,8 @@
       "4.23.2.1",
       "4.24.0",
       "4.25.0",
-      "4.25.1"
+      "4.25.1",
+      "4.25.2"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -1760,8 +1762,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "228a46d",
-    "version": "1.40.3",
+    "ref": "d272762",
+    "version": "1.40.4",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1784,7 +1786,8 @@
       "1.40.0",
       "1.40.1",
       "1.40.2",
-      "1.40.3"
+      "1.40.3",
+      "1.40.4"
     ],
     "git": "",
     "aliases": [
@@ -4100,8 +4103,8 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "50c6296",
-    "version": "4.3.1",
+    "ref": "facef18",
+    "version": "4.4.0",
     "tags": [
       "4.1.10",
       "4.2.0",
@@ -4115,7 +4118,8 @@
       "4.2.8",
       "4.2.9",
       "4.3.0",
-      "4.3.1"
+      "4.3.1",
+      "4.4.0"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
