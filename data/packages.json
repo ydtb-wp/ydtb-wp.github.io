@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "26a9da2",
-    "version": "3.32.0",
+    "ref": "a90d4f5",
+    "version": "3.32.1",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -37,7 +37,8 @@
       "3.31.3",
       "3.31.4",
       "3.31.5",
-      "3.32.0"
+      "3.32.0",
+      "3.32.1"
     ],
     "git": "",
     "aliases": [
@@ -1862,8 +1863,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "856fe2c",
-    "version": "4.11.11",
+    "ref": "aad60cc",
+    "version": "4.11.12",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1884,7 +1885,8 @@
       "4.11.8",
       "4.11.9",
       "4.11.10",
-      "4.11.11"
+      "4.11.11",
+      "4.11.12"
     ],
     "git": "",
     "aliases": [
