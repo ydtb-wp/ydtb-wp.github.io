@@ -3795,8 +3795,8 @@
   "woo/woocommerce-gateway-stripe": {
     "slug": "woocommerce-gateway-stripe",
     "vendor": "woo",
-    "ref": "0f0c153",
-    "version": "9.9.0",
+    "ref": "7c6be77",
+    "version": "9.9.1",
     "tags": [
       "9.1.1",
       "9.2.0",
@@ -3814,7 +3814,8 @@
       "9.7.1",
       "9.8.0",
       "9.8.1",
-      "9.9.0"
+      "9.9.0",
+      "9.9.1"
     ],
     "git": "https://github.com/ydtb-wp/woocommerce-gateway-stripe",
     "aliases": [
@@ -4105,8 +4106,8 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "facef18",
-    "version": "4.4.0",
+    "ref": "45813e2",
+    "version": "4.4.1",
     "tags": [
       "4.1.10",
       "4.2.0",
@@ -4121,7 +4122,8 @@
       "4.2.9",
       "4.3.0",
       "4.3.1",
-      "4.4.0"
+      "4.4.0",
+      "4.4.1"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
