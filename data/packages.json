@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "a90d4f5",
-    "version": "3.32.1",
+    "ref": "3f34ca9",
+    "version": "3.32.2",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -38,7 +38,8 @@
       "3.31.4",
       "3.31.5",
       "3.32.0",
-      "3.32.1"
+      "3.32.1",
+      "3.32.2"
     ],
     "git": "",
     "aliases": [
@@ -3903,8 +3904,8 @@
   "wpchill/download-monitor": {
     "slug": "download-monitor",
     "vendor": "wpchill",
-    "ref": "1fadce4",
-    "version": "5.1.2",
+    "ref": "805ca52",
+    "version": "5.1.3",
     "tags": [
       "5.0.21",
       "5.0.22",
@@ -3921,7 +3922,8 @@
       "5.0.33",
       "5.1.0",
       "5.1.1",
-      "5.1.2"
+      "5.1.2",
+      "5.1.3"
     ],
     "git": "https://github.com/ydtb-wp/download-monitor",
     "aliases": [
@@ -4150,8 +4152,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "07897df",
-    "version": "6.3.1",
+    "ref": "e1193ac",
+    "version": "6.3.2",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -4176,7 +4178,8 @@
       "6.2.3",
       "6.2.4",
       "6.3.0",
-      "6.3.1"
+      "6.3.1",
+      "6.3.2"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
