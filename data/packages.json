@@ -1826,14 +1826,15 @@
   "wparmour/wp-armour-extended": {
     "slug": "wp-armour-extended",
     "vendor": "wparmour",
-    "ref": "a85228d",
-    "version": "1.39",
+    "ref": "f057ded",
+    "version": "1.40",
     "tags": [
       "1.35",
       "1.36",
       "1.37",
       "1.38",
-      "1.39"
+      "1.39",
+      "1.40"
     ],
     "git": "",
     "aliases": [
@@ -2111,8 +2112,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "a5d09be",
-    "version": "5.3.9",
+    "ref": "04d9368",
+    "version": "5.4.0",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2142,7 +2143,8 @@
       "5.3.6",
       "5.3.7",
       "5.3.8",
-      "5.3.9"
+      "5.3.9",
+      "5.4.0"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -4554,8 +4556,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "c35ade7",
-    "version": "7.5.1",
+    "ref": "f7aca1a",
+    "version": "7.5.2",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4576,7 +4578,8 @@
       "7.4.6",
       "7.4.9",
       "7.5.0",
-      "7.5.1"
+      "7.5.1",
+      "7.5.2"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
