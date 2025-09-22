@@ -4038,11 +4038,12 @@
   "wpdeveloper/betterlinks": {
     "slug": "betterlinks",
     "vendor": "wpdeveloper",
-    "ref": "2cce9b6",
-    "version": "2.3.0",
+    "ref": "7b3a3ca",
+    "version": "2.3.1",
     "tags": [
       "2.2.2",
-      "2.3.0"
+      "2.3.0",
+      "2.3.1"
     ],
     "git": "https://github.com/ydtb-wp/betterlinks",
     "aliases": [
@@ -4215,8 +4216,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "96d39ad",
-    "version": "5.6.4",
+    "ref": "d836a1c",
+    "version": "5.7.0",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4233,7 +4234,8 @@
       "5.6.0",
       "5.6.2",
       "5.6.3",
-      "5.6.4"
+      "5.6.4",
+      "5.7.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -4244,8 +4246,8 @@
   "wpdeveloper/essential-blocks-pro": {
     "slug": "essential-blocks-pro",
     "vendor": "wpdeveloper",
-    "ref": "74debfc",
-    "version": "2.4.0",
+    "ref": "e15841c",
+    "version": "2.5.0",
     "tags": [
       "1.9.9",
       "2.0.0",
@@ -4258,7 +4260,8 @@
       "2.2.0",
       "2.2.1",
       "2.3.0",
-      "2.4.0"
+      "2.4.0",
+      "2.5.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks-pro",
     "aliases": [
@@ -4310,8 +4313,8 @@
   "wpdeveloper/wp-scheduled-posts": {
     "slug": "wp-scheduled-posts",
     "vendor": "wpdeveloper",
-    "ref": "f27475c",
-    "version": "5.2.10",
+    "ref": "2c66f0f",
+    "version": "5.2.11",
     "tags": [
       "5.2.2",
       "5.2.3",
@@ -4321,7 +4324,8 @@
       "5.2.7",
       "5.2.8",
       "5.2.9",
-      "5.2.10"
+      "5.2.10",
+      "5.2.11"
     ],
     "git": "https://github.com/ydtb-wp/wp-scheduled-posts",
     "aliases": [
