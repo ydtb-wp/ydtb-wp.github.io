@@ -764,12 +764,13 @@
   "learndash/learndash-elementor": {
     "slug": "learndash-elementor",
     "vendor": "learndash",
-    "ref": "90a34f9",
-    "version": "1.0.10",
+    "ref": "cd412ab",
+    "version": "1.0.11",
     "tags": [
       "1.0.9.1",
       "1.0.9.2",
-      "1.0.10"
+      "1.0.10",
+      "1.0.11"
     ],
     "git": "",
     "aliases": [
@@ -954,10 +955,11 @@
   "learndash/ld-tec": {
     "slug": "ld-tec",
     "vendor": "learndash",
-    "ref": "aa8d1ef",
-    "version": "1.0.2",
+    "ref": "734d422",
+    "version": "1.0.2.1",
     "tags": [
-      "1.0.2"
+      "1.0.2",
+      "1.0.2.1"
     ],
     "git": "",
     "aliases": [
@@ -1050,8 +1052,8 @@
   "crocoblock/jet-appointments-booking": {
     "slug": "jet-appointments-booking",
     "vendor": "crocoblock",
-    "ref": "644e9e0",
-    "version": "2.2.1",
+    "ref": "1abfbac",
+    "version": "2.2.3",
     "tags": [
       "2.1.3",
       "2.1.4",
@@ -1059,7 +1061,8 @@
       "2.1.6",
       "2.1.7",
       "2.1.8",
-      "2.2.1"
+      "2.2.1",
+      "2.2.3"
     ],
     "git": "https://github.com/ydtb-wp/jet-appointments-booking",
     "aliases": [
@@ -1071,15 +1074,16 @@
   "crocoblock/jet-blocks": {
     "slug": "jet-blocks",
     "vendor": "crocoblock",
-    "ref": "a584ce2",
-    "version": "1.3.19.1",
+    "ref": "d956a30",
+    "version": "1.3.20.1",
     "tags": [
       "1.3.16",
       "1.3.16.1",
       "1.3.17",
       "1.3.18",
       "1.3.19",
-      "1.3.19.1"
+      "1.3.19.1",
+      "1.3.20.1"
     ],
     "git": "",
     "aliases": [
@@ -1091,8 +1095,8 @@
   "crocoblock/jet-blog": {
     "slug": "jet-blog",
     "vendor": "crocoblock",
-    "ref": "131c62d",
-    "version": "2.4.5.1",
+    "ref": "2ae6692",
+    "version": "2.4.6",
     "tags": [
       "2.4.2",
       "2.4.2.1",
@@ -1100,7 +1104,8 @@
       "2.4.3.1",
       "2.4.4",
       "2.4.5",
-      "2.4.5.1"
+      "2.4.5.1",
+      "2.4.6"
     ],
     "git": "",
     "aliases": [
@@ -1112,8 +1117,8 @@
   "crocoblock/jet-booking": {
     "slug": "jet-booking",
     "vendor": "crocoblock",
-    "ref": "74f113a",
-    "version": "3.8.3",
+    "ref": "578ea00",
+    "version": "3.8.5",
     "tags": [
       "3.6.2",
       "3.6.3",
@@ -1126,7 +1131,8 @@
       "3.7.3",
       "3.8.0",
       "3.8.1",
-      "3.8.3"
+      "3.8.3",
+      "3.8.5"
     ],
     "git": "https://github.com/ydtb-wp/jet-booking",
     "aliases": [
@@ -1138,14 +1144,15 @@
   "crocoblock/jet-compare-wishlist": {
     "slug": "jet-compare-wishlist",
     "vendor": "crocoblock",
-    "ref": "35df9e8",
-    "version": "1.5.12.1",
+    "ref": "e7c04ad",
+    "version": "1.5.12.2",
     "tags": [
       "1.5.8.1",
       "1.5.9",
       "1.5.10",
       "1.5.10.1",
-      "1.5.12.1"
+      "1.5.12.1",
+      "1.5.12.2"
     ],
     "git": "https://github.com/ydtb-wp/jet-compare-wishlist",
     "aliases": [
@@ -1157,8 +1164,8 @@
   "crocoblock/jet-elements": {
     "slug": "jet-elements",
     "vendor": "crocoblock",
-    "ref": "6fc5596",
-    "version": "2.7.9.1",
+    "ref": "2fcf8c6",
+    "version": "2.7.11",
     "tags": [
       "2.7.2.1",
       "2.7.3",
@@ -1171,7 +1178,8 @@
       "2.7.7",
       "2.7.8",
       "2.7.8.1",
-      "2.7.9.1"
+      "2.7.9.1",
+      "2.7.11"
     ],
     "git": "",
     "aliases": [
@@ -1183,8 +1191,8 @@
   "crocoblock/jet-engine": {
     "slug": "jet-engine",
     "vendor": "crocoblock",
-    "ref": "5d7c43d",
-    "version": "3.7.3",
+    "ref": "49c8b47",
+    "version": "3.7.6",
     "tags": [
       "3.6.1.2",
       "3.6.2",
@@ -1200,7 +1208,8 @@
       "3.7.1",
       "3.7.1.1",
       "3.7.2",
-      "3.7.3"
+      "3.7.3",
+      "3.7.6"
     ],
     "git": "https://github.com/ydtb-wp/jet-engine",
     "aliases": [
@@ -1231,8 +1240,8 @@
   "crocoblock/jet-menu": {
     "slug": "jet-menu",
     "vendor": "crocoblock",
-    "ref": "41275a3",
-    "version": "2.4.13",
+    "ref": "0f6c2fe",
+    "version": "2.4.15",
     "tags": [
       "2.4.7",
       "2.4.7.1",
@@ -1245,7 +1254,8 @@
       "2.4.11.1",
       "2.4.11.2",
       "2.4.12",
-      "2.4.13"
+      "2.4.13",
+      "2.4.15"
     ],
     "git": "",
     "aliases": [
@@ -1257,8 +1267,8 @@
   "crocoblock/jet-popup": {
     "slug": "jet-popup",
     "vendor": "crocoblock",
-    "ref": "7354414",
-    "version": "2.0.17.1",
+    "ref": "99314c6",
+    "version": "2.0.18",
     "tags": [
       "2.0.9",
       "2.0.10",
@@ -1270,7 +1280,8 @@
       "2.0.15",
       "2.0.15.1",
       "2.0.16",
-      "2.0.17.1"
+      "2.0.17.1",
+      "2.0.18"
     ],
     "git": "https://github.com/ydtb-wp/jet-popup",
     "aliases": [
@@ -1282,8 +1293,8 @@
   "crocoblock/jet-woo-product-gallery": {
     "slug": "jet-woo-product-gallery",
     "vendor": "crocoblock",
-    "ref": "46294ff",
-    "version": "2.2.1",
+    "ref": "1319422",
+    "version": "2.2.2",
     "tags": [
       "2.1.20",
       "2.1.21",
@@ -1292,7 +1303,8 @@
       "2.1.22.1",
       "2.2.0.1",
       "2.2.0.2",
-      "2.2.1"
+      "2.2.1",
+      "2.2.2"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-product-gallery",
     "aliases": [
@@ -1322,8 +1334,8 @@
   "crocoblock/jet-search": {
     "slug": "jet-search",
     "vendor": "crocoblock",
-    "ref": "0407823",
-    "version": "3.5.12",
+    "ref": "c849f7c",
+    "version": "3.5.13",
     "tags": [
       "3.5.5.1",
       "3.5.6",
@@ -1333,7 +1345,8 @@
       "3.5.9",
       "3.5.10",
       "3.5.11",
-      "3.5.12"
+      "3.5.12",
+      "3.5.13"
     ],
     "git": "https://github.com/ydtb-wp/jet-search",
     "aliases": [
@@ -1345,8 +1358,8 @@
   "crocoblock/jet-smart-filters": {
     "slug": "jet-smart-filters",
     "vendor": "crocoblock",
-    "ref": "9c39204",
-    "version": "3.6.9",
+    "ref": "00c6b98",
+    "version": "3.6.10",
     "tags": [
       "3.6.0.1",
       "3.6.1",
@@ -1359,7 +1372,8 @@
       "3.6.7",
       "3.6.7.1",
       "3.6.8.1",
-      "3.6.9"
+      "3.6.9",
+      "3.6.10"
     ],
     "git": "https://github.com/ydtb-wp/jet-smart-filters",
     "aliases": [
@@ -1412,8 +1426,8 @@
   "crocoblock/jet-tricks": {
     "slug": "jet-tricks",
     "vendor": "crocoblock",
-    "ref": "b6d592a",
-    "version": "1.5.6",
+    "ref": "6c9381f",
+    "version": "1.5.7",
     "tags": [
       "1.4.10",
       "1.5.0",
@@ -1424,7 +1438,8 @@
       "1.5.4",
       "1.5.4.2",
       "1.5.5.1",
-      "1.5.6"
+      "1.5.6",
+      "1.5.7"
     ],
     "git": "",
     "aliases": [
@@ -1436,8 +1451,8 @@
   "crocoblock/jet-woo-builder": {
     "slug": "jet-woo-builder",
     "vendor": "crocoblock",
-    "ref": "4fc728c",
-    "version": "2.2.0",
+    "ref": "6bd1082",
+    "version": "2.2.1.1",
     "tags": [
       "2.1.16",
       "2.1.16.1",
@@ -1447,7 +1462,8 @@
       "2.1.19",
       "2.1.20",
       "2.1.20.1",
-      "2.2.0"
+      "2.2.0",
+      "2.2.1.1"
     ],
     "git": "https://github.com/ydtb-wp/jet-woo-builder",
     "aliases": [
@@ -1617,8 +1633,8 @@
   "elementor/elementor-pro": {
     "slug": "elementor-pro",
     "vendor": "elementor",
-    "ref": "c85b53a",
-    "version": "3.31.2",
+    "ref": "2822c6e",
+    "version": "3.32.1",
     "tags": [
       "3.25.4",
       "3.26.1",
@@ -1642,7 +1658,8 @@
       "3.29.2",
       "3.30.0",
       "3.30.1",
-      "3.31.2"
+      "3.31.2",
+      "3.32.1"
     ],
     "git": "",
     "aliases": [
@@ -1979,8 +1996,8 @@
   "yoast/wordpress-seo": {
     "slug": "wordpress-seo",
     "vendor": "yoast",
-    "ref": "428368c",
-    "version": "25.9",
+    "ref": "ebc0333",
+    "version": "26.0",
     "tags": [
       "24.2",
       "24.4",
@@ -2000,7 +2017,8 @@
       "25.6",
       "25.7",
       "25.8",
-      "25.9"
+      "25.9",
+      "26.0"
     ],
     "git": "",
     "aliases": [
@@ -2012,8 +2030,8 @@
   "buddyboss/buddyboss-platform": {
     "slug": "buddyboss-platform",
     "vendor": "buddyboss",
-    "ref": "8da333c",
-    "version": "2.10.0",
+    "ref": "339cb84",
+    "version": "2.13.0",
     "tags": [
       "2.7.40",
       "2.7.50",
@@ -2037,7 +2055,8 @@
       "2.8.90",
       "2.9.10",
       "2.9.11",
-      "2.10.0"
+      "2.10.0",
+      "2.13.0"
     ],
     "git": "",
     "aliases": [
@@ -2049,8 +2068,8 @@
   "buddyboss/buddyboss-platform-pro": {
     "slug": "buddyboss-platform-pro",
     "vendor": "buddyboss",
-    "ref": "1c310f4",
-    "version": "2.8.0",
+    "ref": "bdf40de",
+    "version": "2.9.0",
     "tags": [
       "2.6.31",
       "2.6.40",
@@ -2068,7 +2087,8 @@
       "2.7.30",
       "2.7.40",
       "2.7.50",
-      "2.8.0"
+      "2.8.0",
+      "2.9.0"
     ],
     "git": "",
     "aliases": [
@@ -2113,8 +2133,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "04d9368",
-    "version": "5.4.0",
+    "ref": "4ed6397",
+    "version": "5.4.1",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2145,7 +2165,8 @@
       "5.3.7",
       "5.3.8",
       "5.3.9",
-      "5.4.0"
+      "5.4.0",
+      "5.4.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -2156,11 +2177,12 @@
   "autowp/automatorwp-activecampaign": {
     "slug": "automatorwp-activecampaign",
     "vendor": "autowp",
-    "ref": "98ac53c",
-    "version": "1.1.0",
+    "ref": "f8f6915",
+    "version": "1.1.1",
     "tags": [
       "1.0.8",
-      "1.1.0"
+      "1.1.0",
+      "1.1.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-activecampaign",
     "aliases": [
@@ -2412,10 +2434,11 @@
   "autowp/automatorwp-clickup": {
     "slug": "automatorwp-clickup",
     "vendor": "autowp",
-    "ref": "82398b3",
-    "version": "1.0.1",
+    "ref": "7d5417e",
+    "version": "1.0.2",
     "tags": [
-      "1.0.1"
+      "1.0.1",
+      "1.0.2"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-clickup",
     "aliases": [
@@ -2440,11 +2463,12 @@
   "autowp/automatorwp-convertkit": {
     "slug": "automatorwp-convertkit",
     "vendor": "autowp",
-    "ref": "4a9e83c",
-    "version": "1.0.1",
+    "ref": "0a990d4",
+    "version": "1.0.2",
     "tags": [
       "1.0.0",
-      "1.0.1"
+      "1.0.1",
+      "1.0.2"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-convertkit",
     "aliases": [
@@ -2992,10 +3016,11 @@
   "autowp/automatorwp-mailchimp": {
     "slug": "automatorwp-mailchimp",
     "vendor": "autowp",
-    "ref": "79b50b0",
-    "version": "1.0.6",
+    "ref": "76dd101",
+    "version": "1.0.7",
     "tags": [
-      "1.0.6"
+      "1.0.6",
+      "1.0.7"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-mailchimp",
     "aliases": [
@@ -3320,10 +3345,11 @@
   "autowp/automatorwp-thrive-apprentice": {
     "slug": "automatorwp-thrive-apprentice",
     "vendor": "autowp",
-    "ref": "21f828c",
-    "version": "1.0.0",
+    "ref": "4a48e86",
+    "version": "1.0.1",
     "tags": [
-      "1.0.0"
+      "1.0.0",
+      "1.0.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-thrive-apprentice",
     "aliases": [
@@ -3734,10 +3760,11 @@
   "autowp/automatorwp-zoom": {
     "slug": "automatorwp-zoom",
     "vendor": "autowp",
-    "ref": "630ed5d",
-    "version": "1.0.5",
+    "ref": "0914b81",
+    "version": "1.0.6",
     "tags": [
-      "1.0.5"
+      "1.0.5",
+      "1.0.6"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-zoom",
     "aliases": [
@@ -3748,8 +3775,8 @@
   "autowp/automatorwp-pro": {
     "slug": "automatorwp-pro",
     "vendor": "autowp",
-    "ref": "58b5b3f",
-    "version": "4.6.4",
+    "ref": "1a87da8",
+    "version": "4.6.8",
     "tags": [
       "4.4.0",
       "4.4.1",
@@ -3769,7 +3796,8 @@
       "4.5.7",
       "4.5.8",
       "4.5.9",
-      "4.6.4"
+      "4.6.4",
+      "4.6.8"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp-pro",
     "aliases": [
@@ -3830,8 +3858,8 @@
   "fluent/fluentform": {
     "slug": "fluentform",
     "vendor": "fluent",
-    "ref": "74ac3f6",
-    "version": "6.1.2",
+    "ref": "3d41b2d",
+    "version": "6.1.4",
     "tags": [
       "5.2.10",
       "5.2.11",
@@ -3843,7 +3871,8 @@
       "6.0.4",
       "6.1.0",
       "6.1.1",
-      "6.1.2"
+      "6.1.2",
+      "6.1.4"
     ],
     "git": "",
     "aliases": [
@@ -4055,11 +4084,12 @@
   "wpdeveloper/betterlinks-pro": {
     "slug": "betterlinks-pro",
     "vendor": "wpdeveloper",
-    "ref": "42d6325",
-    "version": "2.2.4",
+    "ref": "6609abd",
+    "version": "2.3.2",
     "tags": [
       "2.2.3",
-      "2.2.4"
+      "2.2.4",
+      "2.3.2"
     ],
     "git": "https://github.com/ydtb-wp/betterlinks-pro",
     "aliases": [
@@ -4194,8 +4224,8 @@
   "wpdeveloper/essential-addons-elementor": {
     "slug": "essential-addons-elementor",
     "vendor": "wpdeveloper",
-    "ref": "b2cbb31",
-    "version": "6.4.3",
+    "ref": "ca490b0",
+    "version": "6.6.1",
     "tags": [
       "6.0.13",
       "6.1.0",
@@ -4206,7 +4236,8 @@
       "6.3.0",
       "6.3.1",
       "6.4.1",
-      "6.4.3"
+      "6.4.3",
+      "6.6.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-elementor",
     "aliases": [
@@ -4352,8 +4383,8 @@
   "wpdeveloper/templately": {
     "slug": "templately",
     "vendor": "wpdeveloper",
-    "ref": "d4f0ce2",
-    "version": "3.3.3",
+    "ref": "76a1704",
+    "version": "3.4.0",
     "tags": [
       "3.2.1",
       "3.2.2",
@@ -4366,7 +4397,8 @@
       "3.3.0",
       "3.3.1",
       "3.3.2",
-      "3.3.3"
+      "3.3.3",
+      "3.4.0"
     ],
     "git": "https://github.com/ydtb-wp/templately",
     "aliases": [
@@ -4561,8 +4593,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "f7aca1a",
-    "version": "7.5.2",
+    "ref": "9a0fe6b",
+    "version": "7.5.3",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4584,7 +4616,8 @@
       "7.4.9",
       "7.5.0",
       "7.5.1",
-      "7.5.2"
+      "7.5.2",
+      "7.5.3"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
@@ -4941,10 +4974,11 @@
   "gamipress/gamipress-frontend-reports": {
     "slug": "gamipress-frontend-reports",
     "vendor": "gamipress",
-    "ref": "f6f2990",
-    "version": "1.0.5",
+    "ref": "e9ac62c",
+    "version": "1.0.7",
     "tags": [
-      "1.0.5"
+      "1.0.5",
+      "1.0.7"
     ],
     "git": "https://github.com/ydtb-wp/gamipress-frontend-reports",
     "aliases": [
@@ -4969,10 +5003,11 @@
   "gamipress/gamipress-leaderboards": {
     "slug": "gamipress-leaderboards",
     "vendor": "gamipress",
-    "ref": "5a9e36c",
-    "version": "1.4.9",
+    "ref": "cdc2d3d",
+    "version": "1.5.1",
     "tags": [
-      "1.4.9"
+      "1.4.9",
+      "1.5.1"
     ],
     "git": "https://github.com/ydtb-wp/gamipress-leaderboards",
     "aliases": [
