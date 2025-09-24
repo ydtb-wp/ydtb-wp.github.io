@@ -2133,8 +2133,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "4ed6397",
-    "version": "5.4.1",
+    "ref": "d125ef5",
+    "version": "5.4.2",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2166,7 +2166,8 @@
       "5.3.8",
       "5.3.9",
       "5.4.0",
-      "5.4.1"
+      "5.4.1",
+      "5.4.2"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -4142,8 +4143,8 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "45813e2",
-    "version": "4.4.1",
+    "ref": "bb74534",
+    "version": "4.4.2",
     "tags": [
       "4.1.10",
       "4.2.0",
@@ -4159,7 +4160,8 @@
       "4.3.0",
       "4.3.1",
       "4.4.0",
-      "4.4.1"
+      "4.4.1",
+      "4.4.2"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
@@ -5572,14 +5574,15 @@
   "ydtb/ydtb-group-tabs": {
     "slug": "ydtb-group-tabs",
     "vendor": "ydtb",
-    "ref": "f9a52d1",
-    "version": "0.3.0",
+    "ref": "23e587a",
+    "version": "0.3.1",
     "tags": [
       "0.0.8",
       "0.1.0",
       "0.1.2",
       "0.2.0",
-      "0.3.0"
+      "0.3.0",
+      "0.3.1"
     ],
     "git": "https://github.com/ydtb-wp/ydtb-group-tabs",
     "aliases": [
