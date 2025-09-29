@@ -4045,8 +4045,8 @@
   "wpdeveloper/betterdocs-pro": {
     "slug": "betterdocs-pro",
     "vendor": "wpdeveloper",
-    "ref": "c503d72",
-    "version": "3.6.6",
+    "ref": "da67865",
+    "version": "3.6.7",
     "tags": [
       "3.5.2",
       "3.5.3",
@@ -4060,7 +4060,8 @@
       "3.6.3",
       "3.6.4",
       "3.6.5",
-      "3.6.6"
+      "3.6.6",
+      "3.6.7"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs-pro",
     "aliases": [
