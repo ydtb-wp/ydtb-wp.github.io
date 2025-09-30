@@ -2,8 +2,8 @@
   "elementor/elementor": {
     "slug": "elementor",
     "vendor": "elementor",
-    "ref": "3f34ca9",
-    "version": "3.32.2",
+    "ref": "dc143e8",
+    "version": "3.32.3",
     "tags": [
       "3.25.10",
       "3.26.2",
@@ -39,7 +39,8 @@
       "3.31.5",
       "3.32.0",
       "3.32.1",
-      "3.32.2"
+      "3.32.2",
+      "3.32.3"
     ],
     "git": "",
     "aliases": [
@@ -1475,8 +1476,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "2fb59a0",
-    "version": "10.2.1",
+    "ref": "def320e",
+    "version": "10.2.2",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1498,7 +1499,8 @@
       "10.1.0",
       "10.1.1",
       "10.1.2",
-      "10.2.1"
+      "10.2.1",
+      "10.2.2"
     ],
     "git": "",
     "aliases": [
@@ -4104,8 +4106,8 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "0f0ec38",
-    "version": "1.4.3",
+    "ref": "f93854a",
+    "version": "1.4.4",
     "tags": [
       "1.2.10",
       "1.2.11",
@@ -4117,7 +4119,8 @@
       "1.4.0",
       "1.4.1",
       "1.4.2",
-      "1.4.3"
+      "1.4.3",
+      "1.4.4"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
@@ -4388,8 +4391,8 @@
   "wpdeveloper/templately": {
     "slug": "templately",
     "vendor": "wpdeveloper",
-    "ref": "76a1704",
-    "version": "3.4.0",
+    "ref": "f370038",
+    "version": "3.4.1",
     "tags": [
       "3.2.1",
       "3.2.2",
@@ -4403,7 +4406,8 @@
       "3.3.1",
       "3.3.2",
       "3.3.3",
-      "3.4.0"
+      "3.4.0",
+      "3.4.1"
     ],
     "git": "https://github.com/ydtb-wp/templately",
     "aliases": [
