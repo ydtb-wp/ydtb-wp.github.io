@@ -2138,8 +2138,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "c8ac80e",
-    "version": "5.4.4",
+    "ref": "07c3c40",
+    "version": "5.4.5",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2174,7 +2174,8 @@
       "5.4.1",
       "5.4.2",
       "5.4.3",
-      "5.4.4"
+      "5.4.4",
+      "5.4.5"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -4606,8 +4607,8 @@
   "gamipress/gamipress": {
     "slug": "gamipress",
     "vendor": "gamipress",
-    "ref": "bb9eb6a",
-    "version": "7.5.4",
+    "ref": "b661946",
+    "version": "7.5.5",
     "tags": [
       "7.3.1",
       "7.3.2",
@@ -4631,7 +4632,8 @@
       "7.5.1",
       "7.5.2",
       "7.5.3",
-      "7.5.4"
+      "7.5.4",
+      "7.5.5"
     ],
     "git": "https://github.com/ydtb-wp/gamipress",
     "aliases": [
