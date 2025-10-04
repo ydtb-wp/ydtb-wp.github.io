@@ -4590,13 +4590,14 @@
   "funnelkit/funnelkit-stripe-woo-payment-gateway": {
     "slug": "funnelkit-stripe-woo-payment-gateway",
     "vendor": "funnelkit",
-    "ref": "cd3fe16",
-    "version": "1.12.2",
+    "ref": "03ef47b",
+    "version": "1.13.0",
     "tags": [
       "1.11.1",
       "1.12.0",
       "1.12.1",
-      "1.12.2"
+      "1.12.2",
+      "1.13.0"
     ],
     "git": "https://github.com/ydtb-wp/funnelkit-stripe-woo-payment-gateway",
     "aliases": [
