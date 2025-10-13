@@ -21,16 +21,6 @@
       }
     },
     {
-      "name": "Elementor",
-      "vendor": "elementor",
-      "url": "https://elementor.ydtb-wp.link/satispress/packages.json",
-      "auth_type": "basic",
-      "auth": {
-        "username": "OWQ1ZTg1M2U5OTJhZTlkOTY1YWI3NDhiYzYzNjAyNTU6YmM5OTk0NDQ3OTBmMjExYjViMzk1ZDBiNzZhM2I0ZDFjZDUxMGJjMDJjZmUwYjAwNzNjYzlmNWJjZTUyMjJhZTQ3MTdjZDBmZWRkZjZmN2VkNTJlNmE5YTJiMTg2Mzg2",
-        "password": "ODUwOThhOGUxMjBiY2RiY2EyOGY2Zjc3NjA3Njk4NzI6OTRkOWJhOTY5MjFlOWU3YTdjMjgwYTU3MmJiZWFmNmE="
-      }
-    },
-    {
       "name": "Learndash",
       "vendor": "learndash",
       "url": "https://learndash.ydtb-wp.link/satispress/packages.json",
@@ -48,16 +38,6 @@
       "auth": {
         "username": "NzI0MTY1YTZiMDcyYzJkODM1ODBhNDlmMTI1NjJiNDI6ZGFkNWEyMTQ3ODdjZTc5MmUyMDg1NThiNGMzMWQ4YzBkMDQyMDZjMGRiNjNjZGRlYjVjNDE1NDY5NDQ3ZjZiYzI3NjZiMjMyZWYzYmM4YWYzNjhmMjM5MzViYjNmZTI5",
         "password": "YjYxZDFkMWMxNmNiYzEwNjU3ZDZjNWIyMWRiZjNkMzU6ODAzZTgyYmM4ODNiYzdmNGViNmYxNDcxZjllNDMwZDc="
-      }
-    },
-    {
-      "name": "Your Digital Toolbox",
-      "vendor": "ydtb",
-      "url": "https://toolbox.ydtb-wp.link/satispress/packages.json",
-      "auth_type": "basic",
-      "auth": {
-        "username": "NzNjOGY2NDVlZDcxOGZhYjA5NTYyMGY0MmUwOTVkY2M6ZTk4MmRiNjI3ODhiZjIyODE0M2EzNzhiODAwZmE4MzJjMDU0YzhiMDlkNTA4OWQzZTY3NmFkZDdmNjI4NjA2NGVhM2NjNDQ5MjEzNTcxOGZjZGJhZDhiYzU1MTA0NTIz",
-        "password": "ZjNlOTQ2MjNjNDdiMjMxZGFmM2FmOTdlNzJmOTg1ZmI6ZDA0Y2I3NjkyZGY5ZmExMWNhY2JkMGQyZDVhYmE3MWQ="
       }
     },
     {
