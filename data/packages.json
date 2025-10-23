@@ -1488,8 +1488,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "def320e",
-    "version": "10.2.2",
+    "ref": "02eda68",
+    "version": "10.3.0",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1512,7 +1512,8 @@
       "10.1.1",
       "10.1.2",
       "10.2.1",
-      "10.2.2"
+      "10.2.2",
+      "10.3.0"
     ],
     "git": "",
     "aliases": [
@@ -4052,8 +4053,8 @@
   "wpdeveloper/betterdocs": {
     "slug": "betterdocs",
     "vendor": "wpdeveloper",
-    "ref": "fdcd920",
-    "version": "4.2.1",
+    "ref": "cc162d7",
+    "version": "4.2.2",
     "tags": [
       "3.8.10",
       "3.8.11",
@@ -4070,7 +4071,8 @@
       "4.1.2",
       "4.1.3",
       "4.2.0",
-      "4.2.1"
+      "4.2.1",
+      "4.2.2"
     ],
     "git": "https://github.com/ydtb-wp/betterdocs",
     "aliases": [
@@ -4140,8 +4142,8 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "f93854a",
-    "version": "1.4.4",
+    "ref": "7124e20",
+    "version": "1.4.5",
     "tags": [
       "1.2.10",
       "1.2.11",
@@ -4154,7 +4156,8 @@
       "1.4.1",
       "1.4.2",
       "1.4.3",
-      "1.4.4"
+      "1.4.4",
+      "1.4.5"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
@@ -4351,8 +4354,8 @@
   "wpdeveloper/notificationx": {
     "slug": "notificationx",
     "vendor": "wpdeveloper",
-    "ref": "181d9e5",
-    "version": "3.1.5",
+    "ref": "c66ba36",
+    "version": "3.1.6",
     "tags": [
       "3.0.1",
       "3.0.2",
@@ -4365,7 +4368,8 @@
       "3.1.2",
       "3.1.3",
       "3.1.4",
-      "3.1.5"
+      "3.1.5",
+      "3.1.6"
     ],
     "git": "https://github.com/ydtb-wp/notificationx",
     "aliases": [
@@ -4376,13 +4380,14 @@
   "wpdeveloper/notificationx-pro": {
     "slug": "notificationx-pro",
     "vendor": "wpdeveloper",
-    "ref": "522b9db",
-    "version": "3.0.4",
+    "ref": "5218fc0",
+    "version": "3.0.5",
     "tags": [
       "3.0.1",
       "3.0.2",
       "3.0.3",
-      "3.0.4"
+      "3.0.4",
+      "3.0.5"
     ],
     "git": "https://github.com/ydtb-wp/notificationx-pro",
     "aliases": [
@@ -4590,14 +4595,15 @@
   "funnelkit/funnel-builder": {
     "slug": "funnel-builder",
     "vendor": "funnelkit",
-    "ref": "e073de7",
-    "version": "3.12.0.1",
+    "ref": "cba66fa",
+    "version": "3.13.0",
     "tags": [
       "3.10.1",
       "3.10.2",
       "3.11.1",
       "3.12.0",
-      "3.12.0.1"
+      "3.12.0.1",
+      "3.13.0"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder",
     "aliases": [
@@ -4608,14 +4614,15 @@
   "funnelkit/funnel-builder-pro": {
     "slug": "funnel-builder-pro",
     "vendor": "funnelkit",
-    "ref": "a294783",
-    "version": "3.12.1",
+    "ref": "0e697ff",
+    "version": "3.13.0",
     "tags": [
       "3.10.1",
       "3.10.2",
       "3.11.2",
       "3.12.0",
-      "3.12.1"
+      "3.12.1",
+      "3.13.0"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder-pro",
     "aliases": [
