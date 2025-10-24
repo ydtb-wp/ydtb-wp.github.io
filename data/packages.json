@@ -53,8 +53,8 @@
   "learndash/sfwd-lms": {
     "slug": "sfwd-lms",
     "vendor": "learndash",
-    "ref": "84e81c1",
-    "version": "4.25.4",
+    "ref": "bc5ef90",
+    "version": "4.25.5",
     "tags": [
       "4.17.0",
       "4.20.0.1",
@@ -84,7 +84,8 @@
       "4.25.1",
       "4.25.2",
       "4.25.3",
-      "4.25.4"
+      "4.25.4",
+      "4.25.5"
     ],
     "git": "https://github.com/ydtb-wp/sfwd-lms",
     "aliases": [
@@ -4295,8 +4296,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "aad626e",
-    "version": "5.7.2",
+    "ref": "7600286",
+    "version": "5.7.3",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4316,7 +4317,8 @@
       "5.6.4",
       "5.7.0",
       "5.7.1",
-      "5.7.2"
+      "5.7.2",
+      "5.7.3"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -4436,8 +4438,8 @@
   "wpdeveloper/templately": {
     "slug": "templately",
     "vendor": "wpdeveloper",
-    "ref": "f370038",
-    "version": "3.4.1",
+    "ref": "7657063",
+    "version": "3.4.2",
     "tags": [
       "3.2.1",
       "3.2.2",
@@ -4452,7 +4454,8 @@
       "3.3.2",
       "3.3.3",
       "3.4.0",
-      "3.4.1"
+      "3.4.1",
+      "3.4.2"
     ],
     "git": "https://github.com/ydtb-wp/templately",
     "aliases": [
@@ -4595,15 +4598,16 @@
   "funnelkit/funnel-builder": {
     "slug": "funnel-builder",
     "vendor": "funnelkit",
-    "ref": "cba66fa",
-    "version": "3.13.0",
+    "ref": "375bfef",
+    "version": "3.13.1.1",
     "tags": [
       "3.10.1",
       "3.10.2",
       "3.11.1",
       "3.12.0",
       "3.12.0.1",
-      "3.13.0"
+      "3.13.0",
+      "3.13.1.1"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder",
     "aliases": [
@@ -4614,15 +4618,16 @@
   "funnelkit/funnel-builder-pro": {
     "slug": "funnel-builder-pro",
     "vendor": "funnelkit",
-    "ref": "0e697ff",
-    "version": "3.13.0",
+    "ref": "2e5989d",
+    "version": "3.13.2",
     "tags": [
       "3.10.1",
       "3.10.2",
       "3.11.2",
       "3.12.0",
       "3.12.1",
-      "3.13.0"
+      "3.13.0",
+      "3.13.2"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder-pro",
     "aliases": [
@@ -4633,15 +4638,16 @@
   "funnelkit/funnelkit-stripe-woo-payment-gateway": {
     "slug": "funnelkit-stripe-woo-payment-gateway",
     "vendor": "funnelkit",
-    "ref": "3117f5d",
-    "version": "1.13.1",
+    "ref": "60ca0ac",
+    "version": "1.14.0",
     "tags": [
       "1.11.1",
       "1.12.0",
       "1.12.1",
       "1.12.2",
       "1.13.0",
-      "1.13.1"
+      "1.13.1",
+      "1.14.0"
     ],
     "git": "https://github.com/ydtb-wp/funnelkit-stripe-woo-payment-gateway",
     "aliases": [
