@@ -1489,8 +1489,8 @@
   "woo/woocommerce": {
     "slug": "woocommerce",
     "vendor": "woo",
-    "ref": "02eda68",
-    "version": "10.3.0",
+    "ref": "2f0df043",
+    "version": "10.3.3",
     "tags": [
       "9.5.1",
       "9.6.0",
@@ -1514,7 +1514,8 @@
       "10.1.2",
       "10.2.1",
       "10.2.2",
-      "10.3.0"
+      "10.3.0",
+      "10.3.3"
     ],
     "git": "",
     "aliases": [
@@ -4528,8 +4529,8 @@
   "funnelkit/wp-marketing-automations": {
     "slug": "wp-marketing-automations",
     "vendor": "funnelkit",
-    "ref": "dafb006",
-    "version": "3.6.4",
+    "ref": "b853578",
+    "version": "3.6.4.1",
     "tags": [
       "3.5.1",
       "3.5.2",
@@ -4537,7 +4538,8 @@
       "3.6.0",
       "3.6.2",
       "3.6.3",
-      "3.6.4"
+      "3.6.4",
+      "3.6.4.1"
     ],
     "git": "https://github.com/ydtb-wp/wp-marketing-automations",
     "aliases": [
@@ -4598,8 +4600,8 @@
   "funnelkit/funnel-builder": {
     "slug": "funnel-builder",
     "vendor": "funnelkit",
-    "ref": "375bfef",
-    "version": "3.13.1.1",
+    "ref": "abd5626",
+    "version": "3.13.1.2",
     "tags": [
       "3.10.1",
       "3.10.2",
@@ -4607,7 +4609,8 @@
       "3.12.0",
       "3.12.0.1",
       "3.13.0",
-      "3.13.1.1"
+      "3.13.1.1",
+      "3.13.1.2"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder",
     "aliases": [
@@ -4618,8 +4621,8 @@
   "funnelkit/funnel-builder-pro": {
     "slug": "funnel-builder-pro",
     "vendor": "funnelkit",
-    "ref": "2e5989d",
-    "version": "3.13.2",
+    "ref": "6e8759c",
+    "version": "3.13.3",
     "tags": [
       "3.10.1",
       "3.10.2",
@@ -4627,7 +4630,8 @@
       "3.12.0",
       "3.12.1",
       "3.13.0",
-      "3.13.2"
+      "3.13.2",
+      "3.13.3"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder-pro",
     "aliases": [
