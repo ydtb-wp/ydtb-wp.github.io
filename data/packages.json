@@ -1940,8 +1940,8 @@
   "elementor/hello-elementor": {
     "slug": "hello-elementor",
     "vendor": "elementor",
-    "ref": "31395fe",
-    "version": "3.4.4",
+    "ref": "97ebe72",
+    "version": "3.4.5",
     "tags": [
       "3.2.1",
       "3.3.0",
@@ -1949,7 +1949,8 @@
       "3.4.1",
       "3.4.2",
       "3.4.3",
-      "3.4.4"
+      "3.4.4",
+      "3.4.5"
     ],
     "git": "",
     "aliases": [
