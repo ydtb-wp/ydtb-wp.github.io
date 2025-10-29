@@ -4975,10 +4975,11 @@
   "gamipress/gamipress-edd-points-per-purchase-total": {
     "slug": "gamipress-edd-points-per-purchase-total",
     "vendor": "gamipress",
-    "ref": "8f9a3a6",
-    "version": "1.0.4",
+    "ref": "c863153",
+    "version": "1.0.5",
     "tags": [
-      "1.0.4"
+      "1.0.4",
+      "1.0.5"
     ],
     "git": "https://github.com/ydtb-wp/gamipress-edd-points-per-purchase-total",
     "aliases": [
@@ -5062,10 +5063,11 @@
   "gamipress/gamipress-h5p-points-per-score": {
     "slug": "gamipress-h5p-points-per-score",
     "vendor": "gamipress",
-    "ref": "7a4d3b7",
-    "version": "1.0.1",
+    "ref": "0ce9170",
+    "version": "1.0.2",
     "tags": [
-      "1.0.1"
+      "1.0.1",
+      "1.0.2"
     ],
     "git": "https://github.com/ydtb-wp/gamipress-h5p-points-per-score",
     "aliases": [
@@ -5121,10 +5123,11 @@
   "gamipress/gamipress-ld-points-per-quiz-score": {
     "slug": "gamipress-ld-points-per-quiz-score",
     "vendor": "gamipress",
-    "ref": "a1962c7",
-    "version": "1.0.4",
+    "ref": "17c08d6",
+    "version": "1.0.5",
     "tags": [
-      "1.0.4"
+      "1.0.4",
+      "1.0.5"
     ],
     "git": "https://github.com/ydtb-wp/gamipress-ld-points-per-quiz-score",
     "aliases": [
@@ -5565,10 +5568,11 @@
   "gamipress/gamipress-wc-points-per-purchase-total": {
     "slug": "gamipress-wc-points-per-purchase-total",
     "vendor": "gamipress",
-    "ref": "76838a4",
-    "version": "1.0.7",
+    "ref": "1b7516e",
+    "version": "1.0.8",
     "tags": [
-      "1.0.7"
+      "1.0.7",
+      "1.0.8"
     ],
     "git": "https://github.com/ydtb-wp/gamipress-wc-points-per-purchase-total",
     "aliases": [
