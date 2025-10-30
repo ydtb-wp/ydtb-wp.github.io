@@ -4359,8 +4359,8 @@
   "wpdeveloper/notificationx": {
     "slug": "notificationx",
     "vendor": "wpdeveloper",
-    "ref": "c66ba36",
-    "version": "3.1.6",
+    "ref": "a9d83e9",
+    "version": "3.1.7",
     "tags": [
       "3.0.1",
       "3.0.2",
@@ -4374,7 +4374,8 @@
       "3.1.3",
       "3.1.4",
       "3.1.5",
-      "3.1.6"
+      "3.1.6",
+      "3.1.7"
     ],
     "git": "https://github.com/ydtb-wp/notificationx",
     "aliases": [
@@ -4385,14 +4386,15 @@
   "wpdeveloper/notificationx-pro": {
     "slug": "notificationx-pro",
     "vendor": "wpdeveloper",
-    "ref": "5218fc0",
-    "version": "3.0.5",
+    "ref": "bfa5e5c",
+    "version": "3.0.6",
     "tags": [
       "3.0.1",
       "3.0.2",
       "3.0.3",
       "3.0.4",
-      "3.0.5"
+      "3.0.5",
+      "3.0.6"
     ],
     "git": "https://github.com/ydtb-wp/notificationx-pro",
     "aliases": [
@@ -4403,8 +4405,8 @@
   "wpdeveloper/wp-scheduled-posts": {
     "slug": "wp-scheduled-posts",
     "vendor": "wpdeveloper",
-    "ref": "2c66f0f",
-    "version": "5.2.11",
+    "ref": "e8fcb68",
+    "version": "5.2.12",
     "tags": [
       "5.2.2",
       "5.2.3",
@@ -4415,7 +4417,8 @@
       "5.2.8",
       "5.2.9",
       "5.2.10",
-      "5.2.11"
+      "5.2.11",
+      "5.2.12"
     ],
     "git": "https://github.com/ydtb-wp/wp-scheduled-posts",
     "aliases": [
