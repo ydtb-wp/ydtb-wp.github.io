@@ -4236,8 +4236,8 @@
   "wpdeveloper/essential-addons-for-elementor-lite": {
     "slug": "essential-addons-for-elementor-lite",
     "vendor": "wpdeveloper",
-    "ref": "9aa75d8",
-    "version": "6.3.3",
+    "ref": "a0619dd",
+    "version": "6.4.0",
     "tags": [
       "6.1.1",
       "6.1.2",
@@ -4264,7 +4264,8 @@
       "6.3.0",
       "6.3.1",
       "6.3.2",
-      "6.3.3"
+      "6.3.3",
+      "6.4.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-addons-for-elementor-lite",
     "aliases": [
@@ -4299,8 +4300,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "7600286",
-    "version": "5.7.3",
+    "ref": "aad6f79",
+    "version": "5.7.4",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4321,7 +4322,8 @@
       "5.7.0",
       "5.7.1",
       "5.7.2",
-      "5.7.3"
+      "5.7.3",
+      "5.7.4"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -4332,8 +4334,8 @@
   "wpdeveloper/essential-blocks-pro": {
     "slug": "essential-blocks-pro",
     "vendor": "wpdeveloper",
-    "ref": "cbff151",
-    "version": "2.5.1",
+    "ref": "804280a",
+    "version": "2.6.0",
     "tags": [
       "1.9.9",
       "2.0.0",
@@ -4348,7 +4350,8 @@
       "2.3.0",
       "2.4.0",
       "2.5.0",
-      "2.5.1"
+      "2.5.1",
+      "2.6.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks-pro",
     "aliases": [
