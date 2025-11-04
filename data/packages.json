@@ -4363,8 +4363,8 @@
   "wpdeveloper/notificationx": {
     "slug": "notificationx",
     "vendor": "wpdeveloper",
-    "ref": "a9d83e9",
-    "version": "3.1.7",
+    "ref": "34f8251",
+    "version": "3.1.8",
     "tags": [
       "3.0.1",
       "3.0.2",
@@ -4379,7 +4379,8 @@
       "3.1.4",
       "3.1.5",
       "3.1.6",
-      "3.1.7"
+      "3.1.7",
+      "3.1.8"
     ],
     "git": "https://github.com/ydtb-wp/notificationx",
     "aliases": [
@@ -4538,8 +4539,8 @@
   "funnelkit/wp-marketing-automations": {
     "slug": "wp-marketing-automations",
     "vendor": "funnelkit",
-    "ref": "b853578",
-    "version": "3.6.4.1",
+    "ref": "21e9e01",
+    "version": "3.6.4.2",
     "tags": [
       "3.5.1",
       "3.5.2",
@@ -4548,7 +4549,8 @@
       "3.6.2",
       "3.6.3",
       "3.6.4",
-      "3.6.4.1"
+      "3.6.4.1",
+      "3.6.4.2"
     ],
     "git": "https://github.com/ydtb-wp/wp-marketing-automations",
     "aliases": [
