@@ -1543,8 +1543,8 @@
   "brainstormforce/astra-addon": {
     "slug": "astra-addon",
     "vendor": "brainstormforce",
-    "ref": "0a9973f",
-    "version": "4.11.10",
+    "ref": "47339c5",
+    "version": "4.11.11",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1568,7 +1568,8 @@
       "4.11.7",
       "4.11.8",
       "4.11.9",
-      "4.11.10"
+      "4.11.10",
+      "4.11.11"
     ],
     "git": "",
     "aliases": [
@@ -1735,8 +1736,8 @@
   "brainstormforce/astra-pro-sites": {
     "slug": "astra-pro-sites",
     "vendor": "brainstormforce",
-    "ref": "1be49ec",
-    "version": "4.4.39",
+    "ref": "b5deccb",
+    "version": "4.4.41",
     "tags": [
       "4.4.9",
       "4.4.10",
@@ -1765,7 +1766,8 @@
       "4.4.36",
       "4.4.37",
       "4.4.38",
-      "4.4.39"
+      "4.4.39",
+      "4.4.41"
     ],
     "git": "",
     "aliases": [
@@ -1802,8 +1804,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "8d116cd",
-    "version": "1.40.5",
+    "ref": "8c8b1f2",
+    "version": "1.41.0",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1828,7 +1830,8 @@
       "1.40.2",
       "1.40.3",
       "1.40.4",
-      "1.40.5"
+      "1.40.5",
+      "1.41.0"
     ],
     "git": "",
     "aliases": [
@@ -1905,8 +1908,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "0308969",
-    "version": "4.11.13",
+    "ref": "21132a8",
+    "version": "4.11.14",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1929,7 +1932,8 @@
       "4.11.10",
       "4.11.11",
       "4.11.12",
-      "4.11.13"
+      "4.11.13",
+      "4.11.14"
     ],
     "git": "",
     "aliases": [
@@ -4191,8 +4195,8 @@
   "wpdeveloper/embedpress": {
     "slug": "embedpress",
     "vendor": "wpdeveloper",
-    "ref": "d7a2d0a",
-    "version": "4.4.3",
+    "ref": "c3087e3",
+    "version": "4.4.4",
     "tags": [
       "4.1.10",
       "4.2.0",
@@ -4210,7 +4214,8 @@
       "4.4.0",
       "4.4.1",
       "4.4.2",
-      "4.4.3"
+      "4.4.3",
+      "4.4.4"
     ],
     "git": "https://github.com/ydtb-wp/embedpress",
     "aliases": [
