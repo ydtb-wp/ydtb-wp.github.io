@@ -1805,8 +1805,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "8c8b1f2",
-    "version": "1.41.0",
+    "ref": "74b5b9a",
+    "version": "1.41.1",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1832,7 +1832,8 @@
       "1.40.3",
       "1.40.4",
       "1.40.5",
-      "1.41.0"
+      "1.41.0",
+      "1.41.1"
     ],
     "git": "",
     "aliases": [
@@ -1909,8 +1910,8 @@
   "brainstormforce/astra": {
     "slug": "astra",
     "vendor": "brainstormforce",
-    "ref": "21132a8",
-    "version": "4.11.14",
+    "ref": "46a657d",
+    "version": "4.11.15",
     "tags": [
       "4.8.7",
       "4.8.8",
@@ -1934,7 +1935,8 @@
       "4.11.11",
       "4.11.12",
       "4.11.13",
-      "4.11.14"
+      "4.11.14",
+      "4.11.15"
     ],
     "git": "",
     "aliases": [
@@ -4662,8 +4664,8 @@
   "funnelkit/funnelkit-stripe-woo-payment-gateway": {
     "slug": "funnelkit-stripe-woo-payment-gateway",
     "vendor": "funnelkit",
-    "ref": "e472dec",
-    "version": "1.14.0.1",
+    "ref": "52dba63",
+    "version": "1.14.0.2",
     "tags": [
       "1.11.1",
       "1.12.0",
@@ -4672,7 +4674,8 @@
       "1.13.0",
       "1.13.1",
       "1.14.0",
-      "1.14.0.1"
+      "1.14.0.1",
+      "1.14.0.2"
     ],
     "git": "https://github.com/ydtb-wp/funnelkit-stripe-woo-payment-gateway",
     "aliases": [
