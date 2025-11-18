@@ -2170,8 +2170,8 @@
   "autowp/automatorwp": {
     "slug": "automatorwp",
     "vendor": "autowp",
-    "ref": "9f4e75e",
-    "version": "5.5.0",
+    "ref": "9ec4a59",
+    "version": "5.5.1",
     "tags": [
       "5.1.2",
       "5.1.3",
@@ -2212,7 +2212,8 @@
       "5.4.7",
       "5.4.8",
       "5.4.9",
-      "5.5.0"
+      "5.5.0",
+      "5.5.1"
     ],
     "git": "https://github.com/ydtb-wp/automatorwp",
     "aliases": [
@@ -4159,8 +4160,8 @@
   "wpdeveloper/better-payment": {
     "slug": "better-payment",
     "vendor": "wpdeveloper",
-    "ref": "7124e20",
-    "version": "1.4.5",
+    "ref": "178b486",
+    "version": "1.4.6",
     "tags": [
       "1.2.10",
       "1.2.11",
@@ -4174,7 +4175,8 @@
       "1.4.2",
       "1.4.3",
       "1.4.4",
-      "1.4.5"
+      "1.4.5",
+      "1.4.6"
     ],
     "git": "https://github.com/ydtb-wp/better-payment",
     "aliases": [
@@ -4314,8 +4316,8 @@
   "wpdeveloper/essential-blocks": {
     "slug": "essential-blocks",
     "vendor": "wpdeveloper",
-    "ref": "aad6f79",
-    "version": "5.7.4",
+    "ref": "ed6c843",
+    "version": "5.8.0",
     "tags": [
       "5.2.3",
       "5.3.0",
@@ -4337,7 +4339,8 @@
       "5.7.1",
       "5.7.2",
       "5.7.3",
-      "5.7.4"
+      "5.7.4",
+      "5.8.0"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks",
     "aliases": [
@@ -4348,8 +4351,8 @@
   "wpdeveloper/essential-blocks-pro": {
     "slug": "essential-blocks-pro",
     "vendor": "wpdeveloper",
-    "ref": "804280a",
-    "version": "2.6.0",
+    "ref": "b01bd7a",
+    "version": "2.6.1",
     "tags": [
       "1.9.9",
       "2.0.0",
@@ -4365,7 +4368,8 @@
       "2.4.0",
       "2.5.0",
       "2.5.1",
-      "2.6.0"
+      "2.6.0",
+      "2.6.1"
     ],
     "git": "https://github.com/ydtb-wp/essential-blocks-pro",
     "aliases": [
@@ -4423,8 +4427,8 @@
   "wpdeveloper/wp-scheduled-posts": {
     "slug": "wp-scheduled-posts",
     "vendor": "wpdeveloper",
-    "ref": "e8fcb68",
-    "version": "5.2.12",
+    "ref": "fff09c7",
+    "version": "5.2.13",
     "tags": [
       "5.2.2",
       "5.2.3",
@@ -4436,7 +4440,8 @@
       "5.2.9",
       "5.2.10",
       "5.2.11",
-      "5.2.12"
+      "5.2.12",
+      "5.2.13"
     ],
     "git": "https://github.com/ydtb-wp/wp-scheduled-posts",
     "aliases": [
@@ -4626,8 +4631,8 @@
   "funnelkit/funnel-builder": {
     "slug": "funnel-builder",
     "vendor": "funnelkit",
-    "ref": "abd5626",
-    "version": "3.13.1.2",
+    "ref": "964d99a",
+    "version": "3.13.1.3",
     "tags": [
       "3.10.1",
       "3.10.2",
@@ -4636,7 +4641,8 @@
       "3.12.0.1",
       "3.13.0",
       "3.13.1.1",
-      "3.13.1.2"
+      "3.13.1.2",
+      "3.13.1.3"
     ],
     "git": "https://github.com/ydtb-wp/funnel-builder",
     "aliases": [
