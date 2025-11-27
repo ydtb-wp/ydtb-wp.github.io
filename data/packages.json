@@ -1783,8 +1783,8 @@
   "brainstormforce/wp-schema-pro": {
     "slug": "wp-schema-pro",
     "vendor": "brainstormforce",
-    "ref": "a982be5",
-    "version": "2.10.4",
+    "ref": "50f9beb",
+    "version": "2.10.5",
     "tags": [
       "2.7.23",
       "2.8.0",
@@ -1796,7 +1796,8 @@
       "2.10.1",
       "2.10.2",
       "2.10.3",
-      "2.10.4"
+      "2.10.4",
+      "2.10.5"
     ],
     "git": "",
     "aliases": [
