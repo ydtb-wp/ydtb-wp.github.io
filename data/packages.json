@@ -1810,8 +1810,8 @@
   "brainstormforce/ultimate-elementor": {
     "slug": "ultimate-elementor",
     "vendor": "brainstormforce",
-    "ref": "74b5b9a",
-    "version": "1.41.1",
+    "ref": "0ee6cb2",
+    "version": "1.42.0",
     "tags": [
       "1.37.3",
       "1.37.4",
@@ -1838,7 +1838,8 @@
       "1.40.4",
       "1.40.5",
       "1.41.0",
-      "1.41.1"
+      "1.41.1",
+      "1.42.0"
     ],
     "git": "",
     "aliases": [
